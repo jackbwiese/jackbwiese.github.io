@@ -1,58 +1,39 @@
 ---
 const { thick = false } = Astro.props;
 ---
-<div class={`divider--bias ${thick ? 'divider--bias-thick' : ''}`} data-bias-divider aria-hidden="true"></div>
+<div class={`bias-mark ${thick ? 'bias-mark--thick' : ''}`} aria-hidden="true">
+  <span class="bias-mark__rule bias-mark__rule--left"></span>
+  <span class="bias-mark__square"></span>
+  <span class="bias-mark__rule bias-mark__rule--right"></span>
+</div>
 
 <style>
-  [data-bias-divider] {
-    height: 22px;
-    position: relative;
-    overflow: hidden;
+  .bias-mark {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: clamp(0.75rem, 2vw, 1.5rem);
+    padding: clamp(1.25rem, 3vw, 2rem) var(--pad-x);
     background: var(--otb-black);
   }
-  .divider--bias-thick {
-    height: 42px;
+  .bias-mark--thick {
+    padding: clamp(2rem, 4vw, 3rem) var(--pad-x);
   }
-  [data-bias-divider]::after {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background: linear-gradient(
-      100deg,
-      transparent 49%,
-      var(--accent) 49%,
-      var(--accent) 51%,
-      transparent 51%
-    );
-    transform: rotate(0deg);
-    transform-origin: center;
-    transition: transform 350ms cubic-bezier(0.2, 0.7, 0.2, 1);
-    will-change: transform;
+  .bias-mark__square {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    background: var(--accent);
+    flex-shrink: 0;
+  }
+  .bias-mark--thick .bias-mark__square {
+    width: 20px;
+    height: 20px;
+  }
+  .bias-mark__rule {
+    flex: 1 1 0;
+    height: 1px;
+    background: var(--rule);
+    max-width: 320px;
   }
 </style>
-
-<script is:inline>
-  (() => {
-    const dividers = Array.from(document.querySelectorAll('[data-bias-divider]'));
-    if (!dividers.length) return;
-    let last = window.scrollY;
-    let raf = 0;
-    const update = () => {
-      const now = window.scrollY;
-      const dv = Math.max(-40, Math.min(40, (now - last)));
-      const angle = dv * 0.18;
-      dividers.forEach((d, i) => {
-        const sign = i % 2 === 0 ? 1 : -1;
-        d.style.setProperty('--rot', (angle * sign).toFixed(2) + 'deg');
-        const inner = d;
-        const after = inner;
-        d.style.transform = `skewY(${(angle * sign * 0.05).toFixed(2)}deg)`;
-      });
-      last = now;
-      raf = 0;
-    };
-    window.addEventListener('scroll', () => {
-      if (!raf) raf = requestAnimationFrame(update);
-    }, { passive: true });
-  })();
-</script>
