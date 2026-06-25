@@ -1,0 +1,139 @@
+---
+const episodes = [
+  { id: '42KNBKjxrOk' },
+  { id: 'C-JN2hHtEns' },
+  { id: 'ziwuTLcDQaU' },
+  { id: 'us2qNSpEW60' },
+  { id: '83ncC7D6FaE' },
+];
+
+const ids = episodes.map((e) => e.id).join(',');
+---
+<div class="pbg" data-pbg data-pbg-ids={ids}>
+  <div class="pbg__frame">
+    <iframe
+      data-pbg-frame
+      src={`https://www.youtube-nocookie.com/embed/${episodes[0].id}?rel=0&modestbranding=1`}
+      title="Pensive Bouts"
+      loading="lazy"
+      allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen
+    ></iframe>
+  </div>
+  <div class="pbg__chrome">
+    <button type="button" class="pbg__btn pbg__btn--prev" data-pbg-prev aria-label="Previous episode">
+      <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true">
+        <polyline points="15,4 7,12 15,20" fill="none" stroke="currentColor" stroke-width="2" />
+      </svg>
+    </button>
+    <span class="pbg__count mono" aria-live="polite">
+      <span data-pbg-current>01</span> <span class="pbg__sep">/</span> <span data-pbg-total>{String(episodes.length).padStart(2, '0')}</span>
+    </span>
+    <button type="button" class="pbg__btn pbg__btn--next" data-pbg-next aria-label="Next episode">
+      <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true">
+        <polyline points="9,4 17,12 9,20" fill="none" stroke="currentColor" stroke-width="2" />
+      </svg>
+    </button>
+  </div>
+</div>
+
+<style>
+  .pbg {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+  }
+  .pbg__frame {
+    position: relative;
+    aspect-ratio: 16 / 9;
+    background: var(--otb-black);
+    border: 1px solid var(--rule);
+    overflow: hidden;
+  }
+  .pbg__frame iframe {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+  }
+  .pbg__chrome {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+  .pbg__btn {
+    appearance: none;
+    background: transparent;
+    border: 1px solid var(--rule);
+    color: var(--otb-light-gray);
+    width: 36px;
+    height: 36px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: color 140ms ease, border-color 140ms ease, background 140ms ease;
+  }
+  .pbg__btn:hover:not(:disabled) {
+    color: var(--otb-white);
+    border-color: var(--accent);
+    background: var(--accent);
+  }
+  .pbg__btn:disabled {
+    opacity: 0.35;
+    cursor: not-allowed;
+  }
+  .pbg__count {
+    color: var(--otb-mid-gray);
+    letter-spacing: var(--track-upper);
+  }
+  .pbg__count .pbg__sep { color: var(--accent); padding: 0 0.25rem; }
+  [data-pbg-current] { color: var(--otb-white); }
+</style>
+
+<script is:inline>
+  (() => {
+    const root = document.querySelector('[data-pbg]');
+    if (!root) return;
+    const ids = (root.getAttribute('data-pbg-ids') || '').split(',').filter(Boolean);
+    if (!ids.length) return;
+    const frame = root.querySelector('[data-pbg-frame]');
+    const prev = root.querySelector('[data-pbg-prev]');
+    const next = root.querySelector('[data-pbg-next]');
+    const curEl = root.querySelector('[data-pbg-current]');
+    let i = 0;
+
+    const pad = (n) => String(n + 1).padStart(2, '0');
+    const render = () => {
+      if (frame) {
+        frame.src = `https://www.youtube-nocookie.com/embed/${ids[i]}?rel=0&modestbranding=1`;
+      }
+      if (curEl) curEl.textContent = pad(i);
+      if (prev) prev.disabled = i === 0;
+      if (next) next.disabled = i === ids.length - 1;
+    };
+
+    const go = (delta) => {
+      const nx = Math.min(Math.max(0, i + delta), ids.length - 1);
+      if (nx === i) return;
+      i = nx;
+      render();
+    };
+
+    if (prev) prev.addEventListener('click', () => go(-1));
+    if (next) next.addEventListener('click', () => go(1));
+
+    // Keyboard nav when the gallery has focus
+    root.addEventListener('keydown', (e) => {
+      if (e.key === 'ArrowLeft') { go(-1); e.preventDefault(); }
+      else if (e.key === 'ArrowRight') { go(1); e.preventDefault(); }
+    });
+    root.tabIndex = 0;
+
+    render();
+  })();
+</script>

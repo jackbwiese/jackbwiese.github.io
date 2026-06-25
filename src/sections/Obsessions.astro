@@ -1,6 +1,7 @@
 ---
 import HoverReveal from '../components/HoverReveal.astro';
 import PoemReader from '../components/PoemReader.astro';
+import PensiveBoutsGallery from '../components/PensiveBoutsGallery.astro';
 
 const literature = [
   'Cervantes — Don Quixote (FR · IT · ES)',
@@ -127,16 +128,7 @@ const languages = ['EN', 'FR', 'ES', 'IT', 'DE', 'EL'];
           For a brief season I kept an auditory journal under the moniker
           <em>Pensive Bouts</em>. Quiet hours, recorded out loud. A parenthesis.
         </p>
-        <div class="word-card__embed">
-          <iframe
-            src="https://www.youtube-nocookie.com/embed/42KNBKjxrOk?rel=0&modestbranding=1"
-            title="Pensive Bouts"
-            loading="lazy"
-            allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin"
-            allowfullscreen
-          ></iframe>
-        </div>
+        <PensiveBoutsGallery />
       </article>
     </div>
   </div>
