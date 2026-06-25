@@ -11,7 +11,7 @@
         height="1200"
         loading="lazy"
       />
-      <figcaption class="mono">Portrait, 2024 · ROMULUS</figcaption>
+      <figcaption class="mono">Portrait · ROMULUS</figcaption>
     </figure>
     <div class="manifesto__text">
       <h2 class="manifesto__lede">
@@ -41,12 +41,27 @@
 
       <p>
         I read Don Quixote in French, Italian, and Spanish - one for the heart, one for the cadence, one for
-        the windmills. I speak five languages and am learning Greek as the sixth. I sculpt, I run, I dance,
-        I travel. I keep a copy of Marcus Aurelius next to a copy of <em>The Tale of the Bamboo Cutter</em>.
+        the windmills. I speak five languages. I sculpt, I run, I dance, I travel. I keep a copy of Marcus
+        Aurelius next to a copy of <em>The Tale of the Bamboo Cutter</em>.
         Everything I make is in service of a single thesis: <strong>that the next century belongs to those who
         can stitch culture, capital, and craft into one cloth - on the bias.</strong>
       </p>
     </div>
+  </div>
+
+  <div class="manifesto__triptych" aria-label="Origins">
+    <figure class="manifesto__tri">
+      <img src="/images/young-dandy.jpg" alt="Jack as a child, Iowa" width="632" height="805" loading="lazy" />
+      <figcaption class="mono">i. <span class="accent">Iowa, c. 2008.</span> Already dressing for the part.</figcaption>
+    </figure>
+    <figure class="manifesto__tri">
+      <img src="/images/buy-back-farm.jpg" alt="The Wiese family farm in Iowa" width="682" height="881" loading="lazy" />
+      <figcaption class="mono">ii. <span class="accent">The farm we lost.</span> 200 years of getting it out of the dirt.</figcaption>
+    </figure>
+    <figure class="manifesto__tri">
+      <img src="/images/jack-at-magic.jpg" alt="Jack at MAGIC trade show" width="640" height="831" loading="lazy" />
+      <figcaption class="mono">iii. <span class="accent">Today.</span> Same kid. Bigger floor.</figcaption>
+    </figure>
   </div>
 </section>
 
@@ -90,5 +105,35 @@
   }
   .manifesto__text strong {
     font-weight: 500;
+  }
+  .manifesto__triptych {
+    margin-top: clamp(3rem, 6vw, 5rem);
+    padding-top: clamp(2rem, 4vw, 3rem);
+    border-top: 1px solid rgba(0, 0, 0, 0.18);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: clamp(1rem, 2.5vw, 2.5rem);
+  }
+  @media (max-width: 760px) {
+    .manifesto__triptych { grid-template-columns: 1fr; }
+  }
+  .manifesto__tri {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+  }
+  .manifesto__tri img {
+    width: 100%;
+    aspect-ratio: 3 / 4;
+    object-fit: cover;
+    filter: grayscale(0.15) contrast(1.04);
+  }
+  .manifesto__tri figcaption {
+    color: var(--otb-mid-gray);
+    line-height: 1.4;
+  }
+  .manifesto__tri figcaption .accent {
+    color: var(--accent);
   }
 </style>

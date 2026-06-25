@@ -1,7 +1,7 @@
 ---
 import Base from '../layouts/Base.astro';
 import Cursor from '../components/Cursor.astro';
-import Marquee from '../components/Marquee.astro';
+import CityClockMarquee from '../components/CityClockMarquee.astro';
 import EasterEgg from '../components/EasterEgg.astro';
 import SectionDivider from '../components/SectionDivider.astro';
 
@@ -18,25 +18,25 @@ import Footer from '../sections/Footer.astro';
   <Cursor />
 
   <Hero />
-  <Marquee />
+  <CityClockMarquee />
 
   <Manifesto />
   <SectionDivider />
 
   <Worldview />
-  <Marquee invert={false} reverse={true} text="PATRONAGE > QUARTERLY × CENTURIES NOT QUARTERS × FABULATOR × MEDICI × " />
+  <CityClockMarquee reverse={true} duration={48} />
 
   <Arsenal />
   <SectionDivider thick={true} />
 
   <Obsessions />
-  <Marquee text="DON QUIXOTE × MONTAIGNE × HOMER × CERVANTES × MARCUS AURELIUS × DANTE × " />
+  <CityClockMarquee />
 
   <CabinetDeCuriosites />
   <SectionDivider />
 
   <Correspondance />
-  <Marquee text="Ο ΚΟΣΜΟΣ ΜΟΥ × MY UNIVERSE × MON UNIVERS × IL MIO MONDO × MEINE WELT × MI UNIVERSO × " />
+  <CityClockMarquee reverse={true} duration={52} />
 
   <Footer />
 

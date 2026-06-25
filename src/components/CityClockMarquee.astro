@@ -1,0 +1,128 @@
+---
+const cities = [
+  { name: 'DYERSVILLE', tz: 'America/Chicago' },
+  { name: 'DC',         tz: 'America/New_York' },
+  { name: 'MILANO',     tz: 'Europe/Rome' },
+  { name: 'PARIS',      tz: 'Europe/Paris' },
+  { name: 'SFO',        tz: 'America/Los_Angeles' },
+];
+
+const { duration = 42, invert = false, reverse = false } = Astro.props;
+const repeats = 6;
+---
+<div
+  class={`cmarquee ${invert ? 'cmarquee--invert' : ''} ${reverse ? 'cmarquee--reverse' : ''}`}
+  aria-hidden="true"
+  data-cities={JSON.stringify(cities)}
+>
+  <div class="cmarquee__track" style={`animation-duration:${duration}s`}>
+    {Array.from({ length: repeats }).map((_, r) => (
+      <span class="cmarquee__seg">
+        {cities.map((c, i) => (
+          <>
+            <span class="cmarquee__pair">
+              <span class="cmarquee__city">{c.name}</span>
+              <span class="cmarquee__time" data-tz={c.tz}>--:--</span>
+            </span>
+            {i < cities.length - 1 && <span class="cmarquee__sep">×</span>}
+          </>
+        ))}
+        <span class="cmarquee__sep cmarquee__sep--end">×</span>
+      </span>
+    ))}
+  </div>
+</div>
+
+<style>
+  .cmarquee {
+    width: 100%;
+    overflow: hidden;
+    background: var(--otb-black);
+    color: var(--otb-white);
+    border-top: 1px solid var(--rule);
+    border-bottom: 1px solid var(--rule);
+    padding: 0.7rem 0;
+  }
+  .cmarquee--invert {
+    background: var(--otb-white);
+    color: var(--otb-black);
+    border-top-color: rgba(0,0,0,0.18);
+    border-bottom-color: rgba(0,0,0,0.18);
+  }
+  .cmarquee__track {
+    display: inline-flex;
+    white-space: nowrap;
+    animation: cmarquee-scroll linear infinite;
+    will-change: transform;
+  }
+  .cmarquee--reverse .cmarquee__track {
+    animation-direction: reverse;
+  }
+  .cmarquee:hover .cmarquee__track {
+    animation-play-state: paused;
+  }
+  .cmarquee__seg {
+    display: inline-flex;
+    align-items: baseline;
+    gap: 1.5rem;
+    padding-right: 1.5rem;
+    font-family: 'NHaas Text';
+    font-size: var(--scale-mono);
+    letter-spacing: var(--track-upper);
+    text-transform: uppercase;
+  }
+  .cmarquee__pair {
+    display: inline-flex;
+    align-items: baseline;
+    gap: 0.7rem;
+  }
+  .cmarquee__city {
+    color: inherit;
+  }
+  .cmarquee__time {
+    color: var(--accent);
+    font-variant-numeric: tabular-nums;
+    letter-spacing: 0.06em;
+  }
+  .cmarquee__sep {
+    opacity: 0.45;
+    font-weight: 700;
+  }
+  @keyframes cmarquee-scroll {
+    from { transform: translate3d(0, 0, 0); }
+    to   { transform: translate3d(-50%, 0, 0); }
+  }
+</style>
+
+<script is:inline>
+  (() => {
+    const fmts = new Map();
+    const fmt = (tz) => {
+      let f = fmts.get(tz);
+      if (!f) {
+        f = new Intl.DateTimeFormat('en-GB', {
+          timeZone: tz,
+          hour: '2-digit',
+          minute: '2-digit',
+          hour12: false,
+        });
+        fmts.set(tz, f);
+      }
+      return f;
+    };
+    const update = () => {
+      const now = new Date();
+      document.querySelectorAll('.cmarquee__time').forEach((el) => {
+        const tz = el.getAttribute('data-tz');
+        if (!tz) return;
+        try {
+          el.textContent = fmt(tz).format(now);
+        } catch (e) {
+          el.textContent = '--:--';
+        }
+      });
+    };
+    update();
+    setInterval(update, 15000);
+  })();
+</script>

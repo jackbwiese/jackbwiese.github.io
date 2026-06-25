@@ -25,18 +25,26 @@ const history = [
   'Any period of profound paradigm shift.',
 ];
 
-const languages = [
-  { code: 'EN', note: 'native' },
-  { code: 'FR', note: 'fluent' },
-  { code: 'ES', note: 'fluent' },
-  { code: 'IT', note: 'fluent' },
-  { code: 'DE', note: 'fluent' },
-  { code: 'EL', note: 'learning' },
-];
+const languages = ['EN', 'FR', 'ES', 'IT', 'DE', 'EL'];
 ---
 <section class="section obsessions" id="obsessions">
   <span class="eyebrow">§ IV · Obsessions</span>
   <h2 class="obsessions__heading">What I read, what I love, how I think.</h2>
+
+  <figure class="obsessions__hero">
+    <img
+      src="/images/quixote-quando-non-posso.jpg"
+      alt="Don Quixote on the moor, lance raised, Sancho watching"
+      width="1300"
+      height="1012"
+      loading="lazy"
+    />
+    <figcaption class="mono">
+      <span class="accent">Quando non posso.</span>
+      Quixote on the moor, lance raised. Sancho watching.
+      The patron saint of doing it anyway.
+    </figcaption>
+  </figure>
 
   <div class="obsessions__grid">
     <article class="obsessions__col">
@@ -55,16 +63,11 @@ const languages = [
 
     <article class="obsessions__col">
       <h3 class="obsessions__h">Languages</h3>
-      <ul class="obsessions__list obsessions__list--lang">
-        {languages.map((l) => (
-          <li>
-            <span class="lang-code">{l.code}</span>
-            <span class="lang-note mono">{l.note}</span>
-          </li>
-        ))}
-      </ul>
+      <div class="lang-row">
+        {languages.map((l) => <span class="lang-chip">{l}</span>)}
+      </div>
       <p class="obsessions__caption mono">
-        Goal: nine. One for each Muse.
+        Lifetime goal: <span class="accent">twelve</span>.
       </p>
     </article>
   </div>
@@ -82,6 +85,39 @@ const languages = [
       <HoverReveal src="/images/vfma-1.jpg" alt="Studio work">studio work</HoverReveal>
       live in the same head as the company. They are not a hobby; they are the source code.
     </p>
+  </div>
+
+  <hr class="rule" />
+
+  <div class="obsessions__words">
+    <p class="eyebrow">In other forms</p>
+    <div class="obsessions__words-grid">
+      <article class="word-card">
+        <header class="word-card__head">
+          <span class="word-card__n mono">i.</span>
+          <span class="word-card__kind mono">Writings</span>
+        </header>
+        <h3 class="word-card__title">A Series of Poems About Someone Who Will Never Read Them</h3>
+        <p class="word-card__body">
+          An ongoing series. Letters disguised as poems, addressed to a reader
+          who isn't watching. Forthcoming.
+        </p>
+      </article>
+
+      <article class="word-card">
+        <header class="word-card__head">
+          <span class="word-card__n mono">ii.</span>
+          <span class="word-card__kind mono">Sound</span>
+        </header>
+        <h3 class="word-card__title">
+          <a href="https://www.youtube.com/@pensivebouts" rel="noopener" target="_blank">Pensive Bouts ↗</a>
+        </h3>
+        <p class="word-card__body">
+          For a brief season I kept an auditory journal under the moniker Pensive
+          Bouts. Quiet hours, recorded out loud. A parenthesis.
+        </p>
+      </article>
+    </div>
   </div>
 </section>
 
@@ -137,30 +173,31 @@ const languages = [
     padding-top: 0.5rem;
     font-style: italic;
   }
-  .obsessions__list--lang li {
+  .lang-row {
     display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-    border-bottom: 1px dotted rgba(255,255,255,0.18);
-    padding: 0.4rem 0;
-    color: var(--otb-white);
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin: 0.5rem 0 1.25rem;
   }
-  .obsessions__list--lang li:last-child {
-    color: var(--accent);
-    font-style: normal;
-  }
-  .lang-code {
+  .lang-chip {
     font-family: 'NHaas Display';
-    font-size: 1.4rem;
+    font-weight: 400;
+    font-size: 1.15rem;
     letter-spacing: var(--track-tight);
+    padding: 0.35rem 0.7rem 0.25rem;
+    border: 1px solid var(--otb-white);
+    color: var(--otb-white);
+    line-height: 1;
   }
-  .lang-note {
-    color: var(--otb-mid-gray);
+  .lang-chip:last-child {
+    color: var(--accent);
+    border-color: var(--accent);
   }
   .obsessions__caption {
     color: var(--otb-mid-gray);
-    margin-top: 1rem;
+    margin-top: 0.5rem;
   }
+  .obsessions__caption .accent { color: var(--accent); }
   .obsessions__art {
     padding-top: 2.5rem;
   }
@@ -178,5 +215,69 @@ const languages = [
     text-decoration: underline;
     text-decoration-color: var(--accent);
     text-underline-offset: 4px;
+  }
+
+  .obsessions__hero {
+    margin: 0 0 clamp(3rem, 6vw, 5rem);
+    position: relative;
+  }
+  .obsessions__hero img {
+    width: 100%;
+    aspect-ratio: 16 / 10;
+    object-fit: cover;
+    filter: contrast(1.05);
+  }
+  .obsessions__hero figcaption {
+    margin-top: 0.85rem;
+    color: var(--otb-mid-gray);
+    line-height: 1.45;
+  }
+  .obsessions__hero figcaption .accent { color: var(--accent); }
+
+  .obsessions__words {
+    padding-top: 2.5rem;
+  }
+  .obsessions__words-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: clamp(1.5rem, 3vw, 3rem);
+    margin-top: 1.5rem;
+  }
+  @media (max-width: 760px) {
+    .obsessions__words-grid { grid-template-columns: 1fr; }
+  }
+  .word-card {
+    border-top: 1px solid var(--accent);
+    padding-top: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+  .word-card__head {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    color: var(--otb-mid-gray);
+  }
+  .word-card__n { color: var(--accent); }
+  .word-card__title {
+    font-size: clamp(1.35rem, 2.3vw, 1.85rem);
+    line-height: 1.1;
+    letter-spacing: var(--track-tight);
+    margin: 0;
+    max-width: 24ch;
+  }
+  .word-card__title a {
+    border: 0;
+    background: linear-gradient(to top, var(--accent) 0%, var(--accent) 6%, transparent 6%);
+    padding-bottom: 2px;
+  }
+  .word-card__title a:hover { color: var(--accent); }
+  .word-card__body {
+    font-size: var(--scale-body);
+    line-height: 1.55;
+    color: var(--otb-light-gray);
+    margin: 0;
+    max-width: 38ch;
   }
 </style>

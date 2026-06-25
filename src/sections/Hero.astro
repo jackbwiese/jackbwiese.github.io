@@ -120,8 +120,15 @@ import Typewriter from '../components/Typewriter.astro';
   .hero__sig {
     font-size: var(--scale-body);
     color: var(--otb-light-gray);
-    max-width: 38ch;
+    max-width: none;
+    white-space: nowrap;
     margin: 0;
+  }
+  @media (max-width: 640px) {
+    .hero__sig {
+      white-space: normal;
+      max-width: 38ch;
+    }
   }
   .hero__sig em {
     color: var(--otb-white);

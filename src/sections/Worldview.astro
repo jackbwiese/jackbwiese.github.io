@@ -7,8 +7,8 @@ const theses = [
   },
   {
     n: '02',
-    title: 'AI will free humanity to make.',
-    body: 'The printing press freed reading; the loom freed weaving; software freed writing. AI does not replace the creator - it removes the secretarial labor between a vision and its realization. The result is not fewer artists but a civilization of them. Taste becomes the moat. The patron returns.',
+    title: 'Technology should free humanity to make.',
+    body: 'The printing press freed reading. The loom freed weaving. Software freed writing. The next layer does not replace the creator - it removes the secretarial labor between a vision and its realization. The result is not fewer artists but a civilization of them. Taste becomes the moat. The patron returns.',
   },
   {
     n: '03',
@@ -28,9 +28,17 @@ const theses = [
       </article>
     ))}
   </div>
-  <blockquote class="worldview__pull">
-    <span aria-hidden="true">“</span>I am nothing, thus, I can do anything.<span aria-hidden="true">”</span>
-  </blockquote>
+  <div class="worldview__purpose">
+    <p class="eyebrow">Why I am here</p>
+    <blockquote class="worldview__pull">
+      I am on this earth to <span class="accent">proliferate creativity and introspection</span> for mankind.
+      To make every person on earth a creator. To set in motion a <span class="accent">global human renaissance</span>.
+      The patron returns. The civilization of creators awakens.
+    </blockquote>
+    <p class="worldview__sub mono">
+      <span aria-hidden="true">"</span>I am nothing, thus, I can do anything.<span aria-hidden="true">"</span>
+    </p>
+  </div>
 </section>
 
 <style>
@@ -73,19 +81,32 @@ const theses = [
     line-height: 1.55;
     color: var(--otb-light-gray);
   }
+  .worldview__purpose {
+    text-align: center;
+    max-width: 32ch;
+    margin: 0 auto;
+  }
+  .worldview__purpose .eyebrow {
+    color: var(--accent);
+    display: inline-block;
+    border-top: 1px solid var(--accent);
+    padding-top: 0.6rem;
+    margin-bottom: 1.25rem;
+  }
   .worldview__pull {
     margin: 0;
     font-family: 'NHaas Display';
     font-weight: 300;
-    font-size: clamp(2rem, 6.5vw, 6rem);
-    line-height: 1;
-    letter-spacing: var(--track-wordmark);
+    font-size: clamp(1.8rem, 4.2vw, 3.5rem);
+    line-height: 1.06;
+    letter-spacing: var(--track-tight);
     color: var(--otb-white);
-    max-width: 18ch;
-    text-align: center;
-    margin-inline: auto;
   }
-  .worldview__pull span {
+  .worldview__pull .accent {
     color: var(--accent);
+  }
+  .worldview__sub {
+    margin-top: 1.5rem;
+    color: var(--otb-mid-gray);
   }
 </style>
