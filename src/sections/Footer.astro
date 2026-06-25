@@ -1,0 +1,60 @@
+---
+const year = 2026;
+---
+<footer class="footer">
+  <div class="footer__row">
+    <a href="https://onthebias.co" rel="noopener" target="_blank" class="footer__mark" aria-label="OnTheBias">
+      <img src="/images/otb-mark.png" alt="" width="20" height="20" />
+    </a>
+    <p class="footer__line mono">
+      © {year} JACK (B.) VON WIESE UND KAISERSWALDAU — FABULATOR QUI CONIUNGIT
+    </p>
+    <p class="footer__credit mono">
+      <span class="footer__swatch" aria-hidden="true"></span>
+      #E30613
+    </p>
+  </div>
+</footer>
+
+<style>
+  .footer {
+    background: var(--otb-black);
+    color: var(--otb-mid-gray);
+    padding: 1.5rem var(--pad-x) 2rem;
+    border-top: 1px solid var(--rule);
+  }
+  .footer__row {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    gap: 1.5rem;
+    align-items: center;
+  }
+  @media (max-width: 700px) {
+    .footer__row {
+      grid-template-columns: 1fr;
+      text-align: left;
+    }
+  }
+  .footer__mark img {
+    filter: invert(1) brightness(2);
+  }
+  .footer__mark { border: 0; }
+  .footer__line {
+    text-align: center;
+    color: var(--otb-mid-gray);
+  }
+  @media (max-width: 700px) {
+    .footer__line { text-align: left; }
+  }
+  .footer__credit {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  .footer__swatch {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    background: var(--accent);
+  }
+</style>

@@ -1,0 +1,43 @@
+:root {
+  --otb-red: #E30613;
+  --otb-black: #000000;
+  --otb-white: #FFFFFF;
+  --otb-mid-gray: #7A7A7A;
+  --otb-light-gray: #BFBEBE;
+
+  --bg: var(--otb-black);
+  --fg: var(--otb-white);
+  --accent: var(--otb-red);
+  --muted: var(--otb-mid-gray);
+  --rule: rgba(255, 255, 255, 0.18);
+
+  --track-tight: -0.03em;
+  --track-base: -0.01em;
+  --track-wordmark: -0.04em;
+  --track-upper: 0.18em;
+
+  --scale-mono: 0.74rem;
+  --scale-body: 1rem;
+  --scale-lede: 1.25rem;
+  --scale-h3: 1.75rem;
+  --scale-h2: 3rem;
+  --scale-h1: clamp(3.5rem, 9vw, 8.5rem);
+  --scale-hero: clamp(2.6rem, 11vw, 11rem);
+
+  --pad-x: clamp(1.25rem, 5vw, 5rem);
+  --pad-y: clamp(4rem, 10vw, 9rem);
+  --gap: clamp(1.5rem, 3vw, 3rem);
+
+  --bias-deg: 8deg;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}

@@ -1,0 +1,90 @@
+---
+---
+<div id="jw-windmills" aria-hidden="true"></div>
+
+<style>
+  #jw-windmills {
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    z-index: 8000;
+    overflow: hidden;
+  }
+  .jw-mill {
+    position: absolute;
+    color: var(--accent);
+    opacity: 0;
+    will-change: transform, opacity;
+    animation: mill-float 4500ms cubic-bezier(0.2, 0.7, 0.2, 1) forwards;
+  }
+  .jw-mill svg {
+    width: 100%;
+    height: 100%;
+  }
+  .jw-mill .blades {
+    transform-origin: 50% 38%;
+    animation: mill-spin 1100ms linear infinite;
+  }
+  @keyframes mill-float {
+    0%   { opacity: 0; transform: translate3d(0, 60vh, 0) rotate(-6deg); }
+    18%  { opacity: 0.95; }
+    100% { opacity: 0; transform: translate3d(0, -120vh, 0) rotate(2deg); }
+  }
+  @keyframes mill-spin {
+    to { transform: rotate(360deg); }
+  }
+</style>
+
+<script is:inline>
+  (() => {
+    const TARGET = 'QUIXOTE';
+    const buf = [];
+    const stage = document.getElementById('jw-windmills');
+    if (!stage) return;
+
+    const millSvg = `
+      <svg viewBox="0 0 100 140" fill="none" stroke="currentColor" stroke-width="2">
+        <rect x="42" y="48" width="16" height="86" />
+        <polygon points="42,48 58,48 64,42 36,42" />
+        <circle cx="50" cy="42" r="3" fill="currentColor" />
+        <g class="blades">
+          <line x1="50" y1="42" x2="50" y2="6" />
+          <line x1="50" y1="42" x2="86" y2="42" />
+          <line x1="50" y1="42" x2="50" y2="78" />
+          <line x1="50" y1="42" x2="14" y2="42" />
+          <polygon points="50,6 53,12 47,12" fill="currentColor" />
+          <polygon points="86,42 80,45 80,39" fill="currentColor" />
+          <polygon points="50,78 47,72 53,72" fill="currentColor" />
+          <polygon points="14,42 20,39 20,45" fill="currentColor" />
+        </g>
+      </svg>`;
+
+    const launch = () => {
+      const count = 9;
+      for (let i = 0; i < count; i++) {
+        const mill = document.createElement('div');
+        mill.className = 'jw-mill';
+        const size = 80 + Math.random() * 140;
+        mill.style.width = size + 'px';
+        mill.style.height = size * 1.4 + 'px';
+        mill.style.left = (Math.random() * 92) + 'vw';
+        mill.style.top = '0';
+        mill.style.animationDelay = (i * 110) + 'ms';
+        mill.innerHTML = millSvg;
+        stage.appendChild(mill);
+        setTimeout(() => mill.remove(), 5200 + i * 110);
+      }
+    };
+
+    document.addEventListener('keydown', (e) => {
+      const k = (e.key || '').toUpperCase();
+      if (!/^[A-Z]$/.test(k)) return;
+      buf.push(k);
+      if (buf.length > TARGET.length) buf.shift();
+      if (buf.join('') === TARGET) {
+        buf.length = 0;
+        launch();
+      }
+    });
+  })();
+</script>

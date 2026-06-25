@@ -1,0 +1,70 @@
+---
+const phrases = [
+  { lang: 'EL', text: 'Ο ΚΟΣΜΟΣ ΜΟΥ' },
+  { lang: 'EN', text: 'MY UNIVERSE' },
+  { lang: 'FR', text: 'MON UNIVERS' },
+  { lang: 'IT', text: 'IL MIO MONDO' },
+  { lang: 'ES', text: 'MI UNIVERSO' },
+  { lang: 'DE', text: 'MEINE WELT' },
+];
+---
+<div class="lang" aria-live="polite">
+  <span class="lang__chip" data-lang>{phrases[0].lang}</span>
+  <span class="lang__text" data-text>{phrases[0].text}</span>
+</div>
+
+<script type="application/json" id="jw-phrases" set:html={JSON.stringify(phrases)}></script>
+
+<style>
+  .lang {
+    display: inline-flex;
+    align-items: baseline;
+    gap: 1rem;
+    font-family: 'NHaas Display';
+    font-weight: 300;
+    font-size: clamp(1.5rem, 4vw, 3rem);
+    letter-spacing: var(--track-tight);
+  }
+  .lang__chip {
+    font-family: 'NHaas Text';
+    font-size: 0.65rem;
+    letter-spacing: var(--track-upper);
+    text-transform: uppercase;
+    color: var(--accent);
+    border: 1px solid var(--accent);
+    padding: 0.2rem 0.45rem 0.16rem;
+    transform: translateY(-0.18em);
+    min-width: 2.3rem;
+    text-align: center;
+    transition: opacity 220ms ease;
+  }
+  .lang__text {
+    transition: opacity 280ms ease;
+    will-change: opacity;
+  }
+  .lang.is-fade .lang__text,
+  .lang.is-fade .lang__chip {
+    opacity: 0;
+  }
+</style>
+
+<script is:inline>
+  (() => {
+    const data = JSON.parse(document.getElementById('jw-phrases').textContent);
+    const root = document.querySelector('.lang');
+    if (!root) return;
+    const chip = root.querySelector('[data-lang]');
+    const txt = root.querySelector('[data-text]');
+    let i = 0;
+    const tick = () => {
+      root.classList.add('is-fade');
+      setTimeout(() => {
+        i = (i + 1) % data.length;
+        chip.textContent = data[i].lang;
+        txt.textContent = data[i].text;
+        root.classList.remove('is-fade');
+      }, 320);
+    };
+    setInterval(tick, 3800);
+  })();
+</script>

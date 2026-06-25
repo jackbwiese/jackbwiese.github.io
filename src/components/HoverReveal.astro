@@ -1,0 +1,64 @@
+---
+const { src, alt = '', children } = Astro.props;
+---
+<span class="hover-reveal" data-hover>
+  <slot />
+  {src && (
+    <span class="hover-reveal__img" aria-hidden="true">
+      <img src={src} alt={alt} loading="lazy" />
+    </span>
+  )}
+</span>
+
+<style>
+  .hover-reveal {
+    position: relative;
+    display: inline-block;
+    cursor: crosshair;
+  }
+  .hover-reveal__img {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 280px;
+    height: 360px;
+    pointer-events: none;
+    opacity: 0;
+    transform: translate3d(-50%, -50%, 0) scale(0.95);
+    transition: opacity 220ms ease, transform 320ms cubic-bezier(0.2, 0.8, 0.2, 1);
+    z-index: 50;
+    overflow: hidden;
+    will-change: transform, opacity;
+    border: 1px solid var(--rule);
+    background: var(--otb-black);
+  }
+  .hover-reveal__img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .hover-reveal.is-on .hover-reveal__img {
+    opacity: 1;
+    transform: translate3d(-50%, -50%, 0) scale(1);
+  }
+  @media (hover: none), (max-width: 1023px) {
+    .hover-reveal__img { display: none !important; }
+  }
+</style>
+
+<script is:inline>
+  (() => {
+    if (window.matchMedia('(hover: none)').matches) return;
+    if (window.innerWidth < 1024) return;
+    document.querySelectorAll('.hover-reveal').forEach((el) => {
+      const img = el.querySelector('.hover-reveal__img');
+      if (!img) return;
+      el.addEventListener('mouseenter', () => el.classList.add('is-on'));
+      el.addEventListener('mouseleave', () => el.classList.remove('is-on'));
+      el.addEventListener('mousemove', (e) => {
+        img.style.top = e.clientY + 'px';
+        img.style.left = e.clientX + 'px';
+      });
+    });
+  })();
+</script>

@@ -1,0 +1,107 @@
+---
+---
+<section class="section correspondance" id="write">
+  <span class="eyebrow">§ VI · En Correspondance</span>
+
+  <h2 class="correspondance__heading">
+    <span class="accent">Write.</span>
+  </h2>
+
+  <div class="correspondance__body">
+    <a href="mailto:jack@onthebiasdesign.com" class="correspondance__primary">
+      jack@onthebiasdesign.com
+    </a>
+
+    <a href="https://calendly.com/otbjack/jack-b-wiese" rel="noopener" target="_blank" class="correspondance__cta mono">
+      Book a meeting →
+    </a>
+
+    <ul class="correspondance__links">
+      <li>
+        <a href="https://www.linkedin.com/in/jackbwiese/" rel="noopener" target="_blank">
+          <span class="mono">LinkedIn</span> jackbwiese
+        </a>
+      </li>
+      <li>
+        <a href="https://www.instagram.com/jackbwiese/" rel="noopener" target="_blank">
+          <span class="mono">Instagram</span> @jackbwiese
+        </a>
+      </li>
+      <li>
+        <a href="https://onthebias.co" rel="noopener" target="_blank">
+          <span class="mono">Company</span> onthebias.co
+        </a>
+      </li>
+    </ul>
+
+    <p class="correspondance__where mono">
+      DC · MILANO · PARIS · SFO
+    </p>
+  </div>
+</section>
+
+<style>
+  .correspondance {
+    background: var(--otb-black);
+    color: var(--otb-white);
+    text-align: center;
+  }
+  .correspondance .eyebrow { text-align: left; display: block; }
+  .correspondance__heading {
+    font-family: 'NHaas Display';
+    font-weight: 400;
+    font-size: clamp(5rem, 18vw, 16rem);
+    line-height: 0.85;
+    letter-spacing: var(--track-wordmark);
+    text-transform: uppercase;
+    margin: clamp(1rem, 4vw, 3rem) 0;
+  }
+  .correspondance__body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: clamp(1.25rem, 2vw, 2rem);
+    max-width: 56ch;
+    margin: 0 auto;
+  }
+  .correspondance__primary {
+    font-family: 'NHaas Display';
+    font-weight: 300;
+    font-size: clamp(1.5rem, 3.5vw, 2.5rem);
+    letter-spacing: var(--track-tight);
+    border-bottom: 1px solid var(--otb-white);
+    padding-bottom: 0.2rem;
+  }
+  .correspondance__cta {
+    color: var(--accent);
+    border: 1px solid var(--accent);
+    padding: 0.85rem 1.6rem 0.7rem;
+    transition: background 140ms ease, color 140ms ease;
+  }
+  .correspondance__cta:hover {
+    background: var(--accent);
+    color: var(--otb-white);
+    border-color: var(--accent);
+  }
+  .correspondance__links {
+    list-style: none;
+    padding: 0;
+    margin: 0.5rem 0 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  .correspondance__links a {
+    border: 0;
+    color: var(--otb-light-gray);
+    display: inline-flex;
+    align-items: baseline;
+    gap: 0.6rem;
+  }
+  .correspondance__links a:hover { color: var(--accent); }
+  .correspondance__links .mono { color: var(--otb-mid-gray); }
+  .correspondance__where {
+    color: var(--otb-mid-gray);
+    margin-top: 1rem;
+  }
+</style>

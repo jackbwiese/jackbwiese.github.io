@@ -1,0 +1,69 @@
+---
+---
+<div id="jw-cursor" aria-hidden="true">
+  <svg viewBox="0 0 40 40" width="40" height="40">
+    <circle cx="20" cy="20" r="14" fill="none" stroke="#E30613" stroke-width="1.25" />
+    <line x1="20" y1="2" x2="20" y2="10" stroke="#E30613" stroke-width="1.25" />
+    <line x1="20" y1="30" x2="20" y2="38" stroke="#E30613" stroke-width="1.25" />
+    <line x1="2" y1="20" x2="10" y2="20" stroke="#E30613" stroke-width="1.25" />
+    <line x1="30" y1="20" x2="38" y2="20" stroke="#E30613" stroke-width="1.25" />
+    <circle cx="20" cy="20" r="1.5" fill="#E30613" />
+  </svg>
+</div>
+
+<style>
+  #jw-cursor {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 40px;
+    height: 40px;
+    pointer-events: none;
+    z-index: 9999;
+    mix-blend-mode: difference;
+    opacity: 0;
+    transform: translate3d(-100px, -100px, 0);
+    transition: opacity 200ms ease, transform 60ms linear, scale 200ms ease;
+    will-change: transform;
+  }
+  #jw-cursor.is-active {
+    opacity: 0.95;
+  }
+  #jw-cursor.is-hover {
+    scale: 1.4;
+  }
+  @media (hover: none), (max-width: 1023px), (prefers-reduced-motion: reduce) {
+    #jw-cursor { display: none !important; }
+  }
+</style>
+
+<script is:inline>
+  (() => {
+    if (window.matchMedia('(hover: none)').matches) return;
+    if (window.innerWidth < 1024) return;
+    const cur = document.getElementById('jw-cursor');
+    if (!cur) return;
+    let x = 0, y = 0, tx = 0, ty = 0, raf = 0;
+    const tick = () => {
+      x += (tx - x) * 0.28;
+      y += (ty - y) * 0.28;
+      cur.style.transform = `translate3d(${x - 20}px, ${y - 20}px, 0)`;
+      raf = requestAnimationFrame(tick);
+    };
+    document.addEventListener('mousemove', (e) => {
+      tx = e.clientX;
+      ty = e.clientY;
+      if (!cur.classList.contains('is-active')) cur.classList.add('is-active');
+      if (!raf) raf = requestAnimationFrame(tick);
+    }, { passive: true });
+    document.addEventListener('mouseleave', () => cur.classList.remove('is-active'));
+    const hoverable = 'a, button, [data-hover], .tile, .hover-reveal';
+    document.addEventListener('mouseover', (e) => {
+      if (e.target instanceof Element && e.target.closest(hoverable)) cur.classList.add('is-hover');
+    });
+    document.addEventListener('mouseout', (e) => {
+      if (e.target instanceof Element && e.target.closest(hoverable)) cur.classList.remove('is-hover');
+    });
+    document.documentElement.style.cursor = 'none';
+  })();
+</script>

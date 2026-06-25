@@ -1,0 +1,156 @@
+@font-face {
+  font-family: 'NHaas Display';
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+  src: url('/fonts/nhg-display-15.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'NHaas Display';
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+  src: url('/fonts/nhg-display-25.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'NHaas Display';
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: url('/fonts/nhg-display-55.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'NHaas Text';
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: url('/fonts/nhg-text-55.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'NHaas Text';
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+  src: url('/fonts/nhg-text-65.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'NHaas Text';
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  src: url('/fonts/nhg-text-75.woff2') format('woff2');
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg);
+  color: var(--fg);
+  font-family: 'NHaas Text', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 1.45;
+  letter-spacing: var(--track-base);
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'NHaas Display', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  letter-spacing: var(--track-tight);
+  margin: 0;
+}
+
+p {
+  margin: 0 0 1em;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px solid var(--rule);
+  transition: color 120ms ease, border-color 120ms ease;
+}
+a:hover,
+a:focus-visible {
+  color: var(--accent);
+  border-color: var(--accent);
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+::selection {
+  background: var(--accent);
+  color: var(--otb-white);
+}
+
+.mono {
+  font-family: 'NHaas Text';
+  font-size: var(--scale-mono);
+  letter-spacing: var(--track-upper);
+  text-transform: uppercase;
+}
+
+.rule {
+  border: 0;
+  border-top: 1px solid var(--rule);
+  margin: 0;
+}
+
+.section {
+  padding: var(--pad-y) var(--pad-x);
+  position: relative;
+}
+
+.section--invert {
+  background: var(--fg);
+  color: var(--bg);
+}
+.section--invert a {
+  border-color: rgba(0, 0, 0, 0.18);
+}
+.section--invert ::selection {
+  background: var(--accent);
+  color: var(--otb-white);
+}
+
+.eyebrow {
+  display: inline-block;
+  font-size: var(--scale-mono);
+  letter-spacing: var(--track-upper);
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 1.5rem;
+}
+
+.accent {
+  color: var(--accent);
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,182 @@
+---
+import HoverReveal from '../components/HoverReveal.astro';
+
+const literature = [
+  'Cervantes — Don Quixote (FR · IT · ES)',
+  'Homer — Iliad, Odyssey',
+  'Shakespeare — the late tragedies',
+  'Tolstoy — War and Peace',
+  'Emerson — Self-Reliance',
+  'Kerouac — On the Road',
+  'Marcus Aurelius — Meditations',
+  'Dante — Divina Commedia',
+  '128+ books and counting.',
+];
+
+const history = [
+  'The Age of Sail · 1500-1850',
+  'Pirates of the Caribbean & Pacific',
+  'Mediaeval Europe & Chivalric Orders',
+  'Ancient Greece + Rome',
+  'Revolutions: 1776 · 1789 · 1848 · 1917',
+  'Habsburg, Bourbon, Romanov',
+  'Renaissance Florence',
+  'Edo Japan',
+  'Any period of profound paradigm shift.',
+];
+
+const languages = [
+  { code: 'EN', note: 'native' },
+  { code: 'FR', note: 'fluent' },
+  { code: 'ES', note: 'fluent' },
+  { code: 'IT', note: 'fluent' },
+  { code: 'DE', note: 'fluent' },
+  { code: 'EL', note: 'learning' },
+];
+---
+<section class="section obsessions" id="obsessions">
+  <span class="eyebrow">§ IV · Obsessions</span>
+  <h2 class="obsessions__heading">What I read, what I love, how I think.</h2>
+
+  <div class="obsessions__grid">
+    <article class="obsessions__col">
+      <h3 class="obsessions__h">Literature</h3>
+      <ul class="obsessions__list">
+        {literature.map((l) => <li>{l}</li>)}
+      </ul>
+    </article>
+
+    <article class="obsessions__col">
+      <h3 class="obsessions__h">History</h3>
+      <ul class="obsessions__list">
+        {history.map((l) => <li>{l}</li>)}
+      </ul>
+    </article>
+
+    <article class="obsessions__col">
+      <h3 class="obsessions__h">Languages</h3>
+      <ul class="obsessions__list obsessions__list--lang">
+        {languages.map((l) => (
+          <li>
+            <span class="lang-code">{l.code}</span>
+            <span class="lang-note mono">{l.note}</span>
+          </li>
+        ))}
+      </ul>
+      <p class="obsessions__caption mono">
+        Goal: nine. One for each Muse.
+      </p>
+    </article>
+  </div>
+
+  <hr class="rule" />
+
+  <div class="obsessions__art">
+    <p class="eyebrow">Making, beyond the desk</p>
+    <p class="obsessions__art-lede">
+      Sculpture, painting, dance, running, travel. The
+      <HoverReveal src="/images/vfma-3.jpg" alt="Sculpture, salvaged piano">salvaged-piano piece</HoverReveal>,
+      the
+      <HoverReveal src="/images/vfma-5.jpg" alt="Sculpture, plaster and hangers">plaster + hangers + fabric assemblage</HoverReveal>,
+      and the
+      <HoverReveal src="/images/vfma-1.jpg" alt="Studio work">studio work</HoverReveal>
+      live in the same head as the company. They are not a hobby; they are the source code.
+    </p>
+  </div>
+</section>
+
+<style>
+  .obsessions {
+    background: var(--otb-black);
+    color: var(--otb-white);
+  }
+  .obsessions__heading {
+    font-size: clamp(1.75rem, 4.5vw, 3.5rem);
+    line-height: 1.05;
+    letter-spacing: var(--track-tight);
+    margin-bottom: clamp(2.5rem, 5vw, 4.5rem);
+    max-width: 24ch;
+  }
+  .obsessions__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: clamp(1.5rem, 3vw, 3.5rem);
+    margin-bottom: clamp(3rem, 6vw, 5rem);
+  }
+  @media (max-width: 900px) {
+    .obsessions__grid { grid-template-columns: 1fr; }
+  }
+  .obsessions__col {
+    border-top: 1px solid var(--accent);
+    padding-top: 1rem;
+  }
+  .obsessions__h {
+    font-size: 1.15rem;
+    text-transform: uppercase;
+    letter-spacing: var(--track-upper);
+    color: var(--otb-light-gray);
+    margin-bottom: 1rem;
+    font-family: 'NHaas Text';
+    font-weight: 500;
+  }
+  .obsessions__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    color: var(--otb-light-gray);
+  }
+  .obsessions__list li {
+    font-size: var(--scale-body);
+    line-height: 1.4;
+  }
+  .obsessions__list li:last-child {
+    color: var(--accent);
+    padding-top: 0.5rem;
+    font-style: italic;
+  }
+  .obsessions__list--lang li {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    border-bottom: 1px dotted rgba(255,255,255,0.18);
+    padding: 0.4rem 0;
+    color: var(--otb-white);
+  }
+  .obsessions__list--lang li:last-child {
+    color: var(--accent);
+    font-style: normal;
+  }
+  .lang-code {
+    font-family: 'NHaas Display';
+    font-size: 1.4rem;
+    letter-spacing: var(--track-tight);
+  }
+  .lang-note {
+    color: var(--otb-mid-gray);
+  }
+  .obsessions__caption {
+    color: var(--otb-mid-gray);
+    margin-top: 1rem;
+  }
+  .obsessions__art {
+    padding-top: 2.5rem;
+  }
+  .obsessions__art-lede {
+    font-family: 'NHaas Display';
+    font-weight: 300;
+    font-size: clamp(1.5rem, 3vw, 2.5rem);
+    line-height: 1.2;
+    letter-spacing: var(--track-tight);
+    max-width: 40ch;
+    color: var(--otb-white);
+  }
+  .obsessions__art-lede :global(.hover-reveal) {
+    color: var(--accent);
+    text-decoration: underline;
+    text-decoration-color: var(--accent);
+    text-underline-offset: 4px;
+  }
+</style>

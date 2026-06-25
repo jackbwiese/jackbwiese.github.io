@@ -1,0 +1,91 @@
+---
+const theses = [
+  {
+    n: '01',
+    title: 'The fashion industry is infrastructure-bankrupt.',
+    body: 'Two trillion dollars a year runs on email chains, PDF tech packs, and faxes between buyers in New York and factories in Guangzhou. 92 million tonnes of textile waste a year. This is not a workflow problem - it is the absence of connective tissue. The industry needs a new substrate before it needs another brand.',
+  },
+  {
+    n: '02',
+    title: 'AI will free humanity to make.',
+    body: 'The printing press freed reading; the loom freed weaving; software freed writing. AI does not replace the creator - it removes the secretarial labor between a vision and its realization. The result is not fewer artists but a civilization of them. Taste becomes the moat. The patron returns.',
+  },
+  {
+    n: '03',
+    title: 'Patronage outlasts quarterly returns.',
+    body: 'The Medici were not optimizing for quarterly performance. They were building a city that would outlive them. The most consequential capital this century will not be deployed in three-month cycles - it will be deployed in three-century ones. Capital should serve culture, not the other way around.',
+  },
+];
+---
+<section class="section worldview" id="worldview">
+  <span class="eyebrow">§ II · Worldview</span>
+  <div class="worldview__grid">
+    {theses.map((t) => (
+      <article class="worldview__col">
+        <span class="worldview__n">{t.n}</span>
+        <h3 class="worldview__h">{t.title}</h3>
+        <p class="worldview__body">{t.body}</p>
+      </article>
+    ))}
+  </div>
+  <blockquote class="worldview__pull">
+    <span aria-hidden="true">“</span>I am nothing, thus, I can do anything.<span aria-hidden="true">”</span>
+  </blockquote>
+</section>
+
+<style>
+  .worldview {
+    background: var(--otb-black);
+    color: var(--otb-white);
+  }
+  .worldview__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: clamp(1.5rem, 3vw, 3.5rem);
+    margin-bottom: clamp(3rem, 7vw, 6rem);
+  }
+  @media (max-width: 900px) {
+    .worldview__grid {
+      grid-template-columns: 1fr;
+    }
+  }
+  .worldview__col {
+    border-top: 1px solid var(--accent);
+    padding-top: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .worldview__n {
+    font-family: 'NHaas Text';
+    font-size: var(--scale-mono);
+    letter-spacing: var(--track-upper);
+    color: var(--accent);
+  }
+  .worldview__h {
+    font-size: clamp(1.35rem, 2.2vw, 1.85rem);
+    line-height: 1.12;
+    letter-spacing: var(--track-tight);
+    max-width: 18ch;
+  }
+  .worldview__body {
+    font-size: var(--scale-body);
+    line-height: 1.55;
+    color: var(--otb-light-gray);
+  }
+  .worldview__pull {
+    margin: 0;
+    font-family: 'NHaas Display';
+    font-weight: 300;
+    font-size: clamp(2rem, 6.5vw, 6rem);
+    line-height: 1;
+    letter-spacing: var(--track-wordmark);
+    color: var(--otb-white);
+    max-width: 18ch;
+    text-align: center;
+    margin-inline: auto;
+  }
+  .worldview__pull span {
+    color: var(--accent);
+  }
+</style>

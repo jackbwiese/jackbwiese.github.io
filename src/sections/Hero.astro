@@ -1,0 +1,140 @@
+---
+import LanguageToggle from '../components/LanguageToggle.astro';
+import Typewriter from '../components/Typewriter.astro';
+---
+<section class="hero" id="top">
+  <div class="bias-stripe" aria-hidden="true">
+    <svg viewBox="0 0 100 100" preserveAspectRatio="none">
+      <polygon points="100,0 100,18 18,100 0,100" fill="#E30613" />
+    </svg>
+  </div>
+
+  <header class="hero__chrome">
+    <a href="https://onthebias.co" rel="noopener" class="hero__mark" aria-label="OnTheBias">
+      <img src="/images/otb-mark.png" alt="" width="34" height="34" />
+    </a>
+    <nav class="hero__nav mono">
+      <a href="#manifesto">Manifesto</a>
+      <a href="#worldview">Worldview</a>
+      <a href="#arsenal">Arsenal</a>
+      <a href="#obsessions">Obsessions</a>
+      <a href="#cabinet">Cabinet</a>
+      <a href="#write">Write</a>
+    </nav>
+  </header>
+
+  <div class="hero__center">
+    <p class="mono hero__eyebrow">Knight of the Crimson Bias · est. 2001</p>
+    <h1 class="hero__name">
+      <span class="hero__line"><Typewriter text="JACK (B.)" /></span>
+      <span class="hero__line hero__line--accent"><Typewriter text="VON WIESE" /></span>
+      <span class="hero__line"><Typewriter text="UND KAISERSWALDAU" /></span>
+    </h1>
+    <div class="hero__motto">
+      <LanguageToggle />
+    </div>
+    <p class="hero__tags mono">FOUNDER · KNIGHT · PIRATE · DANDY · WORLDBUILDER</p>
+    <p class="hero__sig"><em>fabulator qui coniungit</em> — the storyteller who joins things together.</p>
+  </div>
+
+  <a href="#manifesto" class="hero__scroll mono" aria-label="Scroll to next section">
+    SCROLL ↓
+  </a>
+</section>
+
+<style>
+  .hero {
+    min-height: 100vh;
+    background: var(--otb-black);
+    color: var(--otb-white);
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    padding: clamp(1.25rem, 3vw, 2.25rem) var(--pad-x) clamp(1.5rem, 3vw, 2.5rem);
+    position: relative;
+    overflow: hidden;
+  }
+  .hero__chrome {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5rem;
+    z-index: 2;
+  }
+  .hero__mark {
+    border: 0;
+    display: inline-flex;
+  }
+  .hero__mark img {
+    filter: invert(1) brightness(2);
+  }
+  .hero__nav {
+    display: flex;
+    gap: clamp(0.5rem, 2vw, 1.5rem);
+    flex-wrap: wrap;
+  }
+  .hero__nav a {
+    border: 0;
+    color: var(--otb-mid-gray);
+    transition: color 140ms ease;
+  }
+  .hero__nav a:hover {
+    color: var(--accent);
+  }
+  @media (max-width: 700px) {
+    .hero__nav a:nth-child(n+5) { display: none; }
+  }
+  .hero__center {
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    gap: clamp(1rem, 2.5vw, 2rem);
+    max-width: 1400px;
+    margin: 0 auto;
+    width: 100%;
+    z-index: 2;
+  }
+  .hero__eyebrow {
+    color: var(--otb-mid-gray);
+  }
+  .hero__name {
+    font-family: 'NHaas Display';
+    font-weight: 400;
+    font-size: var(--scale-hero);
+    line-height: 0.86;
+    letter-spacing: var(--track-wordmark);
+    text-transform: uppercase;
+    margin: 0;
+  }
+  .hero__line {
+    display: block;
+  }
+  .hero__line--accent {
+    color: var(--accent);
+  }
+  .hero__motto {
+    margin-top: 0.5rem;
+  }
+  .hero__tags {
+    color: var(--otb-light-gray);
+  }
+  .hero__sig {
+    font-size: var(--scale-body);
+    color: var(--otb-light-gray);
+    max-width: 38ch;
+    margin: 0;
+  }
+  .hero__sig em {
+    color: var(--otb-white);
+    font-style: italic;
+  }
+  .hero__scroll {
+    justify-self: end;
+    align-self: end;
+    color: var(--otb-mid-gray);
+    border: 0;
+    z-index: 2;
+  }
+  .hero__scroll:hover {
+    color: var(--accent);
+  }
+</style>

@@ -1,0 +1,42 @@
+---
+import '../styles/tokens.css';
+import '../styles/global.css';
+import '../styles/diagonal.css';
+
+const {
+  title = 'Jack (B.) von Wiese und Kaiserswaldau',
+  description = 'Founder. Knight. Pirate. Dandy. Worldbuilder. Founder + CEO of OnTheBias.',
+  canonical = 'https://jackbwiese.github.io/',
+} = Astro.props;
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="color-scheme" content="dark" />
+
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={`${canonical.replace(/\/$/, '')}/images/portrait-romulus-carre.jpg`} />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={`${canonical.replace(/\/$/, '')}/images/portrait-romulus-carre.jpg`} />
+
+    <link rel="preload" href="/fonts/nhg-display-55.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/fonts/nhg-text-55.woff2" as="font" type="font/woff2" crossorigin />
+  </head>
+  <body>
+    <slot />
+  </body>
+</html>

@@ -1,0 +1,131 @@
+---
+const collections = [
+  {
+    n: '01',
+    title: 'Antique tapestries',
+    era: '15th – 18th century',
+    note: 'Flemish, Aubusson, Gobelins. Mythological, hunting, allegorical. Forming a collection.',
+    glyph: '◇',
+  },
+  {
+    n: '02',
+    title: 'Historic arms + armour',
+    era: '14th – 18th century',
+    note: 'European arms of the chivalric and early-modern eras. Rapiers, helms, partial harnesses. Forming a collection.',
+    glyph: '⚔',
+  },
+  {
+    n: '03',
+    title: 'Antique maps',
+    era: '15th – 19th century',
+    note: 'Mercator, Blaeu, Ortelius. Maps of empire, exploration, lost geographies. Forming a collection.',
+    glyph: '✦',
+  },
+  {
+    n: '04',
+    title: 'Historic + significant garments',
+    era: '14th century – modern',
+    note: 'Pieces that mark moments where dress became language. Forming a collection.',
+    glyph: '⌬',
+  },
+];
+---
+<section class="section section--invert cabinet" id="cabinet">
+  <span class="eyebrow">§ V · Cabinet de Curiosités</span>
+  <h2 class="cabinet__heading">
+    Four collections, slowly being assembled. Patience. Centuries, not quarters.
+  </h2>
+
+  <div class="cabinet__quad">
+    {collections.map((c) => (
+      <article class="cabinet__cell">
+        <div class="cabinet__head">
+          <span class="cabinet__n mono">{c.n}</span>
+          <span class="cabinet__glyph" aria-hidden="true">{c.glyph}</span>
+        </div>
+        <h3 class="cabinet__title">{c.title}</h3>
+        <p class="cabinet__era mono">{c.era}</p>
+        <p class="cabinet__note">{c.note}</p>
+      </article>
+    ))}
+    <div class="cabinet__bias-cross" aria-hidden="true">
+      <svg viewBox="0 0 100 100" preserveAspectRatio="none">
+        <line x1="0" y1="100" x2="100" y2="0" stroke="#E30613" stroke-width="0.4" stroke-dasharray="1 1" />
+      </svg>
+    </div>
+  </div>
+</section>
+
+<style>
+  .cabinet {
+    background: var(--otb-white);
+    color: var(--otb-black);
+  }
+  .cabinet__heading {
+    font-size: clamp(1.75rem, 4.5vw, 3.5rem);
+    line-height: 1.05;
+    letter-spacing: var(--track-tight);
+    margin-bottom: clamp(2.5rem, 5vw, 4.5rem);
+    max-width: 24ch;
+  }
+  .cabinet__quad {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0;
+    border-top: 1px solid var(--otb-black);
+    border-left: 1px solid var(--otb-black);
+    position: relative;
+  }
+  @media (max-width: 700px) {
+    .cabinet__quad { grid-template-columns: 1fr; }
+  }
+  .cabinet__cell {
+    border-right: 1px solid var(--otb-black);
+    border-bottom: 1px solid var(--otb-black);
+    padding: clamp(1.25rem, 3vw, 2.5rem);
+    min-height: 240px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    background: var(--otb-white);
+    position: relative;
+    z-index: 1;
+  }
+  .cabinet__head {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    color: var(--otb-mid-gray);
+  }
+  .cabinet__n { color: var(--accent); }
+  .cabinet__glyph {
+    color: var(--accent);
+    font-size: 1.4rem;
+  }
+  .cabinet__title {
+    font-size: clamp(1.4rem, 2.6vw, 2rem);
+    line-height: 1.05;
+    letter-spacing: var(--track-tight);
+    margin: 0;
+  }
+  .cabinet__era {
+    color: var(--otb-mid-gray);
+    margin: 0;
+  }
+  .cabinet__note {
+    font-size: var(--scale-body);
+    line-height: 1.5;
+    margin: auto 0 0;
+    max-width: 38ch;
+  }
+  .cabinet__bias-cross {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    z-index: 0;
+  }
+  .cabinet__bias-cross svg {
+    width: 100%;
+    height: 100%;
+  }
+</style>

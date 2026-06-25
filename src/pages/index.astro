@@ -1,0 +1,44 @@
+---
+import Base from '../layouts/Base.astro';
+import Cursor from '../components/Cursor.astro';
+import Marquee from '../components/Marquee.astro';
+import EasterEgg from '../components/EasterEgg.astro';
+import SectionDivider from '../components/SectionDivider.astro';
+
+import Hero from '../sections/Hero.astro';
+import Manifesto from '../sections/Manifesto.astro';
+import Worldview from '../sections/Worldview.astro';
+import Arsenal from '../sections/Arsenal.astro';
+import Obsessions from '../sections/Obsessions.astro';
+import CabinetDeCuriosites from '../sections/CabinetDeCuriosites.astro';
+import Correspondance from '../sections/Correspondance.astro';
+import Footer from '../sections/Footer.astro';
+---
+<Base>
+  <Cursor />
+
+  <Hero />
+  <Marquee />
+
+  <Manifesto />
+  <SectionDivider />
+
+  <Worldview />
+  <Marquee invert={false} reverse={true} text="PATRONAGE > QUARTERLY × CENTURIES NOT QUARTERS × FABULATOR × MEDICI × " />
+
+  <Arsenal />
+  <SectionDivider thick={true} />
+
+  <Obsessions />
+  <Marquee text="DON QUIXOTE × MONTAIGNE × HOMER × CERVANTES × MARCUS AURELIUS × DANTE × " />
+
+  <CabinetDeCuriosites />
+  <SectionDivider />
+
+  <Correspondance />
+  <Marquee text="Ο ΚΟΣΜΟΣ ΜΟΥ × MY UNIVERSE × MON UNIVERS × IL MIO MONDO × MEINE WELT × MI UNIVERSO × " />
+
+  <Footer />
+
+  <EasterEgg />
+</Base>

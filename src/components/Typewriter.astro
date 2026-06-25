@@ -1,0 +1,46 @@
+---
+const { text, tag: Tag = 'span', cls = '' } = Astro.props;
+---
+<Tag class={`tw ${cls}`} data-tw-text={text}>{text}</Tag>
+
+<style>
+  .tw {
+    display: inline-block;
+  }
+  .tw .tw__cursor {
+    display: inline-block;
+    width: 0.04em;
+    height: 0.85em;
+    background: var(--accent);
+    margin-left: 0.04em;
+    vertical-align: -0.08em;
+    animation: tw-blink 700ms steps(2, end) infinite;
+  }
+  @keyframes tw-blink { 50% { opacity: 0; } }
+</style>
+
+<script is:inline>
+  (() => {
+    const run = (el) => {
+      const full = el.getAttribute('data-tw-text') || el.textContent || '';
+      el.textContent = '';
+      const cursor = document.createElement('span');
+      cursor.className = 'tw__cursor';
+      el.appendChild(cursor);
+      const total = full.length;
+      const per = Math.max(18, Math.min(45, 700 / total));
+      let i = 0;
+      const tick = () => {
+        if (i >= total) {
+          setTimeout(() => cursor.remove(), 1800);
+          return;
+        }
+        const ch = full[i++];
+        cursor.insertAdjacentText('beforebegin', ch);
+        setTimeout(tick, per);
+      };
+      setTimeout(tick, 200);
+    };
+    document.querySelectorAll('.tw').forEach(run);
+  })();
+</script>

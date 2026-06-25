@@ -1,0 +1,58 @@
+---
+const { thick = false } = Astro.props;
+---
+<div class={`divider--bias ${thick ? 'divider--bias-thick' : ''}`} data-bias-divider aria-hidden="true"></div>
+
+<style>
+  [data-bias-divider] {
+    height: 22px;
+    position: relative;
+    overflow: hidden;
+    background: var(--otb-black);
+  }
+  .divider--bias-thick {
+    height: 42px;
+  }
+  [data-bias-divider]::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+      100deg,
+      transparent 49%,
+      var(--accent) 49%,
+      var(--accent) 51%,
+      transparent 51%
+    );
+    transform: rotate(0deg);
+    transform-origin: center;
+    transition: transform 350ms cubic-bezier(0.2, 0.7, 0.2, 1);
+    will-change: transform;
+  }
+</style>
+
+<script is:inline>
+  (() => {
+    const dividers = Array.from(document.querySelectorAll('[data-bias-divider]'));
+    if (!dividers.length) return;
+    let last = window.scrollY;
+    let raf = 0;
+    const update = () => {
+      const now = window.scrollY;
+      const dv = Math.max(-40, Math.min(40, (now - last)));
+      const angle = dv * 0.18;
+      dividers.forEach((d, i) => {
+        const sign = i % 2 === 0 ? 1 : -1;
+        d.style.setProperty('--rot', (angle * sign).toFixed(2) + 'deg');
+        const inner = d;
+        const after = inner;
+        d.style.transform = `skewY(${(angle * sign * 0.05).toFixed(2)}deg)`;
+      });
+      last = now;
+      raf = 0;
+    };
+    window.addEventListener('scroll', () => {
+      if (!raf) raf = requestAnimationFrame(update);
+    }, { passive: true });
+  })();
+</script>
