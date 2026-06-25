@@ -18,7 +18,6 @@ export const brands = [
   { name: 'Off-White',           src: '/images/brands/off-white.png',    width: 167, height: 30, minW: 180 },
   { name: 'VF Brands',           src: '/images/brands/vf-brands.png',    width: 60,  height: 60, minW: 80 },
   { name: 'Abercrombie & Fitch', src: '/images/brands/abercrombie.png',  width: 150, height: 32 },
-  { name: 'lululemon',           src: '/images/brands/lululemon.png',    width: 140, height: 24, minW: 150 },
   { name: 'H&M',                 src: '/images/brands/hm.png',           width: 70,  height: 46, minW: 84 },
 ];
 
