@@ -23,7 +23,13 @@ import { brands, publications } from '../data/logos.js';
   <Cursor />
 
   <Hero />
-  <CityClockMarquee />
+  <LogoStrip
+    logos={brands}
+    eyebrow="Brands I've contributed to."
+    tail="And more."
+    invertLogos={true}
+    duration={32}
+  />
 
   <Manifesto />
   <CityClockMarquee reverse={true} duration={48} />
@@ -35,13 +41,6 @@ import { brands, publications } from '../data/logos.js';
   <CityClockMarquee />
 
   <Arsenal />
-  <LogoStrip
-    logos={brands}
-    eyebrow="Companies I've contributed to."
-    tail="And more."
-    invertLogos={true}
-    duration={64}
-  />
 
   <Obsessions />
   <CityClockMarquee reverse={true} duration={52} />
