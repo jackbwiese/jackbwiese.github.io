@@ -99,9 +99,19 @@ const languages = ['EN', 'FR', 'ES', 'IT', 'DE', 'EL'];
         </header>
         <h3 class="word-card__title">A Series of Poems About Someone Who Will Never Read Them</h3>
         <p class="word-card__body">
-          An ongoing series. Letters disguised as poems, addressed to a reader
-          who isn't watching. Forthcoming.
+          An ongoing series. A testament addressed to a reader who is not watching -
+          to remember the people whose impact persisted long after their presence faded.
         </p>
+        <blockquote class="word-card__excerpt">
+          <p>
+            "As a boy grows into a man,<br />
+            they forget childhood bliss, the days playing in the sand.<br />
+            <span class="opacity-pull">[ ... ]</span><br />
+            And though you may never read this series of poems,<br />
+            I hope you somehow know, thanks to you with myself I can now feel at home."
+          </p>
+          <footer class="mono">from <em>Grow Up, Forget!</em></footer>
+        </blockquote>
       </article>
 
       <article class="word-card">
@@ -113,8 +123,8 @@ const languages = ['EN', 'FR', 'ES', 'IT', 'DE', 'EL'];
           <a href="https://www.youtube.com/@pensivebouts" rel="noopener" target="_blank">Pensive Bouts ↗</a>
         </h3>
         <p class="word-card__body">
-          For a brief season I kept an auditory journal under the moniker Pensive
-          Bouts. Quiet hours, recorded out loud. A parenthesis.
+          For a brief season I kept an auditory journal under the moniker
+          <em>Pensive Bouts</em>. Quiet hours, recorded out loud. A parenthesis.
         </p>
       </article>
     </div>
@@ -279,5 +289,32 @@ const languages = ['EN', 'FR', 'ES', 'IT', 'DE', 'EL'];
     color: var(--otb-light-gray);
     margin: 0;
     max-width: 38ch;
+  }
+  .word-card__excerpt {
+    margin: 1rem 0 0;
+    padding: 1rem 0 0;
+    border-top: 1px dotted rgba(255, 255, 255, 0.22);
+    font-family: 'NHaas Display';
+    font-weight: 300;
+    font-size: 1.05rem;
+    line-height: 1.55;
+    font-style: italic;
+    color: var(--otb-white);
+  }
+  .word-card__excerpt p { margin: 0; }
+  .word-card__excerpt .opacity-pull {
+    color: var(--accent);
+    letter-spacing: var(--track-upper);
+    font-style: normal;
+    font-size: 0.85em;
+  }
+  .word-card__excerpt footer {
+    margin-top: 0.75rem;
+    color: var(--otb-mid-gray);
+    font-style: normal;
+  }
+  .word-card__excerpt footer em {
+    color: var(--accent);
+    font-style: italic;
   }
 </style>
