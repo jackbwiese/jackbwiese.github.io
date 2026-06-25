@@ -4,6 +4,7 @@ import Cursor from '../components/Cursor.astro';
 import CityClockMarquee from '../components/CityClockMarquee.astro';
 import EasterEgg from '../components/EasterEgg.astro';
 import SectionDivider from '../components/SectionDivider.astro';
+import LogoStrip from '../components/LogoStrip.astro';
 
 import Hero from '../sections/Hero.astro';
 import Manifesto from '../sections/Manifesto.astro';
@@ -11,9 +12,12 @@ import Vita from '../sections/Vita.astro';
 import Worldview from '../sections/Worldview.astro';
 import Arsenal from '../sections/Arsenal.astro';
 import Obsessions from '../sections/Obsessions.astro';
+import Marginalia from '../sections/Marginalia.astro';
 import CabinetDeCuriosites from '../sections/CabinetDeCuriosites.astro';
 import Correspondance from '../sections/Correspondance.astro';
 import Footer from '../sections/Footer.astro';
+
+import { brands, publications } from '../data/logos.js';
 ---
 <Base>
   <Cursor />
@@ -31,10 +35,25 @@ import Footer from '../sections/Footer.astro';
   <CityClockMarquee />
 
   <Arsenal />
-  <SectionDivider thick={true} />
+  <LogoStrip
+    logos={brands}
+    eyebrow="Companies I've contributed to."
+    tail="And more."
+    invertLogos={true}
+    duration={64}
+  />
 
   <Obsessions />
   <CityClockMarquee reverse={true} duration={52} />
+
+  <Marginalia />
+  <LogoStrip
+    logos={publications}
+    eyebrow="I work behind the scenes. My customers appear in:"
+    tail="And more."
+    duration={72}
+    reverse={true}
+  />
 
   <CabinetDeCuriosites />
   <SectionDivider />

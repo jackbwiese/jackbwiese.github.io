@@ -1,0 +1,50 @@
+// Companies whose products Jack has contributed to.
+// Black-on-transparent source files (from OTB platform). Render with invertLogos prop.
+export const brands = [
+  { name: 'Disney',            src: '/images/brands/disney.png' },
+  { name: 'Nike',              src: '/images/brands/nike.png' },
+  { name: 'Hermès',            src: '/images/brands/hermes.png' },
+  { name: 'PUMA',              src: '/images/brands/puma.png' },
+  { name: 'Acne Studios',      src: '/images/brands/acne-studios.png' },
+  { name: 'NASA',              src: '/images/brands/nasa.png' },
+  { name: 'Marine Serre',      src: '/images/brands/marine-serre.png' },
+  { name: 'Adidas',            src: '/images/brands/adidas.png' },
+  { name: 'Louis Vuitton',     src: '/images/brands/louis-vuitton.png' },
+  { name: 'Reebok',            src: '/images/brands/reebok.png' },
+  { name: 'Cotton On',         src: '/images/brands/cotton-on.png' },
+  { name: 'Jordan',            src: '/images/brands/jordan.png' },
+  { name: 'Off-White',         src: '/images/brands/off-white.png' },
+  { name: 'VF Brands',         src: '/images/brands/vf-brands.png' },
+  { name: 'Abercrombie & Fitch', src: '/images/brands/abercrombie.png' },
+  { name: 'lululemon',         src: '/images/brands/lululemon.png' },
+  { name: 'H&M',               src: '/images/brands/hm.png' },
+];
+
+// Publications Jack's customers have appeared in.
+// White-on-transparent already; no filter needed.
+export const publications = [
+  { name: 'Vogue',           src: '/images/publications/vogue.png' },
+  { name: 'Vogue Runway',    src: '/images/publications/vogue-runway.png' },
+  { name: 'Business of Fashion', src: '/images/publications/bof.png' },
+  { name: 'WWD',             src: '/images/publications/wwd.png' },
+  { name: 'Hypebeast',       src: '/images/publications/hypebeast.png' },
+  { name: 'Highsnobiety',    src: '/images/publications/highsnobiety.png' },
+  { name: 'Forbes',          src: '/images/publications/forbes.png' },
+  { name: 'GQ',              src: '/images/publications/gq.png' },
+  { name: 'ELLE',            src: '/images/publications/elle.png' },
+  { name: 'Grazia',          src: '/images/publications/grazia.png' },
+  { name: 'Complex',         src: '/images/publications/complex.png' },
+  { name: 'Dexerto',         src: '/images/publications/dexerto.png' },
+  { name: 'DSCENE',          src: '/images/publications/dscene.png' },
+  { name: 'XXL',             src: '/images/publications/xxl.png' },
+  { name: 'SHOWstudio',      src: '/images/publications/show-studio.png' },
+  { name: 'The Secret NYC',  src: '/images/publications/the-secret-nyc.png' },
+  { name: 'The Impression',  src: '/images/publications/the-impression.png' },
+  { name: 'Kaltblut',        src: '/images/publications/kaltblut.png' },
+  { name: 'Berlin Fashion Week', src: '/images/publications/berlin-fw.png' },
+  { name: 'Culted',          src: '/images/publications/culted.png' },
+  { name: 'SNKRDUNK',        src: '/images/publications/snkrdunk.png' },
+  { name: 'Nonno',           src: '/images/publications/nonno.png' },
+  { name: 'Grailed',         src: '/images/publications/grailed.png' },
+  { name: 'Yahoo',           src: '/images/publications/yahoo.png' },
+];

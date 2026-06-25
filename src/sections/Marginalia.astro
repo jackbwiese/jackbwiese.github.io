@@ -1,0 +1,117 @@
+---
+const facts = [
+  "I have helped shape over 50M products globally.",
+  "I influenced Emma Chamberlain's style before she became a household name.",
+  "I have done business in over 46 - and counting - countries.",
+  "I am your favorite designer's favorite designer.",
+  "My materials are used in fashion schools and programs all across the world as an exemplary standard.",
+  "I am fiercely autodidactic.",
+  "I have generated over 20M impressions on social media.",
+  "My favorite designers are Vivienne Westwood, Raf Simons, and Ralph Lauren.",
+  "My favorite artists are Max Ernst, Yves Klein, Theo Van Doesburg, Kurt Schwitters, and Thomas Rowlandson.",
+  "My favorite book is Don Quijote de La Mancha.",
+];
+---
+<section class="section section--invert marginalia" id="marginalia">
+  <span class="eyebrow">§ VI · Marginalia</span>
+  <h2 class="marginalia__heading">Things that have a way of being true.</h2>
+
+  <div class="marginalia__field">
+    {facts.map((fact, i) => (
+      <article class={`fact fact--${i % 4}`} style={`--i:${i}`}>
+        <span class="fact__quote" aria-hidden="true">"</span>
+        <p class="fact__text">{fact}</p>
+      </article>
+    ))}
+  </div>
+</section>
+
+<style>
+  .marginalia { background: var(--otb-white); color: var(--otb-black); }
+
+  .marginalia__heading {
+    font-size: clamp(1.75rem, 4.5vw, 3.5rem);
+    line-height: 1.05;
+    letter-spacing: var(--track-tight);
+    margin-bottom: clamp(2.5rem, 5vw, 4.5rem);
+    max-width: 28ch;
+  }
+
+  .marginalia__field {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: clamp(1.25rem, 2.5vw, 2.25rem);
+    align-items: start;
+  }
+
+  .fact {
+    position: relative;
+    padding: 1.5rem 1.5rem 1.4rem;
+    background: var(--otb-white);
+    border: 1px solid var(--otb-black);
+    will-change: transform;
+    animation: fact-drift 9s ease-in-out infinite;
+    animation-delay: calc(var(--i) * -0.85s);
+    transform-origin: center;
+    transition: transform 220ms ease, box-shadow 220ms ease, z-index 0s linear 220ms;
+  }
+  .fact:nth-child(odd)  { animation-duration: 11s; }
+  .fact:nth-child(3n)   { animation-duration: 8s; }
+  .fact:nth-child(5n)   { animation-duration: 13s; }
+
+  /* slight base rotation per group so cards don't sit on a grid line */
+  .fact--0 { transform: rotate(-1.6deg) translateY(0); }
+  .fact--1 { transform: rotate(1.4deg)  translateY(8px); }
+  .fact--2 { transform: rotate(-0.8deg) translateY(-4px); }
+  .fact--3 { transform: rotate(2deg)    translateY(12px); }
+
+  .fact:hover,
+  .fact:focus-within {
+    animation-play-state: paused;
+    transform: rotate(0deg) translateY(0) scale(1.02);
+    box-shadow: 0 14px 28px -18px rgba(0,0,0,0.35);
+    z-index: 5;
+    transition: transform 260ms cubic-bezier(0.2, 0.7, 0.2, 1),
+                box-shadow 260ms ease,
+                z-index 0s linear 0s;
+  }
+
+  .fact__quote {
+    position: absolute;
+    top: -0.35rem;
+    left: 0.75rem;
+    font-family: 'NHaas Display';
+    font-weight: 400;
+    font-size: 3.4rem;
+    color: var(--accent);
+    line-height: 1;
+    user-select: none;
+  }
+
+  .fact__text {
+    margin: 0;
+    font-family: 'NHaas Display';
+    font-weight: 300;
+    font-size: clamp(1.05rem, 1.5vw, 1.25rem);
+    line-height: 1.32;
+    letter-spacing: var(--track-tight);
+    color: var(--otb-black);
+  }
+
+  @keyframes fact-drift {
+    0%   { transform: rotate(var(--rot, -1.6deg)) translateY(0); }
+    50%  { transform: rotate(var(--rot, -1.6deg)) translateY(-6px); }
+    100% { transform: rotate(var(--rot, -1.6deg)) translateY(0); }
+  }
+
+  .fact--0 { --rot: -1.6deg; }
+  .fact--1 { --rot: 1.4deg; }
+  .fact--2 { --rot: -0.8deg; }
+  .fact--3 { --rot: 2deg; }
+
+  @media (prefers-reduced-motion: reduce) {
+    .fact {
+      animation: none !important;
+    }
+  }
+</style>

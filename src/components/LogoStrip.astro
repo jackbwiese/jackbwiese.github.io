@@ -1,0 +1,122 @@
+---
+const {
+  logos = [],
+  eyebrow = '',
+  tail = 'And more.',
+  duration = 60,
+  invertLogos = false,
+  reverse = false,
+} = Astro.props;
+---
+<section class={`lstrip ${invertLogos ? 'lstrip--invert-logos' : ''}`} aria-label={eyebrow}>
+  <div class="lstrip__header">
+    <span class="lstrip__eyebrow mono">{eyebrow}</span>
+    <span class="lstrip__tail mono">{tail}</span>
+  </div>
+  <div class={`lstrip__rail ${reverse ? 'lstrip__rail--reverse' : ''}`}>
+    <div class="lstrip__track" style={`animation-duration:${duration}s`}>
+      {Array.from({ length: 3 }).map(() => (
+        <ul class="lstrip__set">
+          {logos.map((logo) => (
+            <li class="lstrip__cell">
+              <img
+                src={logo.src}
+                alt={logo.alt || logo.name || ''}
+                loading="lazy"
+                draggable="false"
+              />
+            </li>
+          ))}
+        </ul>
+      ))}
+    </div>
+  </div>
+</section>
+
+<style>
+  .lstrip {
+    background: var(--otb-black);
+    color: var(--otb-white);
+    padding: clamp(2rem, 4vw, 3rem) 0 clamp(2rem, 4vw, 3rem);
+    border-top: 1px solid var(--rule);
+    border-bottom: 1px solid var(--rule);
+    overflow: hidden;
+  }
+  .lstrip__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 1rem;
+    padding: 0 var(--pad-x) clamp(1.25rem, 2.5vw, 2rem);
+  }
+  .lstrip__eyebrow { color: var(--accent); }
+  .lstrip__tail { color: var(--otb-mid-gray); }
+
+  .lstrip__rail {
+    width: 100%;
+    overflow: hidden;
+    mask-image: linear-gradient(
+      to right,
+      transparent 0,
+      black 6%,
+      black 94%,
+      transparent 100%
+    );
+    -webkit-mask-image: linear-gradient(
+      to right,
+      transparent 0,
+      black 6%,
+      black 94%,
+      transparent 100%
+    );
+  }
+  .lstrip__track {
+    display: inline-flex;
+    align-items: center;
+    animation: lstrip-scroll linear infinite;
+    will-change: transform;
+  }
+  .lstrip__rail--reverse .lstrip__track { animation-direction: reverse; }
+  .lstrip__rail:hover .lstrip__track { animation-play-state: paused; }
+
+  .lstrip__set {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+    align-items: center;
+    gap: clamp(2rem, 4vw, 4rem);
+    padding-right: clamp(2rem, 4vw, 4rem);
+    flex-shrink: 0;
+  }
+  .lstrip__cell {
+    flex-shrink: 0;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.85;
+    transition: opacity 180ms ease;
+  }
+  .lstrip__cell:hover { opacity: 1; }
+  .lstrip__cell img {
+    max-height: 100%;
+    width: auto;
+    object-fit: contain;
+  }
+
+  /* For black-on-transparent logos (brand strip), flip to white to sit on dark bg */
+  .lstrip--invert-logos .lstrip__cell img {
+    filter: invert(1) brightness(2);
+  }
+
+  @keyframes lstrip-scroll {
+    from { transform: translate3d(0, 0, 0); }
+    to   { transform: translate3d(calc(-100% / 3), 0, 0); }
+  }
+
+  @media (max-width: 760px) {
+    .lstrip__cell { height: 34px; }
+    .lstrip__set { gap: clamp(1.5rem, 5vw, 2.5rem); padding-right: clamp(1.5rem, 5vw, 2.5rem); }
+  }
+</style>
