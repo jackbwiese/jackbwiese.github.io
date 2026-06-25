@@ -4,15 +4,18 @@ import PoemReader from '../components/PoemReader.astro';
 import PensiveBoutsGallery from '../components/PensiveBoutsGallery.astro';
 
 const literature = [
-  'Cervantes — Don Quixote (FR · IT · ES)',
-  'Homer — Iliad, Odyssey',
-  'Shakespeare — the late tragedies',
-  'Tolstoy — War and Peace',
-  'Emerson — Self-Reliance',
-  'Kerouac — On the Road',
-  'Marcus Aurelius — Meditations',
-  'Dante — Divina Commedia',
-  '128+ books and counting.',
+  'Cervantes - Don Quixote',
+  'Homer - Iliad & Odyssey',
+  'Tolstoy - War and Peace',
+  'Shakespeare - the late tragedies',
+  'Emerson - Essays & Self-Reliance',
+  'Marcus Aurelius - Meditations',
+  'Dante - Divina Commedia',
+  'Dumas - The Three Musketeers',
+  'Kerouac - On the Road',
+  'Hemingway - For Whom the Bell Tolls',
+  'Chaucer - Canterbury Tales',
+  'Laclos - Les Liaisons Dangereuses',
 ];
 
 const history = [
@@ -50,9 +53,9 @@ const languages = ['EN', 'FR', 'ES', 'IT', 'DE', 'EL'];
   <div class="obsessions__grid">
     <article class="obsessions__col">
       <h3 class="obsessions__h">Literature</h3>
-      <ul class="obsessions__list">
-        {literature.map((l) => <li>{l}</li>)}
-      </ul>
+      <p class="obsessions__prose">
+        <span class="obsessions__lead">Some favorites:</span> {literature.join(', ')}.
+      </p>
     </article>
 
     <article class="obsessions__col">
@@ -184,6 +187,16 @@ const languages = ['EN', 'FR', 'ES', 'IT', 'DE', 'EL'];
   .obsessions__list li:last-child {
     color: var(--accent);
     padding-top: 0.5rem;
+    font-style: italic;
+  }
+  .obsessions__prose {
+    font-size: var(--scale-body);
+    line-height: 1.55;
+    color: var(--otb-light-gray);
+    margin: 0;
+  }
+  .obsessions__lead {
+    color: var(--accent);
     font-style: italic;
   }
   .lang-row {
