@@ -8,11 +8,11 @@ import LogoStrip from '../components/LogoStrip.astro';
 
 import Hero from '../sections/Hero.astro';
 import Manifesto from '../sections/Manifesto.astro';
+import Marginalia from '../sections/Marginalia.astro';
 import Vita from '../sections/Vita.astro';
 import Worldview from '../sections/Worldview.astro';
 import Arsenal from '../sections/Arsenal.astro';
 import Obsessions from '../sections/Obsessions.astro';
-import Marginalia from '../sections/Marginalia.astro';
 import CabinetDeCuriosites from '../sections/CabinetDeCuriosites.astro';
 import Correspondance from '../sections/Correspondance.astro';
 import Footer from '../sections/Footer.astro';
@@ -35,6 +35,15 @@ import { brands, publications } from '../data/logos.js';
   <Manifesto />
   <CityClockMarquee reverse={true} duration={48} />
 
+  <Marginalia />
+  <LogoStrip
+    logos={publications}
+    eyebrow="I work behind the scenes. My customers appear in:"
+    tail="And more."
+    duration={60}
+    reverse={true}
+  />
+
   <Vita />
   <SectionDivider />
 
@@ -45,15 +54,6 @@ import { brands, publications } from '../data/logos.js';
 
   <Obsessions />
   <CityClockMarquee reverse={true} duration={52} />
-
-  <Marginalia />
-  <LogoStrip
-    logos={publications}
-    eyebrow="I work behind the scenes. My customers appear in:"
-    tail="And more."
-    duration={60}
-    reverse={true}
-  />
 
   <CabinetDeCuriosites />
   <SectionDivider />
