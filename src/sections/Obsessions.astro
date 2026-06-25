@@ -19,15 +19,13 @@ const literature = [
 ];
 
 const history = [
-  'The Age of Sail · 1500-1850',
+  'The Age of Sail (1500-1850)',
   'Pirates of the Caribbean & Pacific',
   'Mediaeval Europe & Chivalric Orders',
-  'Ancient Greece + Rome',
-  'Revolutions: 1776 · 1789 · 1848 · 1917',
-  'Habsburg, Bourbon, Romanov',
+  'Ancient Greece & Rome',
+  'Revolutions of 1776 · 1789 · 1848 · 1917',
+  'Habsburgs · Bourbons · Romanovs',
   'Renaissance Florence',
-  'Edo Japan',
-  'Any period of profound paradigm shift.',
 ];
 
 const languages = ['EN', 'FR', 'ES', 'IT', 'DE', 'EL'];
@@ -60,9 +58,9 @@ const languages = ['EN', 'FR', 'ES', 'IT', 'DE', 'EL'];
 
     <article class="obsessions__col">
       <h3 class="obsessions__h">History</h3>
-      <ul class="obsessions__list">
-        {history.map((l) => <li>{l}</li>)}
-      </ul>
+      <p class="obsessions__prose">
+        <span class="obsessions__lead">Any period of profound paradigm shift:</span> {history.join(', ')}.
+      </p>
     </article>
 
     <article class="obsessions__col">
