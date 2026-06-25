@@ -26,12 +26,12 @@ import Typewriter from '../components/Typewriter.astro';
   </header>
 
   <div class="hero__center">
-    <p class="mono hero__eyebrow">Knight of the Crimson Bias · est. 2001</p>
     <h1 class="hero__name">
       <span class="hero__line"><Typewriter text="JACK (B.)" /></span>
       <span class="hero__line hero__line--accent"><Typewriter text="VON WIESE" /></span>
       <span class="hero__line"><Typewriter text="UND KAISERSWALDAU" /></span>
     </h1>
+    <p class="mono hero__est">EST. 2001</p>
     <div class="hero__motto">
       <LanguageToggle />
     </div>
@@ -95,8 +95,9 @@ import Typewriter from '../components/Typewriter.astro';
     width: 100%;
     z-index: 2;
   }
-  .hero__eyebrow {
+  .hero__est {
     color: var(--otb-mid-gray);
+    margin: 0;
   }
   .hero__name {
     font-family: 'NHaas Display';
