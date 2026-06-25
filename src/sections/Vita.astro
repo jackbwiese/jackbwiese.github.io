@@ -1,7 +1,7 @@
 ---
 ---
 <section class="section vita" id="vita">
-  <span class="eyebrow">§ V · Vita</span>
+  <span class="eyebrow">§ IV · Vita</span>
 
   <div class="bias-grid vita__grid">
     <figure class="vita__figure">
@@ -56,21 +56,6 @@
       </p>
     </div>
   </div>
-
-  <div class="vita__triptych" aria-label="Origins">
-    <figure class="vita__tri">
-      <img src="/images/young-dandy.jpg" alt="Jack as a child, Iowa" width="632" height="805" loading="lazy" />
-      <figcaption class="mono">i. <span class="accent">Iowa, c. 2008.</span> Already dressing for the part.</figcaption>
-    </figure>
-    <figure class="vita__tri">
-      <img src="/images/buy-back-farm.jpg" alt="The Wiese family farm in Iowa" width="682" height="881" loading="lazy" />
-      <figcaption class="mono">ii. <span class="accent">The farm we lost.</span> 200 years of getting it out of the dirt.</figcaption>
-    </figure>
-    <figure class="vita__tri">
-      <img src="/images/jack-at-magic.jpg" alt="Jack at MAGIC trade show" width="640" height="831" loading="lazy" />
-      <figcaption class="mono">iii. <span class="accent">Today.</span> Same kid. Bigger floor.</figcaption>
-    </figure>
-  </div>
 </section>
 
 <style>
@@ -117,35 +102,4 @@
     border-top: 1px solid var(--rule);
   }
   .vita__thesis strong { color: var(--accent); }
-
-  .vita__triptych {
-    margin-top: clamp(3rem, 6vw, 5rem);
-    padding-top: clamp(2rem, 4vw, 3rem);
-    border-top: 1px solid var(--rule);
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: clamp(1rem, 2.5vw, 2.5rem);
-  }
-  @media (max-width: 760px) {
-    .vita__triptych { grid-template-columns: 1fr; }
-  }
-  .vita__tri {
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    gap: 0.6rem;
-  }
-  .vita__tri img {
-    width: 100%;
-    aspect-ratio: 3 / 4;
-    object-fit: cover;
-    filter: grayscale(0.2) contrast(1.06) brightness(0.94);
-  }
-  .vita__tri figcaption {
-    color: var(--otb-mid-gray);
-    line-height: 1.4;
-  }
-  .vita__tri figcaption .accent {
-    color: var(--accent);
-  }
 </style>

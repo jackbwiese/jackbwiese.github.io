@@ -5,6 +5,7 @@ import CityClockMarquee from '../components/CityClockMarquee.astro';
 import EasterEgg from '../components/EasterEgg.astro';
 import SectionDivider from '../components/SectionDivider.astro';
 import LogoStrip from '../components/LogoStrip.astro';
+import OriginsTriptych from '../components/OriginsTriptych.astro';
 
 import Hero from '../sections/Hero.astro';
 import Manifesto from '../sections/Manifesto.astro';
@@ -47,13 +48,14 @@ import { brands, publications } from '../data/logos.js';
   <CityClockMarquee reverse={true} duration={48} />
 
   <Worldview />
-  <CityClockMarquee />
-
-  <Arsenal />
   <SectionDivider />
 
   <Vita />
-  <SectionDivider thick={true} />
+  <CityClockMarquee />
+
+  <Arsenal />
+
+  <OriginsTriptych />
 
   <Obsessions />
   <CityClockMarquee reverse={true} duration={52} />
