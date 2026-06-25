@@ -96,9 +96,6 @@ const tiles = [
         </h3>
         <p class="tile__role mono">{t.role}</p>
         <p class="tile__body">{t.body}</p>
-        <ul class="tile__metrics">
-          {t.metrics.map((m) => <li class="mono">— {m}</li>)}
-        </ul>
       </article>
     ))}
   </div>
@@ -162,14 +159,5 @@ const tiles = [
     font-size: var(--scale-body);
     line-height: 1.5;
     margin: 0;
-  }
-  .tile__metrics {
-    list-style: none;
-    padding: 0;
-    margin: auto 0 0;
-    display: flex;
-    flex-direction: column;
-    gap: 0.2rem;
-    color: var(--otb-mid-gray);
   }
 </style>
