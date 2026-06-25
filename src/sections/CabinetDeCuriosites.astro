@@ -62,11 +62,18 @@ const collections = [
     color: var(--otb-black);
   }
   .cabinet__heading {
-    font-size: clamp(1.75rem, 4.5vw, 3.5rem);
+    font-size: clamp(1.5rem, 3.6vw, 3rem);
     line-height: 1.05;
     letter-spacing: var(--track-tight);
     margin-bottom: clamp(2.5rem, 5vw, 4.5rem);
-    max-width: 24ch;
+    max-width: none;
+    white-space: nowrap;
+  }
+  @media (max-width: 640px) {
+    .cabinet__heading {
+      white-space: normal;
+      font-size: clamp(1.5rem, 6vw, 2.4rem);
+    }
   }
   .cabinet__quad {
     display: grid;
