@@ -16,6 +16,7 @@ const repeats = 6;
   class={`cmarquee ${invert ? 'cmarquee--invert' : ''} ${reverse ? 'cmarquee--reverse' : ''}`}
   aria-hidden="true"
   data-cities={JSON.stringify(cities)}
+  translate="no"
 >
   <div class="cmarquee__track" style={`animation-duration:${duration}s`}>
     {Array.from({ length: repeats }).map((_, r) => (
