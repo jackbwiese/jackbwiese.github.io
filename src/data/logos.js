@@ -18,7 +18,6 @@ export const brands = [
   { name: 'Off-White',           src: '/images/brands/off-white.png',    width: 167, height: 30, minW: 180 },
   { name: 'VF Brands',           src: '/images/brands/vf-brands.png',    width: 60,  height: 60, minW: 80 },
   { name: 'Abercrombie & Fitch', src: '/images/brands/abercrombie.png',  width: 150, height: 32 },
-  { name: 'H&M',                 src: '/images/brands/hm.png',           width: 70,  height: 46, minW: 84 },
 ];
 
 // Publications Jack's clients have appeared in.
@@ -37,10 +36,6 @@ export const publications = [
   { name: 'Hypebeast',             src: '/images/publications/hypebeast.png',       width: 200, height: 26 },
   { name: 'Highsnobiety',          src: '/images/publications/highsnobiety.png',    width: 180, height: 31 },
   { name: 'Complex',               src: '/images/publications/complex.png',         width: 140, height: 36 },
-  { name: 'Berlin Fashion Week',   src: '/images/publications/berlin-fw.png',       width: 80,  height: 51, minW: 90 },
-  { name: 'Kaltblut',              src: '/images/publications/kaltblut.png',        width: 160, height: 27 },
-  { name: 'Culted',                src: '/images/publications/culted.png',          width: 100, height: 42 },
-  { name: 'The Secret NYC',        src: '/images/publications/the-secret-nyc.png',  width: 130, height: 44 },
   { name: 'Nonno',                 src: '/images/publications/nonno.png',           width: 150, height: 26 },
   { name: 'Yahoo',                 src: '/images/publications/yahoo.png',           width: 120, height: 34 },
 ];
