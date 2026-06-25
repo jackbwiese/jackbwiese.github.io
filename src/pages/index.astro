@@ -22,6 +22,8 @@ import { brands, publications } from '../data/logos.js';
 <Base>
   <Cursor />
 
+  <CityClockMarquee />
+
   <Hero />
   <LogoStrip
     logos={brands}
@@ -31,6 +33,8 @@ import { brands, publications } from '../data/logos.js';
     invertLogos={true}
     duration={50}
   />
+
+  <Manifesto />
   <LogoStrip
     logos={publications}
     eyebrow="I work behind the scenes. My clients appear in:"
@@ -38,9 +42,6 @@ import { brands, publications } from '../data/logos.js';
     duration={60}
     reverse={true}
   />
-
-  <Manifesto />
-  <CityClockMarquee reverse={true} duration={48} />
 
   <Marginalia />
 
