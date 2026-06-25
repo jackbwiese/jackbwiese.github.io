@@ -4,7 +4,7 @@ const {
   eyebrow = '',
   subEyebrow = '',
   tail = 'And more.',
-  duration = 60,
+  duration = 50,
   invertLogos = false,
   reverse = false,
 } = Astro.props;
@@ -22,10 +22,12 @@ const {
       {Array.from({ length: 3 }).map(() => (
         <ul class="lstrip__set">
           {logos.map((logo) => (
-            <li class="lstrip__cell">
+            <li class="lstrip__cell" style={`min-width:${logo.minW ?? 140}px`}>
               <img
                 src={logo.src}
                 alt={logo.alt || logo.name || ''}
+                width={logo.width}
+                height={logo.height}
                 loading="lazy"
                 draggable="false"
               />
@@ -100,17 +102,18 @@ const {
     padding: 0;
     display: inline-flex;
     align-items: center;
-    gap: clamp(2rem, 4vw, 4rem);
-    padding-right: clamp(2rem, 4vw, 4rem);
+    gap: 3rem;
+    padding-right: 3rem;
     flex-shrink: 0;
   }
   .lstrip__cell {
     flex-shrink: 0;
-    height: 44px;
+    height: 72px;
+    padding: 0 1rem;
     display: flex;
     align-items: center;
     justify-content: center;
-    opacity: 0.85;
+    opacity: 0.92;
     transition: opacity 180ms ease;
   }
   .lstrip__cell:hover { opacity: 1; }
@@ -131,7 +134,7 @@ const {
   }
 
   @media (max-width: 760px) {
-    .lstrip__cell { height: 34px; }
-    .lstrip__set { gap: clamp(1.5rem, 5vw, 2.5rem); padding-right: clamp(1.5rem, 5vw, 2.5rem); }
+    .lstrip__cell { height: 56px; padding: 0 0.5rem; }
+    .lstrip__set { gap: 2rem; padding-right: 2rem; }
   }
 </style>
