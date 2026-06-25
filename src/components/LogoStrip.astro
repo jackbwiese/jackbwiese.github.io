@@ -2,6 +2,7 @@
 const {
   logos = [],
   eyebrow = '',
+  subEyebrow = '',
   tail = 'And more.',
   duration = 60,
   invertLogos = false,
@@ -10,7 +11,10 @@ const {
 ---
 <section class={`lstrip ${invertLogos ? 'lstrip--invert-logos' : ''}`} aria-label={eyebrow}>
   <div class="lstrip__header">
-    <span class="lstrip__eyebrow mono">{eyebrow}</span>
+    <div class="lstrip__eyebrow-block">
+      <span class="lstrip__eyebrow mono">{eyebrow}</span>
+      {subEyebrow && <span class="lstrip__sub mono">{subEyebrow}</span>}
+    </div>
     <span class="lstrip__tail mono">{tail}</span>
   </div>
   <div class={`lstrip__rail ${reverse ? 'lstrip__rail--reverse' : ''}`}>
@@ -49,7 +53,18 @@ const {
     gap: 1rem;
     padding: 0 var(--pad-x) clamp(1.25rem, 2.5vw, 2rem);
   }
+  .lstrip__eyebrow-block {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+  }
   .lstrip__eyebrow { color: var(--accent); }
+  .lstrip__sub {
+    color: var(--otb-mid-gray);
+    text-transform: none;
+    letter-spacing: var(--track-base);
+    font-size: calc(var(--scale-mono) * 0.95);
+  }
   .lstrip__tail { color: var(--otb-mid-gray); }
 
   .lstrip__rail {
