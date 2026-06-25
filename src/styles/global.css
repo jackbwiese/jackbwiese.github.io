@@ -154,3 +154,11 @@ img {
     font-size: 16px;
   }
 }
+
+.vita-epigraph {
+  background: var(--otb-black);
+  color: var(--otb-mid-gray);
+  text-align: center;
+  margin: 0;
+  padding: clamp(2rem, 4vw, 3rem) var(--pad-x) clamp(1rem, 2vw, 1.5rem);
+}
