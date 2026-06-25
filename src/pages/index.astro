@@ -31,18 +31,18 @@ import { brands, publications } from '../data/logos.js';
     invertLogos={true}
     duration={50}
   />
+  <LogoStrip
+    logos={publications}
+    eyebrow="I work behind the scenes. My clients appear in:"
+    tail="And more."
+    duration={60}
+    reverse={true}
+  />
 
   <Manifesto />
   <CityClockMarquee reverse={true} duration={48} />
 
   <Marginalia />
-  <LogoStrip
-    logos={publications}
-    eyebrow="I work behind the scenes. My customers appear in:"
-    tail="And more."
-    duration={60}
-    reverse={true}
-  />
 
   <Vita />
   <SectionDivider />
