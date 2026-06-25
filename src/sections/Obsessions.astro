@@ -240,6 +240,7 @@ const languages = ['EN', 'FR', 'ES', 'IT', 'DE', 'EL'];
 
   .obsessions__hero {
     margin: 0 0 clamp(3rem, 6vw, 5rem);
+    max-width: min(560px, 55%);
     position: relative;
   }
   .obsessions__hero img {
@@ -247,6 +248,9 @@ const languages = ['EN', 'FR', 'ES', 'IT', 'DE', 'EL'];
     width: 100%;
     height: auto;
     filter: contrast(1.05);
+  }
+  @media (max-width: 760px) {
+    .obsessions__hero { max-width: 100%; }
   }
   .obsessions__hero figcaption {
     margin-top: 0.85rem;
