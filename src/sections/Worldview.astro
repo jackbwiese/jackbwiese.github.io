@@ -1,25 +1,16 @@
 ---
-const theses = [
-  {
-    n: '01',
-    title: 'Technology should free humanity to make.',
-    body: 'The printing press freed reading. The loom freed weaving. Software freed writing. The next layer does not replace the creator - it removes the secretarial labor between a vision and its realization. The result is not fewer artists but a civilization of them. Humankind was born to create.',
-  },
-  {
-    n: '02',
-    title: 'Dream the impossible dream. Live it voraciously.',
-    body: 'Don Quixote tilted at windmills because the dream was bigger than the wind. The dream is always bigger than the wind. Dream past what they say can be done. Find the biggest windmill on your horizon, the one that gives you the most fear, but elicits the most excitement in your heart, and charge at it with full speed and courage.',
-  },
-];
+import { t, tArr } from '../i18n/t.js';
+const L = Astro.currentLocale;
+const theses = tArr(L, 'worldview.theses');
 ---
 <section class="section worldview" id="worldview">
-  <span class="eyebrow">§ III · Worldview</span>
+  <span class="eyebrow">{t(L, 'worldview.eyebrow')}</span>
   <div class="worldview__grid">
-    {theses.map((t) => (
+    {theses.map((thesis, i) => (
       <article class="worldview__col">
-        <span class="worldview__n">{t.n}</span>
-        <h3 class="worldview__h">{t.title}</h3>
-        <p class="worldview__body">{t.body}</p>
+        <span class="worldview__n">{String(i + 1).padStart(2, '0')}</span>
+        <h3 class="worldview__h">{thesis.title}</h3>
+        <p class="worldview__body">{thesis.body}</p>
       </article>
     ))}
   </div>

@@ -1,0 +1,106 @@
+---
+import Base from '../../layouts/Base.astro';
+import Cursor from '../../components/Cursor.astro';
+import CityClockMarquee from '../../components/CityClockMarquee.astro';
+import EasterEgg from '../../components/EasterEgg.astro';
+import SectionDivider from '../../components/SectionDivider.astro';
+import LogoStrip from '../../components/LogoStrip.astro';
+import OriginsTriptych from '../../components/OriginsTriptych.astro';
+import LanguagePicker from '../../components/LanguagePicker.astro';
+
+import Hero from '../../sections/Hero.astro';
+import Manifesto from '../../sections/Manifesto.astro';
+import Marginalia from '../../sections/Marginalia.astro';
+import Vita from '../../sections/Vita.astro';
+import Worldview from '../../sections/Worldview.astro';
+import Arsenal from '../../sections/Arsenal.astro';
+import Obsessions from '../../sections/Obsessions.astro';
+import CabinetDeCuriosites from '../../sections/CabinetDeCuriosites.astro';
+import Correspondance from '../../sections/Correspondance.astro';
+import Footer from '../../sections/Footer.astro';
+
+import { brands, publications } from '../../data/logos.js';
+import { t } from '../../i18n/t.js';
+
+export function getStaticPaths() {
+  return [
+    { params: { lang: 'es' } },
+    { params: { lang: 'fr' } },
+    { params: { lang: 'it' } },
+    { params: { lang: 'de' } },
+    { params: { lang: 'pt' } },
+    { params: { lang: 'nl' } },
+    { params: { lang: 'hi' } },
+    { params: { lang: 'tr' } },
+    { params: { lang: 'ar' } },
+    { params: { lang: 'ko' } },
+    { params: { lang: 'zh-cn' } },
+    { params: { lang: 'ja' } },
+    { params: { lang: 'ru' } },
+    { params: { lang: 'zh-tw' } },
+    { params: { lang: 'vi' } },
+    { params: { lang: 'id' } },
+  ];
+}
+
+const L = Astro.currentLocale || Astro.params.lang;
+---
+<Base
+  title={t(L, 'meta.title')}
+  description={t(L, 'meta.description')}
+  canonical={`https://jackbwiese.github.io/${L}/`}
+  lang={L}
+>
+  <Cursor />
+  <LanguagePicker />
+
+  <CityClockMarquee />
+
+  <Hero />
+  <LogoStrip
+    logos={brands}
+    eyebrow={t(L, 'brandStrip.eyebrow')}
+    subEyebrow={t(L, 'brandStrip.subEyebrow')}
+    tail={t(L, 'brandStrip.tail')}
+    invertLogos={true}
+    duration={50}
+  />
+
+  <Manifesto />
+  <LogoStrip
+    logos={publications}
+    eyebrow={t(L, 'pubStrip.eyebrow')}
+    tail={t(L, 'pubStrip.tail')}
+    duration={60}
+    reverse={true}
+  />
+
+  <Marginalia />
+
+  <Worldview />
+  <SectionDivider />
+
+  <p class="vita-epigraph mono">
+    <span aria-hidden="true">"</span>{t(L, 'vita.epigraph')}<span aria-hidden="true">"</span>
+  </p>
+
+  <Vita />
+  <CityClockMarquee />
+
+  <Arsenal />
+
+  <OriginsTriptych />
+
+  <Obsessions />
+  <CityClockMarquee reverse={true} duration={52} />
+
+  <CabinetDeCuriosites />
+  <SectionDivider />
+
+  <Correspondance />
+  <CityClockMarquee />
+
+  <Footer />
+
+  <EasterEgg />
+</Base>

@@ -7,10 +7,12 @@ const {
   title = 'Jack (B.) von Wiese und Kaiserswaldau',
   description = 'Founder. Knight. Pirate. Dandy. Worldbuilder. Founder + CEO of ONTHEBIAS.',
   canonical = 'https://jackbwiese.github.io/',
+  lang = 'en',
 } = Astro.props;
+const isRTL = lang === 'ar' || lang === 'fa' || lang === 'he';
 ---
 <!doctype html>
-<html lang="en">
+<html lang={lang} dir={isRTL ? 'rtl' : 'ltr'}>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />

@@ -11,13 +11,17 @@ const languages = [
   { code: 'tr',    label: 'TR', name: 'Türkçe' },
   { code: 'ar',    label: 'AR', name: 'العربية' },
   { code: 'ko',    label: 'KO', name: '한국어' },
-  { code: 'zh-CN', label: 'ZH', name: '中文' },
+  { code: 'zh-cn', label: 'ZH', name: '中文' },
   { code: 'ja',    label: 'JA', name: '日本語' },
   { code: 'ru',    label: 'RU', name: 'Русский' },
-  { code: 'zh-TW', label: 'ZH', name: '繁體中文' },
+  { code: 'zh-tw', label: 'ZH', name: '繁體中文' },
   { code: 'vi',    label: 'VI', name: 'Tiếng Việt' },
   { code: 'id',    label: 'ID', name: 'Bahasa Indonesia' },
 ];
+
+// Determine current locale from URL at build time. Astro.currentLocale gives the active locale.
+const L = (Astro.currentLocale || 'en').toLowerCase();
+const current = languages.find((l) => l.code === L) || languages[0];
 ---
 <div class="lp" data-lp translate="no">
   <button
@@ -28,7 +32,7 @@ const languages = [
     aria-expanded="false"
     aria-label="Change language"
   >
-    <span data-lp-current>EN</span>
+    <span data-lp-current>{current.label}</span>
     <svg viewBox="0 0 10 6" width="10" height="6" aria-hidden="true">
       <polyline points="1,1 5,5 9,1" fill="none" stroke="currentColor" stroke-width="1.5" />
     </svg>
@@ -37,16 +41,15 @@ const languages = [
   <ul class="lp__menu" data-lp-menu role="listbox" aria-label="Languages" hidden>
     {languages.map((l) => (
       <li>
-        <button
-          type="button"
-          class="lp__item"
+        <a
+          class={`lp__item ${l.code === current.code ? 'lp__item--active' : ''}`}
           role="option"
-          data-lp-lang={l.code}
-          data-lp-label={l.label}
+          href={l.code === 'en' ? '/' : `/${l.code}/`}
+          aria-selected={l.code === current.code ? 'true' : 'false'}
         >
           <span class="lp__code mono">{l.label}</span>
           <span class="lp__name">{l.name}</span>
-        </button>
+        </a>
       </li>
     ))}
   </ul>
@@ -100,7 +103,6 @@ const languages = [
   .lp__menu::-webkit-scrollbar-thumb { background: var(--accent); }
 
   .lp__item {
-    appearance: none;
     background: transparent;
     border: 0;
     width: 100%;
@@ -111,11 +113,12 @@ const languages = [
     align-items: baseline;
     gap: 0.85rem;
     cursor: pointer;
+    text-decoration: none;
     transition: background 120ms ease, color 120ms ease;
   }
   .lp__item:hover,
   .lp__item:focus-visible,
-  .lp__item[aria-selected="true"] {
+  .lp__item--active {
     background: rgba(227, 6, 19, 0.18);
     color: var(--otb-white);
   }
@@ -135,77 +138,16 @@ const languages = [
   }
 </style>
 
-<script type="application/json" id="lp-langs" set:html={JSON.stringify(languages)}></script>
-
 <script is:inline>
   (() => {
     const root = document.querySelector('[data-lp]');
     if (!root) return;
     const toggle = root.querySelector('[data-lp-toggle]');
     const menu = root.querySelector('[data-lp-menu]');
-    const curEl = root.querySelector('[data-lp-current]');
-
-    // Detect if we are already on a translate.goog mirror (URL contains '.translate.goog')
-    // and pull the current target language so the chip reflects it.
-    const detectActive = () => {
-      const host = window.location.hostname;
-      const m = host.match(/^([^.]+)\.translate\.goog$/i);
-      if (!m) {
-        // We are on the canonical site - language is English (or browser-native).
-        // Also pull from URL ?_x_tr_tl in case Google appended it.
-        const tl = new URLSearchParams(window.location.search).get('_x_tr_tl');
-        return tl || 'en';
-      }
-      // On a translated mirror, the current target language sits in the query string.
-      const tl = new URLSearchParams(window.location.search).get('_x_tr_tl');
-      return tl || 'en';
-    };
-
-    const currentCode = detectActive();
-    const langs = JSON.parse(document.getElementById('lp-langs').textContent);
-    const currentLang = langs.find((l) => l.code.toLowerCase() === currentCode.toLowerCase()) || langs[0];
-    if (curEl) curEl.textContent = currentLang.label;
-    if (currentCode === 'ar' || currentCode === 'fa' || currentCode === 'he') {
-      document.documentElement.setAttribute('dir', 'rtl');
-    }
-
     const open = () => { menu.hidden = false; toggle.setAttribute('aria-expanded', 'true'); };
     const close = () => { menu.hidden = true; toggle.setAttribute('aria-expanded', 'false'); };
-    toggle.addEventListener('click', (e) => {
-      e.stopPropagation();
-      menu.hidden ? open() : close();
-    });
-    document.addEventListener('click', (e) => {
-      if (!root.contains(e.target)) close();
-    });
-    document.addEventListener('keydown', (e) => {
-      if (e.key === 'Escape' && !menu.hidden) { close(); toggle.focus(); }
-    });
-
-    // Navigate to the translate.goog mirror of the canonical site for the chosen language.
-    // Reliable on every browser including mobile Safari - no widget, no DOM injection.
-    const CANONICAL = 'jackbwiese.github.io';
-    const CANONICAL_MIRROR = 'jackbwiese-github-io.translate.goog';
-    const goTo = (code) => {
-      const path = window.location.pathname + window.location.search.replace(/[?&]_x_tr_[^=]+=[^&]*/g, '').replace(/^&/, '?') + window.location.hash;
-      let url;
-      if (code === 'en') {
-        // English = canonical site
-        url = 'https://' + CANONICAL + path;
-      } else {
-        url = 'https://' + CANONICAL_MIRROR + path
-          + (path.includes('?') ? '&' : '?')
-          + '_x_tr_sl=en&_x_tr_tl=' + encodeURIComponent(code) + '&_x_tr_hl=en';
-      }
-      window.location.href = url;
-    };
-
-    root.querySelectorAll('[data-lp-lang]').forEach((btn) => {
-      btn.addEventListener('click', () => {
-        const code = btn.getAttribute('data-lp-lang');
-        goTo(code);
-        close();
-      });
-    });
+    toggle.addEventListener('click', (e) => { e.stopPropagation(); menu.hidden ? open() : close(); });
+    document.addEventListener('click', (e) => { if (!root.contains(e.target)) close(); });
+    document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && !menu.hidden) { close(); toggle.focus(); } });
   })();
 </script>

@@ -1,18 +1,24 @@
 ---
+import { t, tArr } from '../i18n/t.js';
+const L = Astro.currentLocale;
+const captions = tArr(L, 'triptych.captions');
+const numerals = tArr(L, 'triptych.numerals');
+
+const IMAGES = [
+  { src: '/images/young-dandy.jpg', alt: 'Jack as a child, Iowa', w: 632, h: 805 },
+  { src: '/images/buy-back-farm.jpg', alt: 'The Wiese family farm in Iowa', w: 682, h: 881 },
+  { src: '/images/jack-at-magic.jpg', alt: 'Jack at MAGIC trade show', w: 640, h: 831 },
+];
 ---
 <div class="triptych" aria-label="Origins">
-  <figure class="triptych__cell">
-    <img src="/images/young-dandy.jpg" alt="Jack as a child, Iowa" width="632" height="805" loading="lazy" />
-    <figcaption class="mono">i. <span class="accent">Lifelong dandy.</span></figcaption>
-  </figure>
-  <figure class="triptych__cell">
-    <img src="/images/buy-back-farm.jpg" alt="The Wiese family farm in Iowa" width="682" height="881" loading="lazy" />
-    <figcaption class="mono">ii. <span class="accent">Old family farm.</span> We ultimately lost it :(</figcaption>
-  </figure>
-  <figure class="triptych__cell">
-    <img src="/images/jack-at-magic.jpg" alt="Jack at MAGIC trade show" width="640" height="831" loading="lazy" />
-    <figcaption class="mono">iii. <span class="accent">Today.</span> Same kid. Bigger floor.</figcaption>
-  </figure>
+  {IMAGES.map((img, i) => (
+    <figure class="triptych__cell">
+      <img src={img.src} alt={img.alt} width={img.w} height={img.h} loading="lazy" />
+      <figcaption class="mono">
+        {numerals[i] || `${i+1}.`} <span class="accent">{captions[i]?.lead}</span>{captions[i]?.body ? ` ${captions[i].body}` : ''}
+      </figcaption>
+    </figure>
+  ))}
 </div>
 
 <style>

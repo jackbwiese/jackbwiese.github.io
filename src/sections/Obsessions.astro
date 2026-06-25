@@ -1,38 +1,16 @@
 ---
-import HoverReveal from '../components/HoverReveal.astro';
 import PoemReader from '../components/PoemReader.astro';
 import PensiveBoutsGallery from '../components/PensiveBoutsGallery.astro';
+import { t, tArr } from '../i18n/t.js';
 
-const literature = [
-  'Cervantes - Don Quixote',
-  'Homer - Iliad & Odyssey',
-  'Tolstoy - War and Peace',
-  'Shakespeare - the late tragedies',
-  'Emerson - Essays & Self-Reliance',
-  'Marcus Aurelius - Meditations',
-  'Dante - Divina Commedia',
-  'Dumas - The Three Musketeers',
-  'Kerouac - On the Road',
-  'Hemingway - For Whom the Bell Tolls',
-  'Chaucer - Canterbury Tales',
-  'Laclos - Les Liaisons Dangereuses',
-];
-
-const history = [
-  'The Age of Sail (1500-1850)',
-  'Pirates of the Caribbean & Pacific',
-  'Mediaeval Europe & Chivalric Orders',
-  'Ancient Greece & Rome',
-  'Revolutions of 1776 · 1789 · 1848 · 1917',
-  'Habsburgs · Bourbons · Romanovs',
-  'Renaissance Florence',
-];
-
+const L = Astro.currentLocale;
+const literature = tArr(L, 'obsessions.literature');
+const history = tArr(L, 'obsessions.history');
 const languages = ['EN', 'FR', 'ES', 'IT', 'DE', 'EL'];
 ---
 <section class="section obsessions" id="obsessions">
-  <span class="eyebrow">§ VI · Obsessions</span>
-  <h2 class="obsessions__heading">What I read, what I love, how I think.</h2>
+  <span class="eyebrow">{t(L, 'obsessions.eyebrow')}</span>
+  <h2 class="obsessions__heading">{t(L, 'obsessions.heading')}</h2>
 
   <figure class="obsessions__hero">
     <img
@@ -43,33 +21,33 @@ const languages = ['EN', 'FR', 'ES', 'IT', 'DE', 'EL'];
       loading="lazy"
     />
     <figcaption class="mono">
-      <span class="accent">Don Quijote:</span>
-      The patron saint of dreaming large and taking bold actions towards those dreams.
+      <span class="accent" translate="no">{t(L, 'obsessions.paintingCaptionLead')}</span>
+      {t(L, 'obsessions.paintingCaption')}
     </figcaption>
   </figure>
 
   <div class="obsessions__grid">
     <article class="obsessions__col">
-      <h3 class="obsessions__h">Literature</h3>
+      <h3 class="obsessions__h">{t(L, 'obsessions.literatureHeader')}</h3>
       <p class="obsessions__prose">
-        <span class="obsessions__lead">Some favorites:</span> {literature.join(', ')}.
+        <span class="obsessions__lead">{t(L, 'obsessions.literatureLead')}</span> {literature.join(', ')}.
       </p>
     </article>
 
     <article class="obsessions__col">
-      <h3 class="obsessions__h">History</h3>
+      <h3 class="obsessions__h">{t(L, 'obsessions.historyHeader')}</h3>
       <p class="obsessions__prose">
-        <span class="obsessions__lead">Any period of profound paradigm shift:</span> {history.join(', ')}.
+        <span class="obsessions__lead">{t(L, 'obsessions.historyLead')}</span> {history.join(', ')}.
       </p>
     </article>
 
     <article class="obsessions__col">
-      <h3 class="obsessions__h">Languages</h3>
+      <h3 class="obsessions__h">{t(L, 'obsessions.languagesHeader')}</h3>
       <div class="lang-row">
-        {languages.map((l) => <span class="lang-chip">{l}</span>)}
+        {languages.map((l) => <span class="lang-chip" translate="no">{l}</span>)}
       </div>
       <p class="obsessions__caption mono">
-        Lifetime goal: <span class="accent">twelve</span>.
+        {t(L, 'obsessions.languagesGoalPrefix')} <span class="accent">{t(L, 'obsessions.languagesGoalWord')}</span>{t(L, 'obsessions.languagesGoalPunct')}
       </p>
     </article>
   </div>
@@ -77,27 +55,25 @@ const languages = ['EN', 'FR', 'ES', 'IT', 'DE', 'EL'];
   <hr class="rule" />
 
   <div class="obsessions__art">
-    <p class="eyebrow">Making, beyond the desk</p>
+    <p class="eyebrow">{t(L, 'obsessions.makingHeader')}</p>
     <p class="obsessions__art-lede">
-      Sculpture, painting, dance, running, learning languages, travel: some of my favorite
-      activities!
+      {t(L, 'obsessions.makingBody')}
     </p>
   </div>
 
   <hr class="rule" />
 
   <div class="obsessions__words">
-    <p class="eyebrow">In other forms</p>
+    <p class="eyebrow">{t(L, 'obsessions.inOtherFormsLabel')}</p>
     <div class="obsessions__words-grid">
       <article class="word-card">
         <header class="word-card__head">
           <span class="word-card__n mono">i.</span>
-          <span class="word-card__kind mono">Writings</span>
+          <span class="word-card__kind mono">{t(L, 'obsessions.writingsKind')}</span>
         </header>
-        <h3 class="word-card__title">A Series of Poems About Someone Who Will Never Read Them</h3>
+        <h3 class="word-card__title">{t(L, 'obsessions.writingsTitle')}</h3>
         <p class="word-card__body">
-          An ongoing series. A testament addressed to a reader who is not watching -
-          to remember the people whose impact persisted long after their presence faded.
+          {t(L, 'obsessions.writingsBody')}
         </p>
         <blockquote class="word-card__excerpt">
           <p>
@@ -107,7 +83,7 @@ const languages = ['EN', 'FR', 'ES', 'IT', 'DE', 'EL'];
             And though you may never read this series of poems,<br />
             I hope you somehow know, thanks to you with myself I can now feel at home."
           </p>
-          <footer class="mono">from <em>Grow Up, Forget!</em></footer>
+          <footer class="mono">{t(L, 'obsessions.grewUpForget')} <em>Grow Up, Forget!</em></footer>
         </blockquote>
         <PoemReader />
       </article>
@@ -115,14 +91,13 @@ const languages = ['EN', 'FR', 'ES', 'IT', 'DE', 'EL'];
       <article class="word-card">
         <header class="word-card__head">
           <span class="word-card__n mono">ii.</span>
-          <span class="word-card__kind mono">Sound</span>
+          <span class="word-card__kind mono">{t(L, 'obsessions.soundKind')}</span>
         </header>
         <h3 class="word-card__title">
-          <a href="https://www.youtube.com/@pensivebouts" rel="noopener" target="_blank">Pensive Bouts ↗</a>
+          <a href="https://www.youtube.com/@pensivebouts" rel="noopener" target="_blank" translate="no">{t(L, 'obsessions.soundTitle')} ↗</a>
         </h3>
         <p class="word-card__body">
-          For a brief season I kept an auditory journal under the moniker
-          <em>Pensive Bouts</em>. Quiet hours, recorded out loud. A parenthesis.
+          {t(L, 'obsessions.soundBody')}
         </p>
         <PensiveBoutsGallery />
       </article>
@@ -228,12 +203,6 @@ const languages = ['EN', 'FR', 'ES', 'IT', 'DE', 'EL'];
     letter-spacing: var(--track-tight);
     max-width: 40ch;
     color: var(--otb-white);
-  }
-  .obsessions__art-lede :global(.hover-reveal) {
-    color: var(--accent);
-    text-decoration: underline;
-    text-decoration-color: var(--accent);
-    text-underline-offset: 4px;
   }
 
   .obsessions__hero {

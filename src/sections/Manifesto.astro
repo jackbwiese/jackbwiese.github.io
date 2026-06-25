@@ -1,17 +1,18 @@
 ---
+import { t } from '../i18n/t.js';
+const L = Astro.currentLocale;
 ---
 <section class="section section--invert manifesto" id="manifesto">
-  <span class="eyebrow">§ I · Manifesto</span>
+  <span class="eyebrow">{t(L, 'manifesto.eyebrow')}</span>
 
   <div class="manifesto__inner">
     <h2 class="manifesto__lede">
-      A <span class="accent" translate="no">fabulator qui coniungit</span>: a storyteller who joins things together.
+      {t(L, 'manifesto.ledePrefix')} <span class="accent" translate="no">fabulator qui coniungit</span>{t(L, 'manifesto.ledeSuffix')}
     </h2>
 
     <p class="manifesto__purpose">
-      I am on this earth to <span class="accent">proliferate creativity and introspection</span> for mankind.
-      To make every person on earth a creator. To set in motion a
-      <span class="accent">global human renaissance</span>.
+      {t(L, 'manifesto.purposeP1')} <span class="accent">{t(L, 'manifesto.purposeAccent1')}</span> {t(L, 'manifesto.purposeP2')}
+      <span class="accent">{t(L, 'manifesto.purposeAccent2')}</span>{t(L, 'manifesto.purposeP3')}
     </p>
   </div>
 </section>

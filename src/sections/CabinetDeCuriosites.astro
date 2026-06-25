@@ -1,47 +1,21 @@
 ---
-const collections = [
-  {
-    n: '01',
-    title: 'Antique tapestries',
-    era: '15th – 18th century',
-    note: 'Flemish, Aubusson, Gobelins. Mythological, hunting, allegorical. Forming a collection.',
-    glyph: '◇',
-  },
-  {
-    n: '02',
-    title: 'Historic arms + armour',
-    era: '14th – 18th century',
-    note: 'European arms of the chivalric and early-modern eras. Rapiers, helms, partial harnesses. Forming a collection.',
-    glyph: '⚔',
-  },
-  {
-    n: '03',
-    title: 'Antique maps',
-    era: '15th – 19th century',
-    note: 'Mercator, Blaeu, Ortelius. Maps of empire, exploration, lost geographies. Forming a collection.',
-    glyph: '✦',
-  },
-  {
-    n: '04',
-    title: 'Historic + significant garments',
-    era: '14th century – modern',
-    note: 'Pieces that mark moments where dress became language. Forming a collection.',
-    glyph: '⌬',
-  },
-];
+import { t, tArr } from '../i18n/t.js';
+const L = Astro.currentLocale;
+const collections = tArr(L, 'cabinet.collections');
+const GLYPHS = ['◇', '⚔', '✦', '⌬'];
 ---
 <section class="section section--invert cabinet" id="cabinet">
-  <span class="eyebrow">§ VII · Cabinet de Curiosités</span>
+  <span class="eyebrow">{t(L, 'cabinet.eyebrow')}</span>
   <h2 class="cabinet__heading">
-    Four personal collections, slowly being assembled.
+    {t(L, 'cabinet.heading')}
   </h2>
 
   <div class="cabinet__quad">
-    {collections.map((c) => (
+    {collections.map((c, i) => (
       <article class="cabinet__cell">
         <div class="cabinet__head">
-          <span class="cabinet__n mono">{c.n}</span>
-          <span class="cabinet__glyph" aria-hidden="true">{c.glyph}</span>
+          <span class="cabinet__n mono">{String(i + 1).padStart(2, '0')}</span>
+          <span class="cabinet__glyph" aria-hidden="true">{GLYPHS[i] || '◇'}</span>
         </div>
         <h3 class="cabinet__title">{c.title}</h3>
         <p class="cabinet__era mono">{c.era}</p>
@@ -62,18 +36,11 @@ const collections = [
     color: var(--otb-black);
   }
   .cabinet__heading {
-    font-size: clamp(1.5rem, 3.6vw, 3rem);
-    line-height: 1.05;
+    font-size: clamp(1.5rem, 3.4vw, 2.75rem);
+    line-height: 1.1;
     letter-spacing: var(--track-tight);
     margin-bottom: clamp(2.5rem, 5vw, 4.5rem);
-    max-width: none;
-    white-space: nowrap;
-  }
-  @media (max-width: 640px) {
-    .cabinet__heading {
-      white-space: normal;
-      font-size: clamp(1.5rem, 6vw, 2.4rem);
-    }
+    max-width: 36ch;
   }
   .cabinet__quad {
     display: grid;

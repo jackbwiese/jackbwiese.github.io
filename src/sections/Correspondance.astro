@@ -1,41 +1,43 @@
 ---
+import { t } from '../i18n/t.js';
+const L = Astro.currentLocale;
 ---
 <section class="section correspondance" id="write">
-  <span class="eyebrow">§ VIII · En Correspondance</span>
+  <span class="eyebrow">{t(L, 'contact.eyebrow')}</span>
 
   <h2 class="correspondance__heading">
-    <span class="accent">Contact.</span>
+    <span class="accent">{t(L, 'contact.heading')}</span>
   </h2>
 
   <div class="correspondance__body">
-    <a href="mailto:jack@onthebias.co" class="correspondance__primary">
-      jack@onthebias.co
+    <a href="mailto:jack@onthebias.co" class="correspondance__primary" translate="no">
+      {t(L, 'contact.primary')}
     </a>
 
     <a href="https://calendly.com/otbjack/jack-b-wiese" rel="noopener" target="_blank" class="correspondance__cta mono">
-      Book a meeting →
+      {t(L, 'contact.cta')}
     </a>
 
     <ul class="correspondance__links">
       <li>
         <a href="https://www.linkedin.com/in/jackbwiese/" rel="noopener" target="_blank">
-          <span class="mono">LinkedIn</span> jackbwiese
+          <span class="mono">{t(L, 'contact.linkedinLabel')}</span> <span translate="no">jackbwiese</span>
         </a>
       </li>
       <li>
         <a href="https://www.instagram.com/jackbwiese/" rel="noopener" target="_blank">
-          <span class="mono">Instagram</span> @jackbwiese
+          <span class="mono">{t(L, 'contact.instagramLabel')}</span> <span translate="no">@jackbwiese</span>
         </a>
       </li>
       <li>
         <a href="https://onthebias.co" rel="noopener" target="_blank">
-          <span class="mono">Company</span> onthebias.co
+          <span class="mono">{t(L, 'contact.companyLabel')}</span> <span translate="no">onthebias.co</span>
         </a>
       </li>
     </ul>
 
-    <p class="correspondance__where mono">
-      DC · MILANO · PARIS · SFO
+    <p class="correspondance__where mono" translate="no">
+      {t(L, 'contact.where')}
     </p>
   </div>
 </section>

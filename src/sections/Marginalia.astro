@@ -1,24 +1,11 @@
 ---
-const facts = [
-  "I have helped shape over 50M products globally.",
-  "I influenced Emma Chamberlain's style before she became a household name.",
-  "I have done business in over 46 - and counting - countries.",
-  "I am your favorite designer's favorite designer.",
-  "My materials are used in fashion schools and programs all across the world as an exemplary standard.",
-  "Tens of thousands of designers around the world depend on my frameworks and resources.",
-  "I am fiercely autodidactic.",
-  "I have generated over 20M impressions on social media.",
-  "I have built my life and practice to serve as a bridge between dreams and reality for others - at scale. This is what fulfills me.",
-  'I grew up in Dyersville, Iowa, where the baseball movie "Field of Dreams" was filmed. If you build it, they will come!',
-  "I never had coffee until I was 22.",
-  "My favorite designers are Vivienne Westwood, Raf Simons, and Ralph Lauren.",
-  "My favorite artists are Max Ernst, Yves Klein, Theo Van Doesburg, Kurt Schwitters, and Thomas Rowlandson.",
-  "My favorite book is Don Quijote de La Mancha.",
-];
+import { t, tArr } from '../i18n/t.js';
+const L = Astro.currentLocale;
+const facts = tArr(L, 'marginalia.facts');
 ---
 <section class="section section--invert marginalia" id="marginalia">
-  <span class="eyebrow">§ II · Marginalia</span>
-  <h2 class="marginalia__heading">Factoids.</h2>
+  <span class="eyebrow">{t(L, 'marginalia.eyebrow')}</span>
+  <h2 class="marginalia__heading">{t(L, 'marginalia.heading')}</h2>
 
   <div class="marginalia__field">
     {facts.map((fact, i) => (
@@ -63,7 +50,6 @@ const facts = [
   .fact:nth-child(3n)   { animation-duration: 8s; }
   .fact:nth-child(5n)   { animation-duration: 13s; }
 
-  /* slight base rotation per group so cards don't sit on a grid line */
   .fact--0 { transform: rotate(-1.6deg) translateY(0); }
   .fact--1 { transform: rotate(1.4deg)  translateY(8px); }
   .fact--2 { transform: rotate(-0.8deg) translateY(-4px); }

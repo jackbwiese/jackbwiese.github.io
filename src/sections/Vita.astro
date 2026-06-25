@@ -1,7 +1,10 @@
 ---
+import { t, tArr } from '../i18n/t.js';
+const L = Astro.currentLocale;
+const paragraphs = tArr(L, 'vita.paragraphs');
 ---
 <section class="section vita" id="vita">
-  <span class="eyebrow">§ IV · Vita</span>
+  <span class="eyebrow">{t(L, 'vita.eyebrow')}</span>
 
   <div class="bias-grid vita__grid">
     <figure class="vita__figure">
@@ -12,32 +15,11 @@
         height="1200"
         loading="lazy"
       />
-      <figcaption class="mono">Portrait · ROMULUS</figcaption>
+      <figcaption class="mono">{t(L, 'vita.portraitCaption')}</figcaption>
     </figure>
 
     <div class="vita__text">
-      <p>
-        I was raised in Iowa, in a family that has been nobly getting it out of the dirt for hundreds
-        of years.
-      </p>
-
-      <p>
-        Childhood was building and creating: LEGO, stop-motion, books, writing, and fashion. Through
-        these mediums, I discovered my love for storytelling, and bringing things from 0 to 1
-        (imagination to reality). I also discovered at an early age my fundamental fascination with
-        all forms of human expression, and my mission to proliferate it in all forms.
-      </p>
-
-      <p>
-        I left at sixteen for the East Coast and then headed west to San Francisco - the long-walked
-        path from a small town to a big stage.
-      </p>
-
-      <p>
-        Five companies before concluding university, then a decade in apparel design and
-        manufacturing, scaling my love for being the bridge between dreams and reality globally
-        for thousands.
-      </p>
+      {paragraphs.map((p) => <p>{p}</p>)}
     </div>
   </div>
 </section>

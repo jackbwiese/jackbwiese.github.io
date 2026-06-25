@@ -1,6 +1,12 @@
 ---
 import LanguageToggle from '../components/LanguageToggle.astro';
 import Typewriter from '../components/Typewriter.astro';
+import { t } from '../i18n/t.js';
+
+const L = Astro.currentLocale;
+const isEN = !L || L === 'en';
+const home = isEN ? '/' : `/${L}/`;
+const link = (hash) => `${home}#${hash}`;
 ---
 <section class="hero" id="top">
   <div class="bias-stripe" aria-hidden="true">
@@ -12,14 +18,14 @@ import Typewriter from '../components/Typewriter.astro';
   <header class="hero__chrome">
     <span class="hero__mark-spacer" aria-hidden="true"></span>
     <nav class="hero__nav mono">
-      <a href="#manifesto">Manifesto</a>
-      <a href="#marginalia">Marginalia</a>
-      <a href="#worldview">Worldview</a>
-      <a href="#vita">Vita</a>
-      <a href="#arsenal">Arsenal</a>
-      <a href="#obsessions">Obsessions</a>
-      <a href="#cabinet">Cabinet</a>
-      <a href="#write">Contact</a>
+      <a href={link('manifesto')}>{t(L, 'nav.manifesto')}</a>
+      <a href={link('marginalia')}>{t(L, 'nav.marginalia')}</a>
+      <a href={link('worldview')}>{t(L, 'nav.worldview')}</a>
+      <a href={link('arsenal')}>{t(L, 'nav.arsenal')}</a>
+      <a href={link('vita')}>{t(L, 'nav.vita')}</a>
+      <a href={link('obsessions')}>{t(L, 'nav.obsessions')}</a>
+      <a href={link('cabinet')}>{t(L, 'nav.cabinet')}</a>
+      <a href={link('write')}>{t(L, 'nav.contact')}</a>
     </nav>
   </header>
 
@@ -29,16 +35,16 @@ import Typewriter from '../components/Typewriter.astro';
       <span class="hero__line hero__line--accent"><Typewriter text="VON WIESE" /></span>
       <span class="hero__line"><Typewriter text="UND KAISERSWALDAU" /></span>
     </h1>
-    <p class="mono hero__est">EST. 2001</p>
+    <p class="mono hero__est" translate="no">{t(L, 'hero.est')}</p>
     <div class="hero__motto">
       <LanguageToggle />
     </div>
-    <p class="hero__tags mono">FOUNDER · CURATOR · DESIGNER · ARTIST · TASTEMAKER · AESTHETE · DANDY · WORLDBUILDER · KNIGHT · PIRATE</p>
-    <p class="hero__sig"><em translate="no">fabulator qui coniungit</em> - the storyteller who joins things together.</p>
+    <p class="hero__tags mono" translate="no">{t(L, 'hero.tags')}</p>
+    <p class="hero__sig"><em translate="no">fabulator qui coniungit</em> - {t(L, 'hero.sigSuffix')}</p>
   </div>
 
-  <a href="#manifesto" class="hero__scroll mono" aria-label="Scroll to next section">
-    SCROLL ↓
+  <a href={link('manifesto')} class="hero__scroll mono" aria-label="Scroll to next section">
+    {t(L, 'hero.scroll')} ↓
   </a>
 </section>
 
@@ -60,12 +66,10 @@ import Typewriter from '../components/Typewriter.astro';
     gap: 1.5rem;
     z-index: 2;
   }
-  .hero__mark {
-    border: 0;
-    display: inline-flex;
-  }
-  .hero__mark img {
-    filter: invert(1) brightness(2);
+  .hero__mark-spacer {
+    width: 34px;
+    height: 34px;
+    display: inline-block;
   }
   .hero__nav {
     display: flex;
@@ -121,19 +125,8 @@ import Typewriter from '../components/Typewriter.astro';
   .hero__sig {
     font-size: var(--scale-body);
     color: var(--otb-light-gray);
-    max-width: none;
-    white-space: nowrap;
+    max-width: 60ch;
     margin: 0;
-  }
-  @media (max-width: 640px) {
-    .hero__sig {
-      white-space: normal;
-      max-width: 38ch;
-    }
-  }
-  .hero__sig em {
-    color: var(--otb-white);
-    font-style: italic;
   }
   .hero__scroll {
     justify-self: end;

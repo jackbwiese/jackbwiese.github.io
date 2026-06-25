@@ -1,102 +1,56 @@
 ---
 import HoverReveal from '../components/HoverReveal.astro';
+import { t, tArr } from '../i18n/t.js';
 
-const tiles = [
-  {
-    n: '01',
-    title: 'ONTHEBIAS',
-    years: '2024 -',
-    role: 'Founder + CEO',
-    body: 'The product design and creation platform for the world\'s taste-led brands. 40 hours of design-to-factory in ten minutes. 260x increase in productivity while keeping brand identity and taste central.',
-    href: 'https://onthebias.co',
-    reveal: null,
-    metrics: ['50M+ products shaped', '5,000+ brands', '46+ countries'],
-  },
-  {
-    n: '02',
-    title: 'RedBoxMe × Cartier',
-    years: '2025 -',
-    role: 'Member',
-    body: 'Paris-based philanthropic + cultural initiative under the Cartier umbrella, gathering a new generation of patrons and builders.',
-    href: null,
-    reveal: null,
-    metrics: ['Paris', 'Patronage'],
-  },
-  {
-    n: '03',
-    title: 'The Residency',
-    years: '2026',
-    role: 'Cohort Founder',
-    body: 'Program in San Francisco supporting founders and exceptional individuals. Backed by Sam Altman. ~0.5% acceptance rate.',
-    href: null,
-    reveal: null,
-    metrics: ['Summer 2026', 'San Francisco', 'Backed by Sam Altman', '~1% acceptance rate'],
-  },
-  {
-    n: '04',
-    title: 'HRMTG',
-    years: '2021 - 2024',
-    role: 'Founder',
-    body: 'A passion project. Historical Reinterpretations Made Through Garments. A streetwear label shipped to 12+ countries. Campaign partner with Free Arts NYC.',
-    href: null,
-    reveal: '/images/vfma-1.jpg',
-    revealAlt: 'HRMTG',
-    metrics: ['12+ countries', 'Free Arts NYC'],
-  },
-  {
-    n: '05',
-    title: 'Back by Popular Demand',
-    years: '2017 - 2023',
-    role: 'Founder',
-    body: 'Door into the industry I made and opened myself because I wanted in. DTC e-commerce fashion company. 10,000 sales globally before my sophomore year of high school.',
-    href: null,
-    reveal: null,
-    metrics: ['10,000+ pieces', 'Zero student debt'],
-  },
-  {
-    n: '06',
-    title: 'Studio Consulting',
-    years: '2017 -',
-    role: 'Brand + Marketing + Design',
-    body: 'Brand identity, marketing, and design for founders and existing brands alike, building physical-product companies worth building.',
-    href: null,
-    reveal: null,
-    metrics: ['Brand', 'Narrative', 'Growth'],
-  },
+const L = Astro.currentLocale;
+const tiles = tArr(L, 'arsenal.tiles');
+
+// Hrefs and reveals are NOT translated - they live alongside the locale data here.
+const META = [
+  { href: 'https://onthebias.co', reveal: null, revealAlt: null },
+  { href: null, reveal: null, revealAlt: null },
+  { href: null, reveal: null, revealAlt: null },
+  { href: null, reveal: '/images/vfma-1.jpg', revealAlt: 'HRMTG' },
+  { href: null, reveal: null, revealAlt: null },
+  { href: null, reveal: null, revealAlt: null },
 ];
 ---
 <section class="section section--invert arsenal" id="arsenal">
-  <span class="eyebrow">§ V · Arsenal</span>
+  <span class="eyebrow">{t(L, 'arsenal.eyebrow')}</span>
   <h2 class="arsenal__heading">
-    Involvement.
+    {t(L, 'arsenal.heading')}
   </h2>
 
   <div class="arsenal__grid">
-    {tiles.map((t, i) => (
-      <article class={`tile tile--${i % 3 === 1 ? 'shift' : 'flat'}`}>
-        <header class="tile__head">
-          <span class="tile__n mono">{t.n}</span>
-          <span class="tile__years mono">{t.years}</span>
-        </header>
-        <h3 class="tile__title">
-          {t.href ? (
-            t.reveal ? (
-              <HoverReveal src={t.reveal} alt={t.revealAlt}>
-                <a href={t.href} rel="noopener" target="_blank">{t.title} ↗</a>
-              </HoverReveal>
+    {tiles.map((tile, i) => {
+      const m = META[i] || {};
+      const n = String(i + 1).padStart(2, '0');
+      return (
+        <article class={`tile tile--${i % 3 === 1 ? 'shift' : 'flat'}`}>
+          <header class="tile__head">
+            <span class="tile__n mono">{n}</span>
+            <span class="tile__years mono">{tile.years}</span>
+          </header>
+          <h3 class="tile__title">
+            {m.href ? (
+              m.reveal ? (
+                <HoverReveal src={m.reveal} alt={m.revealAlt}>
+                  <a href={m.href} rel="noopener" target="_blank">{tile.title} ↗</a>
+                </HoverReveal>
+              ) : (
+                <a href={m.href} rel="noopener" target="_blank">{tile.title} ↗</a>
+              )
+            ) : m.reveal ? (
+              <HoverReveal src={m.reveal} alt={m.revealAlt}>{tile.title}</HoverReveal>
             ) : (
-              <a href={t.href} rel="noopener" target="_blank">{t.title} ↗</a>
-            )
-          ) : t.reveal ? (
-            <HoverReveal src={t.reveal} alt={t.revealAlt}>{t.title}</HoverReveal>
-          ) : (
-            t.title
-          )}
-        </h3>
-        <p class="tile__role mono">{t.role}</p>
-        <p class="tile__body">{t.body}</p>
-      </article>
-    ))}
+              tile.title
+            )}
+          </h3>
+          <p class="tile__role mono">{tile.role}</p>
+          <p class="tile__body">{tile.body}</p>
+        </article>
+      );
+    })}
   </div>
 </section>
 

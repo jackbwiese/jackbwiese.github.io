@@ -20,8 +20,15 @@ import Correspondance from '../sections/Correspondance.astro';
 import Footer from '../sections/Footer.astro';
 
 import { brands, publications } from '../data/logos.js';
+import { t } from '../i18n/t.js';
+
+const L = Astro.currentLocale;
 ---
-<Base>
+<Base
+  title={t(L, 'meta.title')}
+  description={t(L, 'meta.description')}
+  lang={L || 'en'}
+>
   <Cursor />
   <LanguagePicker />
 
@@ -30,9 +37,9 @@ import { brands, publications } from '../data/logos.js';
   <Hero />
   <LogoStrip
     logos={brands}
-    eyebrow="Brands I've contributed to."
-    subEyebrow="(via product design and creation)"
-    tail="And more."
+    eyebrow={t(L, 'brandStrip.eyebrow')}
+    subEyebrow={t(L, 'brandStrip.subEyebrow')}
+    tail={t(L, 'brandStrip.tail')}
     invertLogos={true}
     duration={50}
   />
@@ -40,20 +47,19 @@ import { brands, publications } from '../data/logos.js';
   <Manifesto />
   <LogoStrip
     logos={publications}
-    eyebrow="I work behind the scenes, my clients appear in:"
-    tail="And more."
+    eyebrow={t(L, 'pubStrip.eyebrow')}
+    tail={t(L, 'pubStrip.tail')}
     duration={60}
     reverse={true}
   />
 
   <Marginalia />
-  <CityClockMarquee reverse={true} duration={48} />
 
   <Worldview />
   <SectionDivider />
 
   <p class="vita-epigraph mono">
-    <span aria-hidden="true">"</span>I am nothing and know nothing, thus, I can do anything.<span aria-hidden="true">"</span>
+    <span aria-hidden="true">"</span>{t(L, 'vita.epigraph')}<span aria-hidden="true">"</span>
   </p>
 
   <Vita />
