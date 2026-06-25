@@ -7,6 +7,7 @@ import SectionDivider from '../components/SectionDivider.astro';
 
 import Hero from '../sections/Hero.astro';
 import Manifesto from '../sections/Manifesto.astro';
+import Vita from '../sections/Vita.astro';
 import Worldview from '../sections/Worldview.astro';
 import Arsenal from '../sections/Arsenal.astro';
 import Obsessions from '../sections/Obsessions.astro';
@@ -21,22 +22,25 @@ import Footer from '../sections/Footer.astro';
   <CityClockMarquee />
 
   <Manifesto />
+  <CityClockMarquee reverse={true} duration={48} />
+
+  <Vita />
   <SectionDivider />
 
   <Worldview />
-  <CityClockMarquee reverse={true} duration={48} />
+  <CityClockMarquee />
 
   <Arsenal />
   <SectionDivider thick={true} />
 
   <Obsessions />
-  <CityClockMarquee />
+  <CityClockMarquee reverse={true} duration={52} />
 
   <CabinetDeCuriosites />
   <SectionDivider />
 
   <Correspondance />
-  <CityClockMarquee reverse={true} duration={52} />
+  <CityClockMarquee />
 
   <Footer />
 

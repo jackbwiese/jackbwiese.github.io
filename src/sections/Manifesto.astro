@@ -1,74 +1,20 @@
 ---
 ---
 <section class="section section--invert manifesto" id="manifesto">
-  <span class="eyebrow">§ I · Who</span>
-  <div class="bias-grid manifesto__grid">
-    <figure class="manifesto__figure">
-      <img
-        src="/images/portrait-romulus-carre.jpg"
-        alt="Jack von Wiese und Kaiserswaldau"
-        width="1200"
-        height="1200"
-        loading="lazy"
-      />
-      <figcaption class="mono">Portrait · ROMULUS</figcaption>
-    </figure>
-    <div class="manifesto__text">
-      <h2 class="manifesto__lede">
-        A <span class="accent">fabulator qui coniungit</span>: a storyteller who joins things together. Founder, knight, pirate, dandy, worldbuilder.
-      </h2>
+  <span class="eyebrow">§ I · Manifesto</span>
 
-      <p>
-        I was born in Iowa to a family that has been nobly getting it out of the dirt for over 200 years -
-        farmers, engineers, builders. I left at sixteen for the East Coast and then headed west to San
-        Francisco - the long-walked path from a small town to a big stage. Childhood was building: LEGO,
-        stop-motion, history books, writing, an early conviction that the world could be re-made.
-      </p>
+  <div class="manifesto__inner">
+    <h2 class="manifesto__lede">
+      A <span class="accent">fabulator qui coniungit</span>: a storyteller who joins things together.
+      Founder, knight, pirate, dandy, worldbuilder.
+    </h2>
 
-      <p>
-        At fourteen I started <strong>Back by Popular Demand</strong>, a vintage label run from a bedroom;
-        by my sophomore year of high school it had moved 10,000+ pieces and paid for college, zero loans.
-      </p>
-
-      <p>
-        What followed was a decade in apparel design and manufacturing. <strong>HRMTG</strong> -
-        Historical Reinterpretations Made Through Garments, a streetwear label that shipped to twelve
-        countries. Brand work for companies as large as $100B and as small as day-zero. Five companies
-        before I could legally drink. The through-line was always the same: when my family lost their farm,
-        it was because the people who made things did not own the infrastructure they depended on. I have
-        been trying to build that infrastructure ever since.
-      </p>
-
-      <p>
-        That something larger is <strong>ONTHEBIAS</strong>: the AI layer between <em>"I have a design"</em>
-        and <em>"a factory can make this."</em> 8.2 billion people get dressed every morning; somewhere
-        between the sketch and the seam, the fashion industry runs on duct tape, fax sheets, and faith. I
-        intend to replace that with infrastructure.
-      </p>
-
-      <p>
-        I read Don Quixote in French, Italian, and Spanish - one for the heart, one for the cadence, one
-        for the windmills. I speak five languages. I sculpt, I run, I dance, I travel. I keep a copy of
-        Marcus Aurelius next to a copy of <em>The Tale of the Bamboo Cutter</em>. Everything I make is
-        in service of a single thesis: <strong>that the next century belongs to those who can stitch
-        culture, capital, and craft into one cloth - on the bias.</strong>
-      </p>
-    </div>
-  </div>
-
-  <div class="manifesto__triptych" aria-label="Origins">
-    <figure class="manifesto__tri">
-      <img src="/images/young-dandy.jpg" alt="Jack as a child, Iowa" width="632" height="805" loading="lazy" />
-      <figcaption class="mono">i. <span class="accent">Iowa, c. 2008.</span> Already dressing for the part.</figcaption>
-    </figure>
-    <figure class="manifesto__tri">
-      <img src="/images/buy-back-farm.jpg" alt="The Wiese family farm in Iowa" width="682" height="881" loading="lazy" />
-      <figcaption class="mono">ii. <span class="accent">The farm we lost.</span> 200 years of getting it out of the dirt.</figcaption>
-    </figure>
-    <figure class="manifesto__tri">
-      <img src="/images/jack-at-magic.jpg" alt="Jack at MAGIC trade show" width="640" height="831" loading="lazy" />
-      <figcaption class="mono">iii. <span class="accent">Today.</span> Same kid. Bigger floor.</figcaption>
-    </figure>
+    <p class="manifesto__purpose">
+      I am on this earth to <span class="accent">proliferate creativity and introspection</span> for mankind.
+      To make every person on earth a creator. To set in motion a
+      <span class="accent">global human renaissance</span>. The patron returns.
+      The civilization of creators awakens.
+    </p>
   </div>
 </section>
 
@@ -77,70 +23,26 @@
     background: var(--otb-white);
     color: var(--otb-black);
   }
-  .manifesto__grid {
-    align-items: start;
-    gap: clamp(2rem, 5vw, 5rem);
-  }
-  .manifesto__figure {
-    margin: 0;
-    position: relative;
-  }
-  .manifesto__figure img {
-    width: 100%;
-    aspect-ratio: 1 / 1;
-    object-fit: cover;
-    filter: contrast(1.05) saturate(0.92);
-  }
-  .manifesto__figure figcaption {
-    margin-top: 0.65rem;
-    color: var(--otb-mid-gray);
-  }
-  .manifesto__text {
-    padding-top: 0.25rem;
+  .manifesto__inner {
+    max-width: min(72ch, 100%);
+    margin: 0 auto;
+    padding-block: clamp(1rem, 4vw, 3rem);
   }
   .manifesto__lede {
-    font-size: clamp(1.5rem, 3.2vw, 2.75rem);
-    line-height: 1.12;
+    font-size: clamp(2rem, 5vw, 4rem);
+    line-height: 1.06;
     letter-spacing: var(--track-tight);
-    margin-bottom: 2rem;
-    max-width: 22ch;
+    margin: 0 0 clamp(2rem, 4vw, 3.5rem);
   }
-  .manifesto__text p {
-    font-size: var(--scale-lede);
-    line-height: 1.5;
-    max-width: 56ch;
-  }
-  .manifesto__text strong {
-    font-weight: 500;
-  }
-  .manifesto__triptych {
-    margin-top: clamp(3rem, 6vw, 5rem);
-    padding-top: clamp(2rem, 4vw, 3rem);
-    border-top: 1px solid rgba(0, 0, 0, 0.18);
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: clamp(1rem, 2.5vw, 2.5rem);
-  }
-  @media (max-width: 760px) {
-    .manifesto__triptych { grid-template-columns: 1fr; }
-  }
-  .manifesto__tri {
+  .manifesto__lede .accent { color: var(--accent); font-style: italic; }
+  .manifesto__purpose {
+    font-family: 'NHaas Display';
+    font-weight: 300;
+    font-size: clamp(1.4rem, 3vw, 2.4rem);
+    line-height: 1.18;
+    letter-spacing: var(--track-tight);
     margin: 0;
-    display: flex;
-    flex-direction: column;
-    gap: 0.6rem;
+    color: var(--otb-black);
   }
-  .manifesto__tri img {
-    width: 100%;
-    aspect-ratio: 3 / 4;
-    object-fit: cover;
-    filter: grayscale(0.15) contrast(1.04);
-  }
-  .manifesto__tri figcaption {
-    color: var(--otb-mid-gray);
-    line-height: 1.4;
-  }
-  .manifesto__tri figcaption .accent {
-    color: var(--accent);
-  }
+  .manifesto__purpose .accent { color: var(--accent); }
 </style>

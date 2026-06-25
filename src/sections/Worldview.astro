@@ -2,23 +2,18 @@
 const theses = [
   {
     n: '01',
-    title: 'The fashion industry is infrastructure-bankrupt.',
-    body: 'Two trillion dollars a year runs on email chains, PDF tech packs, and faxes between buyers in New York and factories in Guangzhou. 92 million tonnes of textile waste a year. This is not a workflow problem - it is the absence of connective tissue. The industry needs a new substrate before it needs another brand.',
-  },
-  {
-    n: '02',
     title: 'Technology should free humanity to make.',
     body: 'The printing press freed reading. The loom freed weaving. Software freed writing. The next layer does not replace the creator - it removes the secretarial labor between a vision and its realization. The result is not fewer artists but a civilization of them. Taste becomes the moat. The patron returns.',
   },
   {
-    n: '03',
-    title: 'Patronage outlasts quarterly returns.',
-    body: 'The Medici were not optimizing for quarterly performance. They were building a city that would outlive them. The most consequential capital this century will not be deployed in three-month cycles - it will be deployed in three-century ones. Capital should serve culture, not the other way around.',
+    n: '02',
+    title: 'Live the impossible thing, anyway.',
+    body: 'Don Quixote tilts at windmills and history calls him mad. The world prefers smaller, easier versions of us. Refuse to negotiate yourself down. To live as your fullest, boldest, most chivalric self in a flattened century is not delusion - it is the only honest thing left. Choose the windmill.',
   },
 ];
 ---
 <section class="section worldview" id="worldview">
-  <span class="eyebrow">§ II · Worldview</span>
+  <span class="eyebrow">§ III · Worldview</span>
   <div class="worldview__grid">
     {theses.map((t) => (
       <article class="worldview__col">
@@ -28,17 +23,9 @@ const theses = [
       </article>
     ))}
   </div>
-  <div class="worldview__purpose">
-    <p class="eyebrow">Why I am here</p>
-    <blockquote class="worldview__pull">
-      I am on this earth to <span class="accent">proliferate creativity and introspection</span> for mankind.
-      To make every person on earth a creator. To set in motion a <span class="accent">global human renaissance</span>.
-      The patron returns. The civilization of creators awakens.
-    </blockquote>
-    <p class="worldview__sub mono">
-      <span aria-hidden="true">"</span>I am nothing, thus, I can do anything.<span aria-hidden="true">"</span>
-    </p>
-  </div>
+  <p class="worldview__sub mono">
+    <span aria-hidden="true">"</span>I am nothing, thus, I can do anything.<span aria-hidden="true">"</span>
+  </p>
 </section>
 
 <style>
@@ -48,21 +35,23 @@ const theses = [
   }
   .worldview__grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: clamp(1.5rem, 3vw, 3.5rem);
-    margin-bottom: clamp(3rem, 7vw, 6rem);
+    grid-template-columns: 1fr 1fr;
+    gap: clamp(2rem, 5vw, 5rem);
+    margin-bottom: clamp(3rem, 7vw, 5rem);
+    max-width: 1100px;
+    margin-inline: auto;
   }
-  @media (max-width: 900px) {
+  @media (max-width: 760px) {
     .worldview__grid {
       grid-template-columns: 1fr;
     }
   }
   .worldview__col {
     border-top: 1px solid var(--accent);
-    padding-top: 1.25rem;
+    padding-top: 1.5rem;
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    gap: 1.1rem;
   }
   .worldview__n {
     font-family: 'NHaas Text';
@@ -71,42 +60,20 @@ const theses = [
     color: var(--accent);
   }
   .worldview__h {
-    font-size: clamp(1.35rem, 2.2vw, 1.85rem);
-    line-height: 1.12;
+    font-size: clamp(1.6rem, 2.8vw, 2.4rem);
+    line-height: 1.08;
     letter-spacing: var(--track-tight);
-    max-width: 18ch;
+    max-width: 22ch;
   }
   .worldview__body {
     font-size: var(--scale-body);
-    line-height: 1.55;
+    line-height: 1.6;
     color: var(--otb-light-gray);
-  }
-  .worldview__purpose {
-    text-align: center;
-    max-width: min(60ch, 100%);
-    margin: 0 auto;
-  }
-  .worldview__purpose .eyebrow {
-    color: var(--accent);
-    display: inline-block;
-    border-top: 1px solid var(--accent);
-    padding-top: 0.6rem;
-    margin-bottom: 1.25rem;
-  }
-  .worldview__pull {
-    margin: 0;
-    font-family: 'NHaas Display';
-    font-weight: 300;
-    font-size: clamp(1.5rem, 3.4vw, 2.9rem);
-    line-height: 1.12;
-    letter-spacing: var(--track-tight);
-    color: var(--otb-white);
-  }
-  .worldview__pull .accent {
-    color: var(--accent);
+    max-width: 46ch;
   }
   .worldview__sub {
-    margin-top: 1.5rem;
+    text-align: center;
     color: var(--otb-mid-gray);
+    max-width: 100%;
   }
 </style>
