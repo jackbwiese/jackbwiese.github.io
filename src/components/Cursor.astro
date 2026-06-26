@@ -19,26 +19,20 @@
     mix-blend-mode: difference;
     opacity: 0;
     transform: translate3d(-100px, -100px, 0);
-    transition: opacity 180ms ease, scale 160ms ease;
+    transition: opacity 180ms ease;
     will-change: transform;
   }
   #jw-cursor.is-active {
     opacity: 0.92;
   }
-  #jw-cursor.is-hover {
-    scale: 1.18;
-  }
   @media (hover: none), (max-width: 1023px), (prefers-reduced-motion: reduce) {
     #jw-cursor { display: none !important; }
   }
 
-  /* Hide OS cursor on desktop everywhere - including interactive elements that
-     normally swap to 'pointer'. Custom diamond is the only cursor users see. */
+  /* Hide OS cursor on EVERY element on desktop with hover - universal selector
+     so no child element can re-enable cursor: pointer or text. */
   @media (hover: hover) and (min-width: 1024px) and (prefers-reduced-motion: no-preference) {
-    html, body, a, button, input, textarea, select, label, summary,
-    [role="button"], [tabindex], [data-hover],
-    .tile, .lp__item, .lp__toggle, .hover-reveal,
-    .fact, .word-card, .word-card__title a {
+    *, *::before, *::after {
       cursor: none !important;
     }
   }
@@ -50,18 +44,10 @@
     if (window.innerWidth < 1024) return;
     const cur = document.getElementById('jw-cursor');
     if (!cur) return;
-    // Direct 1:1 tracking - no easing lag. Cursor sits exactly on the OS pointer position.
     document.addEventListener('mousemove', (e) => {
       cur.style.transform = `translate3d(${e.clientX - 14}px, ${e.clientY - 14}px, 0)`;
       if (!cur.classList.contains('is-active')) cur.classList.add('is-active');
     }, { passive: true });
     document.addEventListener('mouseleave', () => cur.classList.remove('is-active'));
-    const hoverable = 'a, button, [data-hover], .tile, .hover-reveal, .fact, .lp__item, .lp__toggle';
-    document.addEventListener('mouseover', (e) => {
-      if (e.target instanceof Element && e.target.closest(hoverable)) cur.classList.add('is-hover');
-    });
-    document.addEventListener('mouseout', (e) => {
-      if (e.target instanceof Element && e.target.closest(hoverable)) cur.classList.remove('is-hover');
-    });
   })();
 </script>
