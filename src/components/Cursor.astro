@@ -29,10 +29,13 @@
     #jw-cursor { display: none !important; }
   }
 
-  /* Hide OS cursor on EVERY element on desktop with hover - universal selector
-     so no child element can re-enable cursor: pointer or text. */
+  /* Hide OS cursor on EVERY element on desktop with hover - :global() escapes
+     Astro's per-component scoping so the universal selector actually hits the
+     whole page, not just elements inside Cursor.astro. */
   @media (hover: hover) and (min-width: 1024px) and (prefers-reduced-motion: no-preference) {
-    *, *::before, *::after {
+    :global(*),
+    :global(*::before),
+    :global(*::after) {
       cursor: none !important;
     }
   }
