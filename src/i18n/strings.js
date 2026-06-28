@@ -46,7 +46,7 @@ export const en = {
     ledeSuffix: ': a storyteller who joins things together.',
     purposeP1: 'I am on this earth to',
     purposeAccent1: 'proliferate creativity and introspection',
-    purposeP2: 'for humankind. To make them all creators. To set in motion a',
+    purposeP2: 'for humankind. To make every person on earth a creator. To set in motion a',
     purposeAccent2: 'global human renaissance',
     purposeP3: '.',
   },
@@ -85,7 +85,7 @@ export const en = {
     portraitCaption: 'Portrait · ROMULUS',
     paragraphs: [
       'I was raised in Iowa, in a family that has been nobly getting it out of the dirt for hundreds of years.',
-      'Childhood was building and creating: LEGO, stop-motion, books, writing, and fashion. Through these mediums, I discovered my love for storytelling, and bringing things from 0 to 1 (imagination to reality). I also discovered at an early age my fundamental fascination with all forms of human expression, and my mission to proliferate it in all forms.',
+      'Childhood was building and creating: LEGO, stop-motion, books, writing, and fashion. Through these mediums, I discovered my love for storytelling, and bringing things from 0 to 1 (imagination to reality). I also discovered at an early age my fundamental fascination with all forms of human expression, and my mission to proliferate them in all forms.',
       'I left at sixteen for the East Coast and then headed west to San Francisco - the long-walked path from a small town to a big stage.',
       'Five companies before concluding university, then a decade in apparel design and manufacturing, scaling my love for being the bridge between dreams and reality globally for thousands.',
     ],
