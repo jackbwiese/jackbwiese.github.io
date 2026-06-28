@@ -8,7 +8,7 @@ export const it = {
         "title": "ONTHEBIAS",
         "years": "2024 -",
         "role": "Fondatore + CEO",
-        "body": "La piattaforma di design e creazione di prodotti per i marchi mondiali guidati dal gusto. 40 ore di design-to-factory in dieci minuti. Aumento di 260x della produttività mantenendo centrali l'identità di marca e il gusto."
+        "body": "La piattaforma di design e creazione di prodotti per i marchi mondiali guidati dal gusto. Un passaggio design-to-factory di 40 ore, compresso in dieci minuti. Aumento di 260x della produttività mantenendo centrali l'identità di marca e il gusto."
       },
       {
         "title": "RedBoxMe × Cartier",
@@ -32,7 +32,7 @@ export const it = {
         "title": "Back by Popular Demand",
         "years": "2017 - 2023",
         "role": "Fondatore",
-        "body": "Una porta nel settore che mi sono costruito e aperto da solo perché volevo entrare. Azienda di moda e-commerce DTC. 10.000 vendite a livello mondiale prima del mio secondo anno di liceo."
+        "body": "Una porta nel settore che mi sono costruito e aperto da solo, perché volevo entrare. Azienda di moda e-commerce DTC. 10.000 vendite a livello mondiale prima del mio secondo anno di liceo."
       },
       {
         "title": "Studio Consulting",
@@ -194,7 +194,7 @@ export const it = {
     "writingsTitle": "A Series of Poems About Someone Who Will Never Read Them"
   },
   "pubStrip": {
-    "eyebrow": "Lavoro dietro le quinte, i miei clienti appaiono su:",
+    "eyebrow": "Lavoro dietro le quinte - i miei clienti appaiono su:",
     "tail": "E altri ancora."
   },
   "triptych": {
@@ -225,7 +225,7 @@ export const it = {
       "Sono stato cresciuto in Iowa, in una famiglia che da centinaia di anni nobilmente ricava il pane dalla terra.",
       "L'infanzia è stata costruire e creare: LEGO, stop-motion, libri, scrittura e moda. Attraverso questi mezzi ho scoperto il mio amore per la narrazione e per portare le cose da 0 a 1 (dall'immaginazione alla realtà). Ho scoperto anche, fin da piccolo, la mia fascinazione fondamentale per tutte le forme di espressione umana, e la mia missione di farle proliferare in ogni forma.",
       "Sono partito a sedici anni per la East Coast e poi mi sono diretto a ovest, a San Francisco - il lungo cammino dalla piccola città al grande palcoscenico.",
-      "Cinque aziende prima di concludere l'università, poi un decennio nel design e nella produzione di abbigliamento, scalando il mio amore di essere il ponte tra sogni e realtà a livello globale per migliaia di persone."
+      "Cinque aziende prima di concludere l'università, poi un decennio nel design e nella produzione di abbigliamento, costruendo il ponte tra sogni e realtà a livello globale per migliaia di persone."
     ],
     "portraitCaption": "Ritratto · ROMULUS"
   },

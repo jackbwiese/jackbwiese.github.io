@@ -8,7 +8,7 @@ export const vi = {
         "title": "ONTHEBIAS",
         "years": "2024 -",
         "role": "Nhà Sáng Lập + CEO",
-        "body": "Nền tảng thiết kế và sáng tạo sản phẩm dành cho các thương hiệu dẫn dắt bằng gu thẩm mỹ trên thế giới. 40 giờ từ thiết kế đến nhà máy chỉ trong mười phút. Tăng 260x năng suất trong khi giữ bản sắc thương hiệu và gu thẩm mỹ làm trọng tâm."
+        "body": "Nền tảng thiết kế và sáng tạo sản phẩm dành cho các thương hiệu dẫn dắt bằng gu thẩm mỹ trên thế giới. Quy trình bàn giao thiết kế đến nhà máy 40 giờ, được nén lại còn mười phút. Tăng 260x năng suất trong khi giữ bản sắc thương hiệu và gu thẩm mỹ làm trọng tâm."
       },
       {
         "title": "RedBoxMe × Cartier",
@@ -32,7 +32,7 @@ export const vi = {
         "title": "Back by Popular Demand",
         "years": "2017 - 2023",
         "role": "Nhà Sáng Lập",
-        "body": "Cánh cửa vào ngành mà tôi tự tay tạo dựng và mở ra vì tôi muốn bước vào. Công ty thời trang thương mại điện tử DTC. 10,000 đơn hàng trên toàn cầu trước năm thứ hai trung học của tôi."
+        "body": "Cánh cửa vào ngành mà tôi tự tay tạo dựng và mở ra, vì tôi muốn bước vào. Công ty thời trang thương mại điện tử DTC. 10,000 đơn hàng trên toàn cầu trước năm thứ hai trung học của tôi."
       },
       {
         "title": "Studio Consulting",
@@ -194,7 +194,7 @@ export const vi = {
     "writingsTitle": "A Series of Poems About Someone Who Will Never Read Them"
   },
   "pubStrip": {
-    "eyebrow": "Tôi làm việc sau hậu trường, các khách hàng của tôi xuất hiện trên:",
+    "eyebrow": "Tôi làm việc sau hậu trường - các khách hàng của tôi xuất hiện trên:",
     "tail": "Và còn nhiều nữa."
   },
   "triptych": {
@@ -225,7 +225,7 @@ export const vi = {
       "Tôi lớn lên ở Iowa, trong một gia đình đã cao quý gây dựng từ đất cát suốt hàng trăm năm.",
       "Tuổi thơ là sự xây dựng và sáng tạo: LEGO, phim hoạt hình tĩnh vật, sách vở, viết lách và thời trang. Qua những phương tiện ấy, tôi đã khám phá ra tình yêu của mình với việc kể chuyện, và đưa mọi thứ từ 0 đến 1 (từ trí tưởng tượng đến hiện thực). Tôi cũng đã khám phá từ rất sớm sự say mê căn bản của mình với mọi hình thức biểu đạt của con người, và sứ mệnh lan tỏa nó dưới mọi hình thức.",
       "Tôi rời nhà năm mười sáu tuổi để đến East Coast và sau đó đi về phía tây đến San Francisco - con đường dài đã được nhiều người đi từ một thị trấn nhỏ đến một sân khấu lớn.",
-      "Năm công ty trước khi tốt nghiệp đại học, rồi một thập kỷ trong thiết kế và sản xuất quần áo, mở rộng tình yêu của tôi với việc làm cây cầu giữa giấc mơ và hiện thực trên toàn cầu cho hàng nghìn người."
+      "Năm công ty trước khi tốt nghiệp đại học, rồi một thập kỷ trong thiết kế và sản xuất quần áo, xây cây cầu giữa giấc mơ và hiện thực trên toàn cầu cho hàng nghìn người."
     ],
     "portraitCaption": "Chân dung · ROMULUS"
   },

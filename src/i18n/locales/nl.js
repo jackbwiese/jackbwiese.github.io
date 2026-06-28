@@ -8,7 +8,7 @@ export const nl = {
         "title": "ONTHEBIAS",
         "years": "2024 -",
         "role": "Oprichter + CEO",
-        "body": "Het platform voor productontwerp en -creatie voor 's werelds smaakbepalende merken. 40 uur ontwerp-tot-fabriek in tien minuten. 260x productiviteitsstijging, terwijl merkidentiteit en smaak centraal blijven staan."
+        "body": "Het platform voor productontwerp en -creatie voor 's werelds smaakbepalende merken. Een ontwerp-tot-fabriek-overdracht van 40 uur, gecomprimeerd tot tien minuten. 260x productiviteitsstijging, terwijl merkidentiteit en smaak centraal blijven staan."
       },
       {
         "title": "RedBoxMe × Cartier",
@@ -32,7 +32,7 @@ export const nl = {
         "title": "Back by Popular Demand",
         "years": "2017 - 2023",
         "role": "Oprichter",
-        "body": "Deur tot de industrie die ik zelf maakte en opende omdat ik erin wilde. DTC e-commerce modebedrijf. 10.000 verkopen wereldwijd voor mijn tweede jaar middelbare school."
+        "body": "Een deur tot de industrie die ik zelf maakte en opende, omdat ik erin wilde. DTC e-commerce modebedrijf. 10.000 verkopen wereldwijd voor mijn tweede jaar middelbare school."
       },
       {
         "title": "Studio Consulting",
@@ -194,7 +194,7 @@ export const nl = {
     "poemReaderCollapse": "↑ Inklappen"
   },
   "pubStrip": {
-    "eyebrow": "Ik werk achter de schermen, mijn klanten verschijnen in:",
+    "eyebrow": "Ik werk achter de schermen - mijn klanten verschijnen in:",
     "tail": "En meer."
   },
   "triptych": {
@@ -226,7 +226,7 @@ export const nl = {
       "Ik werd opgevoed in Iowa, in een familie die het al honderden jaren op nobele wijze uit de aarde haalt.",
       "De kindertijd was bouwen en creëren: LEGO, stop-motion, boeken, schrijven en mode. Door deze media ontdekte ik mijn liefde voor het vertellen van verhalen, en voor het brengen van dingen van 0 naar 1 (verbeelding naar werkelijkheid). Ook ontdekte ik op jonge leeftijd mijn fundamentele fascinatie voor alle vormen van menselijke expressie, en mijn missie om die in alle vormen te laten gedijen.",
       "Ik vertrok op zestienjarige leeftijd naar de East Coast en trok daarna westwaarts naar San Francisco - het oeroude pad van een klein stadje naar een groot podium.",
-      "Vijf bedrijven voordat ik de universiteit afrondde, daarna een decennium in kledingontwerp en -productie, waarin ik mijn liefde voor het zijn van de brug tussen droom en werkelijkheid wereldwijd opschaalde voor duizenden."
+      "Vijf bedrijven voordat ik de universiteit afrondde, daarna een decennium in kledingontwerp en -productie, waarin ik de brug tussen droom en werkelijkheid wereldwijd bouwde voor duizenden."
     ]
   },
   "worldview": {

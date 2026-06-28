@@ -56,7 +56,7 @@ export const en = {
     tail: 'And more.',
   },
   pubStrip: {
-    eyebrow: 'I work behind the scenes, my clients appear in:',
+    eyebrow: 'I work behind the scenes - my clients appear in:',
     tail: 'And more.',
   },
   marginalia: {
@@ -85,9 +85,9 @@ export const en = {
     portraitCaption: 'Portrait · ROMULUS',
     paragraphs: [
       'I was raised in Iowa, in a family that has been nobly getting it out of the dirt for hundreds of years.',
-      'Childhood was building and creating: LEGO, stop-motion, books, writing, and fashion. Through these mediums, I discovered my love for storytelling, and bringing things from 0 to 1 (imagination to reality). I also discovered at an early age my fundamental fascination with all forms of human expression, and my mission to proliferate them in all forms.',
+      'Childhood was building and creating: LEGO, stop-motion, books, writing, and fashion. Through these mediums, I discovered my love for storytelling, and bringing things from 0 to 1 (imagination to reality). I also discovered, at an early age, my fundamental fascination with all forms of human expression, and my mission to proliferate them in all forms.',
       'I left at sixteen for the East Coast and then headed west to San Francisco - the long-walked path from a small town to a big stage.',
-      'Five companies before concluding university, then a decade in apparel design and manufacturing, scaling my love for being the bridge between dreams and reality globally for thousands.',
+      'Five companies before concluding university, then a decade in apparel design and manufacturing, building the bridge between dreams and reality globally for thousands.',
     ],
   },
   worldview: {
@@ -111,7 +111,7 @@ export const en = {
         title: 'ONTHEBIAS',
         years: '2024 -',
         role: 'Founder + CEO',
-        body: "The product design and creation platform for the world's taste-led brands. 40 hours of design-to-factory in ten minutes. 260x increase in productivity while keeping brand identity and taste central.",
+        body: "The product design and creation platform for the world's taste-led brands. 40-hour design-to-factory handoff, compressed to ten minutes. 260x increase in productivity while keeping brand identity and taste central.",
       },
       {
         title: 'RedBoxMe × Cartier',
@@ -135,7 +135,7 @@ export const en = {
         title: 'Back by Popular Demand',
         years: '2017 - 2023',
         role: 'Founder',
-        body: 'Door into the industry I made and opened myself because I wanted in. DTC e-commerce fashion company. 10,000 sales globally before my sophomore year of high school.',
+        body: 'A door into the industry I made and opened myself, because I wanted in. DTC e-commerce fashion company. 10,000 sales globally before my sophomore year of high school.',
       },
       {
         title: 'Studio Consulting',

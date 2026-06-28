@@ -8,7 +8,7 @@ export const de = {
         "title": "ONTHEBIAS",
         "years": "2024 -",
         "role": "Gründer + CEO",
-        "body": "Die Plattform für Produktdesign und -kreation für die geschmacksführenden Marken der Welt. 40 Stunden vom Entwurf zur Fabrik in zehn Minuten. 260-fache Produktivitätssteigerung, während Markenidentität und Geschmack im Zentrum bleiben."
+        "body": "Die Plattform für Produktdesign und -kreation für die geschmacksführenden Marken der Welt. Eine 40-stündige Übergabe vom Entwurf zur Fabrik, verdichtet auf zehn Minuten. 260-fache Produktivitätssteigerung, während Markenidentität und Geschmack im Zentrum bleiben."
       },
       {
         "title": "RedBoxMe × Cartier",
@@ -194,7 +194,7 @@ export const de = {
     "poemReaderCollapse": "↑ Einklappen"
   },
   "pubStrip": {
-    "eyebrow": "Ich arbeite hinter den Kulissen, meine Klienten erscheinen in:",
+    "eyebrow": "Ich arbeite hinter den Kulissen - meine Klienten erscheinen in:",
     "tail": "Und mehr."
   },
   "triptych": {
@@ -226,7 +226,7 @@ export const de = {
       "Ich wurde in Iowa aufgezogen, in einer Familie, die seit Hunderten von Jahren in nobler Weise dem Boden ihren Lebensunterhalt abringt.",
       "Die Kindheit war Bauen und Erschaffen: LEGO, Stop-Motion, Bücher, Schreiben und Mode. Durch diese Medien entdeckte ich meine Liebe zum Erzählen und zum Führen der Dinge von 0 zu 1 (von der Vorstellung zur Wirklichkeit). Schon früh entdeckte ich auch meine grundlegende Faszination für alle Formen menschlicher Ausdruckskraft und meine Berufung, sie in allen Formen zu verbreiten.",
       "Mit sechzehn ging ich an die East Coast und dann weiter westwärts nach San Francisco - der oft gegangene Weg von der Kleinstadt auf die große Bühne.",
-      "Fünf Unternehmen vor Abschluss des Studiums, dann ein Jahrzehnt in Bekleidungsdesign und -herstellung, in dem ich meine Liebe, weltweit für Tausende die Brücke zwischen Traum und Wirklichkeit zu sein, skaliert habe."
+      "Fünf Unternehmen vor Abschluss des Studiums, dann ein Jahrzehnt in Bekleidungsdesign und -herstellung, in dem ich weltweit für Tausende die Brücke zwischen Traum und Wirklichkeit gebaut habe."
     ]
   },
   "worldview": {

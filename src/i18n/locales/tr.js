@@ -8,7 +8,7 @@ export const tr = {
         "title": "ONTHEBIAS",
         "years": "2024 -",
         "role": "Kurucu + CEO",
-        "body": "Dünyanın zevk öncüsü markaları için ürün tasarım ve üretim platformu. On dakikada 40 saatlik tasarımdan fabrikaya süreç. Marka kimliği ve zevki merkezde tutarken üretkenlikte 260 katlık artış."
+        "body": "Dünyanın zevk öncüsü markaları için ürün tasarım ve üretim platformu. Tasarımdan fabrikaya 40 saatlik devir teslimi, on dakikaya sıkıştırıldı. Marka kimliği ve zevki merkezde tutarken üretkenlikte 260 katlık artış."
       },
       {
         "title": "RedBoxMe × Cartier",
@@ -194,7 +194,7 @@ export const tr = {
     "writingsTitle": "A Series of Poems About Someone Who Will Never Read Them"
   },
   "pubStrip": {
-    "eyebrow": "Perde arkasında çalışırım, müşterilerim şu yayınlarda görünür:",
+    "eyebrow": "Perde arkasında çalışırım - müşterilerim şu yayınlarda görünür:",
     "tail": "Ve daha fazlası."
   },
   "triptych": {
@@ -225,7 +225,7 @@ export const tr = {
       "Iowa'da, yüzlerce yıldır toprağı asilce işleyen bir ailede büyüdüm.",
       "Çocukluk, inşa etmek ve yaratmaktı: LEGO, stop-motion, kitaplar, yazı ve moda. Bu araçlar sayesinde hikâye anlatıcılığına ve şeyleri 0'dan 1'e (hayal gücünden gerçekliğe) taşımaya olan sevgimi keşfettim. Ayrıca erken yaşta, tüm insani ifade biçimlerine olan temel hayranlığımı ve onu her biçimde çoğaltma misyonumu keşfettim.",
       "On altı yaşında East Coast'a, ardından batıya San Francisco'ya gittim - küçük bir kasabadan büyük bir sahneye uzun süredir yürünen yol.",
-      "Üniversiteyi bitirmeden önce beş şirket, ardından konfeksiyon tasarımı ve üretiminde on yıl; binlerce kişi için küresel ölçekte rüyalar ile gerçeklik arasında köprü olma sevgimi büyüttüm."
+      "Üniversiteyi bitirmeden önce beş şirket, ardından konfeksiyon tasarımı ve üretiminde on yıl; binlerce kişi için küresel ölçekte rüyalar ile gerçeklik arasındaki köprüyü inşa ettim."
     ],
     "portraitCaption": "Portre · ROMULUS"
   },

@@ -8,7 +8,7 @@ export const id = {
         "title": "ONTHEBIAS",
         "years": "2024 -",
         "role": "Pendiri + CEO",
-        "body": "Platform desain dan kreasi produk untuk merek-merek dunia yang berorientasi pada selera. 40 jam desain-ke-pabrik dalam sepuluh menit. Peningkatan produktivitas 260x sembari menjaga identitas merek dan selera tetap sentral."
+        "body": "Platform desain dan kreasi produk untuk merek-merek dunia yang berorientasi pada selera. Serah-terima desain-ke-pabrik 40 jam, dipadatkan menjadi sepuluh menit. Peningkatan produktivitas 260x sembari menjaga identitas merek dan selera tetap sentral."
       },
       {
         "title": "RedBoxMe × Cartier",
@@ -32,7 +32,7 @@ export const id = {
         "title": "Back by Popular Demand",
         "years": "2017 - 2023",
         "role": "Pendiri",
-        "body": "Pintu menuju industri yang saya buat dan buka sendiri karena saya ingin masuk. Perusahaan fashion e-commerce DTC. 10,000 penjualan secara global sebelum tahun kedua SMA saya."
+        "body": "Sebuah pintu menuju industri yang saya buat dan buka sendiri, karena saya ingin masuk. Perusahaan fashion e-commerce DTC. 10,000 penjualan secara global sebelum tahun kedua SMA saya."
       },
       {
         "title": "Studio Consulting",
@@ -194,7 +194,7 @@ export const id = {
     "poemReaderCollapse": "↑ Ciutkan"
   },
   "pubStrip": {
-    "eyebrow": "Saya bekerja di balik layar, klien-klien saya tampil di:",
+    "eyebrow": "Saya bekerja di balik layar - klien-klien saya tampil di:",
     "tail": "Dan lainnya."
   },
   "triptych": {
@@ -226,7 +226,7 @@ export const id = {
       "Saya dibesarkan di Iowa, dalam sebuah keluarga yang dengan mulia telah mengangkatnya dari tanah selama ratusan tahun.",
       "Masa kecil adalah membangun dan menciptakan: LEGO, stop-motion, buku, menulis, dan fashion. Melalui medium-medium ini, saya menemukan cinta saya terhadap penceritaan, dan membawa hal-hal dari 0 ke 1 (imajinasi menuju kenyataan). Saya juga menemukan sejak dini ketertarikan mendasar saya terhadap segala bentuk ekspresi manusia, dan misi saya untuk memperbanyaknya dalam segala bentuk.",
       "Saya pergi pada usia sixteen menuju East Coast lalu berangkat ke barat ke San Francisco - jalur panjang yang telah dilalui banyak orang, dari kota kecil ke panggung besar.",
-      "Lima perusahaan sebelum menyelesaikan kuliah, kemudian satu dekade dalam desain dan manufaktur pakaian, memperluas cinta saya untuk menjadi jembatan antara mimpi dan kenyataan secara global bagi ribuan orang."
+      "Lima perusahaan sebelum menyelesaikan kuliah, kemudian satu dekade dalam desain dan manufaktur pakaian, membangun jembatan antara mimpi dan kenyataan secara global bagi ribuan orang."
     ]
   },
   "worldview": {

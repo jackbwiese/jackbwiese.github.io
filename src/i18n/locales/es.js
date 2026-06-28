@@ -8,7 +8,7 @@ export const es = {
         "title": "ONTHEBIAS",
         "years": "2024 -",
         "role": "Fundador + CEO",
-        "body": "La plataforma de diseño y creación de producto para las marcas guiadas por el gusto del mundo. 40 horas de diseño a fábrica en diez minutos. Aumento de productividad de 260x manteniendo la identidad y el gusto de la marca como ejes centrales."
+        "body": "La plataforma de diseño y creación de producto para las marcas guiadas por el gusto del mundo. Una entrega de diseño a fábrica de 40 horas, comprimida a diez minutos. Aumento de productividad de 260x manteniendo la identidad y el gusto de la marca como ejes centrales."
       },
       {
         "title": "RedBoxMe × Cartier",
@@ -32,7 +32,7 @@ export const es = {
         "title": "Back by Popular Demand",
         "years": "2017 - 2023",
         "role": "Fundador",
-        "body": "Una puerta a la industria que yo mismo construí y abrí porque quería entrar. Empresa de moda e-commerce DTC. 10.000 ventas a nivel global antes de mi segundo año de secundaria."
+        "body": "Una puerta a la industria que yo mismo construí y abrí, porque quería entrar. Empresa de moda e-commerce DTC. 10.000 ventas a nivel global antes de mi segundo año de secundaria."
       },
       {
         "title": "Studio Consulting",
@@ -194,7 +194,7 @@ export const es = {
     "poemReaderCollapse": "↑ Colapsar"
   },
   "pubStrip": {
-    "eyebrow": "Trabajo entre bastidores, mis clientes aparecen en:",
+    "eyebrow": "Trabajo entre bastidores - mis clientes aparecen en:",
     "tail": "Y más."
   },
   "triptych": {
@@ -226,7 +226,7 @@ export const es = {
       "Me crié en Iowa, en una familia que durante cientos de años ha sabido extraerlo noblemente de la tierra.",
       "La infancia fue construir y crear: LEGO, stop-motion, libros, escritura y moda. A través de estos medios descubrí mi amor por la narración y por llevar las cosas de 0 a 1 (de la imaginación a la realidad). También descubrí desde temprana edad mi fascinación fundamental por todas las formas de la expresión humana, y mi misión de proliferarla en todas sus formas.",
       "Me marché a los dieciséis a la East Coast y luego me dirigí al oeste a San Francisco - el camino tantas veces recorrido desde un pueblo pequeño hasta un gran escenario.",
-      "Cinco empresas antes de terminar la universidad, después una década en diseño y manufactura de prendas, escalando globalmente para miles mi amor por ser el puente entre los sueños y la realidad."
+      "Cinco empresas antes de terminar la universidad, después una década en diseño y manufactura de prendas, construyendo globalmente para miles el puente entre los sueños y la realidad."
     ]
   },
   "worldview": {

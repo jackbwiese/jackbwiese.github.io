@@ -8,7 +8,7 @@ export const fr = {
         "title": "ONTHEBIAS",
         "years": "2024 -",
         "role": "Fondateur + CEO",
-        "body": "La plateforme de design et de création de produits pour les marques au goût affirmé du monde entier. 40 heures de design-à-l'usine en dix minutes. Productivité multipliée par 260 tout en gardant l'identité et le goût de la marque au centre."
+        "body": "La plateforme de design et de création de produits pour les marques au goût affirmé du monde entier. Une remise design-à-usine de 40 heures, compressée à dix minutes. Productivité multipliée par 260 tout en gardant l'identité et le goût de la marque au centre."
       },
       {
         "title": "RedBoxMe × Cartier",
@@ -194,7 +194,7 @@ export const fr = {
     "writingsTitle": "A Series of Poems About Someone Who Will Never Read Them"
   },
   "pubStrip": {
-    "eyebrow": "Je travaille dans les coulisses, mes clients paraissent dans :",
+    "eyebrow": "Je travaille dans les coulisses - mes clients paraissent dans :",
     "tail": "Et bien d'autres."
   },
   "triptych": {
@@ -225,7 +225,7 @@ export const fr = {
       "J'ai été élevé dans l'Iowa, dans une famille qui tire noblement sa subsistance de la terre depuis des centaines d'années.",
       "L'enfance fut bâtisseuse et créatrice : LEGO, stop-motion, livres, écriture et mode. À travers ces médiums, j'ai découvert mon amour du récit, et celui de mener les choses de 0 à 1 (de l'imagination à la réalité). J'ai également découvert très tôt ma fascination fondamentale pour toutes les formes d'expression humaine, et ma mission de les faire proliférer sous toutes leurs formes.",
       "Je suis parti à seize ans pour la côte Est, puis j'ai mis le cap à l'ouest vers San Francisco - le long chemin déjà foulé d'une petite ville à une grande scène.",
-      "Cinq entreprises avant la fin de l'université, puis une décennie dans le design et la fabrication d'habillement, à faire grandir mondialement, pour des milliers, mon amour d'être le pont entre les rêves et la réalité."
+      "Cinq entreprises avant la fin de l'université, puis une décennie dans le design et la fabrication d'habillement, à bâtir mondialement, pour des milliers, le pont entre les rêves et la réalité."
     ],
     "portraitCaption": "Portrait · ROMULUS"
   },

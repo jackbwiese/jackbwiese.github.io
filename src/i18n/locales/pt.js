@@ -8,7 +8,7 @@ export const pt = {
         "title": "ONTHEBIAS",
         "years": "2024 -",
         "role": "Fundador + CEO",
-        "body": "A plataforma de design e criação de produto para as marcas mais orientadas ao gosto do mundo. 40 horas de design-à-fábrica em dez minutos. Aumento de 260x na produtividade, mantendo a identidade da marca e o gosto no centro."
+        "body": "A plataforma de design e criação de produto para as marcas mais orientadas ao gosto do mundo. Uma entrega design-à-fábrica de 40 horas, comprimida em dez minutos. Aumento de 260x na produtividade, mantendo a identidade da marca e o gosto no centro."
       },
       {
         "title": "RedBoxMe × Cartier",
@@ -194,7 +194,7 @@ export const pt = {
     "writingsTitle": "A Series of Poems About Someone Who Will Never Read Them"
   },
   "pubStrip": {
-    "eyebrow": "Trabalho nos bastidores, os meus clientes aparecem em:",
+    "eyebrow": "Trabalho nos bastidores - os meus clientes aparecem em:",
     "tail": "E mais."
   },
   "triptych": {
@@ -225,7 +225,7 @@ export const pt = {
       "Fui criado em Iowa, numa família que, há centenas de anos, nobremente arranca o seu sustento da terra.",
       "A infância foi construir e criar: LEGO, stop-motion, livros, escrita e moda. Através destes meios, descobri o meu amor pela narrativa, e por trazer as coisas de 0 a 1 (da imaginação à realidade). Descobri também, desde cedo, o meu fascínio fundamental por todas as formas de expressão humana, e a minha missão de a proliferar em todas as formas.",
       "Parti aos dezasseis anos para a East Coast e depois rumei a oeste, para San Francisco - o caminho longamente percorrido de uma pequena cidade para um grande palco.",
-      "Cinco empresas antes de concluir a universidade, depois uma década em design e fabrico de vestuário, ampliando a nível global, para milhares, o meu amor por ser a ponte entre os sonhos e a realidade."
+      "Cinco empresas antes de concluir a universidade, depois uma década em design e fabrico de vestuário, construindo a nível global, para milhares, a ponte entre os sonhos e a realidade."
     ],
     "portraitCaption": "Retrato · ROMULUS"
   },
