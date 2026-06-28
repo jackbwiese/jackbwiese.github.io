@@ -46,7 +46,7 @@ export const en = {
     ledeSuffix: ': a storyteller who joins things together.',
     purposeP1: 'I am on this earth to',
     purposeAccent1: 'proliferate creativity and introspection',
-    purposeP2: 'for mankind. To make every person on earth a creator. To set in motion a',
+    purposeP2: 'for humankind. To make every person on earth a creator. To set in motion a',
     purposeAccent2: 'global human renaissance',
     purposeP3: '.',
   },
