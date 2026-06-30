@@ -128,7 +128,7 @@ export const ru = {
   },
   "meta": {
     "description": "Основатель. Рыцарь. Пират. Денди. Создатель миров. Основатель + CEO ONTHEBIAS.",
-    "title": "Jack (B.) von Wiese und Kaiserswaldau"
+    "title": "Jack (B.) Wiese"
   },
   "nav": {
     "arsenal": "Арсенал",

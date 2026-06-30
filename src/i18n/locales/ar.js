@@ -128,7 +128,7 @@ export const ar = {
   },
   "meta": {
     "description": "مؤسس. فارس. قرصان. أنيق. باني عوالم. مؤسس ورئيس تنفيذي لـ ONTHEBIAS.",
-    "title": "Jack (B.) von Wiese und Kaiserswaldau"
+    "title": "Jack (B.) Wiese"
   },
   "nav": {
     "arsenal": "الترسانة",

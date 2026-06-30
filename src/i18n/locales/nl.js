@@ -127,7 +127,7 @@ export const nl = {
     ]
   },
   "meta": {
-    "title": "Jack (B.) von Wiese und Kaiserswaldau",
+    "title": "Jack (B.) Wiese",
     "description": "Oprichter. Ridder. Piraat. Dandy. Wereldbouwer. Oprichter + CEO van ONTHEBIAS."
   },
   "nav": {

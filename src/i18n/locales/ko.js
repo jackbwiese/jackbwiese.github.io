@@ -128,7 +128,7 @@ export const ko = {
   },
   "meta": {
     "description": "창립자. 기사. 해적. 댄디. 세계관 설계자. ONTHEBIAS의 창립자 + CEO.",
-    "title": "Jack (B.) von Wiese und Kaiserswaldau"
+    "title": "Jack (B.) Wiese"
   },
   "nav": {
     "arsenal": "아스널",

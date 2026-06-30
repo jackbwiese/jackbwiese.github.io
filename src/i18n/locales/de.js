@@ -127,7 +127,7 @@ export const de = {
     ]
   },
   "meta": {
-    "title": "Jack (B.) von Wiese und Kaiserswaldau",
+    "title": "Jack (B.) Wiese",
     "description": "Gründer. Ritter. Pirat. Dandy. Weltenbauer. Gründer + CEO von ONTHEBIAS."
   },
   "nav": {

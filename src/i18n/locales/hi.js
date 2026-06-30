@@ -127,7 +127,7 @@ export const hi = {
     ]
   },
   "meta": {
-    "title": "Jack (B.) von Wiese und Kaiserswaldau",
+    "title": "Jack (B.) Wiese",
     "description": "संस्थापक। नाइट। समुद्री-दस्यु। डैंडी। विश्व-निर्माता। ONTHEBIAS के संस्थापक + CEO।"
   },
   "nav": {

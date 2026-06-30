@@ -128,7 +128,7 @@ export const zhTW = {
   },
   "meta": {
     "description": "創辦人。騎士。海盜。紈絝公子。世界建構者。ONTHEBIAS 創辦人兼執行長。",
-    "title": "Jack (B.) von Wiese und Kaiserswaldau"
+    "title": "Jack (B.) Wiese"
   },
   "nav": {
     "arsenal": "兵器庫",

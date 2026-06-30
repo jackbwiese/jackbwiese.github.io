@@ -127,7 +127,7 @@ export const id = {
     ]
   },
   "meta": {
-    "title": "Jack (B.) von Wiese und Kaiserswaldau",
+    "title": "Jack (B.) Wiese",
     "description": "Pendiri. Ksatria. Bajak Laut. Dandi. Pembangun Dunia. Pendiri + CEO ONTHEBIAS."
   },
   "nav": {

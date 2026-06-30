@@ -128,7 +128,7 @@ export const tr = {
   },
   "meta": {
     "description": "Kurucu. Şövalye. Korsan. Dandy. Dünya Kurucusu. ONTHEBIAS'ın Kurucusu + CEO'su.",
-    "title": "Jack (B.) von Wiese und Kaiserswaldau"
+    "title": "Jack (B.) Wiese"
   },
   "nav": {
     "arsenal": "Cephanelik",

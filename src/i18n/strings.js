@@ -21,7 +21,7 @@ import { id } from './locales/id.js';
 
 export const en = {
   meta: {
-    title: 'Jack (B.) von Wiese und Kaiserswaldau',
+    title: 'Jack (B.) Wiese',
     description: 'Founder. Knight. Pirate. Dandy. Worldbuilder. Founder + CEO of ONTHEBIAS.',
   },
   nav: {

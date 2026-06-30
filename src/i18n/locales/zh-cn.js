@@ -128,7 +128,7 @@ export const zhCN = {
   },
   "meta": {
     "description": "创始人。骑士。海盗。花花公子。世界构建者。ONTHEBIAS创始人兼首席执行官。",
-    "title": "Jack (B.) von Wiese und Kaiserswaldau"
+    "title": "Jack (B.) Wiese"
   },
   "nav": {
     "arsenal": "武库",

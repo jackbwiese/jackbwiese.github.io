@@ -128,7 +128,7 @@ export const ja = {
   },
   "meta": {
     "description": "創業者。騎士。海賊。ダンディ。世界の創り手。ONTHEBIAS創業者兼CEO。",
-    "title": "Jack (B.) von Wiese und Kaiserswaldau"
+    "title": "Jack (B.) Wiese"
   },
   "nav": {
     "arsenal": "武具",

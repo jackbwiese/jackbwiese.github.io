@@ -128,7 +128,7 @@ export const fr = {
   },
   "meta": {
     "description": "Fondateur. Chevalier. Pirate. Dandy. Bâtisseur de mondes. Fondateur + CEO d'ONTHEBIAS.",
-    "title": "Jack (B.) von Wiese und Kaiserswaldau"
+    "title": "Jack (B.) Wiese"
   },
   "nav": {
     "arsenal": "Arsenal",

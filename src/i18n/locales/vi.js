@@ -127,7 +127,7 @@ export const vi = {
     ]
   },
   "meta": {
-    "title": "Jack (B.) von Wiese und Kaiserswaldau",
+    "title": "Jack (B.) Wiese",
     "description": "Nhà sáng lập. Hiệp sĩ. Cướp biển. Quý ông phong nhã. Người kiến tạo thế giới. Nhà sáng lập + CEO của ONTHEBIAS."
   },
   "nav": {
