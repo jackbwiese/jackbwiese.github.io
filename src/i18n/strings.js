@@ -84,8 +84,8 @@ export const en = {
     eyebrow: '§ IV · Vita',
     portraitCaption: 'Portrait · ROMULUS',
     paragraphs: [
-      'I was raised in Iowa, in a family that has been nobly getting it out of the dirt for hundreds of years.',
-      'Childhood was building and creating: LEGO, stop-motion, books, writing, and fashion. Through these mediums, I discovered my love for storytelling, and bringing things from 0 to 1 (imagination to reality). I also discovered, at an early age, my fundamental fascination with all forms of human expression, and my mission to proliferate them in all forms.',
+      'I was raised in Iowa, in a family that has been nobly getting it out of the dirt for hundreds of years. My grandmother was an art teacher and painter - art and fashion are in my blood as much as the land.',
+      "My parents both worked at Macy's before I was born - much of my aesthetic taste and proclivities are inherited from them. Childhood was building and creating: LEGO, stop-motion, books, writing, and fashion. Through these mediums, I discovered my love for storytelling, and bringing things from 0 to 1 (imagination to reality). I also discovered, at an early age, my fundamental fascination with all forms of human expression, and my mission to proliferate them in all forms.",
       'I left at sixteen for the East Coast and then headed west to San Francisco - the long-walked path from a small town to a big stage.',
       'Five companies before concluding university, then a decade in apparel design and manufacturing, building the bridge between dreams and reality globally for thousands.',
     ],
