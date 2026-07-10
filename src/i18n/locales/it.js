@@ -222,8 +222,8 @@ export const it = {
     "epigraph": "Non sono nulla e non so nulla, dunque posso fare qualsiasi cosa.",
     "eyebrow": "§ IV · Vita",
     "paragraphs": [
-      "Sono stato cresciuto in Iowa, in una famiglia che da centinaia di anni nobilmente ricava il pane dalla terra.",
-      "L'infanzia è stata costruire e creare: LEGO, stop-motion, libri, scrittura e moda. Attraverso questi mezzi ho scoperto il mio amore per la narrazione e per portare le cose da 0 a 1 (dall'immaginazione alla realtà). Ho scoperto anche, fin da piccolo, la mia fascinazione fondamentale per tutte le forme di espressione umana, e la mia missione di farle proliferare in ogni forma.",
+      "Sono stato cresciuto in Iowa, in una famiglia che da centinaia di anni nobilmente ricava il pane dalla terra. Mia nonna era insegnante d'arte e pittrice - l'arte e la moda sono nel mio sangue tanto quanto la terra.",
+      "Entrambi i miei genitori hanno lavorato da Macy's prima che io nascessi - gran parte del mio gusto estetico e delle mie inclinazioni le ho ereditate da loro. L'infanzia è stata costruire e creare: LEGO, stop-motion, libri, scrittura e moda. Attraverso questi mezzi ho scoperto il mio amore per la narrazione e per portare le cose da 0 a 1 (dall'immaginazione alla realtà). Ho scoperto anche, fin da piccolo, la mia fascinazione fondamentale per tutte le forme di espressione umana, e la mia missione di farle proliferare in ogni forma.",
       "Sono partito a sedici anni per la East Coast e poi mi sono diretto a ovest, a San Francisco - il lungo cammino dalla piccola città al grande palcoscenico.",
       "Cinque aziende prima di concludere l'università, poi un decennio nel design e nella produzione di abbigliamento, costruendo il ponte tra sogni e realtà a livello globale per migliaia di persone."
     ],
