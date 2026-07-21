@@ -119,6 +119,7 @@ export const zhTW = {
       "我已在社群媒體上創造超過 20M 次曝光。",
       "我建構自己的生活與實踐,以大規模地為他人架起夢想與現實之間的橋樑。這是滋養我的事。",
       "我在 Iowa 的 Dyersville 長大,棒球電影《Field of Dreams》就在那裡拍攝。\"If you build it, they will come!\"(只要你建造它,他們就會來!)",
+      "繪製《美國哥德式》的 Grant Wood,出生地距我成長的地方僅有35英里。",
       "我直到 22 歲才喝咖啡。",
       "我最喜愛的設計師是 Vivienne Westwood、Raf Simons 與 Ralph Lauren。",
       "我最喜愛的藝術家是 Max Ernst、Yves Klein、Theo Van Doesburg、Kurt Schwitters 與 Thomas Rowlandson。",

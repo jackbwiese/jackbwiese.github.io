@@ -119,6 +119,7 @@ export const tr = {
       "Sosyal medyada 20M'den fazla gösterim ürettim.",
       "Hayatımı ve pratiğimi, başkaları için rüyalar ile gerçeklik arasında bir köprü olarak hizmet etmek üzere kurdum - ölçekte. Beni tatmin eden budur.",
       "Iowa, Dyersville'de büyüdüm; \"Field of Dreams\" beyzbol filminin çekildiği yer. Onu inşa edersen, gelecekler!",
+      "American Gothic'i çizen Grant Wood, büyüdüğüm yerden 35 mil uzakta doğdu.",
       "22 yaşına kadar hiç kahve içmedim.",
       "En sevdiğim tasarımcılar Vivienne Westwood, Raf Simons ve Ralph Lauren'dır.",
       "En sevdiğim sanatçılar Max Ernst, Yves Klein, Theo Van Doesburg, Kurt Schwitters ve Thomas Rowlandson'dır.",

@@ -120,6 +120,7 @@ export const nl = {
       "Ik heb meer dan 20M weergaven gegenereerd op sociale media.",
       "Ik heb mijn leven en praktijk opgebouwd om voor anderen als brug tussen droom en werkelijkheid te dienen - op schaal. Dat is wat mij vervult.",
       "Ik groeide op in Dyersville, Iowa, waar de honkbalfilm \"Field of Dreams\" werd opgenomen. If you build it, they will come!",
+      "Grant Wood, die American Gothic schilderde, werd geboren op 35 mijl van waar ik opgroeide.",
       "Ik dronk geen koffie tot mijn 22e.",
       "Mijn favoriete ontwerpers zijn Vivienne Westwood, Raf Simons en Ralph Lauren.",
       "Mijn favoriete kunstenaars zijn Max Ernst, Yves Klein, Theo Van Doesburg, Kurt Schwitters en Thomas Rowlandson.",

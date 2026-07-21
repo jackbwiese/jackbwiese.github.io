@@ -120,6 +120,7 @@ export const vi = {
       "Tôi đã tạo ra hơn 20M lượt hiển thị trên mạng xã hội.",
       "Tôi đã xây dựng cuộc đời và sự nghiệp của mình để làm cây cầu giữa giấc mơ và hiện thực cho người khác - ở quy mô lớn. Đó là điều khiến tôi viên mãn.",
       "Tôi lớn lên tại Dyersville, Iowa, nơi bộ phim bóng chày \"Field of Dreams\" được quay. Nếu bạn xây nó, họ sẽ đến!",
+      "Grant Wood, người vẽ American Gothic, sinh ra cách nơi tôi lớn lên 35 dặm.",
       "Tôi chưa từng uống cà phê cho đến năm 22 tuổi.",
       "Các nhà thiết kế yêu thích của tôi là Vivienne Westwood, Raf Simons và Ralph Lauren.",
       "Các nghệ sĩ yêu thích của tôi là Max Ernst, Yves Klein, Theo Van Doesburg, Kurt Schwitters và Thomas Rowlandson.",

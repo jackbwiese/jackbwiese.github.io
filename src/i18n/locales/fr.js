@@ -119,6 +119,7 @@ export const fr = {
       "J'ai généré plus de 20M d'impressions sur les réseaux sociaux.",
       "J'ai bâti ma vie et ma pratique pour servir de pont entre les rêves et la réalité d'autrui - à grande échelle. C'est ce qui me comble.",
       "J'ai grandi à Dyersville, dans l'Iowa, où fut tourné le film de baseball \"Field of Dreams\". Si vous le construisez, ils viendront !",
+      "Grant Wood, qui a peint American Gothic, est né à 35 miles de l'endroit où j'ai grandi.",
       "Je n'ai pas bu de café avant l'âge de 22 ans.",
       "Mes designers favoris sont Vivienne Westwood, Raf Simons et Ralph Lauren.",
       "Mes artistes favoris sont Max Ernst, Yves Klein, Theo Van Doesburg, Kurt Schwitters et Thomas Rowlandson.",

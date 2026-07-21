@@ -119,6 +119,7 @@ export const ja = {
       "ソーシャルメディアで2,000万を超えるインプレッションを生み出してきた。",
       "他者にとって夢と現実をつなぐ橋となるよう、私の人生と実践を築いてきた - それも、スケールをもって。これが私を満たすものである。",
       "私はアイオワ州Dyersvilleで育った。野球映画「Field of Dreams」が撮影された地である。「築けば、人は来る!」",
+      "『アメリカン・ゴシック』を描いたグラント・ウッドは、私が育った場所から35マイル離れた地で生まれた。",
       "22歳になるまでコーヒーを口にしたことがなかった。",
       "私のお気に入りのデザイナーは、Vivienne Westwood、Raf Simons、そしてRalph Laurenである。",
       "私のお気に入りの芸術家は、Max Ernst、Yves Klein、Theo Van Doesburg、Kurt Schwitters、そしてThomas Rowlandsonである。",

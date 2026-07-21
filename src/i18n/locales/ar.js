@@ -119,6 +119,7 @@ export const ar = {
       "حقّقتُ أكثر من 20M ظهور على وسائل التواصل الاجتماعي.",
       "بنيتُ حياتي وممارستي لأكون جسراً بين الأحلام والواقع للآخرين - على نطاق واسع. هذا ما يمنحني الرضا.",
       "نشأتُ في Dyersville, Iowa، حيث صُوّر فيلم البيسبول \"Field of Dreams\". إن بنيتَه، فسيأتون!",
+      "غرانت وود، الذي رسم American Gothic، وُلِد على بُعد 35 ميلاً من المكان الذي نشأتُ فيه.",
       "لم أتذوّق القهوة حتى بلغتُ الثانية والعشرين.",
       "مصمموني المفضّلون هم Vivienne Westwood وRaf Simons وRalph Lauren.",
       "فنّانوي المفضّلون هم Max Ernst وYves Klein وTheo Van Doesburg وKurt Schwitters وThomas Rowlandson.",

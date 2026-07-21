@@ -120,6 +120,7 @@ export const id = {
       "Saya telah menghasilkan lebih dari 20M tayangan di media sosial.",
       "Saya membangun hidup dan praktik saya untuk menjadi jembatan antara mimpi dan kenyataan bagi orang lain - dalam skala besar. Inilah yang memenuhi saya.",
       "Saya tumbuh di Dyersville, Iowa, tempat film baseball \"Field of Dreams\" difilmkan. Jika kau membangunnya, mereka akan datang!",
+      "Grant Wood, yang melukis American Gothic, lahir 35 mil dari tempat saya dibesarkan.",
       "Saya tidak pernah minum kopi hingga usia 22.",
       "Desainer favorit saya adalah Vivienne Westwood, Raf Simons, dan Ralph Lauren.",
       "Seniman favorit saya adalah Max Ernst, Yves Klein, Theo Van Doesburg, Kurt Schwitters, dan Thomas Rowlandson.",

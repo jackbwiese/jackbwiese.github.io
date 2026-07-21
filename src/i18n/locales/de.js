@@ -120,6 +120,7 @@ export const de = {
       "Ich habe in den sozialen Medien über 20M Impressionen erzeugt.",
       "Ich habe mein Leben und meine Arbeit so eingerichtet, dass sie für andere als Brücke zwischen Traum und Wirklichkeit dienen - in großem Maßstab. Das ist es, was mich erfüllt.",
       "Ich bin in Dyersville, Iowa, aufgewachsen, wo der Baseballfilm \"Field of Dreams\" gedreht wurde. Wenn du es baust, werden sie kommen!",
+      "Grant Wood, der American Gothic malte, wurde 35 Meilen von dem Ort entfernt geboren, an dem ich aufgewachsen bin.",
       "Ich habe bis zu meinem 22. Lebensjahr nie Kaffee getrunken.",
       "Meine Lieblingsdesigner sind Vivienne Westwood, Raf Simons und Ralph Lauren.",
       "Meine Lieblingskünstler sind Max Ernst, Yves Klein, Theo Van Doesburg, Kurt Schwitters und Thomas Rowlandson.",

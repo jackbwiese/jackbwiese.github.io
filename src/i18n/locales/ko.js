@@ -119,6 +119,7 @@ export const ko = {
       "나는 소셜 미디어에서 2,000만 회 이상의 노출을 만들어냈다.",
       "나는 타인을 위해 꿈과 현실을 잇는 다리로서 살아갈 수 있도록-규모 있게-내 삶과 작업을 구축해왔다. 이것이 나를 충만하게 한다.",
       "나는 야구 영화 \"Field of Dreams\"가 촬영된 Iowa의 Dyersville에서 자랐다. 그것을 지으면, 그들이 올 것이다!",
+      "American Gothic을 그린 Grant Wood는 내가 자란 곳에서 35마일 떨어진 곳에서 태어났다.",
       "나는 22살이 될 때까지 커피를 마셔본 적이 없다.",
       "내가 가장 좋아하는 디자이너는 Vivienne Westwood, Raf Simons, 그리고 Ralph Lauren이다.",
       "내가 가장 좋아하는 예술가는 Max Ernst, Yves Klein, Theo Van Doesburg, Kurt Schwitters, 그리고 Thomas Rowlandson이다.",
