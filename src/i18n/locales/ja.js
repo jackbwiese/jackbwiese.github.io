@@ -104,7 +104,10 @@ export const ja = {
     "purposeAccent2": "地球規模の人間の再生",
     "purposeP1": "私がこの世にある目的は、人類のために",
     "purposeP2": "こと。地上のすべての人を創り手にすること。そして、",
-    "purposeP3": "を始動させることである。"
+    "purposeP3": "を始動させることである。",
+    "vowPrefix": "この大義のために、私は",
+    "vowAccent": "揺るぎない騎士",
+    "vowSuffix": "であり、私のなすすべては、この目的に沿っている。"
   },
   "marginalia": {
     "eyebrow": "§ II · マージナリア",

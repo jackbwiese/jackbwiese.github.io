@@ -14,6 +14,10 @@ const L = Astro.currentLocale;
       {t(L, 'manifesto.purposeP1')} <span class="accent">{t(L, 'manifesto.purposeAccent1')}</span> {t(L, 'manifesto.purposeP2')}
       <span class="accent">{t(L, 'manifesto.purposeAccent2')}</span>{t(L, 'manifesto.purposeP3')}
     </p>
+
+    <p class="manifesto__vow">
+      {t(L, 'manifesto.vowPrefix')} <span class="accent">{t(L, 'manifesto.vowAccent')}</span>{t(L, 'manifesto.vowSuffix')}
+    </p>
   </div>
 </section>
 
@@ -44,4 +48,14 @@ const L = Astro.currentLocale;
     color: var(--otb-black);
   }
   .manifesto__purpose .accent { color: var(--accent); }
+  .manifesto__vow {
+    font-family: 'NHaas Display';
+    font-weight: 300;
+    font-size: clamp(1.1rem, 2.2vw, 1.8rem);
+    line-height: 1.22;
+    letter-spacing: var(--track-tight);
+    margin: clamp(1.5rem, 3vw, 2.5rem) 0 0;
+    color: var(--otb-black);
+  }
+  .manifesto__vow .accent { color: var(--accent); }
 </style>

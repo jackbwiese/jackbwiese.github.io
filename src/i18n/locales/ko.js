@@ -104,7 +104,10 @@ export const ko = {
     "purposeAccent2": "전 지구적 인류 르네상스",
     "purposeP1": "나는 인류를 위해",
     "purposeP2": "위해 이 땅에 존재한다. 지구상의 모든 사람을 창작자로 만들기 위해. 하나의",
-    "purposeP3": "를 일으키기 위해."
+    "purposeP3": "를 일으키기 위해.",
+    "vowPrefix": "이 대의를 위해, 나는",
+    "vowAccent": "흔들림 없는 기사",
+    "vowSuffix": "이며, 내가 하는 모든 것은 이 목적에 정렬되어 있다."
   },
   "marginalia": {
     "eyebrow": "§ II · 마지널리아",

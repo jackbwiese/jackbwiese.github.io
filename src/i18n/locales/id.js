@@ -104,7 +104,10 @@ export const id = {
     "purposeAccent1": "memperbanyak kreativitas dan introspeksi",
     "purposeP2": "bagi umat manusia. Untuk menjadikan setiap orang di bumi seorang kreator. Untuk menggerakkan sebuah",
     "purposeAccent2": "renaisans manusia global",
-    "purposeP3": "."
+    "purposeP3": ".",
+    "vowPrefix": "Untuk tujuan ini, saya adalah seorang",
+    "vowAccent": "ksatria yang teguh",
+    "vowSuffix": ", dan segala yang saya lakukan selaras dengan maksud ini."
   },
   "marginalia": {
     "eyebrow": "§ II · Marginalia",

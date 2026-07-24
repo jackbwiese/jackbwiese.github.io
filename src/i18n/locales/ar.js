@@ -104,7 +104,10 @@ export const ar = {
     "purposeAccent2": "نهضة إنسانية عالمية",
     "purposeP1": "أنا على هذه الأرض كي",
     "purposeP2": "للبشرية. لجعل كل إنسان على وجه الأرض مبدعاً. لإطلاق",
-    "purposeP3": "."
+    "purposeP3": ".",
+    "vowPrefix": "من أجل هذه القضية، أنا",
+    "vowAccent": "فارس لا يتزعزع",
+    "vowSuffix": "، وكل ما أفعله متوافق مع هذه الغاية."
   },
   "marginalia": {
     "eyebrow": "§ II · Marginalia",

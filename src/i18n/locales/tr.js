@@ -104,7 +104,10 @@ export const tr = {
     "purposeAccent2": "küresel bir insan rönesansı",
     "purposeP1": "Bu dünyada bulunma amacım",
     "purposeP2": "insanlık için. Yeryüzündeki her insanı bir yaratıcıya dönüştürmek. Bir",
-    "purposeP3": " başlatmak."
+    "purposeP3": " başlatmak.",
+    "vowPrefix": "Bu dava için,",
+    "vowAccent": "sarsılmaz bir şövalyeyim",
+    "vowSuffix": " ve yaptığım her şey bu amaca hizalıdır."
   },
   "marginalia": {
     "eyebrow": "§ II · Marginalia",

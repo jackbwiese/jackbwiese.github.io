@@ -104,7 +104,10 @@ export const zhCN = {
     "purposeAccent2": "全球人类复兴",
     "purposeP1": "我在此世的使命是为人类",
     "purposeP2": "。让地球上每一个人都成为创作者。启动一场",
-    "purposeP3": "。"
+    "purposeP3": "。",
+    "vowPrefix": "为此使命,我是一位",
+    "vowAccent": "坚定不移的骑士",
+    "vowSuffix": ",我所做的一切皆与此目的相合。"
   },
   "marginalia": {
     "eyebrow": "§ II · Marginalia",

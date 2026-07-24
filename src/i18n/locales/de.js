@@ -104,7 +104,10 @@ export const de = {
     "purposeAccent1": "Kreativität und Selbstbetrachtung zu verbreiten",
     "purposeP2": "für die Menschheit. Um jeden Menschen auf Erden zum Schöpfer zu machen. Um eine",
     "purposeAccent2": "globale menschliche Renaissance",
-    "purposeP3": " in Bewegung zu setzen."
+    "purposeP3": " in Bewegung zu setzen.",
+    "vowPrefix": "Für diese Sache bin ich ein",
+    "vowAccent": "unerschütterlicher Ritter",
+    "vowSuffix": ", und alles was ich tue ist auf dieses Ziel ausgerichtet."
   },
   "marginalia": {
     "eyebrow": "§ II · Marginalia",

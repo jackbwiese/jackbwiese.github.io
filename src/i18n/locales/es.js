@@ -104,7 +104,10 @@ export const es = {
     "purposeAccent1": "proliferar la creatividad y la introspección",
     "purposeP2": "para la humanidad. Hacer de cada persona en la tierra un creador. Poner en marcha un",
     "purposeAccent2": "renacimiento humano global",
-    "purposeP3": "."
+    "purposeP3": ".",
+    "vowPrefix": "Por esta causa, soy un",
+    "vowAccent": "caballero inquebrantable",
+    "vowSuffix": ", y todo lo que hago está alineado con este propósito."
   },
   "marginalia": {
     "eyebrow": "§ II · Marginalia",

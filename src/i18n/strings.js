@@ -49,6 +49,9 @@ export const en = {
     purposeP2: 'for humankind. To make every person on earth a creator. To set in motion a',
     purposeAccent2: 'global human renaissance',
     purposeP3: '.',
+    vowPrefix: 'For this cause, I am an',
+    vowAccent: 'unwavering knight',
+    vowSuffix: ', and everything I do is aligned to this purpose.',
   },
   brandStrip: {
     eyebrow: "Brands I've contributed to.",

@@ -104,7 +104,10 @@ export const pt = {
     "purposeAccent2": "renascimento humano global",
     "purposeP1": "Estou nesta terra para",
     "purposeP2": "para a humanidade. Para tornar cada pessoa do mundo um criador. Para colocar em movimento um",
-    "purposeP3": "."
+    "purposeP3": ".",
+    "vowPrefix": "Por esta causa, sou um",
+    "vowAccent": "cavaleiro inabalável",
+    "vowSuffix": ", e tudo o que faço está alinhado a este propósito."
   },
   "marginalia": {
     "eyebrow": "§ II · Marginalia",

@@ -104,7 +104,10 @@ export const zhTW = {
     "purposeAccent2": "全球性的人類文藝復興",
     "purposeP1": "我來到這世上,是為了",
     "purposeP2": ",獻給人類。讓地球上每一個人都成為創作者。掀起一場",
-    "purposeP3": "。"
+    "purposeP3": "。",
+    "vowPrefix": "為此使命,我是一位",
+    "vowAccent": "堅定不移的騎士",
+    "vowSuffix": ",我所做的一切皆與此目的相合。"
   },
   "marginalia": {
     "eyebrow": "§ II · Marginalia",

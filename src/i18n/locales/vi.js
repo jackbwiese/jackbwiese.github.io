@@ -104,7 +104,10 @@ export const vi = {
     "purposeAccent2": "cuộc phục hưng nhân loại toàn cầu",
     "purposeP1": "Tôi có mặt trên trái đất này để",
     "purposeP2": "cho loài người. Để biến mỗi con người trên trái đất thành một nhà sáng tạo. Để khởi động một",
-    "purposeP3": "."
+    "purposeP3": ".",
+    "vowPrefix": "Vì lý tưởng này, tôi là một",
+    "vowAccent": "hiệp sĩ kiên định",
+    "vowSuffix": ", và mọi việc tôi làm đều thẳng hàng với mục đích này."
   },
   "marginalia": {
     "eyebrow": "§ II · Marginalia",

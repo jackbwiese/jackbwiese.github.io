@@ -104,7 +104,10 @@ export const nl = {
     "purposeAccent1": "creativiteit en introspectie te laten gedijen",
     "purposeP2": "voor de mensheid. Om elk mens op aarde tot maker te maken. Om een",
     "purposeAccent2": "wereldwijde menselijke renaissance",
-    "purposeP3": "in gang te zetten."
+    "purposeP3": "in gang te zetten.",
+    "vowPrefix": "Voor deze zaak ben ik een",
+    "vowAccent": "onwankelbare ridder",
+    "vowSuffix": ", en alles wat ik doe staat in dienst van dit doel."
   },
   "marginalia": {
     "eyebrow": "§ II · Marginalia",
