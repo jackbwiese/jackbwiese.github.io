@@ -1,11 +1,11 @@
 ---
 const phrases = [
-  { lang: 'EL', text: 'Ο ΚΟΣΜΟΣ ΜΟΥ' },
-  { lang: 'EN', text: 'MY UNIVERSE' },
-  { lang: 'FR', text: 'MON UNIVERS' },
-  { lang: 'IT', text: 'IL MIO MONDO' },
-  { lang: 'ES', text: 'MI UNIVERSO' },
-  { lang: 'DE', text: 'MEINE WELT' },
+  { lang: 'EN', text: 'My life purpose: proliferate creative expression in the physical world and lay the foundation for a global human renaissance.' },
+  { lang: 'FR', text: "Le but de ma vie : proliférer l'expression créative dans le monde physique et poser les fondations d'une renaissance humaine mondiale." },
+  { lang: 'IT', text: "Lo scopo della mia vita: proliferare l'espressione creativa nel mondo fisico e porre le fondamenta di una rinascita umana globale." },
+  { lang: 'ES', text: 'El propósito de mi vida: proliferar la expresión creativa en el mundo físico y sentar las bases de un renacimiento humano global.' },
+  { lang: 'DE', text: 'Der Zweck meines Lebens: kreativen Ausdruck in der physischen Welt zu verbreiten und das Fundament für eine globale menschliche Renaissance zu legen.' },
+  { lang: 'EL', text: 'Ο σκοπός της ζωής μου: να διαδώσω τη δημιουργική έκφραση στον φυσικό κόσμο και να θέσω τα θεμέλια για μια παγκόσμια ανθρώπινη αναγέννηση.' },
 ];
 ---
 <div class="lang" aria-live="polite">
@@ -17,13 +17,18 @@ const phrases = [
 
 <style>
   .lang {
-    display: inline-flex;
+    display: flex;
     align-items: baseline;
-    gap: 1rem;
+    gap: 0.85rem;
     font-family: 'NHaas Display';
     font-weight: 300;
-    font-size: clamp(1.5rem, 4vw, 3rem);
+    font-size: clamp(1rem, 2.1vw, 1.55rem);
     letter-spacing: var(--track-tight);
+    line-height: 1.32;
+    max-width: 62ch;
+  }
+  .lang__text {
+    display: inline-block;
   }
   .lang__chip {
     font-family: 'NHaas Text';
@@ -65,6 +70,6 @@ const phrases = [
         root.classList.remove('is-fade');
       }, 320);
     };
-    setInterval(tick, 3800);
+    setInterval(tick, 6500);
   })();
 </script>
