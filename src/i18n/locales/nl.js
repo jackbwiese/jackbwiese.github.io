@@ -90,7 +90,7 @@ export const nl = {
   "hero": {
     "est": "EST. 2001",
     "tags": "OPRICHTER · CURATOR · ONTWERPER · KUNSTENAAR · SMAAKMAKER · ESTHEET · DANDY · WERELDBOUWER · RIDDER · PIRAAT",
-    "sigSuffix": "de verteller die dingen samenbrengt.",
+    "sigSuffix": "Het doel van mijn leven: creatieve expressie in de fysieke wereld verspreiden en de fundering leggen voor een wereldwijde menselijke renaissance.",
     "scroll": "SCROL"
   },
   "languagePicker": {

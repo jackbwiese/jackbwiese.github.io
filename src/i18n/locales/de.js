@@ -90,7 +90,7 @@ export const de = {
   "hero": {
     "est": "EST. 2001",
     "tags": "GRÜNDER · KURATOR · DESIGNER · KÜNSTLER · GESCHMACKSGEBER · ÄSTHET · DANDY · WELTENBAUER · RITTER · PIRAT",
-    "sigSuffix": "der Erzähler, der die Dinge zusammenfügt.",
+    "sigSuffix": "Der Zweck meines Lebens: kreativen Ausdruck in der physischen Welt zu verbreiten und das Fundament für eine globale menschliche Renaissance zu legen.",
     "scroll": "SCROLLEN"
   },
   "languagePicker": {

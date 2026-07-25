@@ -90,7 +90,7 @@ export const tr = {
   "hero": {
     "est": "EST. 2001",
     "scroll": "KAYDIR",
-    "sigSuffix": "şeyleri birbirine bağlayan hikâye anlatıcısı.",
+    "sigSuffix": "Yaşamımın amacı: fiziksel dünyada yaratıcı ifadeyi çoğaltmak ve küresel bir insan rönesansı için temel atmak.",
     "tags": "KURUCU · KÜRATÖR · TASARIMCI · SANATÇI · ZEVK ÖNCÜSÜ · ESTET · DANDY · DÜNYA KURUCUSU · ŞÖVALYE · KORSAN"
   },
   "languagePicker": {

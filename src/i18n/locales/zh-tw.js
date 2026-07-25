@@ -90,7 +90,7 @@ export const zhTW = {
   "hero": {
     "est": "EST. 2001",
     "scroll": "捲動",
-    "sigSuffix": "將萬物編織為一的說書人。",
+    "sigSuffix": "我的人生使命:在物質世界中繁衍創造性表達,為全球人類文藝復興奠定基礎。",
     "tags": "創辦人 · 策展人 · 設計師 · 藝術家 · 品味締造者 · 唯美主義者 · 紈絝公子 · 世界建構者 · 騎士 · 海盜"
   },
   "languagePicker": {

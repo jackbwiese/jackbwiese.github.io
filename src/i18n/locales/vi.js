@@ -90,7 +90,7 @@ export const vi = {
   "hero": {
     "est": "EST. 2001",
     "scroll": "CUỘN",
-    "sigSuffix": "người kể chuyện kết nối vạn vật lại với nhau.",
+    "sigSuffix": "Mục đích cuộc đời tôi: nhân rộng biểu đạt sáng tạo trong thế giới vật chất và đặt nền móng cho một cuộc phục hưng nhân loại toàn cầu.",
     "tags": "NHÀ SÁNG LẬP · NHÀ GIÁM TUYỂN · NHÀ THIẾT KẾ · NGHỆ SĨ · NGƯỜI ĐỊNH HÌNH GU · NHÀ THẨM MỸ · QUÝ ÔNG PHONG NHÃ · NGƯỜI KIẾN TẠO THẾ GIỚI · HIỆP SĨ · CƯỚP BIỂN"
   },
   "languagePicker": {

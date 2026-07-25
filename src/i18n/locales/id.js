@@ -90,7 +90,7 @@ export const id = {
   "hero": {
     "est": "EST. 2001",
     "tags": "PENDIRI · KURATOR · DESAINER · SENIMAN · PEMBENTUK SELERA · ESTET · DANDI · PEMBANGUN DUNIA · KSATRIA · BAJAK LAUT",
-    "sigSuffix": "sang pencerita yang merangkai segala sesuatu menjadi satu.",
+    "sigSuffix": "Tujuan hidup saya: menyebarkan ekspresi kreatif di dunia fisik dan meletakkan dasar bagi renaisans manusia global.",
     "scroll": "GULIR"
   },
   "languagePicker": {
