@@ -90,7 +90,7 @@ export const fr = {
   "hero": {
     "est": "EST. 2001",
     "scroll": "DÉFILER",
-    "sigSuffix": "Le but de ma vie : proliférer l'expression créative dans le monde physique et poser les fondations d'une renaissance humaine mondiale.",
+    "sigSuffix": "Ma raison d'être : proliférer l'expression créative dans le monde physique et poser les fondations d'une renaissance humaine mondiale.",
     "tags": "FONDATEUR · CURATEUR · DESIGNER · ARTISTE · PRESCRIPTEUR · ESTHÈTE · DANDY · BÂTISSEUR DE MONDES · CHEVALIER · PIRATE"
   },
   "languagePicker": {

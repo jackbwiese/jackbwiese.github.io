@@ -37,7 +37,7 @@ export const en = {
   hero: {
     est: 'EST. 2001',
     tags: 'FOUNDER · CURATOR · DESIGNER · ARTIST · TASTEMAKER · AESTHETE · DANDY · WORLDBUILDER · KNIGHT · PIRATE',
-    sigSuffix: 'My life purpose: proliferate creative expression in the physical world and lay the foundation for a global human renaissance.',
+    sigSuffix: "My life purpose (raison d'être): proliferate creative expression in the physical world and lay the foundation for a global human renaissance.",
     scroll: 'SCROLL',
   },
   manifesto: {

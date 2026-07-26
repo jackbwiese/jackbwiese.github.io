@@ -90,7 +90,7 @@ export const it = {
   "hero": {
     "est": "EST. 2001",
     "scroll": "SCORRI",
-    "sigSuffix": "Lo scopo della mia vita: proliferare l'espressione creativa nel mondo fisico e porre le fondamenta di una rinascita umana globale.",
+    "sigSuffix": "Lo scopo della mia vita (raison d'être): proliferare l'espressione creativa nel mondo fisico e porre le fondamenta di una rinascita umana globale.",
     "tags": "FONDATORE · CURATORE · DESIGNER · ARTISTA · ARBITRO DEL GUSTO · ESTETA · DANDY · COSTRUTTORE DI MONDI · CAVALIERE · PIRATA"
   },
   "languagePicker": {

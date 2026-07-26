@@ -90,7 +90,7 @@ export const es = {
   "hero": {
     "est": "EST. 2001",
     "tags": "FUNDADOR · CURADOR · DISEÑADOR · ARTISTA · ÁRBITRO DEL GUSTO · ESTETA · DANDI · CONSTRUCTOR DE MUNDOS · CABALLERO · PIRATA",
-    "sigSuffix": "El propósito de mi vida: proliferar la expresión creativa en el mundo físico y sentar las bases de un renacimiento humano global.",
+    "sigSuffix": "El propósito de mi vida (raison d'être): proliferar la expresión creativa en el mundo físico y sentar las bases de un renacimiento humano global.",
     "scroll": "DESPLAZAR"
   },
   "languagePicker": {

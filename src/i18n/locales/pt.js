@@ -90,7 +90,7 @@ export const pt = {
   "hero": {
     "est": "EST. 2001",
     "scroll": "DESLIZAR",
-    "sigSuffix": "O propósito da minha vida: proliferar a expressão criativa no mundo físico e lançar as bases para um renascimento humano global.",
+    "sigSuffix": "O propósito da minha vida (raison d'être): proliferar a expressão criativa no mundo físico e lançar as bases para um renascimento humano global.",
     "tags": "FUNDADOR · CURADOR · DESIGNER · ARTISTA · ÁRBITRO DO GOSTO · ESTETA · DÂNDI · CONSTRUTOR DE MUNDOS · CAVALEIRO · PIRATA"
   },
   "languagePicker": {
