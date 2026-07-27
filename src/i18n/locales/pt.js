@@ -245,7 +245,7 @@ export const pt = {
         "title": "Sonhe o sonho impossível. Viva-o vorazmente."
       },
       {
-        "body": "Gerações da minha família tiraram-no da terra porque não tinham outra escolha. O que foi pura sobrevivência para eles é agora a minha vantagem injusta. Não cedo, não me queixo, faço com que funcione. É isto que herdo, e é isto que devo.",
+        "body": "Gerações da minha família camponesa tiraram-no da terra porque não tinham outra escolha. O que foi pura sobrevivência para eles é agora a minha vantagem injusta. Não cedo, não me queixo, faço com que funcione. É isto que herdo, e é isto que devo.",
         "title": "Os rapazes de Iowa não param."
       }
     ]

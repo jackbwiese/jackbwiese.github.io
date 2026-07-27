@@ -246,7 +246,7 @@ export const de = {
       },
       {
         "title": "Iowa-Jungen hören nicht auf.",
-        "body": "Generationen meiner Familie haben es dem Boden abgerungen, weil sie keine andere Wahl hatten. Was für sie reines Überleben war, ist heute mein unlauterer Vorteil. Ich gebe nicht auf, ich beschwere mich nicht, ich bringe es zum Laufen. Das ist mein Erbe, und das ist meine Schuld."
+        "body": "Generationen meiner Bauernfamilie haben es dem Boden abgerungen, weil sie keine andere Wahl hatten. Was für sie reines Überleben war, ist heute mein unlauterer Vorteil. Ich gebe nicht auf, ich beschwere mich nicht, ich bringe es zum Laufen. Das ist mein Erbe, und das ist meine Schuld."
       }
     ]
   }

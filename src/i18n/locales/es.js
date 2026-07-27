@@ -246,7 +246,7 @@ export const es = {
       },
       {
         "title": "Los chicos de Iowa no paran.",
-        "body": "Generaciones de mi familia lo sacaron de la tierra porque no tenían otra opción. Lo que fue pura supervivencia para ellos es ahora mi ventaja injusta. No cedo, no me quejo, hago que funcione. Eso es lo que heredo, y eso es lo que debo."
+        "body": "Generaciones de mi familia campesina lo sacaron de la tierra porque no tenían otra opción. Lo que fue pura supervivencia para ellos es ahora mi ventaja injusta. No cedo, no me quejo, hago que funcione. Eso es lo que heredo, y eso es lo que debo."
       }
     ]
   }

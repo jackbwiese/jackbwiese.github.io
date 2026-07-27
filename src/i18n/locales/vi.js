@@ -245,7 +245,7 @@ export const vi = {
         "title": "Hãy mơ giấc mơ không thể. Sống nó một cách ngấu nghiến."
       },
       {
-        "body": "Nhiều thế hệ gia đình tôi đã moi nó lên từ đất vì họ không có lựa chọn nào khác. Điều chỉ là sinh tồn với họ nay là lợi thế bất công của tôi. Tôi không lùi bước, tôi không phàn nàn, tôi làm cho nó thành công. Đó là điều tôi thừa hưởng, và là điều tôi mắc nợ.",
+        "body": "Nhiều thế hệ gia đình nông dân của tôi đã moi nó lên từ đất vì họ không có lựa chọn nào khác. Điều chỉ là sinh tồn với họ nay là lợi thế bất công của tôi. Tôi không lùi bước, tôi không phàn nàn, tôi làm cho nó thành công. Đó là điều tôi thừa hưởng, và là điều tôi mắc nợ.",
         "title": "Con trai Iowa không dừng lại."
       }
     ]

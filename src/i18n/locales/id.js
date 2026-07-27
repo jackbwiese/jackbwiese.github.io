@@ -246,7 +246,7 @@ export const id = {
       },
       {
         "title": "Anak-anak Iowa tidak berhenti.",
-        "body": "Generasi keluarga saya menggali kehidupan dari tanah karena mereka tidak punya pilihan lain. Yang bagi mereka hanyalah kelangsungan hidup kini menjadi keunggulan tak adil bagi saya. Saya tidak menyerah, saya tidak mengeluh, saya membuatnya berhasil. Itulah yang saya warisi, dan itulah yang saya utang."
+        "body": "Generasi keluarga petani saya menggali kehidupan dari tanah karena mereka tidak punya pilihan lain. Yang bagi mereka hanyalah kelangsungan hidup kini menjadi keunggulan tak adil bagi saya. Saya tidak menyerah, saya tidak mengeluh, saya membuatnya berhasil. Itulah yang saya warisi, dan itulah yang saya utang."
       }
     ]
   }

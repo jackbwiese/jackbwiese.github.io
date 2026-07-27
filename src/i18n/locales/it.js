@@ -245,7 +245,7 @@ export const it = {
         "title": "Sogna il sogno impossibile. Vivilo voracemente."
       },
       {
-        "body": "Generazioni della mia famiglia l'hanno strappato alla terra perché non avevano altra scelta. Ciò che per loro era pura sopravvivenza è oggi il mio vantaggio ingiusto. Non cedo, non mi lamento, faccio in modo che funzioni. È ciò che ho ereditato, ed è ciò che devo.",
+        "body": "Generazioni della mia famiglia contadina l'hanno strappato alla terra perché non avevano altra scelta. Ciò che per loro era pura sopravvivenza è oggi il mio vantaggio ingiusto. Non cedo, non mi lamento, faccio in modo che funzioni. È ciò che ho ereditato, ed è ciò che devo.",
         "title": "I ragazzi dell'Iowa non si fermano."
       }
     ]
