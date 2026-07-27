@@ -243,6 +243,10 @@ export const de = {
       {
         "title": "Träume den unmöglichen Traum. Lebe ihn unersättlich.",
         "body": "Don Quixote ritt gegen Windmühlen an, weil der Traum größer war als der Wind. Der Traum ist immer größer als der Wind. Träume über das hinaus, was sie für möglich halten. Finde die größte Windmühle an deinem Horizont, jene, die dir die meiste Furcht einflößt, aber auch die größte Begeisterung in deinem Herzen weckt, und stürme mit voller Geschwindigkeit und vollem Mut auf sie zu."
+      },
+      {
+        "title": "Iowa-Jungen hören nicht auf.",
+        "body": "Generationen meiner Familie haben es dem Boden abgerungen, weil sie keine andere Wahl hatten. Was für sie reines Überleben war, ist heute mein unlauterer Vorteil. Ich gebe nicht auf, ich beschwere mich nicht, ich bringe es zum Laufen. Das ist mein Erbe, und das ist meine Schuld."
       }
     ]
   }

@@ -243,6 +243,10 @@ export const es = {
       {
         "title": "Sueña el sueño imposible. Vívelo con voracidad.",
         "body": "Don Quijote arremetió contra los molinos de viento porque el sueño era más grande que el viento. El sueño siempre es más grande que el viento. Sueña más allá de lo que dicen que se puede hacer. Encuentra el molino más grande en tu horizonte, el que más miedo te da, pero el que más entusiasmo despierta en tu corazón, y arremete contra él a toda velocidad y con todo coraje."
+      },
+      {
+        "title": "Los chicos de Iowa no paran.",
+        "body": "Generaciones de mi familia lo sacaron de la tierra porque no tenían otra opción. Lo que fue pura supervivencia para ellos es ahora mi ventaja injusta. No cedo, no me quejo, hago que funcione. Eso es lo que heredo, y eso es lo que debo."
       }
     ]
   }

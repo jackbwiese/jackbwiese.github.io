@@ -243,6 +243,10 @@ export const it = {
       {
         "body": "Don Quixote ha caricato i mulini a vento perché il sogno era più grande del vento. Il sogno è sempre più grande del vento. Sogna oltre ciò che dicono possa essere fatto. Trova il mulino a vento più grande all'orizzonte, quello che ti dà più paura ma suscita più entusiasmo nel tuo cuore, e caricalo a tutta velocità e coraggio.",
         "title": "Sogna il sogno impossibile. Vivilo voracemente."
+      },
+      {
+        "body": "Generazioni della mia famiglia l'hanno strappato alla terra perché non avevano altra scelta. Ciò che per loro era pura sopravvivenza è oggi il mio vantaggio ingiusto. Non cedo, non mi lamento, faccio in modo che funzioni. È ciò che ho ereditato, ed è ciò che devo.",
+        "title": "I ragazzi dell'Iowa non si fermano."
       }
     ]
   }

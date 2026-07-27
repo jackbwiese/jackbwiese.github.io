@@ -243,6 +243,10 @@ export const fr = {
       {
         "body": "Don Quichotte chargeait les moulins à vent parce que le rêve était plus grand que le vent. Le rêve est toujours plus grand que le vent. Rêvez au-delà de ce qu'on dit possible. Trouvez le plus grand moulin à vent de votre horizon, celui qui vous donne le plus de crainte mais suscite la plus grande exaltation en votre cœur, et chargez-le à pleine vitesse et à plein courage.",
         "title": "Rêvez l'impossible rêve. Vivez-le voracement."
+      },
+      {
+        "body": "Des générations de ma famille l'ont arraché à la terre parce qu'elles n'avaient pas d'autre choix. Ce qui était pure survie pour elles est aujourd'hui mon avantage injuste. Je ne cède pas, je ne me plains pas, je fais que ça marche. C'est ce dont j'hérite, et c'est ce que je dois.",
+        "title": "Les gars de l'Iowa ne s'arrêtent pas."
       }
     ]
   }

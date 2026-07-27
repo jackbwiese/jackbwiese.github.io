@@ -243,6 +243,10 @@ export const nl = {
       {
         "title": "Droom de onmogelijke droom. Leef hem gulzig.",
         "body": "Don Quixote vocht tegen windmolens omdat de droom groter was dan de wind. De droom is altijd groter dan de wind. Droom verder dan wat zij zeggen dat mogelijk is. Vind de grootste windmolen aan jouw horizon, die welke jou de meeste angst inboezemt, maar de meeste opwinding in je hart oproept, en stort je er op volle snelheid en met volle moed op."
+      },
+      {
+        "title": "Iowa-jongens stoppen niet.",
+        "body": "Generaties van mijn familie hebben het uit de grond gehaald omdat ze geen andere keuze hadden. Wat pure overleving voor hen was, is nu mijn oneerlijke voordeel. Ik geef niet op, ik klaag niet, ik zorg dat het werkt. Dat is wat ik erf, en dat is wat ik verschuldigd ben."
       }
     ]
   }

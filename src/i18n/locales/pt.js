@@ -243,6 +243,10 @@ export const pt = {
       {
         "body": "Don Quixote lutou contra moinhos de vento porque o sonho era maior do que o vento. O sonho é sempre maior do que o vento. Sonhe para além do que dizem ser possível. Encontre o maior moinho de vento no seu horizonte, aquele que lhe inspira mais medo, mas que provoca mais entusiasmo no seu coração, e arremeta contra ele a toda a velocidade e com toda a coragem.",
         "title": "Sonhe o sonho impossível. Viva-o vorazmente."
+      },
+      {
+        "body": "Gerações da minha família tiraram-no da terra porque não tinham outra escolha. O que foi pura sobrevivência para eles é agora a minha vantagem injusta. Não cedo, não me queixo, faço com que funcione. É isto que herdo, e é isto que devo.",
+        "title": "Os rapazes de Iowa não param."
       }
     ]
   }

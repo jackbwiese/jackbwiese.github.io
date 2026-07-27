@@ -105,6 +105,10 @@ export const en = {
         title: 'Dream the impossible dream. Live it voraciously.',
         body: 'Don Quixote tilted at windmills because the dream was bigger than the wind. The dream is always bigger than the wind. Dream past what they say can be done. Find the biggest windmill on your horizon, the one that gives you the most fear, but elicits the most excitement in your heart, and charge at it with full speed and courage.',
       },
+      {
+        title: 'Iowa boys do not stop.',
+        body: 'Generations of my family got it out of the dirt because they had no other choice. What was pure survival for them is now my unfair advantage. I do not fold, I do not complain, I make it work. That is what I inherit, and it is what I owe.',
+      },
     ],
   },
   arsenal: {

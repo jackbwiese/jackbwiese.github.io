@@ -243,6 +243,10 @@ export const vi = {
       {
         "body": "Don Quixote lao vào những cối xay gió bởi giấc mơ lớn hơn gió. Giấc mơ luôn lớn hơn gió. Hãy mơ vượt qua những gì họ nói có thể làm được. Hãy tìm chiếc cối xay gió lớn nhất ở chân trời của bạn, chiếc khiến bạn sợ hãi nhất nhưng cũng khơi dậy niềm hứng khởi mãnh liệt nhất trong tim bạn, và xông tới nó với toàn bộ tốc độ và lòng can đảm.",
         "title": "Hãy mơ giấc mơ không thể. Sống nó một cách ngấu nghiến."
+      },
+      {
+        "body": "Nhiều thế hệ gia đình tôi đã moi nó lên từ đất vì họ không có lựa chọn nào khác. Điều chỉ là sinh tồn với họ nay là lợi thế bất công của tôi. Tôi không lùi bước, tôi không phàn nàn, tôi làm cho nó thành công. Đó là điều tôi thừa hưởng, và là điều tôi mắc nợ.",
+        "title": "Con trai Iowa không dừng lại."
       }
     ]
   }

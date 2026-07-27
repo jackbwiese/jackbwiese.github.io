@@ -243,6 +243,10 @@ export const tr = {
       {
         "body": "Don Quixote yel değirmenlerine saldırdı çünkü rüya rüzgârdan daha büyüktü. Rüya her zaman rüzgârdan daha büyüktür. Yapılabileceğini söyledikleri şeyin ötesini hayal et. Ufkundaki en büyük yel değirmenini bul, sana en çok korkuyu veren ama yüreğinde en büyük heyecanı uyandıran o değirmeni, ve ona tüm hız ve cesaretinle hücum et.",
         "title": "İmkânsız rüyayı gör. Onu doymak bilmez bir iştahla yaşa."
+      },
+      {
+        "body": "Ailemin nesilleri başka seçenekleri olmadığı için onu topraktan çıkardılar. Onlar için sadece hayatta kalma olan şey, benim için şimdi haksız bir üstünlük. Boyun eğmem, şikâyet etmem, işini yaparım. İşte bunu miras aldım, ve işte bunu borçluyum.",
+        "title": "Iowa çocukları durmaz."
       }
     ]
   }

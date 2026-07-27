@@ -243,6 +243,10 @@ export const id = {
       {
         "title": "Impikan mimpi yang mustahil. Hiduplah dengan rakus mengejarnya.",
         "body": "Don Quixote menyerbu kincir angin karena mimpinya lebih besar daripada angin. Mimpi selalu lebih besar daripada angin. Bermimpilah melampaui apa yang mereka katakan bisa dilakukan. Temukan kincir angin terbesar di cakrawalamu, yang memberimu ketakutan terbesar, namun membangkitkan kegairahan paling besar di hatimu, lalu serbu ia dengan kecepatan dan keberanian penuh."
+      },
+      {
+        "title": "Anak-anak Iowa tidak berhenti.",
+        "body": "Generasi keluarga saya menggali kehidupan dari tanah karena mereka tidak punya pilihan lain. Yang bagi mereka hanyalah kelangsungan hidup kini menjadi keunggulan tak adil bagi saya. Saya tidak menyerah, saya tidak mengeluh, saya membuatnya berhasil. Itulah yang saya warisi, dan itulah yang saya utang."
       }
     ]
   }
