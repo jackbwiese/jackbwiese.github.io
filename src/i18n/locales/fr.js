@@ -227,9 +227,9 @@ export const fr = {
     "eyebrow": "§ IV · Vita",
     "paragraphs": [
       "J'ai été élevé dans l'Iowa, dans une famille qui tire noblement sa subsistance de la terre depuis des centaines d'années. Ma grand-mère était professeure d'art et peintre - l'art et la mode coulent dans mon sang autant que la terre.",
-      "Mes parents ont tous les deux travaillé chez Macy's avant ma naissance - une grande partie de mon goût esthétique et de mes inclinations me viennent d'eux. Je m'habillais tout seul dès que j'étais assez conscient pour avoir mes propres préférences. L'enfance fut bâtisseuse et créatrice : LEGO, stop-motion, livres, écriture et mode. À travers ces médiums, j'ai découvert mon amour du récit, et celui de mener les choses de 0 à 1 (de l'imagination à la réalité). J'ai également découvert très tôt ma fascination fondamentale pour toutes les formes d'expression humaine, et ma mission de les faire proliférer sous toutes leurs formes.",
+      "Mes parents ont tous les deux travaillé chez Macy's avant ma naissance - une grande partie de mon goût esthétique et de mes inclinations me viennent d'eux. Je m'habillais tout seul dès que j'étais assez conscient pour avoir mes propres préférences. L'enfance fut bâtisseuse et créatrice : LEGO, stop-motion, livres, écriture et mode. À travers ces médiums, j'ai découvert mon amour du récit, et celui de mener les choses de 0 à 1 (de l'imagination à la réalité). J'ai également découvert très tôt ma fascination fondamentale pour toute la gamme de l'expression humaine, et ma mission de les faire proliférer sous toutes leurs formes.",
       "Je suis parti à seize ans pour la côte Est, puis j'ai mis le cap à l'ouest vers San Francisco - le long chemin déjà foulé d'une petite ville à une grande scène.",
-      "Cinq entreprises avant la fin de l'université, puis une décennie dans le design et la fabrication d'habillement, à bâtir mondialement, pour des milliers, le pont entre les rêves et la réalité."
+      "Une décennie dans le design et la fabrication d'habillement, à bâtir mondialement, pour des milliers, le pont entre les rêves et la réalité."
     ],
     "portraitCaption": "Portrait · ROMULUS"
   },

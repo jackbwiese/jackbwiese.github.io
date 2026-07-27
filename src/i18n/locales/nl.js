@@ -228,9 +228,9 @@ export const nl = {
     "portraitCaption": "Portret · ROMULUS",
     "paragraphs": [
       "Ik werd opgevoed in Iowa, in een familie die het al honderden jaren op nobele wijze uit de aarde haalt. Mijn grootmoeder was kunstlerares en schilder - kunst en mode zitten mij evenzeer in het bloed als de grond.",
-      "Mijn ouders werkten beiden bij Macy's voordat ik werd geboren - veel van mijn esthetische smaak en neigingen zijn van hen geërfd. Ik kleedde mezelf aan zodra ik bewust genoeg was om eigen voorkeuren te hebben. De kindertijd was bouwen en creëren: LEGO, stop-motion, boeken, schrijven en mode. Door deze media ontdekte ik mijn liefde voor het vertellen van verhalen, en voor het brengen van dingen van 0 naar 1 (verbeelding naar werkelijkheid). Ook ontdekte ik op jonge leeftijd mijn fundamentele fascinatie voor alle vormen van menselijke expressie, en mijn missie om die in alle vormen te laten gedijen.",
+      "Mijn ouders werkten beiden bij Macy's voordat ik werd geboren - veel van mijn esthetische smaak en neigingen zijn van hen geërfd. Ik kleedde mezelf aan zodra ik bewust genoeg was om eigen voorkeuren te hebben. De kindertijd was bouwen en creëren: LEGO, stop-motion, boeken, schrijven en mode. Door deze media ontdekte ik mijn liefde voor het vertellen van verhalen, en voor het brengen van dingen van 0 naar 1 (verbeelding naar werkelijkheid). Ook ontdekte ik op jonge leeftijd mijn fundamentele fascinatie voor het volledige spectrum van menselijke expressie, en mijn missie om die in alle vormen te laten gedijen.",
       "Ik vertrok op zestienjarige leeftijd naar de East Coast en trok daarna westwaarts naar San Francisco - het oeroude pad van een klein stadje naar een groot podium.",
-      "Vijf bedrijven voordat ik de universiteit afrondde, daarna een decennium in kledingontwerp en -productie, waarin ik de brug tussen droom en werkelijkheid wereldwijd bouwde voor duizenden."
+      "Een decennium in kledingontwerp en -productie, waarin ik de brug tussen droom en werkelijkheid wereldwijd bouwde voor duizenden."
     ]
   },
   "worldview": {

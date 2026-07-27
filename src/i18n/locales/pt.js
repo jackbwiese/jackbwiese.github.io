@@ -227,9 +227,9 @@ export const pt = {
     "eyebrow": "§ IV · Vita",
     "paragraphs": [
       "Fui criado em Iowa, numa família que, há centenas de anos, nobremente arranca o seu sustento da terra. A minha avó era professora de arte e pintora - a arte e a moda estão no meu sangue tanto quanto a terra.",
-      "Os meus pais trabalharam ambos na Macy's antes de eu nascer - grande parte do meu gosto estético e das minhas inclinações herdei-os deles. Vestia-me sozinho assim que fui suficientemente consciente para ter as minhas próprias preferências. A infância foi construir e criar: LEGO, stop-motion, livros, escrita e moda. Através destes meios, descobri o meu amor pela narrativa, e por trazer as coisas de 0 a 1 (da imaginação à realidade). Descobri também, desde cedo, o meu fascínio fundamental por todas as formas de expressão humana, e a minha missão de a proliferar em todas as formas.",
+      "Os meus pais trabalharam ambos na Macy's antes de eu nascer - grande parte do meu gosto estético e das minhas inclinações herdei-os deles. Vestia-me sozinho assim que fui suficientemente consciente para ter as minhas próprias preferências. A infância foi construir e criar: LEGO, stop-motion, livros, escrita e moda. Através destes meios, descobri o meu amor pela narrativa, e por trazer as coisas de 0 a 1 (da imaginação à realidade). Descobri também, desde cedo, o meu fascínio fundamental por toda a gama da expressão humana, e a minha missão de a proliferar em todas as formas.",
       "Parti aos dezasseis anos para a East Coast e depois rumei a oeste, para San Francisco - o caminho longamente percorrido de uma pequena cidade para um grande palco.",
-      "Cinco empresas antes de concluir a universidade, depois uma década em design e fabrico de vestuário, construindo a nível global, para milhares, a ponte entre os sonhos e a realidade."
+      "Uma década em design e fabrico de vestuário, construindo a nível global, para milhares, a ponte entre os sonhos e a realidade."
     ],
     "portraitCaption": "Retrato · ROMULUS"
   },
