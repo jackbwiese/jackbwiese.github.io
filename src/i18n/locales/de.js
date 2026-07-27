@@ -230,7 +230,7 @@ export const de = {
       "Ich wurde in Iowa aufgezogen, in einer Familie, die seit Hunderten von Jahren in nobler Weise dem Boden ihren Lebensunterhalt abringt. Meine Großmutter war Kunstlehrerin und Malerin - Kunst und Mode liegen mir ebenso im Blut wie die Erde.",
       "Meine Eltern arbeiteten beide bei Macy's, bevor ich geboren wurde - vieles von meinem ästhetischen Geschmack und meinen Neigungen habe ich von ihnen geerbt. Ich zog mich selbst an, sobald ich bewusst genug war, eigene Vorlieben zu haben. Die Kindheit war Bauen und Erschaffen: LEGO, Stop-Motion, Bücher, Schreiben und Mode. Durch diese Medien entdeckte ich meine Liebe zum Erzählen und zum Führen der Dinge von 0 zu 1 (von der Vorstellung zur Wirklichkeit). Schon früh entdeckte ich auch meine grundlegende Faszination für die volle Bandbreite menschlichen Ausdrucks und meine Berufung, sie in allen Formen zu verbreiten.",
       "Mit sechzehn ging ich an die East Coast und dann weiter westwärts nach San Francisco - der oft gegangene Weg von der Kleinstadt auf die große Bühne.",
-      "Ein Jahrzehnt in Bekleidungsdesign und -herstellung, in dem ich weltweit für Tausende die Brücke zwischen Traum und Wirklichkeit gebaut habe."
+      "Ein Jahrzehnt in Bekleidungsdesign und -herstellung, in dem ich die Brücke zwischen Vorstellungskraft und physischer Wirklichkeit für Tausende Träumende weltweit gebaut habe."
     ]
   },
   "worldview": {

@@ -229,7 +229,7 @@ export const tr = {
       "Iowa'da, yüzlerce yıldır toprağı asilce işleyen bir ailede büyüdüm. Büyükannem sanat öğretmeni ve ressamdı - sanat ve moda benim kanımda toprak kadar var.",
       "Annemle babam ben doğmadan önce Macy's'de çalıştılar - estetik zevkim ve eğilimlerimin büyük kısmı onlardan miras. Kendi tercihlerime sahip olacak kadar bilinçlenir bilinçlenmez kendi başıma giyinmeye başladım. Çocukluk, inşa etmek ve yaratmaktı: LEGO, stop-motion, kitaplar, yazı ve moda. Bu araçlar sayesinde hikâye anlatıcılığına ve şeyleri 0'dan 1'e (hayal gücünden gerçekliğe) taşımaya olan sevgimi keşfettim. Ayrıca erken yaşta, insani ifadenin tam yelpazesine olan temel hayranlığımı ve onu her biçimde çoğaltma misyonumu keşfettim.",
       "On altı yaşında East Coast'a, ardından batıya San Francisco'ya gittim - küçük bir kasabadan büyük bir sahneye uzun süredir yürünen yol.",
-      "Konfeksiyon tasarımı ve üretiminde on yıl; binlerce kişi için küresel ölçekte rüyalar ile gerçeklik arasındaki köprüyü inşa ettim."
+      "Konfeksiyon tasarımı ve üretiminde on yıl; dünyanın dört bir yanındaki binlerce hayalperest için hayal gücü ile maddi gerçeklik arasındaki köprüyü inşa ettim."
     ],
     "portraitCaption": "Portre · ROMULUS"
   },

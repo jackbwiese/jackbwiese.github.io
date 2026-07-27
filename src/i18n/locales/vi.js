@@ -229,7 +229,7 @@ export const vi = {
       "Tôi lớn lên ở Iowa, trong một gia đình đã cao quý gây dựng từ đất cát suốt hàng trăm năm. Bà tôi là giáo viên mỹ thuật và họa sĩ - nghệ thuật và thời trang chảy trong máu tôi ngang với đất đai.",
       "Cha mẹ tôi đều từng làm việc tại Macy's trước khi tôi ra đời - phần lớn gu thẩm mỹ và thiên hướng của tôi là được thừa hưởng từ họ. Tôi tự mặc quần áo cho mình ngay khi đủ ý thức để có sở thích riêng. Tuổi thơ là sự xây dựng và sáng tạo: LEGO, phim hoạt hình tĩnh vật, sách vở, viết lách và thời trang. Qua những phương tiện ấy, tôi đã khám phá ra tình yêu của mình với việc kể chuyện, và đưa mọi thứ từ 0 đến 1 (từ trí tưởng tượng đến hiện thực). Tôi cũng đã khám phá từ rất sớm sự say mê căn bản của mình với toàn bộ phổ biểu đạt của con người, và sứ mệnh lan tỏa nó dưới mọi hình thức.",
       "Tôi rời nhà năm mười sáu tuổi để đến East Coast và sau đó đi về phía tây đến San Francisco - con đường dài đã được nhiều người đi từ một thị trấn nhỏ đến một sân khấu lớn.",
-      "Một thập kỷ trong thiết kế và sản xuất quần áo, xây cây cầu giữa giấc mơ và hiện thực trên toàn cầu cho hàng nghìn người."
+      "Một thập kỷ trong thiết kế và sản xuất quần áo, xây cây cầu giữa trí tưởng tượng và hiện thực vật chất cho hàng nghìn người mộng mơ trên khắp toàn cầu."
     ],
     "portraitCaption": "Chân dung · ROMULUS"
   },

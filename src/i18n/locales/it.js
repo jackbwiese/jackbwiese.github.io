@@ -229,7 +229,7 @@ export const it = {
       "Sono stato cresciuto in Iowa, in una famiglia che da centinaia di anni nobilmente ricava il pane dalla terra. Mia nonna era insegnante d'arte e pittrice - l'arte e la moda sono nel mio sangue tanto quanto la terra.",
       "Entrambi i miei genitori hanno lavorato da Macy's prima che io nascessi - gran parte del mio gusto estetico e delle mie inclinazioni le ho ereditate da loro. Mi vestivo da solo non appena fui abbastanza consapevole da avere preferenze mie. L'infanzia è stata costruire e creare: LEGO, stop-motion, libri, scrittura e moda. Attraverso questi mezzi ho scoperto il mio amore per la narrazione e per portare le cose da 0 a 1 (dall'immaginazione alla realtà). Ho scoperto anche, fin da piccolo, la mia fascinazione fondamentale per l'intera gamma dell'espressione umana, e la mia missione di farle proliferare in ogni forma.",
       "Sono partito a sedici anni per la East Coast e poi mi sono diretto a ovest, a San Francisco - il lungo cammino dalla piccola città al grande palcoscenico.",
-      "Un decennio nel design e nella produzione di abbigliamento, costruendo il ponte tra sogni e realtà a livello globale per migliaia di persone."
+      "Un decennio nel design e nella produzione di abbigliamento, costruendo il ponte tra l'immaginazione e la realtà fisica per migliaia di sognatori in tutto il mondo."
     ],
     "portraitCaption": "Ritratto · ROMULUS"
   },

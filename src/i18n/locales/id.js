@@ -230,7 +230,7 @@ export const id = {
       "Saya dibesarkan di Iowa, dalam sebuah keluarga yang dengan mulia telah mengangkatnya dari tanah selama ratusan tahun. Nenek saya adalah guru seni dan pelukis - seni dan mode mengalir di darah saya sebagaimana tanah itu.",
       "Kedua orang tua saya bekerja di Macy's sebelum saya lahir - sebagian besar selera estetik dan kecenderungan saya diwarisi dari mereka. Saya berpakaian sendiri sejak saya cukup sadar untuk memiliki preferensi sendiri. Masa kecil adalah membangun dan menciptakan: LEGO, stop-motion, buku, menulis, dan fashion. Melalui medium-medium ini, saya menemukan cinta saya terhadap penceritaan, dan membawa hal-hal dari 0 ke 1 (imajinasi menuju kenyataan). Saya juga menemukan sejak dini ketertarikan mendasar saya terhadap seluruh spektrum ekspresi manusia, dan misi saya untuk memperbanyaknya dalam segala bentuk.",
       "Saya pergi pada usia sixteen menuju East Coast lalu berangkat ke barat ke San Francisco - jalur panjang yang telah dilalui banyak orang, dari kota kecil ke panggung besar.",
-      "Satu dekade dalam desain dan manufaktur pakaian, membangun jembatan antara mimpi dan kenyataan secara global bagi ribuan orang."
+      "Satu dekade dalam desain dan manufaktur pakaian, membangun jembatan antara imajinasi dan realitas fisik bagi ribuan pemimpi di seluruh dunia."
     ]
   },
   "worldview": {
