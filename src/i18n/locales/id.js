@@ -241,6 +241,10 @@ export const id = {
         "body": "Mesin cetak membebaskan kegiatan membaca. Alat tenun membebaskan tenunan. Perangkat lunak membebaskan tulisan. Lapisan berikutnya tidak menggantikan kreator - ia menghapus pekerjaan kesekretariatan antara sebuah visi dan perwujudannya. Hasilnya bukan berkurangnya seniman, melainkan sebuah peradaban yang terdiri dari mereka. Umat manusia dilahirkan untuk mencipta."
       },
       {
+        "title": "Kita membutuhkan lebih banyak perpustakaan dan pusat seni.",
+        "body": "Roket dan pusat data memiliki tempatnya. Tetapi keseimbangan saat ini terlalu condong ke arah monumen industri teknologi dan tidak cukup condong ke arah perpustakaan umum dan pusat seni yang gratis. Teknologi seharusnya melayani proliferasi budaya manusia di dunia fisik. Apa yang kita bangun dengan kekayaan kita adalah apa yang sesungguhnya kita hargai. Saya ingin membangun Mouseion modern di samping moonshot modern."
+      },
+      {
         "title": "Impikan mimpi yang mustahil. Hiduplah dengan rakus mengejarnya.",
         "body": "Don Quixote menyerbu kincir angin karena mimpinya lebih besar daripada angin. Mimpi selalu lebih besar daripada angin. Bermimpilah melampaui apa yang mereka katakan bisa dilakukan. Temukan kincir angin terbesar di cakrawalamu, yang memberimu ketakutan terbesar, namun membangkitkan kegairahan paling besar di hatimu, lalu serbu ia dengan kecepatan dan keberanian penuh."
       },

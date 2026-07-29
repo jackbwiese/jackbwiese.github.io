@@ -241,6 +241,10 @@ export const nl = {
         "body": "De drukpers bevrijdde het lezen. Het weefgetouw bevrijdde het weven. Software bevrijdde het schrijven. De volgende laag vervangt de maker niet - zij verwijdert de secretariële arbeid tussen een visie en de verwezenlijking ervan. Het resultaat is niet minder kunstenaars, maar een beschaving van hen. De mensheid is geboren om te scheppen."
       },
       {
+        "title": "We hebben meer bibliotheken en kunstcentra nodig.",
+        "body": "Raketten en datacenters hebben hun plek. Maar het evenwicht is nu te sterk verschoven naar de monumenten van de tech-industrie en te weinig naar gratis openbare bibliotheken en kunstcentra. Technologie zou de proliferatie van de menselijke cultuur in de fysieke wereld moeten dienen. Wat we met onze rijkdom bouwen, is wat we werkelijk waarderen. Ik wil het moderne Mouseion bouwen naast de moderne moonshot."
+      },
+      {
         "title": "Droom de onmogelijke droom. Leef hem gulzig.",
         "body": "Don Quixote vocht tegen windmolens omdat de droom groter was dan de wind. De droom is altijd groter dan de wind. Droom verder dan wat zij zeggen dat mogelijk is. Vind de grootste windmolen aan jouw horizon, die welke jou de meeste angst inboezemt, maar de meeste opwinding in je hart oproept, en stort je er op volle snelheid en met volle moed op."
       },

@@ -241,6 +241,10 @@ export const es = {
         "body": "La imprenta liberó la lectura. El telar liberó el tejido. El software liberó la escritura. La siguiente capa no reemplaza al creador - elimina el trabajo de secretaría entre una visión y su realización. El resultado no son menos artistas, sino una civilización de ellos. La humanidad nació para crear."
       },
       {
+        "title": "Necesitamos más bibliotecas y centros de arte.",
+        "body": "Los cohetes y los centros de datos tienen su lugar. Pero el equilibrio actual está demasiado inclinado hacia los monumentos de la industria tecnológica y no lo suficiente hacia bibliotecas públicas y centros de arte gratuitos. La tecnología debe servir a la proliferación de la cultura humana en el mundo físico. Lo que construimos con nuestra riqueza es lo que en verdad valoramos. Quiero construir el Mouseíon moderno junto al moonshot moderno."
+      },
+      {
         "title": "Sueña el sueño imposible. Vívelo con voracidad.",
         "body": "Don Quijote arremetió contra los molinos de viento porque el sueño era más grande que el viento. El sueño siempre es más grande que el viento. Sueña más allá de lo que dicen que se puede hacer. Encuentra el molino más grande en tu horizonte, el que más miedo te da, pero el que más entusiasmo despierta en tu corazón, y arremete contra él a toda velocidad y con todo coraje."
       },

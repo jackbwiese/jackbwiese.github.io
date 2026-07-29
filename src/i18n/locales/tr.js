@@ -241,6 +241,10 @@ export const tr = {
         "title": "Teknoloji, insanlığı yaratmak ve oynamak için özgürleştirmeli."
       },
       {
+        "body": "Roketlerin ve veri merkezlerinin de yeri var. Ama bugün denge, tech endüstrisinin anıtlarına çok fazla, ücretsiz kamu kütüphanelerine ve sanat merkezlerine ise yeterince yatırılmış değil. Teknoloji, insani kültürün fiziksel dünyada çoğalmasına hizmet etmelidir. Servetimizle ne inşa edersek, aslında ona değer veriyoruz. Modern Mouseion'u modern moonshot'un yanında inşa etmek istiyorum.",
+        "title": "Daha çok kütüphaneye ve sanat merkezine ihtiyacımız var."
+      },
+      {
         "body": "Don Quixote yel değirmenlerine saldırdı çünkü rüya rüzgârdan daha büyüktü. Rüya her zaman rüzgârdan daha büyüktür. Yapılabileceğini söyledikleri şeyin ötesini hayal et. Ufkundaki en büyük yel değirmenini bul, sana en çok korkuyu veren ama yüreğinde en büyük heyecanı uyandıran o değirmeni, ve ona tüm hız ve cesaretinle hücum et.",
         "title": "İmkânsız rüyayı gör. Onu doymak bilmez bir iştahla yaşa."
       },

@@ -241,6 +241,10 @@ export const pt = {
         "title": "A tecnologia deve libertar a humanidade para criar e brincar."
       },
       {
+        "body": "Os foguetes e os centros de dados têm o seu lugar. Mas o equilíbrio está hoje demasiado inclinado para os monumentos da indústria tecnológica e não o suficiente para bibliotecas públicas e centros de arte gratuitos. A tecnologia deve servir a proliferação da cultura humana no mundo físico. O que construímos com a nossa riqueza é aquilo que realmente valorizamos. Quero construir o Mouseíon moderno ao lado do moonshot moderno.",
+        "title": "Precisamos de mais bibliotecas e centros de arte."
+      },
+      {
         "body": "Don Quixote lutou contra moinhos de vento porque o sonho era maior do que o vento. O sonho é sempre maior do que o vento. Sonhe para além do que dizem ser possível. Encontre o maior moinho de vento no seu horizonte, aquele que lhe inspira mais medo, mas que provoca mais entusiasmo no seu coração, e arremeta contra ele a toda a velocidade e com toda a coragem.",
         "title": "Sonhe o sonho impossível. Viva-o vorazmente."
       },

@@ -241,6 +241,10 @@ export const it = {
         "title": "La tecnologia dovrebbe liberare l'umanità per creare e giocare."
       },
       {
+        "body": "I razzi e i data center hanno il loro posto. Ma l'equilibrio è oggi troppo sbilanciato verso i monumenti dell'industria tecnologica e non abbastanza verso biblioteche pubbliche e centri d'arte gratuiti. La tecnologia dovrebbe servire la proliferazione della cultura umana nel mondo fisico. Ciò che costruiamo con la nostra ricchezza è ciò che davvero valorizziamo. Voglio costruire il Mouseîon moderno accanto al moonshot moderno.",
+        "title": "Abbiamo bisogno di più biblioteche e centri d'arte."
+      },
+      {
         "body": "Don Quixote ha caricato i mulini a vento perché il sogno era più grande del vento. Il sogno è sempre più grande del vento. Sogna oltre ciò che dicono possa essere fatto. Trova il mulino a vento più grande all'orizzonte, quello che ti dà più paura ma suscita più entusiasmo nel tuo cuore, e caricalo a tutta velocità e coraggio.",
         "title": "Sogna il sogno impossibile. Vivilo voracemente."
       },

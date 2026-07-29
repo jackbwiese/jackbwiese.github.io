@@ -241,6 +241,10 @@ export const vi = {
         "title": "Công nghệ nên giải phóng nhân loại để sáng tạo và vui chơi."
       },
       {
+        "body": "Tên lửa và trung tâm dữ liệu có chỗ đứng của chúng. Nhưng cán cân hiện nay đang nghiêng quá nhiều về phía những tượng đài của ngành công nghệ, và chưa đủ về phía các thư viện công cộng và trung tâm nghệ thuật miễn phí. Công nghệ nên phục vụ sự sinh sôi của văn hóa nhân loại trong thế giới vật chất. Điều chúng ta xây dựng bằng của cải của mình chính là điều chúng ta thực sự trân trọng. Tôi muốn xây dựng Mouseion hiện đại song hành cùng cuộc chinh phục mặt trăng hiện đại.",
+        "title": "Chúng ta cần nhiều thư viện và trung tâm nghệ thuật hơn."
+      },
+      {
         "body": "Don Quixote lao vào những cối xay gió bởi giấc mơ lớn hơn gió. Giấc mơ luôn lớn hơn gió. Hãy mơ vượt qua những gì họ nói có thể làm được. Hãy tìm chiếc cối xay gió lớn nhất ở chân trời của bạn, chiếc khiến bạn sợ hãi nhất nhưng cũng khơi dậy niềm hứng khởi mãnh liệt nhất trong tim bạn, và xông tới nó với toàn bộ tốc độ và lòng can đảm.",
         "title": "Hãy mơ giấc mơ không thể. Sống nó một cách ngấu nghiến."
       },

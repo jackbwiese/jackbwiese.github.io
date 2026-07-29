@@ -241,6 +241,10 @@ export const fr = {
         "title": "La technologie devrait libérer l'humanité pour créer et jouer."
       },
       {
+        "body": "Les fusées et les centres de données ont leur place. Mais l'équilibre est aujourd'hui trop penché vers les monuments de l'industrie tech et pas assez vers les bibliothèques publiques et les centres d'art gratuits. La technologie devrait servir la prolifération de la culture humaine dans le monde physique. Ce que nous bâtissons avec notre richesse est ce que nous valorisons réellement. Je veux bâtir le Mouseîon moderne aux côtés du moonshot moderne.",
+        "title": "Nous avons besoin de plus de bibliothèques et de centres d'art."
+      },
+      {
         "body": "Don Quichotte chargeait les moulins à vent parce que le rêve était plus grand que le vent. Le rêve est toujours plus grand que le vent. Rêvez au-delà de ce qu'on dit possible. Trouvez le plus grand moulin à vent de votre horizon, celui qui vous donne le plus de crainte mais suscite la plus grande exaltation en votre cœur, et chargez-le à pleine vitesse et à plein courage.",
         "title": "Rêvez l'impossible rêve. Vivez-le voracement."
       },

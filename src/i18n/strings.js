@@ -102,6 +102,10 @@ export const en = {
         body: 'The printing press freed reading. The loom freed weaving. Software freed writing. The next layer does not replace the creator - it removes the secretarial labor between a vision and its realization. The result is not fewer artists but a civilization of them. Humankind was born to create.',
       },
       {
+        title: 'We need more libraries and art centers.',
+        body: 'Rocket ships and data centers have their place. But the balance right now is tilted too heavily toward tech-industry monuments and not enough toward free public libraries and art centers. Technology should serve the proliferation of human culture in the physical world. What we build with our wealth is what we actually value. I want to build the modern Mouseion alongside the modern moonshot.',
+      },
+      {
         title: 'Dream the impossible dream. Live it voraciously.',
         body: 'Don Quixote tilted at windmills because the dream was bigger than the wind. The dream is always bigger than the wind. Dream past what they say can be done. Find the biggest windmill on your horizon, the one that gives you the most fear, but elicits the most excitement in your heart, and charge at it with full speed and courage.',
       },

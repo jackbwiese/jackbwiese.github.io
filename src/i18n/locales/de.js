@@ -241,6 +241,10 @@ export const de = {
         "body": "Die Druckerpresse befreite das Lesen. Der Webstuhl befreite das Weben. Software befreite das Schreiben. Die nächste Schicht ersetzt nicht den Schöpfer - sie entfernt die sekretarielle Arbeit zwischen einer Vision und ihrer Verwirklichung. Das Ergebnis sind nicht weniger Künstler, sondern eine Zivilisation aus ihnen. Die Menschheit ist geboren, um zu schaffen."
       },
       {
+        "title": "Wir brauchen mehr Bibliotheken und Kunstzentren.",
+        "body": "Raketen und Rechenzentren haben ihren Platz. Doch das Gleichgewicht ist heute zu stark auf die Monumente der Tech-Industrie ausgerichtet und zu wenig auf freie öffentliche Bibliotheken und Kunstzentren. Technologie sollte der Proliferation menschlicher Kultur in der physischen Welt dienen. Was wir mit unserem Reichtum bauen, ist das, was wir wirklich wertschätzen. Ich will das moderne Mouseion neben dem modernen Moonshot bauen."
+      },
+      {
         "title": "Träume den unmöglichen Traum. Lebe ihn unersättlich.",
         "body": "Don Quixote ritt gegen Windmühlen an, weil der Traum größer war als der Wind. Der Traum ist immer größer als der Wind. Träume über das hinaus, was sie für möglich halten. Finde die größte Windmühle an deinem Horizont, jene, die dir die meiste Furcht einflößt, aber auch die größte Begeisterung in deinem Herzen weckt, und stürme mit voller Geschwindigkeit und vollem Mut auf sie zu."
       },
