@@ -224,7 +224,7 @@ export const vi = {
   },
   "vita": {
     "epigraph": "Tôi không là gì và không biết gì, vì thế, tôi có thể làm mọi điều.",
-    "eyebrow": "§ IV · Vita",
+    "eyebrow": "§ III · Vita",
     "paragraphs": [
       "Tôi lớn lên ở Iowa, trong một gia đình đã cao quý gây dựng từ đất cát suốt hàng trăm năm. Bà tôi là giáo viên mỹ thuật và họa sĩ - nghệ thuật và thời trang chảy trong máu tôi ngang với đất đai.",
       "Cha mẹ tôi đều từng làm việc tại Macy's trước khi tôi ra đời - phần lớn gu thẩm mỹ và thiên hướng của tôi là được thừa hưởng từ họ. Tôi tự mặc quần áo cho mình ngay khi đủ ý thức để có sở thích riêng. Tuổi thơ là sự xây dựng và sáng tạo: LEGO, phim hoạt hình tĩnh vật, sách vở, viết lách và thời trang. Qua những phương tiện ấy, tôi đã khám phá ra tình yêu của mình với việc kể chuyện, và đưa mọi thứ từ 0 đến 1 (từ trí tưởng tượng đến hiện thực). Tôi cũng đã khám phá từ rất sớm sự say mê căn bản của mình với toàn bộ phổ biểu đạt của con người, và sứ mệnh lan tỏa nó dưới mọi hình thức.",
@@ -234,7 +234,7 @@ export const vi = {
     "portraitCaption": "Chân dung · ROMULUS"
   },
   "worldview": {
-    "eyebrow": "§ III · Thế Giới Quan",
+    "eyebrow": "§ IV · Thế Giới Quan",
     "theses": [
       {
         "body": "Máy in giải phóng việc đọc. Khung dệt giải phóng việc dệt. Phần mềm giải phóng việc viết. Lớp tiếp theo không thay thế người sáng tạo - nó loại bỏ lao động thư ký nằm giữa một tầm nhìn và sự hiện thực hóa nó. Kết quả không phải là ít nghệ sĩ hơn mà là một nền văn minh gồm những nghệ sĩ. Loài người sinh ra để sáng tạo.",

@@ -85,7 +85,7 @@ export const en = {
   },
   vita: {
     epigraph: 'I am nothing and know nothing, thus, I can do anything.',
-    eyebrow: '§ IV · Vita',
+    eyebrow: '§ III · Vita',
     portraitCaption: 'Portrait · ROMULUS',
     paragraphs: [
       'I was raised in Iowa, in a family that has been nobly getting it out of the dirt for hundreds of years. My grandmother was an art teacher and painter - art and fashion are in my blood as much as the land.',
@@ -95,7 +95,7 @@ export const en = {
     ],
   },
   worldview: {
-    eyebrow: '§ III · Worldview',
+    eyebrow: '§ IV · Worldview',
     theses: [
       {
         title: 'Technology should free humanity to make and play.',

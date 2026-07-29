@@ -224,7 +224,7 @@ export const it = {
   },
   "vita": {
     "epigraph": "Non sono nulla e non so nulla, dunque posso fare qualsiasi cosa.",
-    "eyebrow": "§ IV · Vita",
+    "eyebrow": "§ III · Vita",
     "paragraphs": [
       "Sono stato cresciuto in Iowa, in una famiglia che da centinaia di anni nobilmente ricava il pane dalla terra. Mia nonna era insegnante d'arte e pittrice - l'arte e la moda sono nel mio sangue tanto quanto la terra.",
       "Entrambi i miei genitori hanno lavorato da Macy's prima che io nascessi - gran parte del mio gusto estetico e delle mie inclinazioni le ho ereditate da loro. Mi vestivo da solo non appena fui abbastanza consapevole da avere preferenze mie. L'infanzia è stata costruire e creare: LEGO, stop-motion, libri, scrittura e moda. Attraverso questi mezzi ho scoperto il mio amore per la narrazione e per portare le cose da 0 a 1 (dall'immaginazione alla realtà). Ho scoperto anche, fin da piccolo, la mia fascinazione fondamentale per l'intera gamma dell'espressione umana, e la mia missione di farle proliferare in ogni forma.",
@@ -234,7 +234,7 @@ export const it = {
     "portraitCaption": "Ritratto · ROMULUS"
   },
   "worldview": {
-    "eyebrow": "§ III · Visione del mondo",
+    "eyebrow": "§ IV · Visione del mondo",
     "theses": [
       {
         "body": "La stampa ha liberato la lettura. Il telaio ha liberato la tessitura. Il software ha liberato la scrittura. Il prossimo strato non sostituisce il creatore - rimuove il lavoro di segreteria tra una visione e la sua realizzazione. Il risultato non sono meno artisti, ma una civiltà di essi. L'umanità è nata per creare.",

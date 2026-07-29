@@ -224,7 +224,7 @@ export const tr = {
   },
   "vita": {
     "epigraph": "Ben hiçbir şeyim ve hiçbir şey bilmiyorum, bu yüzden her şeyi yapabilirim.",
-    "eyebrow": "§ IV · Vita",
+    "eyebrow": "§ III · Vita",
     "paragraphs": [
       "Iowa'da, yüzlerce yıldır toprağı asilce işleyen bir ailede büyüdüm. Büyükannem sanat öğretmeni ve ressamdı - sanat ve moda benim kanımda toprak kadar var.",
       "Annemle babam ben doğmadan önce Macy's'de çalıştılar - estetik zevkim ve eğilimlerimin büyük kısmı onlardan miras. Kendi tercihlerime sahip olacak kadar bilinçlenir bilinçlenmez kendi başıma giyinmeye başladım. Çocukluk, inşa etmek ve yaratmaktı: LEGO, stop-motion, kitaplar, yazı ve moda. Bu araçlar sayesinde hikâye anlatıcılığına ve şeyleri 0'dan 1'e (hayal gücünden gerçekliğe) taşımaya olan sevgimi keşfettim. Ayrıca erken yaşta, insani ifadenin tam yelpazesine olan temel hayranlığımı ve onu her biçimde çoğaltma misyonumu keşfettim.",
@@ -234,7 +234,7 @@ export const tr = {
     "portraitCaption": "Portre · ROMULUS"
   },
   "worldview": {
-    "eyebrow": "§ III · Dünya Görüşü",
+    "eyebrow": "§ IV · Dünya Görüşü",
     "theses": [
       {
         "body": "Matbaa okumayı özgürleştirdi. Dokuma tezgâhı dokumayı özgürleştirdi. Yazılım yazmayı özgürleştirdi. Bir sonraki katman yaratıcının yerini almıyor - bir vizyon ile onun gerçekleşmesi arasındaki sekreteryal emeği ortadan kaldırıyor. Sonuç daha az sanatçı değil, sanatçılardan oluşan bir uygarlık. İnsanlık yaratmak için doğdu.",

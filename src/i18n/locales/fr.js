@@ -224,7 +224,7 @@ export const fr = {
   },
   "vita": {
     "epigraph": "Je ne suis rien et je ne sais rien, ainsi, je peux tout faire.",
-    "eyebrow": "§ IV · Vita",
+    "eyebrow": "§ III · Vita",
     "paragraphs": [
       "J'ai été élevé dans l'Iowa, dans une famille qui tire noblement sa subsistance de la terre depuis des centaines d'années. Ma grand-mère était professeure d'art et peintre - l'art et la mode coulent dans mon sang autant que la terre.",
       "Mes parents ont tous les deux travaillé chez Macy's avant ma naissance - une grande partie de mon goût esthétique et de mes inclinations me viennent d'eux. Je m'habillais tout seul dès que j'étais assez conscient pour avoir mes propres préférences. L'enfance fut bâtisseuse et créatrice : LEGO, stop-motion, livres, écriture et mode. À travers ces médiums, j'ai découvert mon amour du récit, et celui de mener les choses de 0 à 1 (de l'imagination à la réalité). J'ai également découvert très tôt ma fascination fondamentale pour toute la gamme de l'expression humaine, et ma mission de les faire proliférer sous toutes leurs formes.",
@@ -234,7 +234,7 @@ export const fr = {
     "portraitCaption": "Portrait · ROMULUS"
   },
   "worldview": {
-    "eyebrow": "§ III · Vision du monde",
+    "eyebrow": "§ IV · Vision du monde",
     "theses": [
       {
         "body": "L'imprimerie a libéré la lecture. Le métier à tisser a libéré le tissage. Le logiciel a libéré l'écriture. La prochaine couche ne remplace pas le créateur - elle retire le labeur de secrétariat entre une vision et sa réalisation. Le résultat n'est pas moins d'artistes mais une civilisation d'artistes. L'humanité est née pour créer.",

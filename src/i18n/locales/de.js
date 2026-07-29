@@ -224,7 +224,7 @@ export const de = {
   },
   "vita": {
     "epigraph": "Ich bin nichts und weiß nichts, also kann ich alles tun.",
-    "eyebrow": "§ IV · Vita",
+    "eyebrow": "§ III · Vita",
     "portraitCaption": "Porträt · ROMULUS",
     "paragraphs": [
       "Ich wurde in Iowa aufgezogen, in einer Familie, die seit Hunderten von Jahren in nobler Weise dem Boden ihren Lebensunterhalt abringt. Meine Großmutter war Kunstlehrerin und Malerin - Kunst und Mode liegen mir ebenso im Blut wie die Erde.",
@@ -234,7 +234,7 @@ export const de = {
     ]
   },
   "worldview": {
-    "eyebrow": "§ III · Weltsicht",
+    "eyebrow": "§ IV · Weltsicht",
     "theses": [
       {
         "title": "Technologie sollte die Menschheit zum Schaffen und Spielen befreien.",

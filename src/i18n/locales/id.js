@@ -224,7 +224,7 @@ export const id = {
   },
   "vita": {
     "epigraph": "Saya bukan apa-apa dan tidak tahu apa-apa, oleh karenanya, saya bisa melakukan apa pun.",
-    "eyebrow": "§ IV · Vita",
+    "eyebrow": "§ III · Vita",
     "portraitCaption": "Potret · ROMULUS",
     "paragraphs": [
       "Saya dibesarkan di Iowa, dalam sebuah keluarga yang dengan mulia telah mengangkatnya dari tanah selama ratusan tahun. Nenek saya adalah guru seni dan pelukis - seni dan mode mengalir di darah saya sebagaimana tanah itu.",
@@ -234,7 +234,7 @@ export const id = {
     ]
   },
   "worldview": {
-    "eyebrow": "§ III · Pandangan Dunia",
+    "eyebrow": "§ IV · Pandangan Dunia",
     "theses": [
       {
         "title": "Teknologi seharusnya membebaskan kemanusiaan untuk berkarya dan bermain.",
