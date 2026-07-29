@@ -238,7 +238,7 @@ export const vi = {
     "theses": [
       {
         "body": "Máy in giải phóng việc đọc. Khung dệt giải phóng việc dệt. Phần mềm giải phóng việc viết. Lớp tiếp theo không thay thế người sáng tạo - nó loại bỏ lao động thư ký nằm giữa một tầm nhìn và sự hiện thực hóa nó. Kết quả không phải là ít nghệ sĩ hơn mà là một nền văn minh gồm những nghệ sĩ. Loài người sinh ra để sáng tạo.",
-        "title": "Công nghệ nên giải phóng nhân loại để sáng tạo."
+        "title": "Công nghệ nên giải phóng nhân loại để sáng tạo và vui chơi."
       },
       {
         "body": "Don Quixote lao vào những cối xay gió bởi giấc mơ lớn hơn gió. Giấc mơ luôn lớn hơn gió. Hãy mơ vượt qua những gì họ nói có thể làm được. Hãy tìm chiếc cối xay gió lớn nhất ở chân trời của bạn, chiếc khiến bạn sợ hãi nhất nhưng cũng khơi dậy niềm hứng khởi mãnh liệt nhất trong tim bạn, và xông tới nó với toàn bộ tốc độ và lòng can đảm.",

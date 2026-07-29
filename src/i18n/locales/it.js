@@ -238,7 +238,7 @@ export const it = {
     "theses": [
       {
         "body": "La stampa ha liberato la lettura. Il telaio ha liberato la tessitura. Il software ha liberato la scrittura. Il prossimo strato non sostituisce il creatore - rimuove il lavoro di segreteria tra una visione e la sua realizzazione. Il risultato non sono meno artisti, ma una civiltà di essi. L'umanità è nata per creare.",
-        "title": "La tecnologia dovrebbe liberare l'umanità per creare."
+        "title": "La tecnologia dovrebbe liberare l'umanità per creare e giocare."
       },
       {
         "body": "Don Quixote ha caricato i mulini a vento perché il sogno era più grande del vento. Il sogno è sempre più grande del vento. Sogna oltre ciò che dicono possa essere fatto. Trova il mulino a vento più grande all'orizzonte, quello che ti dà più paura ma suscita più entusiasmo nel tuo cuore, e caricalo a tutta velocità e coraggio.",

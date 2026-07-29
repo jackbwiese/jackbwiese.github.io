@@ -98,7 +98,7 @@ export const en = {
     eyebrow: '§ III · Worldview',
     theses: [
       {
-        title: 'Technology should free humanity to make.',
+        title: 'Technology should free humanity to make and play.',
         body: 'The printing press freed reading. The loom freed weaving. Software freed writing. The next layer does not replace the creator - it removes the secretarial labor between a vision and its realization. The result is not fewer artists but a civilization of them. Humankind was born to create.',
       },
       {

@@ -238,7 +238,7 @@ export const fr = {
     "theses": [
       {
         "body": "L'imprimerie a libéré la lecture. Le métier à tisser a libéré le tissage. Le logiciel a libéré l'écriture. La prochaine couche ne remplace pas le créateur - elle retire le labeur de secrétariat entre une vision et sa réalisation. Le résultat n'est pas moins d'artistes mais une civilisation d'artistes. L'humanité est née pour créer.",
-        "title": "La technologie devrait libérer l'humanité pour créer."
+        "title": "La technologie devrait libérer l'humanité pour créer et jouer."
       },
       {
         "body": "Don Quichotte chargeait les moulins à vent parce que le rêve était plus grand que le vent. Le rêve est toujours plus grand que le vent. Rêvez au-delà de ce qu'on dit possible. Trouvez le plus grand moulin à vent de votre horizon, celui qui vous donne le plus de crainte mais suscite la plus grande exaltation en votre cœur, et chargez-le à pleine vitesse et à plein courage.",

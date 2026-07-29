@@ -237,7 +237,7 @@ export const nl = {
     "eyebrow": "§ III · Wereldbeeld",
     "theses": [
       {
-        "title": "Technologie moet de mensheid bevrijden om te maken.",
+        "title": "Technologie moet de mensheid bevrijden om te maken en te spelen.",
         "body": "De drukpers bevrijdde het lezen. Het weefgetouw bevrijdde het weven. Software bevrijdde het schrijven. De volgende laag vervangt de maker niet - zij verwijdert de secretariële arbeid tussen een visie en de verwezenlijking ervan. Het resultaat is niet minder kunstenaars, maar een beschaving van hen. De mensheid is geboren om te scheppen."
       },
       {

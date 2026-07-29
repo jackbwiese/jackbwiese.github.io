@@ -237,7 +237,7 @@ export const de = {
     "eyebrow": "§ III · Weltsicht",
     "theses": [
       {
-        "title": "Technologie sollte die Menschheit zum Schaffen befreien.",
+        "title": "Technologie sollte die Menschheit zum Schaffen und Spielen befreien.",
         "body": "Die Druckerpresse befreite das Lesen. Der Webstuhl befreite das Weben. Software befreite das Schreiben. Die nächste Schicht ersetzt nicht den Schöpfer - sie entfernt die sekretarielle Arbeit zwischen einer Vision und ihrer Verwirklichung. Das Ergebnis sind nicht weniger Künstler, sondern eine Zivilisation aus ihnen. Die Menschheit ist geboren, um zu schaffen."
       },
       {

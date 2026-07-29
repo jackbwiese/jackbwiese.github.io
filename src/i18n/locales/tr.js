@@ -238,7 +238,7 @@ export const tr = {
     "theses": [
       {
         "body": "Matbaa okumayı özgürleştirdi. Dokuma tezgâhı dokumayı özgürleştirdi. Yazılım yazmayı özgürleştirdi. Bir sonraki katman yaratıcının yerini almıyor - bir vizyon ile onun gerçekleşmesi arasındaki sekreteryal emeği ortadan kaldırıyor. Sonuç daha az sanatçı değil, sanatçılardan oluşan bir uygarlık. İnsanlık yaratmak için doğdu.",
-        "title": "Teknoloji, insanlığı yaratmak için özgürleştirmeli."
+        "title": "Teknoloji, insanlığı yaratmak ve oynamak için özgürleştirmeli."
       },
       {
         "body": "Don Quixote yel değirmenlerine saldırdı çünkü rüya rüzgârdan daha büyüktü. Rüya her zaman rüzgârdan daha büyüktür. Yapılabileceğini söyledikleri şeyin ötesini hayal et. Ufkundaki en büyük yel değirmenini bul, sana en çok korkuyu veren ama yüreğinde en büyük heyecanı uyandıran o değirmeni, ve ona tüm hız ve cesaretinle hücum et.",

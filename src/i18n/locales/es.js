@@ -237,7 +237,7 @@ export const es = {
     "eyebrow": "§ III · Cosmovisión",
     "theses": [
       {
-        "title": "La tecnología debe liberar a la humanidad para crear.",
+        "title": "La tecnología debe liberar a la humanidad para crear y jugar.",
         "body": "La imprenta liberó la lectura. El telar liberó el tejido. El software liberó la escritura. La siguiente capa no reemplaza al creador - elimina el trabajo de secretaría entre una visión y su realización. El resultado no son menos artistas, sino una civilización de ellos. La humanidad nació para crear."
       },
       {

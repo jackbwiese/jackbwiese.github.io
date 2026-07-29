@@ -238,7 +238,7 @@ export const pt = {
     "theses": [
       {
         "body": "A imprensa libertou a leitura. O tear libertou a tecelagem. O software libertou a escrita. A próxima camada não substitui o criador - retira o trabalho secretarial entre uma visão e a sua concretização. O resultado não são menos artistas, mas uma civilização inteira deles. A humanidade nasceu para criar.",
-        "title": "A tecnologia deve libertar a humanidade para criar."
+        "title": "A tecnologia deve libertar a humanidade para criar e brincar."
       },
       {
         "body": "Don Quixote lutou contra moinhos de vento porque o sonho era maior do que o vento. O sonho é sempre maior do que o vento. Sonhe para além do que dizem ser possível. Encontre o maior moinho de vento no seu horizonte, aquele que lhe inspira mais medo, mas que provoca mais entusiasmo no seu coração, e arremeta contra ele a toda a velocidade e com toda a coragem.",

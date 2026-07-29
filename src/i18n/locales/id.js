@@ -237,7 +237,7 @@ export const id = {
     "eyebrow": "§ III · Pandangan Dunia",
     "theses": [
       {
-        "title": "Teknologi seharusnya membebaskan kemanusiaan untuk berkarya.",
+        "title": "Teknologi seharusnya membebaskan kemanusiaan untuk berkarya dan bermain.",
         "body": "Mesin cetak membebaskan kegiatan membaca. Alat tenun membebaskan tenunan. Perangkat lunak membebaskan tulisan. Lapisan berikutnya tidak menggantikan kreator - ia menghapus pekerjaan kesekretariatan antara sebuah visi dan perwujudannya. Hasilnya bukan berkurangnya seniman, melainkan sebuah peradaban yang terdiri dari mereka. Umat manusia dilahirkan untuk mencipta."
       },
       {
