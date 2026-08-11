@@ -249,7 +249,7 @@ export const fr = {
         "title": "Rêvez l'impossible rêve. Vivez-le voracement."
       },
       {
-        "body": "Des générations de ma famille paysanne l'ont arraché à la terre parce qu'elles n'avaient pas d'autre choix. Ce qui était pure survie pour elles est aujourd'hui mon avantage injuste. Je ne cède pas, je ne me plains pas, je fais que ça marche. C'est ce dont j'hérite, et c'est ce que je dois.",
+        "body": "Des générations de ma famille paysanne l'ont arraché à la terre parce qu'elles n'avaient pas d'autre choix. Ce qui était pure survie pour elles est aujourd'hui mon avantage injuste. Je ne cède pas, je ne me plains pas, je fais que ça marche. Nous sommes peut-être un peu rugueux par moments, mais il n'y a pas un jour où nous ne travaillons pas. C'est ce dont j'hérite, et c'est ce que je dois. Les gars de l'Iowa sont inévitables.",
         "title": "Les gars de l'Iowa ne s'arrêtent pas."
       }
     ]

@@ -249,7 +249,7 @@ export const tr = {
         "title": "İmkânsız rüyayı gör. Onu doymak bilmez bir iştahla yaşa."
       },
       {
-        "body": "Çiftçi ailemin nesilleri başka seçenekleri olmadığı için onu topraktan çıkardılar. Onlar için sadece hayatta kalma olan şey, benim için şimdi haksız bir üstünlük. Boyun eğmem, şikâyet etmem, işini yaparım. İşte bunu miras aldım, ve işte bunu borçluyum.",
+        "body": "Çiftçi ailemin nesilleri başka seçenekleri olmadığı için onu topraktan çıkardılar. Onlar için sadece hayatta kalma olan şey, benim için şimdi haksız bir üstünlük. Boyun eğmem, şikâyet etmem, işini yaparım. Bazen biraz sert olabiliriz, ama çalışmadığımız tek bir gün bile yoktur. İşte bunu miras aldım, ve işte bunu borçluyum. Iowa'lı çocuklar kaçınılmazdır.",
         "title": "Iowa çocukları durmaz."
       }
     ]
