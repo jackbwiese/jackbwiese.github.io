@@ -111,7 +111,7 @@ export const en = {
       },
       {
         title: 'Iowa boys do not stop.',
-        body: 'Generations of my farming family got it out of the dirt because they had no other choice. What was pure survival for them is now my unfair advantage. I do not fold, I do not complain, I make it work. We may be a bit rough around the edges at times, but there is never a day we are not working. That is what I inherit, and it is what I owe. Iowa boys are inevitable.',
+        body: 'Generations of my farming family got it out of the dirt because they had no other choice. What was pure survival for them is now my unfair advantage. I do not fold, I do not complain, I make it work. That is what I inherit, and it is what I owe. We may be a bit rough around the edges at times, but there is never a day we are not working. Iowa boys are inevitable.',
       },
     ],
   },

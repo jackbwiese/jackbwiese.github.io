@@ -249,7 +249,7 @@ export const it = {
         "title": "Sogna il sogno impossibile. Vivilo voracemente."
       },
       {
-        "body": "Generazioni della mia famiglia contadina l'hanno strappato alla terra perché non avevano altra scelta. Ciò che per loro era pura sopravvivenza è oggi il mio vantaggio ingiusto. Non cedo, non mi lamento, faccio in modo che funzioni. Possiamo essere un po' grezzi a volte, ma non c'è un solo giorno in cui non stiamo lavorando. È ciò che ho ereditato, ed è ciò che devo. I ragazzi dell'Iowa sono inevitabili.",
+        "body": "Generazioni della mia famiglia contadina l'hanno strappato alla terra perché non avevano altra scelta. Ciò che per loro era pura sopravvivenza è oggi il mio vantaggio ingiusto. Non cedo, non mi lamento, faccio in modo che funzioni. È ciò che ho ereditato, ed è ciò che devo. Possiamo essere un po' grezzi a volte, ma non c'è un solo giorno in cui non stiamo lavorando. I ragazzi dell'Iowa sono inevitabili.",
         "title": "I ragazzi dell'Iowa non si fermano."
       }
     ]

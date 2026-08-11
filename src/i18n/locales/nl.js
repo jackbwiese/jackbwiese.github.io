@@ -250,7 +250,7 @@ export const nl = {
       },
       {
         "title": "Iowa-jongens stoppen niet.",
-        "body": "Generaties van mijn boerenfamilie hebben het uit de grond gehaald omdat ze geen andere keuze hadden. Wat pure overleving voor hen was, is nu mijn oneerlijke voordeel. Ik geef niet op, ik klaag niet, ik zorg dat het werkt. We zijn misschien af en toe wat ruw aan de randen, maar er is geen enkele dag dat we niet aan het werk zijn. Dat is wat ik erf, en dat is wat ik verschuldigd ben. Iowa-jongens zijn onvermijdelijk."
+        "body": "Generaties van mijn boerenfamilie hebben het uit de grond gehaald omdat ze geen andere keuze hadden. Wat pure overleving voor hen was, is nu mijn oneerlijke voordeel. Ik geef niet op, ik klaag niet, ik zorg dat het werkt. Dat is wat ik erf, en dat is wat ik verschuldigd ben. We zijn misschien af en toe wat ruw aan de randen, maar er is geen enkele dag dat we niet aan het werk zijn. Iowa-jongens zijn onvermijdelijk."
       }
     ]
   }
