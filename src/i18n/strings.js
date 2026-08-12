@@ -90,6 +90,7 @@ export const en = {
     paragraphs: [
       'I was raised in Iowa, in a family that has been nobly getting it out of the dirt for hundreds of years. My grandmother was an art teacher and painter - art and fashion are in my blood as much as the land.',
       "My parents both worked at Macy's before I was born - much of my aesthetic taste and proclivities are inherited from them. I dressed myself as soon as I was cognizant enough to have preferences of my own. Childhood was building and creating: LEGO, stop-motion, books, writing, and fashion. Through these mediums, I discovered my love for storytelling, and bringing things from 0 to 1 (imagination to reality). I also discovered, at an early age, my fundamental fascination with the full gamut of human expression, and my mission to proliferate them in all forms.",
+      "My parents gave me the basement. I filled it myself: a screenprinter, a sewing machine, an embroidery machine. The founding gift was the space and the permission - the tools were mine to bring in. That apparatus for creative expression turned into self-discovery, self-discovery into purpose. Every tool I have built since is an attempt to hand it to someone else's kid.",
       'I left at sixteen for the East Coast and then headed west to San Francisco - the long-walked path from a small town to a big stage.',
       'A decade in apparel design and manufacturing, building the bridge between imagination and physical reality for thousands of dreamers across the globe.',
     ],
