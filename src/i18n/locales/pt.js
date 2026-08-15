@@ -186,7 +186,7 @@ export const pt = {
     "paintingCaptionLead2": "Dar al través:",
     "paintingCaption2": "Quando o compromisso se torna irreversível.",
     "paintingCaptionLead3": "Theo van Doesburg:",
-    "paintingCaption3": "De onde vem 'on the bias'. Ele manteve a diagonal quando Mondrian saiu por causa disso.",
+    "paintingCaption3": "De onde vem o quadrado inclinado. Ele manteve a diagonal quando Mondrian saiu por causa disso.",
     "paintingCaptionLead": "Don Quijote:",
     "poemReaderBylinePrefix": "por Jack Wiese",
     "poemReaderBylineSuffix": "partes",

@@ -186,7 +186,7 @@ export const ar = {
     "paintingCaptionLead2": "Dar al través:",
     "paintingCaption2": "حين يصير الالتزام غير قابل للتراجع.",
     "paintingCaptionLead3": "Theo van Doesburg:",
-    "paintingCaption3": "من هنا جاءت 'on the bias'. تمسّك بالخط المائل حين رحل موندريان بسببه.",
+    "paintingCaption3": "من هنا جاء المربّع المائل. تمسّك بالخط المائل حين رحل موندريان بسببه.",
     "paintingCaptionLead": "دون كيخوته:",
     "poemReaderBylinePrefix": "بقلم Jack Wiese",
     "poemReaderBylineSuffix": "أجزاء",

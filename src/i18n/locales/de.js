@@ -152,7 +152,7 @@ export const de = {
     "paintingCaptionLead2": "Dar al través:",
     "paintingCaption2": "Wenn das Engagement unumkehrbar wird.",
     "paintingCaptionLead3": "Theo van Doesburg:",
-    "paintingCaption3": "Woher 'on the bias' kommt. Er hielt an der Diagonale fest, als Mondrian deswegen ausschied.",
+    "paintingCaption3": "Woher das gekippte Quadrat kommt. Er hielt an der Diagonale fest, als Mondrian deswegen ausschied.",
     "literatureHeader": "Literatur",
     "literatureLead": "Einige Favoriten:",
     "literature": [

@@ -186,7 +186,7 @@ export const tr = {
     "paintingCaptionLead2": "Dar al través:",
     "paintingCaption2": "Bağlılık geri dönülmez olduğunda.",
     "paintingCaptionLead3": "Theo van Doesburg:",
-    "paintingCaption3": "'on the bias' buradan geliyor. Mondrian bu yüzden ayrıldığında bile diyagonalinden vazgeçmedi.",
+    "paintingCaption3": "Eğik kare buradan geliyor. Mondrian bu yüzden ayrıldığında bile diyagonalinden vazgeçmedi.",
     "paintingCaptionLead": "Don Quijote:",
     "poemReaderBylinePrefix": "Jack Wiese tarafından",
     "poemReaderBylineSuffix": "bölüm",

@@ -235,15 +235,12 @@ const languages = ['EN', 'FR', 'ES', 'IT', 'DE', 'EL'];
 
   .obsessions__gallery {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     gap: clamp(1.5rem, 3vw, 3rem);
     margin: 0 0 clamp(3rem, 6vw, 5rem);
     align-items: start;
   }
-  @media (max-width: 1000px) {
-    .obsessions__gallery { grid-template-columns: 1fr 1fr; }
-  }
-  @media (max-width: 700px) {
+  @media (max-width: 760px) {
     .obsessions__gallery { grid-template-columns: 1fr; }
   }
   .obsessions__hero {

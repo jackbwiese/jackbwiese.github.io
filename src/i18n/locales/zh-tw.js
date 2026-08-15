@@ -186,7 +186,7 @@ export const zhTW = {
     "paintingCaptionLead2": "Dar al través:",
     "paintingCaption2": "當承諾變得不可逆轉。",
     "paintingCaptionLead3": "Theo van Doesburg:",
-    "paintingCaption3": "'on the bias'的由來。當蒙德里安為此離開時,他仍堅守那條對角線。",
+    "paintingCaption3": "傾斜方塊的由來。當蒙德里安為此離開時,他仍堅守那條對角線。",
     "paintingCaptionLead": "Don Quijote:",
     "poemReaderBylinePrefix": "作者 Jack Wiese",
     "poemReaderBylineSuffix": "篇",

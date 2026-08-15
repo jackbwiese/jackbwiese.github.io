@@ -186,7 +186,7 @@ export const ja = {
     "paintingCaptionLead2": "Dar al través:",
     "paintingCaption2": "献身が不可逆となるとき。",
     "paintingCaptionLead3": "Theo van Doesburg:",
-    "paintingCaption3": "'on the bias'の由来。モンドリアンがこの対角線ゆえに去っても、彼はその方向を守った。",
+    "paintingCaption3": "傾いた正方形の由来。モンドリアンがこの対角線ゆえに去っても、彼はその方向を守った。",
     "paintingCaptionLead": "ドン・キホーテ:",
     "poemReaderBylinePrefix": "Jack Wiese 著",
     "poemReaderBylineSuffix": "部",

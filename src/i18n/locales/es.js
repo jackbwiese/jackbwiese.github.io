@@ -152,7 +152,7 @@ export const es = {
     "paintingCaptionLead2": "Dar al través:",
     "paintingCaption2": "Cuando el compromiso se vuelve irreversible.",
     "paintingCaptionLead3": "Theo van Doesburg:",
-    "paintingCaption3": "De donde viene 'on the bias'. Sostuvo la diagonal cuando Mondrian se marchó por ello.",
+    "paintingCaption3": "De donde viene el cuadrado inclinado. Sostuvo la diagonal cuando Mondrian se marchó por ello.",
     "literatureHeader": "Literatura",
     "literatureLead": "Algunos favoritos:",
     "literature": [

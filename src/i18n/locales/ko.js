@@ -186,7 +186,7 @@ export const ko = {
     "paintingCaptionLead2": "Dar al través:",
     "paintingCaption2": "헌신이 되돌릴 수 없게 되는 순간.",
     "paintingCaptionLead3": "Theo van Doesburg:",
-    "paintingCaption3": "'on the bias'가 여기서 왔다. 몬드리안이 이 대각선 때문에 떠났을 때에도 그는 그 방향을 지켰다.",
+    "paintingCaption3": "기울어진 사각형이 여기서 왔다. 몬드리안이 이 대각선 때문에 떠났을 때에도 그는 그 방향을 지켰다.",
     "paintingCaptionLead": "Don Quijote:",
     "poemReaderBylinePrefix": "Jack Wiese 지음",
     "poemReaderBylineSuffix": "편",

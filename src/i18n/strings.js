@@ -176,7 +176,7 @@ export const en = {
     paintingCaptionLead2: 'Dar al través:',
     paintingCaption2: 'When commitment becomes irreversible.',
     paintingCaptionLead3: 'Theo van Doesburg:',
-    paintingCaption3: "Where 'on the bias' comes from. He held the diagonal when Mondrian left over it.",
+    paintingCaption3: 'Where the tilted square comes from. He held the diagonal when Mondrian left over it.',
     literatureHeader: 'Literature',
     literatureLead: 'Some favorites:',
     literature: [

@@ -152,7 +152,7 @@ export const id = {
     "paintingCaptionLead2": "Dar al través:",
     "paintingCaption2": "Ketika komitmen menjadi tidak dapat diubah.",
     "paintingCaptionLead3": "Theo van Doesburg:",
-    "paintingCaption3": "Dari sinilah 'on the bias' berasal. Ia mempertahankan garis diagonal ketika Mondrian pergi karenanya.",
+    "paintingCaption3": "Dari sinilah kotak miring berasal. Ia mempertahankan garis diagonal ketika Mondrian pergi karenanya.",
     "literatureHeader": "Literatur",
     "literatureLead": "Beberapa favorit:",
     "literature": [

@@ -186,7 +186,7 @@ export const fr = {
     "paintingCaptionLead2": "Dar al través :",
     "paintingCaption2": "Quand l'engagement devient irréversible.",
     "paintingCaptionLead3": "Theo van Doesburg :",
-    "paintingCaption3": "D'où vient 'on the bias'. Il a maintenu la diagonale quand Mondrian est parti à cause d'elle.",
+    "paintingCaption3": "D'où vient le carré incliné. Il a maintenu la diagonale quand Mondrian est parti à cause d'elle.",
     "paintingCaptionLead": "Don Quijote :",
     "poemReaderBylinePrefix": "par Jack Wiese",
     "poemReaderBylineSuffix": "parties",

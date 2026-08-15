@@ -186,7 +186,7 @@ export const ru = {
     "paintingCaptionLead2": "Dar al través:",
     "paintingCaption2": "Когда обязательство становится необратимым.",
     "paintingCaptionLead3": "Theo van Doesburg:",
-    "paintingCaption3": "Откуда пришло 'on the bias'. Он удержал диагональ, когда Мондриан ушёл из-за неё.",
+    "paintingCaption3": "Откуда пришёл наклонённый квадрат. Он удержал диагональ, когда Мондриан ушёл из-за неё.",
     "paintingCaptionLead": "Don Quijote:",
     "poemReaderBylinePrefix": "автор Jack Wiese",
     "poemReaderBylineSuffix": "частей",

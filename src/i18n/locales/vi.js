@@ -186,7 +186,7 @@ export const vi = {
     "paintingCaptionLead2": "Dar al través:",
     "paintingCaption2": "Khi cam kết trở nên không thể đảo ngược.",
     "paintingCaptionLead3": "Theo van Doesburg:",
-    "paintingCaption3": "Nơi 'on the bias' bắt nguồn. Ông giữ đường chéo khi Mondrian rời đi vì nó.",
+    "paintingCaption3": "Nơi hình vuông nghiêng bắt nguồn. Ông giữ đường chéo khi Mondrian rời đi vì nó.",
     "paintingCaptionLead": "Don Quijote:",
     "poemReaderBylinePrefix": "bởi Jack Wiese",
     "poemReaderBylineSuffix": "phần",
