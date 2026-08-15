@@ -183,6 +183,8 @@ export const tr = {
     "makingBody": "Heykel, resim, dans, koşu, dil öğrenme, seyahat: en sevdiğim faaliyetlerden bazıları!",
     "makingHeader": "Masanın ötesinde yaratım",
     "paintingCaption": "Büyük rüya görmenin ve o rüyalara doğru cesur adımlar atmanın koruyucu azizi.",
+    "paintingCaptionLead2": "Hernán Cortés:",
+    "paintingCaption2": "Tam adanmışlığın ve ileriyi tek yön kılmanın koruyucu azizi.",
     "paintingCaptionLead": "Don Quijote:",
     "poemReaderBylinePrefix": "Jack Wiese tarafından",
     "poemReaderBylineSuffix": "bölüm",

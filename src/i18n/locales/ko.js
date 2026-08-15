@@ -183,6 +183,8 @@ export const ko = {
     "makingBody": "조각, 회화, 춤, 달리기, 언어 배우기, 여행: 내가 가장 좋아하는 활동들 가운데 일부!",
     "makingHeader": "책상 너머에서 만들기",
     "paintingCaption": "크게 꿈꾸고 그 꿈을 향해 대담하게 행동하는 자들의 수호성인.",
+    "paintingCaptionLead2": "에르난 코르테스:",
+    "paintingCaption2": "완전한 헌신과 전진을 유일한 방향으로 만드는 것의 수호성인.",
     "paintingCaptionLead": "Don Quijote:",
     "poemReaderBylinePrefix": "Jack Wiese 지음",
     "poemReaderBylineSuffix": "편",

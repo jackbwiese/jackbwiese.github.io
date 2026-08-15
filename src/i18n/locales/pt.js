@@ -183,6 +183,8 @@ export const pt = {
     "makingBody": "Escultura, pintura, dança, corrida, aprender línguas, viajar: algumas das minhas atividades favoritas!",
     "makingHeader": "Fazer, para além da secretária",
     "paintingCaption": "O santo padroeiro de sonhar em grande e tomar ações audazes em direção a esses sonhos.",
+    "paintingCaptionLead2": "Hernán Cortés:",
+    "paintingCaption2": "O santo padroeiro do compromisso total e de fazer do avanço a única direção.",
     "paintingCaptionLead": "Don Quijote:",
     "poemReaderBylinePrefix": "por Jack Wiese",
     "poemReaderBylineSuffix": "partes",

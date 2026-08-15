@@ -183,6 +183,8 @@ export const ar = {
     "makingBody": "النحت، والرسم، والرقص، والجري، وتعلّم اللغات، والسفر: من أحبّ نشاطاتي إليّ!",
     "makingHeader": "الصنع، بعيداً عن المكتب",
     "paintingCaption": "شفيع الحلم الكبير والإقدام بجرأة نحو تلك الأحلام.",
+    "paintingCaptionLead2": "إرنان كورتيس:",
+    "paintingCaption2": "شفيع الالتزام الكامل وجعل التقدم الاتجاه الوحيد.",
     "paintingCaptionLead": "دون كيخوته:",
     "poemReaderBylinePrefix": "بقلم Jack Wiese",
     "poemReaderBylineSuffix": "أجزاء",

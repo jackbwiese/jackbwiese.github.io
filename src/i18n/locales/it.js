@@ -183,6 +183,8 @@ export const it = {
     "makingBody": "Scultura, pittura, danza, corsa, apprendimento delle lingue, viaggi: alcune delle mie attività preferite!",
     "makingHeader": "Creare, oltre la scrivania",
     "paintingCaption": "Il santo patrono del sognare in grande e dell'agire con audacia verso quei sogni.",
+    "paintingCaptionLead2": "Hernán Cortés:",
+    "paintingCaption2": "Il santo patrono della dedizione totale e del rendere l'avanti l'unica direzione.",
     "paintingCaptionLead": "Don Quijote:",
     "poemReaderBylinePrefix": "di Jack Wiese",
     "poemReaderBylineSuffix": "parti",

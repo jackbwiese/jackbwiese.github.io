@@ -12,19 +12,34 @@ const languages = ['EN', 'FR', 'ES', 'IT', 'DE', 'EL'];
   <span class="eyebrow">{t(L, 'obsessions.eyebrow')}</span>
   <h2 class="obsessions__heading">{t(L, 'obsessions.heading')}</h2>
 
-  <figure class="obsessions__hero">
-    <img
-      src="/images/quixote-quando-non-posso.jpg"
-      alt="Don Quixote on the moor, lance raised, Sancho watching"
-      width="1300"
-      height="1012"
-      loading="lazy"
-    />
-    <figcaption class="mono">
-      <span class="accent" translate="no">{t(L, 'obsessions.paintingCaptionLead')}</span>
-      {t(L, 'obsessions.paintingCaption')}
-    </figcaption>
-  </figure>
+  <div class="obsessions__diptych">
+    <figure class="obsessions__hero">
+      <img
+        src="/images/quixote-quando-non-posso.jpg"
+        alt="Don Quixote on the moor, lance raised, Sancho watching"
+        width="1300"
+        height="1012"
+        loading="lazy"
+      />
+      <figcaption class="mono">
+        <span class="accent" translate="no">{t(L, 'obsessions.paintingCaptionLead')}</span>
+        {t(L, 'obsessions.paintingCaption')}
+      </figcaption>
+    </figure>
+    <figure class="obsessions__hero">
+      <img
+        src="/images/cortes-dar-al-traves.jpg"
+        alt="Rafael Monleón, Hernán Cortés Orders His Ships Scuttled, 1887"
+        width="2800"
+        height="1512"
+        loading="lazy"
+      />
+      <figcaption class="mono">
+        <span class="accent" translate="no">{t(L, 'obsessions.paintingCaptionLead2')}</span>
+        {t(L, 'obsessions.paintingCaption2')}
+      </figcaption>
+    </figure>
+  </div>
 
   <div class="obsessions__grid">
     <article class="obsessions__col">
@@ -205,9 +220,18 @@ const languages = ['EN', 'FR', 'ES', 'IT', 'DE', 'EL'];
     color: var(--otb-white);
   }
 
-  .obsessions__hero {
+  .obsessions__diptych {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: clamp(1.5rem, 3vw, 3rem);
     margin: 0 0 clamp(3rem, 6vw, 5rem);
-    max-width: min(560px, 55%);
+    align-items: start;
+  }
+  @media (max-width: 760px) {
+    .obsessions__diptych { grid-template-columns: 1fr; }
+  }
+  .obsessions__hero {
+    margin: 0;
     position: relative;
   }
   .obsessions__hero img {
@@ -215,9 +239,6 @@ const languages = ['EN', 'FR', 'ES', 'IT', 'DE', 'EL'];
     width: 100%;
     height: auto;
     filter: contrast(1.05);
-  }
-  @media (max-width: 760px) {
-    .obsessions__hero { max-width: 100%; }
   }
   .obsessions__hero figcaption {
     margin-top: 0.85rem;

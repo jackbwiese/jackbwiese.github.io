@@ -149,6 +149,8 @@ export const nl = {
     "heading": "Wat ik lees, wat ik liefheb, hoe ik denk.",
     "paintingCaptionLead": "Don Quijote:",
     "paintingCaption": "De patroonheilige van het groot dromen en het ondernemen van moedige actie naar die dromen toe.",
+    "paintingCaptionLead2": "Hernán Cortés:",
+    "paintingCaption2": "De patroonheilige van totale toewijding en van voorwaarts als de enige richting.",
     "literatureHeader": "Literatuur",
     "literatureLead": "Enkele favorieten:",
     "literature": [

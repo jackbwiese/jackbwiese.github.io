@@ -183,6 +183,8 @@ export const zhCN = {
     "makingBody": "雕塑、绘画、舞蹈、跑步、学习语言、旅行:都是我最喜爱的活动之一!",
     "makingHeader": "创作,案头之外",
     "paintingCaption": "敢于豪迈梦想、并向那些梦想果敢行动者的守护圣徒。",
+    "paintingCaptionLead2": "埃尔南·科尔特斯:",
+    "paintingCaption2": "全然投入并让前行成为唯一方向的守护圣人。",
     "paintingCaptionLead": "Don Quijote:",
     "poemReaderBylinePrefix": "作者:Jack Wiese",
     "poemReaderBylineSuffix": "部分",
