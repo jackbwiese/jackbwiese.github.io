@@ -171,8 +171,8 @@ export const en = {
     heading: 'What I read, what I love, how I think.',
     paintingCaptionLead: 'Don Quijote:',
     paintingCaption: 'The patron saint of dreaming large and taking bold actions towards those dreams.',
-    paintingCaptionLead2: 'Hernán Cortés:',
-    paintingCaption2: 'The patron saint of committing fully and making forward the only direction.',
+    paintingCaptionLead2: 'Dar al través:',
+    paintingCaption2: 'When commitment becomes irreversible.',
     literatureHeader: 'Literature',
     literatureLead: 'Some favorites:',
     literature: [

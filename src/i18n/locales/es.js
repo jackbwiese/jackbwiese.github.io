@@ -149,8 +149,8 @@ export const es = {
     "heading": "Lo que leo, lo que amo, cómo pienso.",
     "paintingCaptionLead": "Don Quijote:",
     "paintingCaption": "El santo patrón de soñar en grande y emprender acciones audaces hacia esos sueños.",
-    "paintingCaptionLead2": "Hernán Cortés:",
-    "paintingCaption2": "El santo patrón de la entrega total y de hacer del avance la única dirección.",
+    "paintingCaptionLead2": "Dar al través:",
+    "paintingCaption2": "Cuando el compromiso se vuelve irreversible.",
     "literatureHeader": "Literatura",
     "literatureLead": "Algunos favoritos:",
     "literature": [

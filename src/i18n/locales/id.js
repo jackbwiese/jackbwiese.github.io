@@ -149,8 +149,8 @@ export const id = {
     "heading": "Apa yang saya baca, apa yang saya cintai, bagaimana saya berpikir.",
     "paintingCaptionLead": "Don Quijote:",
     "paintingCaption": "Santo pelindung dari mereka yang bermimpi besar dan mengambil langkah berani menuju mimpi-mimpi itu.",
-    "paintingCaptionLead2": "Hernán Cortés:",
-    "paintingCaption2": "Santo pelindung dari komitmen penuh dan menjadikan langkah maju sebagai satu-satunya arah.",
+    "paintingCaptionLead2": "Dar al través:",
+    "paintingCaption2": "Ketika komitmen menjadi tidak dapat diubah.",
     "literatureHeader": "Literatur",
     "literatureLead": "Beberapa favorit:",
     "literature": [

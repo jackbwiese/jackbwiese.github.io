@@ -149,8 +149,8 @@ export const de = {
     "heading": "Was ich lese, was ich liebe, wie ich denke.",
     "paintingCaptionLead": "Don Quijote:",
     "paintingCaption": "Der Schutzpatron des großen Träumens und des kühnen Handelns auf diese Träume hin.",
-    "paintingCaptionLead2": "Hernán Cortés:",
-    "paintingCaption2": "Der Schutzheilige der vollständigen Hingabe, der aus dem Vorwärts die einzige Richtung macht.",
+    "paintingCaptionLead2": "Dar al través:",
+    "paintingCaption2": "Wenn das Engagement unumkehrbar wird.",
     "literatureHeader": "Literatur",
     "literatureLead": "Einige Favoriten:",
     "literature": [

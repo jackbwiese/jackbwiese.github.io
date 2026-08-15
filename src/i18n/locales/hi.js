@@ -149,8 +149,8 @@ export const hi = {
     "heading": "मैं क्या पढ़ता हूँ, क्या प्रेम करता हूँ, कैसे सोचता हूँ।",
     "paintingCaptionLead": "Don Quijote:",
     "paintingCaption": "विशाल स्वप्न देखने और उन स्वप्नों की ओर साहसिक पग बढ़ाने के संरक्षक संत।",
-    "paintingCaptionLead2": "हरनान कोर्तेस:",
-    "paintingCaption2": "पूर्ण समर्पण और आगे बढ़ने को एकमात्र दिशा बनाने के संरक्षक संत।",
+    "paintingCaptionLead2": "Dar al través:",
+    "paintingCaption2": "जब प्रतिबद्धता अपरिवर्तनीय हो जाती है।",
     "literatureHeader": "साहित्य",
     "literatureLead": "कुछ प्रिय कृतियाँ:",
     "literature": [
