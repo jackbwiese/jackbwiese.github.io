@@ -233,7 +233,8 @@ export const es = {
       "Mis padres trabajaron ambos en Macy's antes de que yo naciera - gran parte de mi gusto estético y mis inclinaciones los heredé de ellos. Me vestía yo mismo tan pronto como fui suficientemente consciente para tener mis propias preferencias. La infancia fue construir y crear: LEGO, stop-motion, libros, escritura y moda. A través de estos medios descubrí mi amor por la narración y por llevar las cosas de 0 a 1 (de la imaginación a la realidad). También descubrí desde temprana edad mi fascinación fundamental por toda la gama de la expresión humana, y mi misión de proliferarla en todas sus formas.",
       "Mis padres me dieron el sótano. Lo llené yo mismo: una serigrafía, una máquina de coser, una máquina de bordar. El regalo fundacional fue el espacio y el permiso - las herramientas eran mías para conseguir. Ese aparato para la expresión creativa se convirtió en autodescubrimiento, y el autodescubrimiento en propósito. Cada herramienta que he construido desde entonces es un intento de entregársela al hijo de otro.",
       "Me marché a los dieciséis a la East Coast y luego me dirigí al oeste a San Francisco - el camino tantas veces recorrido desde un pueblo pequeño hasta un gran escenario.",
-      "Una década en diseño y manufactura de prendas, construyendo el puente entre la imaginación y la realidad física para miles de soñadores en todo el mundo."
+      "Una década en diseño y manufactura de prendas, construyendo el puente entre la imaginación y la realidad física para miles de soñadores en todo el mundo.",
+      "Mi padre ha ido a la guerra por nuestra familia tres veces. Todos mis hermanos sirven. Yo soy el que eligió construir. Pero la disciplina que llevo es la suya. Cuando decido lo que realmente significa el compromiso con mi trabajo, no me estoy midiendo contra otros fundadores. Me estoy midiendo contra un hombre que hizo su maleta tres veces y se fue. Esa es mi vara."
     ]
   },
   "worldview": {

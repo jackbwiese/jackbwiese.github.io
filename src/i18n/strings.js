@@ -93,6 +93,7 @@ export const en = {
       "My parents gave me the basement. I filled it myself: a screenprinter, a sewing machine, an embroidery machine. The founding gift was the space and the permission - the tools were mine to bring in. That apparatus for creative expression turned into self-discovery, self-discovery into purpose. Every tool I have built since is an attempt to hand it to someone else's kid.",
       'I left at sixteen for the East Coast and then headed west to San Francisco - the long-walked path from a small town to a big stage.',
       'A decade in apparel design and manufacturing, building the bridge between imagination and physical reality for thousands of dreamers across the globe.',
+      'My father has been to war for our family three times. All my siblings serve. I am the one who chose to build. But the discipline I carry is his. When I decide what commitment to my work actually means, I am not measuring against other founders. I am measuring against a man who packed his bag three times and went. That is my stick.',
     ],
   },
   worldview: {

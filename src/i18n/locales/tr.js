@@ -232,7 +232,8 @@ export const tr = {
       "Annemle babam ben doğmadan önce Macy's'de çalıştılar - estetik zevkim ve eğilimlerimin büyük kısmı onlardan miras. Kendi tercihlerime sahip olacak kadar bilinçlenir bilinçlenmez kendi başıma giyinmeye başladım. Çocukluk, inşa etmek ve yaratmaktı: LEGO, stop-motion, kitaplar, yazı ve moda. Bu araçlar sayesinde hikâye anlatıcılığına ve şeyleri 0'dan 1'e (hayal gücünden gerçekliğe) taşımaya olan sevgimi keşfettim. Ayrıca erken yaşta, insani ifadenin tam yelpazesine olan temel hayranlığımı ve onu her biçimde çoğaltma misyonumu keşfettim.",
       "Ailem bana bodrumu verdi. Onu kendim doldurdum: bir serigrafi baskı makinesi, bir dikiş makinesi, bir nakış makinesi. Kurucu hediye alan ve izindi - aletleri kendim getirmem gerekiyordu. Yaratıcı ifade için o aygıt kendini keşfetmeye, kendini keşif de amaca dönüştü. O zamandan beri inşa ettiğim her araç, onu başkasının çocuğuna teslim etme girişimidir.",
       "On altı yaşında East Coast'a, ardından batıya San Francisco'ya gittim - küçük bir kasabadan büyük bir sahneye uzun süredir yürünen yol.",
-      "Konfeksiyon tasarımı ve üretiminde on yıl; dünyanın dört bir yanındaki binlerce hayalperest için hayal gücü ile maddi gerçeklik arasındaki köprüyü inşa ettim."
+      "Konfeksiyon tasarımı ve üretiminde on yıl; dünyanın dört bir yanındaki binlerce hayalperest için hayal gücü ile maddi gerçeklik arasındaki köprüyü inşa ettim.",
+      "Babam ailemiz için üç kez savaşa gitti. Bütün kardeşlerim orduda hizmet ediyor. Ben inşa etmeyi seçenim. Ama taşıdığım disiplin onunkidir. İşime karşı bağlılığın gerçekten ne demek olduğuna karar verdiğimde, kendimi diğer kuruculara göre ölçmüyorum. Kendimi üç kez çantasını toplayıp giden bir adama göre ölçüyorum. Benim ölçütüm bu."
     ],
     "portraitCaption": "Portre · ROMULUS"
   },

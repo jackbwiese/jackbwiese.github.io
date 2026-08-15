@@ -232,7 +232,8 @@ export const pt = {
       "Os meus pais trabalharam ambos na Macy's antes de eu nascer - grande parte do meu gosto estético e das minhas inclinações herdei-os deles. Vestia-me sozinho assim que fui suficientemente consciente para ter as minhas próprias preferências. A infância foi construir e criar: LEGO, stop-motion, livros, escrita e moda. Através destes meios, descobri o meu amor pela narrativa, e por trazer as coisas de 0 a 1 (da imaginação à realidade). Descobri também, desde cedo, o meu fascínio fundamental por toda a gama da expressão humana, e a minha missão de a proliferar em todas as formas.",
       "Os meus pais deram-me a cave. Enchi-a eu próprio: uma serigrafia, uma máquina de costura, uma máquina de bordado. O presente fundador foi o espaço e a permissão - as ferramentas era eu que as tinha de trazer. Esse aparelho para a expressão criativa transformou-se em autodescoberta, e a autodescoberta em propósito. Cada ferramenta que construí desde então é uma tentativa de a entregar ao filho de outra pessoa.",
       "Parti aos dezasseis anos para a East Coast e depois rumei a oeste, para San Francisco - o caminho longamente percorrido de uma pequena cidade para um grande palco.",
-      "Uma década em design e fabrico de vestuário, construindo a ponte entre a imaginação e a realidade física para milhares de sonhadores por todo o mundo."
+      "Uma década em design e fabrico de vestuário, construindo a ponte entre a imaginação e a realidade física para milhares de sonhadores por todo o mundo.",
+      "O meu pai foi para a guerra pela nossa família três vezes. Todos os meus irmãos servem. Eu sou o que escolheu construir. Mas a disciplina que carrego é a dele. Quando decido o que significa realmente o compromisso com o meu trabalho, não estou a medir-me contra outros fundadores. Estou a medir-me contra um homem que fez as malas três vezes e partiu. Essa é a minha vara."
     ],
     "portraitCaption": "Retrato · ROMULUS"
   },
