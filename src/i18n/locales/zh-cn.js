@@ -185,6 +185,8 @@ export const zhCN = {
     "paintingCaption": "敢于豪迈梦想、并向那些梦想果敢行动者的守护圣徒。",
     "paintingCaptionLead2": "Dar al través:",
     "paintingCaption2": "当承诺变得不可逆转。",
+    "paintingCaptionLead3": "Theo van Doesburg:",
+    "paintingCaption3": "'on the bias'的由来。当蒙德里安为此离开时,他仍坚守那条对角线。",
     "paintingCaptionLead": "Don Quijote:",
     "poemReaderBylinePrefix": "作者:Jack Wiese",
     "poemReaderBylineSuffix": "部分",

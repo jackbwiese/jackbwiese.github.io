@@ -151,6 +151,8 @@ export const id = {
     "paintingCaption": "Santo pelindung dari mereka yang bermimpi besar dan mengambil langkah berani menuju mimpi-mimpi itu.",
     "paintingCaptionLead2": "Dar al través:",
     "paintingCaption2": "Ketika komitmen menjadi tidak dapat diubah.",
+    "paintingCaptionLead3": "Theo van Doesburg:",
+    "paintingCaption3": "Dari sinilah 'on the bias' berasal. Ia mempertahankan garis diagonal ketika Mondrian pergi karenanya.",
     "literatureHeader": "Literatur",
     "literatureLead": "Beberapa favorit:",
     "literature": [

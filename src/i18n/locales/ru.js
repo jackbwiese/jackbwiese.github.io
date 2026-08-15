@@ -185,6 +185,8 @@ export const ru = {
     "paintingCaption": "Покровитель тех, кто мечтает по-крупному и предпринимает дерзкие действия ради этих мечтаний.",
     "paintingCaptionLead2": "Dar al través:",
     "paintingCaption2": "Когда обязательство становится необратимым.",
+    "paintingCaptionLead3": "Theo van Doesburg:",
+    "paintingCaption3": "Откуда пришло 'on the bias'. Он удержал диагональ, когда Мондриан ушёл из-за неё.",
     "paintingCaptionLead": "Don Quijote:",
     "poemReaderBylinePrefix": "автор Jack Wiese",
     "poemReaderBylineSuffix": "частей",

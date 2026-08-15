@@ -185,6 +185,8 @@ export const vi = {
     "paintingCaption": "Vị thánh bảo trợ của việc dám mơ những giấc mơ lớn và hành động táo bạo hướng tới những giấc mơ ấy.",
     "paintingCaptionLead2": "Dar al través:",
     "paintingCaption2": "Khi cam kết trở nên không thể đảo ngược.",
+    "paintingCaptionLead3": "Theo van Doesburg:",
+    "paintingCaption3": "Nơi 'on the bias' bắt nguồn. Ông giữ đường chéo khi Mondrian rời đi vì nó.",
     "paintingCaptionLead": "Don Quijote:",
     "poemReaderBylinePrefix": "bởi Jack Wiese",
     "poemReaderBylineSuffix": "phần",

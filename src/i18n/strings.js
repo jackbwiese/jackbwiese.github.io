@@ -175,6 +175,8 @@ export const en = {
     paintingCaption: 'The patron saint of dreaming large and taking bold actions towards those dreams.',
     paintingCaptionLead2: 'Dar al través:',
     paintingCaption2: 'When commitment becomes irreversible.',
+    paintingCaptionLead3: 'Theo van Doesburg:',
+    paintingCaption3: "Where 'on the bias' comes from. He held the diagonal when Mondrian left over it.",
     literatureHeader: 'Literature',
     literatureLead: 'Some favorites:',
     literature: [

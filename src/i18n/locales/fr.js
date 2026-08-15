@@ -185,6 +185,8 @@ export const fr = {
     "paintingCaption": "Le saint patron de ceux qui rêvent grand et passent à l'action avec audace pour atteindre ces rêves.",
     "paintingCaptionLead2": "Dar al través :",
     "paintingCaption2": "Quand l'engagement devient irréversible.",
+    "paintingCaptionLead3": "Theo van Doesburg :",
+    "paintingCaption3": "D'où vient 'on the bias'. Il a maintenu la diagonale quand Mondrian est parti à cause d'elle.",
     "paintingCaptionLead": "Don Quijote :",
     "poemReaderBylinePrefix": "par Jack Wiese",
     "poemReaderBylineSuffix": "parties",

@@ -12,7 +12,7 @@ const languages = ['EN', 'FR', 'ES', 'IT', 'DE', 'EL'];
   <span class="eyebrow">{t(L, 'obsessions.eyebrow')}</span>
   <h2 class="obsessions__heading">{t(L, 'obsessions.heading')}</h2>
 
-  <div class="obsessions__diptych">
+  <div class="obsessions__gallery">
     <figure class="obsessions__hero">
       <img
         src="/images/quixote-quando-non-posso.jpg"
@@ -37,6 +37,19 @@ const languages = ['EN', 'FR', 'ES', 'IT', 'DE', 'EL'];
       <figcaption class="mono">
         <span class="accent" translate="no">{t(L, 'obsessions.paintingCaptionLead2')}</span>
         {t(L, 'obsessions.paintingCaption2')}
+      </figcaption>
+    </figure>
+    <figure class="obsessions__hero">
+      <img
+        src="/images/doesburg-framed.jpg"
+        alt="Theo van Doesburg, Counter-Composition of Dissonances XVI, 1925, in ornate gilded frame"
+        width="1344"
+        height="768"
+        loading="lazy"
+      />
+      <figcaption class="mono">
+        <span class="accent" translate="no">{t(L, 'obsessions.paintingCaptionLead3')}</span>
+        {t(L, 'obsessions.paintingCaption3')}
       </figcaption>
     </figure>
   </div>
@@ -220,15 +233,18 @@ const languages = ['EN', 'FR', 'ES', 'IT', 'DE', 'EL'];
     color: var(--otb-white);
   }
 
-  .obsessions__diptych {
+  .obsessions__gallery {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: clamp(1.5rem, 3vw, 3rem);
     margin: 0 0 clamp(3rem, 6vw, 5rem);
     align-items: start;
   }
-  @media (max-width: 760px) {
-    .obsessions__diptych { grid-template-columns: 1fr; }
+  @media (max-width: 1000px) {
+    .obsessions__gallery { grid-template-columns: 1fr 1fr; }
+  }
+  @media (max-width: 700px) {
+    .obsessions__gallery { grid-template-columns: 1fr; }
   }
   .obsessions__hero {
     margin: 0;

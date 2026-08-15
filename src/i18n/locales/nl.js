@@ -151,6 +151,8 @@ export const nl = {
     "paintingCaption": "De patroonheilige van het groot dromen en het ondernemen van moedige actie naar die dromen toe.",
     "paintingCaptionLead2": "Dar al través:",
     "paintingCaption2": "Wanneer toewijding onomkeerbaar wordt.",
+    "paintingCaptionLead3": "Theo van Doesburg:",
+    "paintingCaption3": "Waar 'on the bias' vandaan komt. Hij hield de diagonaal vast toen Mondriaan erom vertrok.",
     "literatureHeader": "Literatuur",
     "literatureLead": "Enkele favorieten:",
     "literature": [

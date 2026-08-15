@@ -151,6 +151,8 @@ export const hi = {
     "paintingCaption": "विशाल स्वप्न देखने और उन स्वप्नों की ओर साहसिक पग बढ़ाने के संरक्षक संत।",
     "paintingCaptionLead2": "Dar al través:",
     "paintingCaption2": "जब प्रतिबद्धता अपरिवर्तनीय हो जाती है।",
+    "paintingCaptionLead3": "Theo van Doesburg:",
+    "paintingCaption3": "'on the bias' यहीं से आया है। जब मोंड्रियन इसी कारण De Stijl छोड़ गए, तब भी उन्होंने विकर्ण को थामे रखा।",
     "literatureHeader": "साहित्य",
     "literatureLead": "कुछ प्रिय कृतियाँ:",
     "literature": [
