@@ -39,7 +39,7 @@ const languages = ['EN', 'FR', 'ES', 'IT', 'DE', 'EL'];
         {t(L, 'obsessions.paintingCaption2')}
       </figcaption>
     </figure>
-    <figure class="obsessions__hero">
+    <figure class="obsessions__hero obsessions__hero--wide">
       <img
         src="/images/doesburg-framed.jpg"
         alt="Theo van Doesburg, Counter-Composition of Dissonances XVI, 1925, in ornate gilded frame"
@@ -240,8 +240,13 @@ const languages = ['EN', 'FR', 'ES', 'IT', 'DE', 'EL'];
     margin: 0 0 clamp(3rem, 6vw, 5rem);
     align-items: start;
   }
+  .obsessions__hero--wide {
+    grid-column: 1 / -1;
+    margin-top: clamp(0.5rem, 1.5vw, 1.5rem);
+  }
   @media (max-width: 760px) {
     .obsessions__gallery { grid-template-columns: 1fr; }
+    .obsessions__hero--wide { margin-top: 0; }
   }
   .obsessions__hero {
     margin: 0;
