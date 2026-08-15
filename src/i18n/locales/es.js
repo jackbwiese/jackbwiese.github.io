@@ -234,6 +234,7 @@ export const es = {
       "Mis padres me dieron el sótano. Lo llené yo mismo: una serigrafía, una máquina de coser, una máquina de bordar. El regalo fundacional fue el espacio y el permiso - las herramientas eran mías para conseguir. Ese aparato para la expresión creativa se convirtió en autodescubrimiento, y el autodescubrimiento en propósito. Cada herramienta que he construido desde entonces es un intento de entregársela al hijo de otro.",
       "Me marché a los dieciséis a la East Coast y luego me dirigí al oeste a San Francisco - el camino tantas veces recorrido desde un pueblo pequeño hasta un gran escenario.",
       "Una década en diseño y manufactura de prendas, construyendo el puente entre la imaginación y la realidad física para miles de soñadores en todo el mundo.",
+      "Ha habido tramos de mi vida en ropa de diseñador, un Rolex, etc., a través de más aeropuertos de los que puedo recordar. También ha habido tramos de mi vida en los que no sabía de dónde vendría la comida o la cama de la próxima semana. Ambos son ciertos. A lo largo de todo, mi propósito y la obsesión con mi misión eran ineludibles.",
       "Mi padre ha ido a la guerra por nuestra familia tres veces. Todos mis hermanos sirven. Yo soy el que eligió construir. Pero la disciplina que llevo es la suya. Cuando decido lo que realmente significa el compromiso con mi trabajo, no me estoy midiendo contra otros fundadores. Me estoy midiendo contra un hombre que hizo su maleta tres veces y se fue. Esa es mi vara."
     ]
   },

@@ -234,6 +234,7 @@ export const nl = {
       "Mijn ouders gaven me de kelder. Ik vulde hem zelf: een zeefdrukpers, een naaimachine, een borduurmachine. Het grondleggende geschenk was de ruimte en de toestemming - het gereedschap was aan mij om binnen te halen. Dat apparaat voor creatieve expressie werd zelfontdekking, en zelfontdekking werd bestemming. Elk instrument dat ik sindsdien heb gebouwd is een poging om het aan iemand anders zijn kind te geven.",
       "Ik vertrok op zestienjarige leeftijd naar de East Coast en trok daarna westwaarts naar San Francisco - het oeroude pad van een klein stadje naar een groot podium.",
       "Een decennium in kledingontwerp en -productie, waarin ik de brug tussen verbeelding en fysieke werkelijkheid bouwde voor duizenden dromers over de hele wereld.",
+      "Er zijn periodes van mijn leven geweest in designerkleding, een Rolex, etc., door meer luchthavens dan ik me kan herinneren. Er zijn ook periodes van mijn leven geweest waarin ik niet wist waar het eten of bed van de volgende week vandaan zou komen. Beide zijn waar. Door dat alles heen waren mijn doel en de obsessie met mijn missie onontkoombaar.",
       "Mijn vader is drie keer ten oorlog getrokken voor onze familie. Al mijn broers en zussen dienen. Ik ben degene die koos om te bouwen. Maar de discipline die ik draag is de zijne. Wanneer ik beslis wat toewijding aan mijn werk werkelijk betekent, meet ik mezelf niet aan andere oprichters. Ik meet mezelf aan een man die drie keer zijn tas pakte en vertrok. Dat is mijn maatstaf."
     ]
   },
