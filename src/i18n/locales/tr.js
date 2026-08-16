@@ -230,35 +230,12 @@ export const tr = {
     "epigraph": "Ben hiçbir şeyim ve hiçbir şey bilmiyorum, bu yüzden her şeyi yapabilirim.",
     "eyebrow": "§ III · Vita",
     "paragraphs": [
-      "Iowa'da, yüzlerce yıldır toprağı asilce işleyen bir ailede büyüdüm. Büyükannem sanat öğretmeni ve ressamdı - sanat ve moda benim kanımda toprak kadar var.",
-      "Annemle babam ben doğmadan önce Macy's'de çalıştılar - estetik zevkim ve eğilimlerimin büyük kısmı onlardan miras. Kendi tercihlerime sahip olacak kadar bilinçlenir bilinçlenmez kendi başıma giyinmeye başladım. Çocukluk, inşa etmek ve yaratmaktı: LEGO, stop-motion, kitaplar, yazı ve moda. Bu araçlar sayesinde hikâye anlatıcılığına ve şeyleri 0'dan 1'e (hayal gücünden gerçekliğe) taşımaya olan sevgimi keşfettim. Ayrıca erken yaşta, insani ifadenin tam yelpazesine olan temel hayranlığımı ve onu her biçimde çoğaltma misyonumu keşfettim.",
-      "Ailem bana bodrumu verdi. Onu kendim doldurdum: bir serigrafi baskı makinesi, bir dikiş makinesi, bir nakış makinesi. Kurucu hediye alan ve izindi - aletleri kendim getirmem gerekiyordu. Yaratıcı ifade için o aygıt kendini keşfetmeye, kendini keşif de amaca dönüştü. O zamandan beri inşa ettiğim her araç, onu başkasının çocuğuna teslim etme girişimidir.",
-      "On altı yaşında East Coast'a, ardından batıya San Francisco'ya gittim - küçük bir kasabadan büyük bir sahneye uzun süredir yürünen yol.",
-      "Konfeksiyon tasarımı ve üretiminde on yıl; dünyanın dört bir yanındaki binlerce hayalperest için hayal gücü ile maddi gerçeklik arasındaki köprüyü inşa ettim.",
-      "Hayatımın tasarımcı kıyafetlerde, bir Rolex ile, hatırlayabileceğimden daha fazla havalimanından geçen dönemleri oldu. Hayatımın gelecek haftanın yemeğinin ya da yatağının nereden geleceğini bilmediğim dönemleri de oldu. Her ikisi de gerçek. Tüm bunlar boyunca, amacım ve misyonuma olan takıntım kaçınılmazdı.",
-      "Babam ailemiz için üç kez savaşa gitti. Bütün kardeşlerim orduda hizmet ediyor. Ben yaratıcı, daha az kesin olan yolu seçtim, ama onlarınkiyle aynı askeri titizlik, adanmışlık ve mükemmellik anlayışını taşıyorum."
-    ],
-    "portraitCaption": "Portre · ROMULUS"
-  },
-  "worldview": {
-    "eyebrow": "§ IV · Dünya Görüşü",
-    "theses": [
-      {
-        "body": "Matbaa okumayı özgürleştirdi. Dokuma tezgâhı dokumayı özgürleştirdi. Yazılım yazmayı özgürleştirdi. Bir sonraki katman yaratıcının yerini almıyor - bir vizyon ile onun gerçekleşmesi arasındaki sekreteryal emeği ortadan kaldırıyor. Sonuç daha az sanatçı değil, sanatçılardan oluşan bir uygarlık. İnsanlık yaratmak için doğdu.",
-        "title": "Teknoloji, insanlığı yaratmak ve oynamak için özgürleştirmeli."
-      },
-      {
-        "body": "Roketlerin ve veri merkezlerinin de yeri var. Ama bugün denge, tech endüstrisinin anıtlarına çok fazla, ücretsiz kamu kütüphanelerine ve sanat merkezlerine ise yeterince yatırılmış değil. Teknoloji, insani kültürün fiziksel dünyada çoğalmasına hizmet etmelidir. Servetimizle ne inşa edersek, aslında ona değer veriyoruz. Modern Mouseion'u modern moonshot'un yanında inşa etmek istiyorum.",
-        "title": "Daha çok kütüphaneye ve sanat merkezine ihtiyacımız var."
-      },
-      {
-        "body": "Don Quixote yel değirmenlerine saldırdı çünkü rüya rüzgârdan daha büyüktü. Rüya her zaman rüzgârdan daha büyüktür. Yapılabileceğini söyledikleri şeyin ötesini hayal et. Ufkundaki en büyük yel değirmenini bul, sana en çok korkuyu veren ama yüreğinde en büyük heyecanı uyandıran o değirmeni, ve ona tüm hız ve cesaretinle hücum et.",
-        "title": "İmkânsız rüyayı gör. Onu doymak bilmez bir iştahla yaşa."
-      },
-      {
-        "body": "Çiftçi ailemin nesilleri başka seçenekleri olmadığı için onu topraktan çıkardılar. Onlar için sadece hayatta kalma olan şey, benim için şimdi haksız bir üstünlük. Boyun eğmem, şikâyet etmem, işini yaparım. İşte bunu miras aldım, ve işte bunu borçluyum. Bazen biraz sert olabiliriz, ama çalışmadığımız tek bir gün bile yoktur. Iowa'lı çocuklar kaçınılmazdır.",
-        "title": "Iowa çocukları durmaz."
-      }
+      "Bodrumda bir serigrafi baskı makinesi, bir dikiş makinesi ve bir nakış makinesi vardı. Ailem bana alanı ve izni verdi - araçları getirmek bana kaldı. Yaratıcı ifadenin o aygıtı kendini keşfe, kendini keşif de amaca dönüştü. O günden beri inşa ettiğim her şey, başkalarına da benzer bir alan ve izin vermek için özellikle tasarlandı; yaratıcı olabilsinler ve gerçek benliklerini keşfedebilsinler diye.",
+      "Iowa'da, yüzlerce yıldır toprağı asilce işleyip geçimini oradan çıkaran bir ailede büyüdüm. Büyükannem sanat öğretmeni ve ressamdı. Ben doğmadan önce annem babam Macy's'te çalışıyordu. Sanat ve moda toprak kadar kanımdadır.",
+      "On altı yaşında yola çıktım ve durmadım. Doğu Yakası, Avrupa, San Francisco. Moda tasarımı ve üretiminde bir on yıl; dünyanın dört bir yanından binlerce hayalperest için hayal ile fiziksel gerçeklik arasında köprü kurdum.",
+      "Hayatımın bazı dönemleri tasarımcı kıyafetleri, bir Rolex vs. içinde, hatırlayabildiğimden daha fazla havaalanından geçerek geçti. Hayatımın bazı dönemleri de öyleydi ki gelecek haftanın yemeği ya da yatağı nereden gelecek bilmiyordum. İkisi de doğru. Tüm bunlar boyunca amacım ve misyonuma olan takıntım kaçınılmaz kalmaya devam etti.",
+      "Bu takıntı miras kalmıştı. Babam ailemiz için üç kez savaşa gitti. Bütün kardeşlerim hizmet ediyor. Yaratıcı ve daha az güvenli yolu seçtim, ama onların o askeri titizlik, adanmışlık ve mükemmellik duygusunu taşıyorum.",
+      "Iowa'nın o küçük kasabasındaki bodrumda beni tutuşturan aynı tükenmez ateş bugün hâlâ parlak yanmaya devam ediyor; tek fark, bu hayaller bugün gerçeğe dönüşüyor - ve birkaç kişotvari hayalperest ve ben, o aynı ateşi dünya üzerindeki her insana teslim etmek için çalışıyoruz; küresel bir rönesansın yolunu aydınlatmak için..."
     ]
   }
 };

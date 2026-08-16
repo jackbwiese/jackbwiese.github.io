@@ -230,35 +230,12 @@ export const vi = {
     "epigraph": "Tôi không là gì và không biết gì, vì thế, tôi có thể làm mọi điều.",
     "eyebrow": "§ III · Vita",
     "paragraphs": [
-      "Tôi lớn lên ở Iowa, trong một gia đình đã cao quý gây dựng từ đất cát suốt hàng trăm năm. Bà tôi là giáo viên mỹ thuật và họa sĩ - nghệ thuật và thời trang chảy trong máu tôi ngang với đất đai.",
-      "Cha mẹ tôi đều từng làm việc tại Macy's trước khi tôi ra đời - phần lớn gu thẩm mỹ và thiên hướng của tôi là được thừa hưởng từ họ. Tôi tự mặc quần áo cho mình ngay khi đủ ý thức để có sở thích riêng. Tuổi thơ là sự xây dựng và sáng tạo: LEGO, phim hoạt hình tĩnh vật, sách vở, viết lách và thời trang. Qua những phương tiện ấy, tôi đã khám phá ra tình yêu của mình với việc kể chuyện, và đưa mọi thứ từ 0 đến 1 (từ trí tưởng tượng đến hiện thực). Tôi cũng đã khám phá từ rất sớm sự say mê căn bản của mình với toàn bộ phổ biểu đạt của con người, và sứ mệnh lan tỏa nó dưới mọi hình thức.",
-      "Cha mẹ đã cho tôi tầng hầm. Tôi tự lấp đầy nó: một máy in lụa, một máy may, một máy thêu. Món quà nền tảng là không gian và sự cho phép - công cụ là tôi phải tự mang vào. Bộ máy cho sự thể hiện sáng tạo đó đã trở thành khám phá bản thân, và khám phá bản thân đã trở thành sứ mệnh. Mỗi công cụ tôi đã xây dựng kể từ đó là một nỗ lực trao nó cho con của ai đó khác.",
-      "Tôi rời nhà năm mười sáu tuổi để đến East Coast và sau đó đi về phía tây đến San Francisco - con đường dài đã được nhiều người đi từ một thị trấn nhỏ đến một sân khấu lớn.",
-      "Một thập kỷ trong thiết kế và sản xuất quần áo, xây cây cầu giữa trí tưởng tượng và hiện thực vật chất cho hàng nghìn người mộng mơ trên khắp toàn cầu.",
-      "Đã có những giai đoạn trong cuộc đời tôi mặc quần áo thiết kế, đeo Rolex, v.v., qua nhiều sân bay hơn tôi có thể nhớ. Cũng đã có những giai đoạn trong cuộc đời tôi không biết bữa ăn hay chỗ ngủ tuần sau sẽ đến từ đâu. Cả hai đều là sự thật. Xuyên suốt tất cả những điều đó, mục đích của tôi và nỗi ám ảnh với sứ mệnh của tôi là không thể trốn tránh.",
-      "Cha tôi đã ba lần ra trận vì gia đình chúng tôi. Tất cả anh chị em tôi đều đang phục vụ. Tôi đã chọn con đường sáng tạo và ít chắc chắn hơn, nhưng tôi mang trong mình cùng một tinh thần quân đội về sự nghiêm ngặt, cống hiến và xuất sắc như họ."
-    ],
-    "portraitCaption": "Chân dung · ROMULUS"
-  },
-  "worldview": {
-    "eyebrow": "§ IV · Thế Giới Quan",
-    "theses": [
-      {
-        "body": "Máy in giải phóng việc đọc. Khung dệt giải phóng việc dệt. Phần mềm giải phóng việc viết. Lớp tiếp theo không thay thế người sáng tạo - nó loại bỏ lao động thư ký nằm giữa một tầm nhìn và sự hiện thực hóa nó. Kết quả không phải là ít nghệ sĩ hơn mà là một nền văn minh gồm những nghệ sĩ. Loài người sinh ra để sáng tạo.",
-        "title": "Công nghệ nên giải phóng nhân loại để sáng tạo và vui chơi."
-      },
-      {
-        "body": "Tên lửa và trung tâm dữ liệu có chỗ đứng của chúng. Nhưng cán cân hiện nay đang nghiêng quá nhiều về phía những tượng đài của ngành công nghệ, và chưa đủ về phía các thư viện công cộng và trung tâm nghệ thuật miễn phí. Công nghệ nên phục vụ sự sinh sôi của văn hóa nhân loại trong thế giới vật chất. Điều chúng ta xây dựng bằng của cải của mình chính là điều chúng ta thực sự trân trọng. Tôi muốn xây dựng Mouseion hiện đại song hành cùng cuộc chinh phục mặt trăng hiện đại.",
-        "title": "Chúng ta cần nhiều thư viện và trung tâm nghệ thuật hơn."
-      },
-      {
-        "body": "Don Quixote lao vào những cối xay gió bởi giấc mơ lớn hơn gió. Giấc mơ luôn lớn hơn gió. Hãy mơ vượt qua những gì họ nói có thể làm được. Hãy tìm chiếc cối xay gió lớn nhất ở chân trời của bạn, chiếc khiến bạn sợ hãi nhất nhưng cũng khơi dậy niềm hứng khởi mãnh liệt nhất trong tim bạn, và xông tới nó với toàn bộ tốc độ và lòng can đảm.",
-        "title": "Hãy mơ giấc mơ không thể. Sống nó một cách ngấu nghiến."
-      },
-      {
-        "body": "Nhiều thế hệ gia đình nông dân của tôi đã moi nó lên từ đất vì họ không có lựa chọn nào khác. Điều chỉ là sinh tồn với họ nay là lợi thế bất công của tôi. Tôi không lùi bước, tôi không phàn nàn, tôi làm cho nó thành công. Đó là điều tôi thừa hưởng, và là điều tôi mắc nợ. Chúng tôi đôi khi có thể hơi thô ráp, nhưng không có ngày nào chúng tôi không làm việc. Những chàng trai Iowa là điều tất yếu.",
-        "title": "Con trai Iowa không dừng lại."
-      }
+      "Trong tầng hầm có một máy in lụa, một máy khâu và một máy thêu. Bố mẹ trao cho tôi không gian và sự cho phép - dụng cụ là phần của tôi để tự mang vào. Bộ khí cụ cho sự biểu đạt sáng tạo ấy đã trở thành sự tự khám phá, và sự tự khám phá trở thành sứ mệnh. Mọi thứ tôi xây dựng kể từ đó đều được kiến tạo có chủ đích để trao cho những người khác một không gian và sự cho phép tương tự, để họ có thể sáng tạo và khám phá con người đích thực của mình.",
+      "Tôi lớn lên ở Iowa, trong một gia đình đã hàng trăm năm cao quý rút cuộc sống từ đất đai. Bà tôi là giáo viên mỹ thuật và họa sĩ. Bố mẹ tôi đều từng làm việc tại Macy's trước khi tôi ra đời. Nghệ thuật và thời trang chảy trong huyết quản tôi ngang bằng với đất đai.",
+      "Tôi ra đi năm mười sáu tuổi và không dừng lại. Bờ Đông, châu Âu, San Francisco. Một thập kỷ trong thiết kế và sản xuất thời trang, xây cây cầu giữa trí tưởng tượng và hiện thực vật chất cho hàng nghìn người mộng mơ khắp thế giới.",
+      "Đã có những đoạn đời tôi khoác trên mình đồ hiệu, đeo một chiếc Rolex và đi qua nhiều sân bay hơn tôi có thể nhớ. Cũng đã có những đoạn đời tôi không biết miếng ăn hay giấc ngủ của tuần sau sẽ đến từ đâu. Cả hai đều là sự thật. Xuyên suốt tất cả, mục đích và nỗi ám ảnh với sứ mệnh của tôi vẫn không thể trốn thoát.",
+      "Nỗi ám ảnh ấy là do di truyền. Cha tôi đã ra trận vì gia đình chúng tôi ba lần. Tất cả anh chị em tôi đều phục vụ. Tôi chọn con đường sáng tạo, ít chắc chắn hơn, nhưng tôi mang trong mình cùng thứ tinh thần quân đội đó của sự nghiêm khắc, tận tụy và xuất sắc.",
+      "Chính ngọn lửa bất tận đã nhen nhóm trong tôi ở tầng hầm của một thị trấn nhỏ Iowa ấy vẫn cháy sáng cho đến hôm nay, chỉ khác một điều, những giấc mơ ấy hôm nay đang trở thành hiện thực - và một vài kẻ mộng mơ theo lối Don Kihote khác cùng tôi đang làm việc để trao ngọn lửa ấy vào tay mọi con người trên trái đất, để thắp sáng con đường cho một cuộc phục hưng toàn cầu..."
     ]
   }
 };

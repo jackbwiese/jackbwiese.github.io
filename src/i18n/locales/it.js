@@ -230,35 +230,12 @@ export const it = {
     "epigraph": "Non sono nulla e non so nulla, dunque posso fare qualsiasi cosa.",
     "eyebrow": "§ III · Vita",
     "paragraphs": [
-      "Sono stato cresciuto in Iowa, in una famiglia che da centinaia di anni nobilmente ricava il pane dalla terra. Mia nonna era insegnante d'arte e pittrice - l'arte e la moda sono nel mio sangue tanto quanto la terra.",
-      "Entrambi i miei genitori hanno lavorato da Macy's prima che io nascessi - gran parte del mio gusto estetico e delle mie inclinazioni le ho ereditate da loro. Mi vestivo da solo non appena fui abbastanza consapevole da avere preferenze mie. L'infanzia è stata costruire e creare: LEGO, stop-motion, libri, scrittura e moda. Attraverso questi mezzi ho scoperto il mio amore per la narrazione e per portare le cose da 0 a 1 (dall'immaginazione alla realtà). Ho scoperto anche, fin da piccolo, la mia fascinazione fondamentale per l'intera gamma dell'espressione umana, e la mia missione di farle proliferare in ogni forma.",
-      "I miei genitori mi hanno dato lo scantinato. L'ho riempito da solo: una serigrafia, una macchina da cucire, una macchina per ricamo. Il dono fondativo era lo spazio e il permesso - gli strumenti li dovevo portare io. Quell'apparato di espressione creativa si è trasformato in scoperta di sé, e la scoperta di sé in vocazione. Ogni strumento che ho costruito da allora è un tentativo di consegnarlo al figlio di qualcun altro.",
-      "Sono partito a sedici anni per la East Coast e poi mi sono diretto a ovest, a San Francisco - il lungo cammino dalla piccola città al grande palcoscenico.",
-      "Un decennio nel design e nella produzione di abbigliamento, costruendo il ponte tra l'immaginazione e la realtà fisica per migliaia di sognatori in tutto il mondo.",
-      "Ci sono stati periodi della mia vita trascorsi con abiti firmati, un Rolex, ecc., attraverso più aeroporti di quanti ne possa ricordare. Ci sono stati anche periodi della mia vita in cui non sapevo da dove sarebbero venuti il cibo o il letto della settimana successiva. Entrambe le cose sono vere. Attraverso tutto ciò, il mio scopo e l'ossessione per la mia missione erano ineludibili.",
-      "Mio padre è andato in guerra per la nostra famiglia tre volte. Tutti i miei fratelli servono. Ho scelto la via creativa e meno certa, ma porto lo stesso senso militare di rigore, dedizione ed eccellenza che portano loro."
-    ],
-    "portraitCaption": "Ritratto · ROMULUS"
-  },
-  "worldview": {
-    "eyebrow": "§ IV · Visione del mondo",
-    "theses": [
-      {
-        "body": "La stampa ha liberato la lettura. Il telaio ha liberato la tessitura. Il software ha liberato la scrittura. Il prossimo strato non sostituisce il creatore - rimuove il lavoro di segreteria tra una visione e la sua realizzazione. Il risultato non sono meno artisti, ma una civiltà di essi. L'umanità è nata per creare.",
-        "title": "La tecnologia dovrebbe liberare l'umanità per creare e giocare."
-      },
-      {
-        "body": "I razzi e i data center hanno il loro posto. Ma l'equilibrio è oggi troppo sbilanciato verso i monumenti dell'industria tecnologica e non abbastanza verso biblioteche pubbliche e centri d'arte gratuiti. La tecnologia dovrebbe servire la proliferazione della cultura umana nel mondo fisico. Ciò che costruiamo con la nostra ricchezza è ciò che davvero valorizziamo. Voglio costruire il Mouseîon moderno accanto al moonshot moderno.",
-        "title": "Abbiamo bisogno di più biblioteche e centri d'arte."
-      },
-      {
-        "body": "Don Quixote ha caricato i mulini a vento perché il sogno era più grande del vento. Il sogno è sempre più grande del vento. Sogna oltre ciò che dicono possa essere fatto. Trova il mulino a vento più grande all'orizzonte, quello che ti dà più paura ma suscita più entusiasmo nel tuo cuore, e caricalo a tutta velocità e coraggio.",
-        "title": "Sogna il sogno impossibile. Vivilo voracemente."
-      },
-      {
-        "body": "Generazioni della mia famiglia contadina l'hanno strappato alla terra perché non avevano altra scelta. Ciò che per loro era pura sopravvivenza è oggi il mio vantaggio ingiusto. Non cedo, non mi lamento, faccio in modo che funzioni. È ciò che ho ereditato, ed è ciò che devo. Possiamo essere un po' grezzi a volte, ma non c'è un solo giorno in cui non stiamo lavorando. I ragazzi dell'Iowa sono inevitabili.",
-        "title": "I ragazzi dell'Iowa non si fermano."
-      }
+      "Il seminterrato aveva una serigrafia, una macchina da cucire e una ricamatrice. I miei genitori mi diedero lo spazio e il permesso - gli strumenti li dovevo portare io. Quell'apparato per l'espressione creativa si trasformò in scoperta di sé, la scoperta di sé in vocazione. Tutto ciò che ho costruito da allora è fatto apposta per dare ad altri uno spazio e un permesso simili, perché possano essere creativi e scoprire il proprio io autentico.",
+      "Sono cresciuto in Iowa, in una famiglia che da centinaia d'anni lo strappa nobilmente alla terra. Mia nonna era insegnante d'arte e pittrice. I miei genitori lavoravano entrambi da Macy's prima che io nascessi. L'arte e la moda mi scorrono nel sangue tanto quanto la terra.",
+      "Me ne andai a sedici anni e non mi fermai. East Coast, Europa, San Francisco. Un decennio nel design e nella produzione della moda, a costruire il ponte tra immaginazione e realtà fisica per migliaia di sognatori in tutto il mondo.",
+      "Ci sono stati periodi della mia vita passati in abiti firmati, un Rolex, ecc. attraverso più aeroporti di quanti ne possa ricordare. Ci sono stati anche periodi della mia vita in cui non sapevo da dove sarebbe arrivato il cibo o il letto della prossima settimana. Entrambe le cose sono vere. Attraverso tutto ciò, il mio scopo e l'ossessione per la mia missione restavano inevitabili.",
+      "L'ossessione era ereditata. Mio padre è andato in guerra per la nostra famiglia tre volte. Tutti i miei fratelli servono. Ho scelto la via creativa meno certa, ma porto il loro stesso senso militare di rigore, dedizione, eccellenza.",
+      "Quello stesso fuoco inesauribile che mi alimentò in quel seminterrato di una piccola città dell'Iowa arde ancora vivo oggi, sola differenza, quei sogni stanno diventando realtà - e alcuni altri sognatori chisciotteschi e io stiamo lavorando per consegnare quello stesso fuoco a ogni essere umano sulla terra per illuminare la via di un rinascimento globale..."
     ]
   }
 };

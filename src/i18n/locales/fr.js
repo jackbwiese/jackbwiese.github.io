@@ -230,35 +230,12 @@ export const fr = {
     "epigraph": "Je ne suis rien et je ne sais rien, ainsi, je peux tout faire.",
     "eyebrow": "§ III · Vita",
     "paragraphs": [
-      "J'ai été élevé dans l'Iowa, dans une famille qui tire noblement sa subsistance de la terre depuis des centaines d'années. Ma grand-mère était professeure d'art et peintre - l'art et la mode coulent dans mon sang autant que la terre.",
-      "Mes parents ont tous les deux travaillé chez Macy's avant ma naissance - une grande partie de mon goût esthétique et de mes inclinations me viennent d'eux. Je m'habillais tout seul dès que j'étais assez conscient pour avoir mes propres préférences. L'enfance fut bâtisseuse et créatrice : LEGO, stop-motion, livres, écriture et mode. À travers ces médiums, j'ai découvert mon amour du récit, et celui de mener les choses de 0 à 1 (de l'imagination à la réalité). J'ai également découvert très tôt ma fascination fondamentale pour toute la gamme de l'expression humaine, et ma mission de les faire proliférer sous toutes leurs formes.",
-      "Mes parents m'ont donné le sous-sol. Je l'ai rempli moi-même : une sérigraphie, une machine à coudre, une machine à broder. Le don fondateur était l'espace et la permission - les outils étaient à moi d'apporter. Cet appareil d'expression créative est devenu découverte de soi, et la découverte de soi est devenue vocation. Chaque outil que j'ai construit depuis est une tentative de le remettre à l'enfant de quelqu'un d'autre.",
-      "Je suis parti à seize ans pour la côte Est, puis j'ai mis le cap à l'ouest vers San Francisco - le long chemin déjà foulé d'une petite ville à une grande scène.",
-      "Une décennie dans le design et la fabrication d'habillement, à bâtir le pont entre l'imagination et la réalité physique pour des milliers de rêveurs à travers le monde.",
-      "Il y a eu des périodes de ma vie passées en vêtements de créateurs, avec une Rolex, etc., à travers plus d'aéroports que je ne peux me rappeler. Il y a également eu des périodes de ma vie où je ne savais pas d'où viendraient la nourriture ou le lit de la semaine suivante. Les deux sont vrais. À travers tout cela, mon but et l'obsession de ma mission étaient inéluctables.",
-      "Mon père est parti en guerre pour notre famille trois fois. Tous mes frères et sœurs servent. J'ai choisi la voie créative et moins certaine, mais je porte le même sens militaire de rigueur, de dévouement, d'excellence qu'eux."
-    ],
-    "portraitCaption": "Portrait · ROMULUS"
-  },
-  "worldview": {
-    "eyebrow": "§ IV · Vision du monde",
-    "theses": [
-      {
-        "body": "L'imprimerie a libéré la lecture. Le métier à tisser a libéré le tissage. Le logiciel a libéré l'écriture. La prochaine couche ne remplace pas le créateur - elle retire le labeur de secrétariat entre une vision et sa réalisation. Le résultat n'est pas moins d'artistes mais une civilisation d'artistes. L'humanité est née pour créer.",
-        "title": "La technologie devrait libérer l'humanité pour créer et jouer."
-      },
-      {
-        "body": "Les fusées et les centres de données ont leur place. Mais l'équilibre est aujourd'hui trop penché vers les monuments de l'industrie tech et pas assez vers les bibliothèques publiques et les centres d'art gratuits. La technologie devrait servir la prolifération de la culture humaine dans le monde physique. Ce que nous bâtissons avec notre richesse est ce que nous valorisons réellement. Je veux bâtir le Mouseîon moderne aux côtés du moonshot moderne.",
-        "title": "Nous avons besoin de plus de bibliothèques et de centres d'art."
-      },
-      {
-        "body": "Don Quichotte chargeait les moulins à vent parce que le rêve était plus grand que le vent. Le rêve est toujours plus grand que le vent. Rêvez au-delà de ce qu'on dit possible. Trouvez le plus grand moulin à vent de votre horizon, celui qui vous donne le plus de crainte mais suscite la plus grande exaltation en votre cœur, et chargez-le à pleine vitesse et à plein courage.",
-        "title": "Rêvez l'impossible rêve. Vivez-le voracement."
-      },
-      {
-        "body": "Des générations de ma famille paysanne l'ont arraché à la terre parce qu'elles n'avaient pas d'autre choix. Ce qui était pure survie pour elles est aujourd'hui mon avantage injuste. Je ne cède pas, je ne me plains pas, je fais que ça marche. C'est ce dont j'hérite, et c'est ce que je dois. Nous sommes peut-être un peu rugueux par moments, mais il n'y a pas un jour où nous ne travaillons pas. Les gars de l'Iowa sont inévitables.",
-        "title": "Les gars de l'Iowa ne s'arrêtent pas."
-      }
+      "Le sous-sol avait une sérigraphie, une machine à coudre et une brodeuse. Mes parents m'ont donné l'espace et la permission - les outils, c'était à moi de les apporter. Cet appareil d'expression créative s'est transformé en découverte de soi, la découverte de soi en vocation. Tout ce que j'ai construit depuis est fait exprès pour donner aux autres un espace et une permission semblables afin qu'ils puissent être créatifs et découvrir leur moi authentique.",
+      "J'ai grandi en Iowa, dans une famille qui, depuis des centaines d'années, arrache noblement sa vie à la terre. Ma grand-mère était professeure d'art et peintre. Mes parents ont tous deux travaillé chez Macy's avant ma naissance. L'art et la mode sont dans mon sang autant que la terre.",
+      "Je suis parti à seize ans et je ne me suis plus arrêté. Côte Est, Europe, San Francisco. Une décennie dans le design et la fabrication de mode, à bâtir le pont entre l'imagination et la réalité physique pour des milliers de rêveurs à travers le monde.",
+      "Il y a eu des périodes de ma vie passées en vêtements de créateurs, une Rolex, etc. à traverser plus d'aéroports que je ne peux me rappeler. Il y a eu aussi des périodes de ma vie où je ne savais pas d'où viendrait le repas ou le lit de la semaine prochaine. Les deux sont vrais. À travers tout cela, mon but et l'obsession pour ma mission restaient inéluctables.",
+      "L'obsession était héritée. Mon père est parti en guerre pour notre famille trois fois. Tous mes frères et sœurs servent. J'ai choisi la voie créative moins sûre, mais je porte le même sens militaire de la rigueur, du dévouement, de l'excellence qu'eux.",
+      "Ce même feu inépuisable qui m'a nourri dans ce sous-sol d'une petite ville de l'Iowa brûle encore vif aujourd'hui, seule différence, ces rêves deviennent réalité - et quelques autres rêveurs quichottesques et moi travaillons à remettre ce même feu à chaque être humain sur terre pour éclairer la voie d'une renaissance globale..."
     ]
   }
 };

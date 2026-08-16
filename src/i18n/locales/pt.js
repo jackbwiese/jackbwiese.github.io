@@ -230,35 +230,12 @@ export const pt = {
     "epigraph": "Nada sou e nada sei, portanto, posso fazer tudo.",
     "eyebrow": "§ III · Vita",
     "paragraphs": [
-      "Fui criado em Iowa, numa família que, há centenas de anos, nobremente arranca o seu sustento da terra. A minha avó era professora de arte e pintora - a arte e a moda estão no meu sangue tanto quanto a terra.",
-      "Os meus pais trabalharam ambos na Macy's antes de eu nascer - grande parte do meu gosto estético e das minhas inclinações herdei-os deles. Vestia-me sozinho assim que fui suficientemente consciente para ter as minhas próprias preferências. A infância foi construir e criar: LEGO, stop-motion, livros, escrita e moda. Através destes meios, descobri o meu amor pela narrativa, e por trazer as coisas de 0 a 1 (da imaginação à realidade). Descobri também, desde cedo, o meu fascínio fundamental por toda a gama da expressão humana, e a minha missão de a proliferar em todas as formas.",
-      "Os meus pais deram-me a cave. Enchi-a eu próprio: uma serigrafia, uma máquina de costura, uma máquina de bordado. O presente fundador foi o espaço e a permissão - as ferramentas era eu que as tinha de trazer. Esse aparelho para a expressão criativa transformou-se em autodescoberta, e a autodescoberta em propósito. Cada ferramenta que construí desde então é uma tentativa de a entregar ao filho de outra pessoa.",
-      "Parti aos dezasseis anos para a East Coast e depois rumei a oeste, para San Francisco - o caminho longamente percorrido de uma pequena cidade para um grande palco.",
-      "Uma década em design e fabrico de vestuário, construindo a ponte entre a imaginação e a realidade física para milhares de sonhadores por todo o mundo.",
-      "Houve períodos da minha vida passados com roupas de grife, um Rolex, etc., através de mais aeroportos do que consigo lembrar. Houve também períodos da minha vida em que eu não sabia de onde viria a comida ou a cama da próxima semana. Ambos são verdadeiros. Através de tudo isso, o meu propósito e a obsessão com a minha missão eram inescapáveis.",
-      "O meu pai foi para a guerra pela nossa família três vezes. Todos os meus irmãos servem. Escolhi o caminho criativo e menos certo, mas carrego o mesmo sentido militar de rigor, dedicação e excelência que eles."
-    ],
-    "portraitCaption": "Retrato · ROMULUS"
-  },
-  "worldview": {
-    "eyebrow": "§ IV · Visão do Mundo",
-    "theses": [
-      {
-        "body": "A imprensa libertou a leitura. O tear libertou a tecelagem. O software libertou a escrita. A próxima camada não substitui o criador - retira o trabalho secretarial entre uma visão e a sua concretização. O resultado não são menos artistas, mas uma civilização inteira deles. A humanidade nasceu para criar.",
-        "title": "A tecnologia deve libertar a humanidade para criar e brincar."
-      },
-      {
-        "body": "Os foguetes e os centros de dados têm o seu lugar. Mas o equilíbrio está hoje demasiado inclinado para os monumentos da indústria tecnológica e não o suficiente para bibliotecas públicas e centros de arte gratuitos. A tecnologia deve servir a proliferação da cultura humana no mundo físico. O que construímos com a nossa riqueza é aquilo que realmente valorizamos. Quero construir o Mouseíon moderno ao lado do moonshot moderno.",
-        "title": "Precisamos de mais bibliotecas e centros de arte."
-      },
-      {
-        "body": "Don Quixote lutou contra moinhos de vento porque o sonho era maior do que o vento. O sonho é sempre maior do que o vento. Sonhe para além do que dizem ser possível. Encontre o maior moinho de vento no seu horizonte, aquele que lhe inspira mais medo, mas que provoca mais entusiasmo no seu coração, e arremeta contra ele a toda a velocidade e com toda a coragem.",
-        "title": "Sonhe o sonho impossível. Viva-o vorazmente."
-      },
-      {
-        "body": "Gerações da minha família camponesa tiraram-no da terra porque não tinham outra escolha. O que foi pura sobrevivência para eles é agora a minha vantagem injusta. Não cedo, não me queixo, faço com que funcione. É isto que herdo, e é isto que devo. Podemos ser um pouco brutos por vezes, mas não há um só dia em que não estejamos a trabalhar. Os rapazes de Iowa são inevitáveis.",
-        "title": "Os rapazes de Iowa não param."
-      }
+      "O porão tinha uma serigrafia, uma máquina de costura e uma máquina de bordar. Meus pais me deram o espaço e a permissão - as ferramentas eram minhas para trazer. Esse aparato de expressão criativa transformou-se em autodescoberta, autodescoberta em propósito. Tudo o que construí desde então é feito de propósito para dar a outros um espaço e uma permissão semelhantes, para que possam ser criativos e descobrir os seus eus autênticos.",
+      "Fui criado em Iowa, numa família que há centenas de anos vem arrancando nobremente da terra. Minha avó era professora de arte e pintora. Meus pais trabalharam ambos na Macy's antes de eu nascer. Arte e moda estão no meu sangue tanto quanto a terra.",
+      "Saí aos dezesseis e não parei. Costa Leste, Europa, San Francisco. Uma década em design e manufatura de moda, construindo a ponte entre imaginação e realidade física para milhares de sonhadores em todo o mundo.",
+      "Houve trechos da minha vida passados em roupas de designer, um Rolex, etc. por mais aeroportos do que consigo lembrar. Houve também trechos da minha vida em que eu não sabia de onde viria a comida ou a cama da semana seguinte. Ambas as coisas são verdadeiras. Ao longo de tudo isso, meu propósito e a obsessão pela minha missão permaneciam inescapáveis.",
+      "A obsessão era herdada. Meu pai foi à guerra pela nossa família três vezes. Todos os meus irmãos servem. Escolhi o caminho criativo menos certo, mas carrego o mesmo senso militar de rigor, dedicação e excelência que eles.",
+      "Aquele mesmo fogo inesgotável que me alimentou naquele porão de uma pequena cidade de Iowa ainda arde brilhante hoje, a única diferença é que aqueles sonhos estão se tornando realidade - e alguns outros sonhadores quixotescos e eu estamos trabalhando para entregar esse mesmo fogo a cada ser humano na terra para iluminar o caminho de um renascimento global..."
     ]
   }
 };
