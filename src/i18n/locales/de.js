@@ -237,7 +237,7 @@ export const de = {
       "Mit sechzehn ging ich an die East Coast und dann weiter westwärts nach San Francisco - der oft gegangene Weg von der Kleinstadt auf die große Bühne.",
       "Ein Jahrzehnt in Bekleidungsdesign und -herstellung, in dem ich die Brücke zwischen Vorstellungskraft und physischer Wirklichkeit für Tausende Träumende weltweit gebaut habe.",
       "Es gab Abschnitte meines Lebens in Designerkleidung, mit einer Rolex etc., durch mehr Flughäfen als ich mich erinnern kann. Es gab auch Abschnitte meines Lebens, in denen ich nicht wusste, woher nächste Woche das Essen oder ein Bett kommen würde. Beides ist wahr. Durch all das hindurch waren mein Zweck und die Obsession mit meiner Mission unentrinnbar.",
-      "Mein Vater ist dreimal für unsere Familie in den Krieg gezogen. Alle meine Geschwister dienen. Ich bin derjenige, der sich fürs Bauen entschieden hat. Aber die Disziplin, die ich trage, ist seine. Wenn ich entscheide, was Verpflichtung gegenüber meiner Arbeit wirklich bedeutet, messe ich nicht an anderen Gründern. Ich messe an einem Mann, der dreimal seine Tasche gepackt hat und gegangen ist. Das ist mein Maßstab."
+      "Mein Vater ist dreimal für unsere Familie in den Krieg gezogen. Alle meine Geschwister dienen. Ich habe den kreativen, weniger sicheren Weg gewählt, aber ich trage denselben militärischen Sinn für Strenge, Hingabe und Exzellenz wie sie."
     ]
   },
   "worldview": {

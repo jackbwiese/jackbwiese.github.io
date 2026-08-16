@@ -237,7 +237,7 @@ export const id = {
       "Saya pergi pada usia sixteen menuju East Coast lalu berangkat ke barat ke San Francisco - jalur panjang yang telah dilalui banyak orang, dari kota kecil ke panggung besar.",
       "Satu dekade dalam desain dan manufaktur pakaian, membangun jembatan antara imajinasi dan realitas fisik bagi ribuan pemimpi di seluruh dunia.",
       "Ada masa-masa dalam hidup saya yang dihabiskan dengan pakaian desainer, sebuah Rolex, dll., melalui lebih banyak bandara daripada yang bisa saya ingat. Ada juga masa-masa dalam hidup saya ketika saya tidak tahu dari mana makanan atau tempat tidur minggu depan akan datang. Keduanya benar. Melalui semua itu, tujuan saya dan obsesi terhadap misi saya tidak bisa dihindari.",
-      "Ayah saya telah pergi berperang untuk keluarga kami tiga kali. Semua saudara saya bertugas. Saya adalah yang memilih untuk membangun. Namun disiplin yang saya bawa adalah miliknya. Ketika saya memutuskan apa arti komitmen sesungguhnya terhadap pekerjaan saya, saya tidak mengukur diri terhadap pendiri lain. Saya mengukur diri terhadap seorang pria yang tiga kali mengemas tasnya dan pergi. Itulah tolok ukur saya."
+      "Ayah saya telah pergi berperang untuk keluarga kami tiga kali. Semua saudara saya bertugas. Saya memilih jalan kreatif yang kurang pasti, tetapi saya membawa rasa militer yang sama tentang ketelitian, dedikasi, dan keunggulan seperti mereka."
     ]
   },
   "worldview": {

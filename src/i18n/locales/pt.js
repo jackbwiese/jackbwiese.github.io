@@ -236,7 +236,7 @@ export const pt = {
       "Parti aos dezasseis anos para a East Coast e depois rumei a oeste, para San Francisco - o caminho longamente percorrido de uma pequena cidade para um grande palco.",
       "Uma década em design e fabrico de vestuário, construindo a ponte entre a imaginação e a realidade física para milhares de sonhadores por todo o mundo.",
       "Houve períodos da minha vida passados com roupas de grife, um Rolex, etc., através de mais aeroportos do que consigo lembrar. Houve também períodos da minha vida em que eu não sabia de onde viria a comida ou a cama da próxima semana. Ambos são verdadeiros. Através de tudo isso, o meu propósito e a obsessão com a minha missão eram inescapáveis.",
-      "O meu pai foi para a guerra pela nossa família três vezes. Todos os meus irmãos servem. Eu sou o que escolheu construir. Mas a disciplina que carrego é a dele. Quando decido o que significa realmente o compromisso com o meu trabalho, não estou a medir-me contra outros fundadores. Estou a medir-me contra um homem que fez as malas três vezes e partiu. Essa é a minha vara."
+      "O meu pai foi para a guerra pela nossa família três vezes. Todos os meus irmãos servem. Escolhi o caminho criativo e menos certo, mas carrego o mesmo sentido militar de rigor, dedicação e excelência que eles."
     ],
     "portraitCaption": "Retrato · ROMULUS"
   },

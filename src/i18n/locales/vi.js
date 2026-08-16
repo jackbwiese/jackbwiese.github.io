@@ -236,7 +236,7 @@ export const vi = {
       "Tôi rời nhà năm mười sáu tuổi để đến East Coast và sau đó đi về phía tây đến San Francisco - con đường dài đã được nhiều người đi từ một thị trấn nhỏ đến một sân khấu lớn.",
       "Một thập kỷ trong thiết kế và sản xuất quần áo, xây cây cầu giữa trí tưởng tượng và hiện thực vật chất cho hàng nghìn người mộng mơ trên khắp toàn cầu.",
       "Đã có những giai đoạn trong cuộc đời tôi mặc quần áo thiết kế, đeo Rolex, v.v., qua nhiều sân bay hơn tôi có thể nhớ. Cũng đã có những giai đoạn trong cuộc đời tôi không biết bữa ăn hay chỗ ngủ tuần sau sẽ đến từ đâu. Cả hai đều là sự thật. Xuyên suốt tất cả những điều đó, mục đích của tôi và nỗi ám ảnh với sứ mệnh của tôi là không thể trốn tránh.",
-      "Cha tôi đã ba lần ra trận vì gia đình chúng tôi. Tất cả anh chị em tôi đều đang phục vụ. Tôi là người đã chọn xây dựng. Nhưng kỷ luật tôi mang theo là của ông. Khi tôi quyết định sự cam kết với công việc của mình thực sự có nghĩa là gì, tôi không so sánh mình với những nhà sáng lập khác. Tôi so sánh mình với một người đàn ông đã ba lần thu xếp hành trang và ra đi. Đó là thước đo của tôi."
+      "Cha tôi đã ba lần ra trận vì gia đình chúng tôi. Tất cả anh chị em tôi đều đang phục vụ. Tôi đã chọn con đường sáng tạo và ít chắc chắn hơn, nhưng tôi mang trong mình cùng một tinh thần quân đội về sự nghiêm ngặt, cống hiến và xuất sắc như họ."
     ],
     "portraitCaption": "Chân dung · ROMULUS"
   },

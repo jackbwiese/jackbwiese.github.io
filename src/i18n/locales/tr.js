@@ -236,7 +236,7 @@ export const tr = {
       "On altı yaşında East Coast'a, ardından batıya San Francisco'ya gittim - küçük bir kasabadan büyük bir sahneye uzun süredir yürünen yol.",
       "Konfeksiyon tasarımı ve üretiminde on yıl; dünyanın dört bir yanındaki binlerce hayalperest için hayal gücü ile maddi gerçeklik arasındaki köprüyü inşa ettim.",
       "Hayatımın tasarımcı kıyafetlerde, bir Rolex ile, hatırlayabileceğimden daha fazla havalimanından geçen dönemleri oldu. Hayatımın gelecek haftanın yemeğinin ya da yatağının nereden geleceğini bilmediğim dönemleri de oldu. Her ikisi de gerçek. Tüm bunlar boyunca, amacım ve misyonuma olan takıntım kaçınılmazdı.",
-      "Babam ailemiz için üç kez savaşa gitti. Bütün kardeşlerim orduda hizmet ediyor. Ben inşa etmeyi seçenim. Ama taşıdığım disiplin onunkidir. İşime karşı bağlılığın gerçekten ne demek olduğuna karar verdiğimde, kendimi diğer kuruculara göre ölçmüyorum. Kendimi üç kez çantasını toplayıp giden bir adama göre ölçüyorum. Benim ölçütüm bu."
+      "Babam ailemiz için üç kez savaşa gitti. Bütün kardeşlerim orduda hizmet ediyor. Ben yaratıcı, daha az kesin olan yolu seçtim, ama onlarınkiyle aynı askeri titizlik, adanmışlık ve mükemmellik anlayışını taşıyorum."
     ],
     "portraitCaption": "Portre · ROMULUS"
   },

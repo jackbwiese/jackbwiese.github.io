@@ -94,7 +94,7 @@ export const en = {
       'I left at sixteen for the East Coast and then headed west to San Francisco - the long-walked path from a small town to a big stage.',
       'A decade in apparel design and manufacturing, building the bridge between imagination and physical reality for thousands of dreamers across the globe.',
       "There have been stretches of my life spent in designer clothes, a Rolex, etc. through more airports than I can remember. There have been also been stretches of my life when I did not know where next week's food or bed would come from. Both are true. Through all of it, my purpose the obsession with my mission were still inescapable.",
-      'My father has been to war for our family three times. All my siblings serve. I am the one who chose to build. But the discipline I carry is his. When I decide what commitment to my work actually means, I am not measuring against other founders. I am measuring against a man who packed his bag three times and went. That is my stick.',
+      'My father has been to war for our family three times. All my siblings serve. I chose the creative less certain path, but I carry their same militaristic sense of rigor, dedication, excellence.',
     ],
   },
   worldview: {
