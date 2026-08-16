@@ -110,7 +110,7 @@ export const vi = {
     "vowSuffix": ", và mọi việc tôi làm đều thẳng hàng với mục đích này."
   },
   "marginalia": {
-    "eyebrow": "§ II · Marginalia",
+    "eyebrow": "§ III · Marginalia",
     "heading": "Những mảnh sự thật.",
     "facts": [
       "Tôi đã giúp định hình hơn 50M sản phẩm trên toàn cầu.",
@@ -228,7 +228,7 @@ export const vi = {
   },
   "vita": {
     "epigraph": "Tôi không là gì và không biết gì, vì thế, tôi có thể làm mọi điều.",
-    "eyebrow": "§ III · Vita",
+    "eyebrow": "§ II · Vita",
     "paragraphs": [
       "Trong tầng hầm có một máy in lụa, một máy khâu và một máy thêu. Bố mẹ trao cho tôi không gian và sự cho phép - dụng cụ là phần của tôi để tự mang vào. Bộ khí cụ cho sự biểu đạt sáng tạo ấy đã trở thành sự tự khám phá, và sự tự khám phá trở thành sứ mệnh. Mọi thứ tôi xây dựng kể từ đó đều được kiến tạo có chủ đích để trao cho những người khác một không gian và sự cho phép tương tự, để họ có thể sáng tạo và khám phá con người đích thực của mình.",
       "Tôi lớn lên ở Iowa, trong một gia đình đã hàng trăm năm cao quý rút cuộc sống từ đất đai. Bà tôi là giáo viên mỹ thuật và họa sĩ. Bố mẹ tôi đều từng làm việc tại Macy's trước khi tôi ra đời. Nghệ thuật và thời trang chảy trong huyết quản tôi ngang bằng với đất đai.",

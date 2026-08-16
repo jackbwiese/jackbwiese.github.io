@@ -63,7 +63,7 @@ export const en = {
     tail: 'And more.',
   },
   marginalia: {
-    eyebrow: '§ II · Marginalia',
+    eyebrow: '§ III · Marginalia',
     heading: 'Factoids.',
     facts: [
       'I have helped shape over 50M products globally.',
@@ -85,7 +85,7 @@ export const en = {
   },
   vita: {
     epigraph: 'I am nothing and know nothing, thus, I can do anything.',
-    eyebrow: '§ III · Vita',
+    eyebrow: '§ II · Vita',
     portraitCaption: 'Portrait · ROMULUS',
     paragraphs: [
       'The basement had a screenprinter, a sewing machine, and an embroidery machine. My parents gave me the space and the permission - the tools were mine to bring in. That apparatus for creative expression turned into self-discovery, self-discovery into purpose. Everything I have built since is purpose-built to give others a similar space and permission to be creative and discover their authentic selves.',

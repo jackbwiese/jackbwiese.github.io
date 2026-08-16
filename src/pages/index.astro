@@ -53,13 +53,14 @@ const L = Astro.currentLocale;
     reverse={true}
   />
 
-  <Marginalia />
-
   <p class="vita-epigraph mono">
     <span aria-hidden="true">"</span>{t(L, 'vita.epigraph')}<span aria-hidden="true">"</span>
   </p>
 
   <Vita />
+  <SectionDivider />
+
+  <Marginalia />
   <SectionDivider />
 
   <Worldview />

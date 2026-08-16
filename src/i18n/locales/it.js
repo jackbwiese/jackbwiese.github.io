@@ -110,7 +110,7 @@ export const it = {
     "vowSuffix": ", e tutto ciò che faccio è allineato a questo scopo."
   },
   "marginalia": {
-    "eyebrow": "§ II · Marginalia",
+    "eyebrow": "§ III · Marginalia",
     "facts": [
       "Ho contribuito a plasmare oltre 50M di prodotti a livello globale.",
       "Ho influenzato lo stile di Emma Chamberlain prima che diventasse un nome noto al grande pubblico.",
@@ -228,7 +228,7 @@ export const it = {
   },
   "vita": {
     "epigraph": "Non sono nulla e non so nulla, dunque posso fare qualsiasi cosa.",
-    "eyebrow": "§ III · Vita",
+    "eyebrow": "§ II · Vita",
     "paragraphs": [
       "Il seminterrato aveva una serigrafia, una macchina da cucire e una ricamatrice. I miei genitori mi diedero lo spazio e il permesso - gli strumenti li dovevo portare io. Quell'apparato per l'espressione creativa si trasformò in scoperta di sé, la scoperta di sé in vocazione. Tutto ciò che ho costruito da allora è fatto apposta per dare ad altri uno spazio e un permesso simili, perché possano essere creativi e scoprire il proprio io autentico.",
       "Sono cresciuto in Iowa, in una famiglia che da centinaia d'anni lo strappa nobilmente alla terra. Mia nonna era insegnante d'arte e pittrice. I miei genitori lavoravano entrambi da Macy's prima che io nascessi. L'arte e la moda mi scorrono nel sangue tanto quanto la terra.",

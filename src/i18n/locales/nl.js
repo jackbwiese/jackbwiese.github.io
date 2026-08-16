@@ -110,7 +110,7 @@ export const nl = {
     "vowSuffix": ", en alles wat ik doe staat in dienst van dit doel."
   },
   "marginalia": {
-    "eyebrow": "§ II · Marginalia",
+    "eyebrow": "§ III · Marginalia",
     "heading": "Wetenswaardigheden.",
     "facts": [
       "Ik heb wereldwijd vorm gegeven aan meer dan 50M producten.",
@@ -228,7 +228,7 @@ export const nl = {
   },
   "vita": {
     "epigraph": "Ik ben niets en weet niets, dus ik kan alles.",
-    "eyebrow": "§ III · Vita",
+    "eyebrow": "§ II · Vita",
     "portraitCaption": "Portret · ROMULUS",
     "paragraphs": [
       "De kelder had een zeefdrukmachine, een naaimachine en een borduurmachine. Mijn ouders gaven mij de ruimte en de toestemming - de gereedschappen moest ik zelf meebrengen. Dat apparaat voor creatieve expressie werd zelfontdekking, zelfontdekking werd roeping. Alles wat ik sindsdien heb gebouwd is doelbewust gemaakt om anderen een vergelijkbare ruimte en toestemming te geven, zodat zij creatief kunnen zijn en hun authentieke zelf kunnen ontdekken.",

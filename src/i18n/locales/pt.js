@@ -110,7 +110,7 @@ export const pt = {
     "vowSuffix": ", e tudo o que faço está alinhado a este propósito."
   },
   "marginalia": {
-    "eyebrow": "§ II · Marginalia",
+    "eyebrow": "§ III · Marginalia",
     "facts": [
       "Ajudei a moldar mais de 50M de produtos a nível global.",
       "Influenciei o estilo de Emma Chamberlain antes de ela se tornar um nome conhecido.",
@@ -228,7 +228,7 @@ export const pt = {
   },
   "vita": {
     "epigraph": "Nada sou e nada sei, portanto, posso fazer tudo.",
-    "eyebrow": "§ III · Vita",
+    "eyebrow": "§ II · Vita",
     "paragraphs": [
       "O porão tinha uma serigrafia, uma máquina de costura e uma máquina de bordar. Meus pais me deram o espaço e a permissão - as ferramentas eram minhas para trazer. Esse aparato de expressão criativa transformou-se em autodescoberta, autodescoberta em propósito. Tudo o que construí desde então é feito de propósito para dar a outros um espaço e uma permissão semelhantes, para que possam ser criativos e descobrir os seus eus autênticos.",
       "Fui criado em Iowa, numa família que há centenas de anos vem arrancando nobremente da terra. Minha avó era professora de arte e pintora. Meus pais trabalharam ambos na Macy's antes de eu nascer. Arte e moda estão no meu sangue tanto quanto a terra.",

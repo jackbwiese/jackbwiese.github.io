@@ -110,7 +110,7 @@ export const es = {
     "vowSuffix": ", y todo lo que hago está alineado con este propósito."
   },
   "marginalia": {
-    "eyebrow": "§ II · Marginalia",
+    "eyebrow": "§ III · Marginalia",
     "heading": "Datos sueltos.",
     "facts": [
       "He ayudado a dar forma a más de 50M de productos a nivel global.",
@@ -228,7 +228,7 @@ export const es = {
   },
   "vita": {
     "epigraph": "No soy nada y no sé nada, por lo tanto, puedo hacer cualquier cosa.",
-    "eyebrow": "§ III · Vita",
+    "eyebrow": "§ II · Vita",
     "portraitCaption": "Retrato · ROMULUS",
     "paragraphs": [
       "El sótano tenía una serigrafía, una máquina de coser y una bordadora. Mis padres me dieron el espacio y el permiso - las herramientas eran mías para llevarlas. Ese aparato de expresión creativa se convirtió en autodescubrimiento, y el autodescubrimiento en propósito. Todo lo que he construido desde entonces está hecho a propósito para dar a otros un espacio y un permiso similares, para que puedan ser creativos y descubrir su yo auténtico.",

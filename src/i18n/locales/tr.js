@@ -110,7 +110,7 @@ export const tr = {
     "vowSuffix": " ve yaptığım her şey bu amaca hizalıdır."
   },
   "marginalia": {
-    "eyebrow": "§ II · Marginalia",
+    "eyebrow": "§ III · Marginalia",
     "facts": [
       "Dünya genelinde 50M'den fazla ürünün şekillenmesine yardım ettim.",
       "Emma Chamberlain'in stilini, o bir ev adı haline gelmeden önce etkiledim.",
@@ -228,7 +228,7 @@ export const tr = {
   },
   "vita": {
     "epigraph": "Ben hiçbir şeyim ve hiçbir şey bilmiyorum, bu yüzden her şeyi yapabilirim.",
-    "eyebrow": "§ III · Vita",
+    "eyebrow": "§ II · Vita",
     "paragraphs": [
       "Bodrumda bir serigrafi baskı makinesi, bir dikiş makinesi ve bir nakış makinesi vardı. Ailem bana alanı ve izni verdi - araçları getirmek bana kaldı. Yaratıcı ifadenin o aygıtı kendini keşfe, kendini keşif de amaca dönüştü. O günden beri inşa ettiğim her şey, başkalarına da benzer bir alan ve izin vermek için özellikle tasarlandı; yaratıcı olabilsinler ve gerçek benliklerini keşfedebilsinler diye.",
       "Iowa'da, yüzlerce yıldır toprağı asilce işleyip geçimini oradan çıkaran bir ailede büyüdüm. Büyükannem sanat öğretmeni ve ressamdı. Ben doğmadan önce annem babam Macy's'te çalışıyordu. Sanat ve moda toprak kadar kanımdadır.",

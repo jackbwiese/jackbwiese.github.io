@@ -110,7 +110,7 @@ export const fr = {
     "vowSuffix": ", et tout ce que je fais sert ce dessein."
   },
   "marginalia": {
-    "eyebrow": "§ II · Marginalia",
+    "eyebrow": "§ III · Marginalia",
     "facts": [
       "J'ai contribué à façonner plus de 50M de produits dans le monde.",
       "J'ai influencé le style d'Emma Chamberlain avant qu'elle ne devienne un nom familier.",
@@ -228,7 +228,7 @@ export const fr = {
   },
   "vita": {
     "epigraph": "Je ne suis rien et je ne sais rien, ainsi, je peux tout faire.",
-    "eyebrow": "§ III · Vita",
+    "eyebrow": "§ II · Vita",
     "paragraphs": [
       "Le sous-sol avait une sérigraphie, une machine à coudre et une brodeuse. Mes parents m'ont donné l'espace et la permission - les outils, c'était à moi de les apporter. Cet appareil d'expression créative s'est transformé en découverte de soi, la découverte de soi en vocation. Tout ce que j'ai construit depuis est fait exprès pour donner aux autres un espace et une permission semblables afin qu'ils puissent être créatifs et découvrir leur moi authentique.",
       "J'ai grandi en Iowa, dans une famille qui, depuis des centaines d'années, arrache noblement sa vie à la terre. Ma grand-mère était professeure d'art et peintre. Mes parents ont tous deux travaillé chez Macy's avant ma naissance. L'art et la mode sont dans mon sang autant que la terre.",

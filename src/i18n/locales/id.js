@@ -110,7 +110,7 @@ export const id = {
     "vowSuffix": ", dan segala yang saya lakukan selaras dengan maksud ini."
   },
   "marginalia": {
-    "eyebrow": "§ II · Marginalia",
+    "eyebrow": "§ III · Marginalia",
     "heading": "Fakta-fakta kecil.",
     "facts": [
       "Saya telah membantu membentuk lebih dari 50M produk secara global.",
@@ -228,7 +228,7 @@ export const id = {
   },
   "vita": {
     "epigraph": "Saya bukan apa-apa dan tidak tahu apa-apa, oleh karenanya, saya bisa melakukan apa pun.",
-    "eyebrow": "§ III · Vita",
+    "eyebrow": "§ II · Vita",
     "portraitCaption": "Potret · ROMULUS",
     "paragraphs": [
       "Ruang bawah tanah itu punya sebuah alat sablon, sebuah mesin jahit, dan sebuah mesin bordir. Orang tuaku memberiku ruang dan izinnya - alat-alatnya menjadi bagian yang harus kubawa sendiri. Aparatus untuk ekspresi kreatif itu berubah menjadi penemuan diri, penemuan diri menjadi tujuan hidup. Semua yang telah kubangun sejak itu dibuat dengan tujuan memberikan kepada orang lain ruang dan izin yang serupa agar mereka dapat berkreasi dan menemukan jati diri mereka yang autentik.",

@@ -110,7 +110,7 @@ export const de = {
     "vowSuffix": ", und alles was ich tue ist auf dieses Ziel ausgerichtet."
   },
   "marginalia": {
-    "eyebrow": "§ II · Marginalia",
+    "eyebrow": "§ III · Marginalia",
     "heading": "Notizen am Rand.",
     "facts": [
       "Ich habe geholfen, weltweit über 50M Produkte zu gestalten.",
@@ -228,7 +228,7 @@ export const de = {
   },
   "vita": {
     "epigraph": "Ich bin nichts und weiß nichts, also kann ich alles tun.",
-    "eyebrow": "§ III · Vita",
+    "eyebrow": "§ II · Vita",
     "portraitCaption": "Porträt · ROMULUS",
     "paragraphs": [
       "Der Keller hatte einen Siebdrucker, eine Nähmaschine und eine Stickmaschine. Meine Eltern gaben mir den Raum und die Erlaubnis - die Werkzeuge musste ich selbst besorgen. Dieser Apparat für kreativen Ausdruck wurde zu Selbstfindung, Selbstfindung zu Berufung. Alles, was ich seitdem gebaut habe, ist bewusst darauf ausgelegt, anderen einen ähnlichen Raum und dieselbe Erlaubnis zu geben, kreativ zu sein und ihr authentisches Selbst zu entdecken.",
