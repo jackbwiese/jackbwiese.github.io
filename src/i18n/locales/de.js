@@ -8,7 +8,7 @@ export const de = {
         "title": "ONTHEBIAS",
         "years": "2024 -",
         "role": "Gründer + CEO",
-        "body": "Die Plattform für Produktdesign und -kreation für die geschmacksführenden Marken der Welt. Eine 40-stündige Übergabe vom Entwurf zur Fabrik, verdichtet auf zehn Minuten. 260-fache Produktivitätssteigerung, während Markenidentität und Geschmack im Zentrum bleiben."
+        "body": "Die Plattform für Produktdesign und -kreation für die geschmacksführenden Marken der Welt. Eine 40-stündige Übergabe vom Entwurf zur Fabrik, verdichtet auf zehn Minuten. 260-fache Produktivitätssteigerung, während Markenidentität und Geschmack im Zentrum bleiben. Benannt nach der Schneidertechnik, Stoff im 45-Grad-Winkel zum Fadenlauf zu schneiden, gegen die Orthodoxie, für Fall und Nachgiebigkeit."
       },
       {
         "title": "RedBoxMe × Cartier",

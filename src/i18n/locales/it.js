@@ -8,7 +8,7 @@ export const it = {
         "title": "ONTHEBIAS",
         "years": "2024 -",
         "role": "Fondatore + CEO",
-        "body": "La piattaforma di design e creazione di prodotti per i marchi mondiali guidati dal gusto. Un passaggio design-to-factory di 40 ore, compresso in dieci minuti. Aumento di 260x della produttività mantenendo centrali l'identità di marca e il gusto."
+        "body": "La piattaforma di design e creazione di prodotti per i marchi mondiali guidati dal gusto. Un passaggio design-to-factory di 40 ore, compresso in dieci minuti. Aumento di 260x della produttività mantenendo centrali l'identità di marca e il gusto. Prende il nome dalla tecnica sartoriale di tagliare il tessuto a 45 gradi rispetto alla trama, contro l'ortodossia, per drappeggio ed elasticità."
       },
       {
         "title": "RedBoxMe × Cartier",

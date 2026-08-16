@@ -8,7 +8,7 @@ export const tr = {
         "title": "ONTHEBIAS",
         "years": "2024 -",
         "role": "Kurucu + CEO",
-        "body": "Dünyanın zevk öncüsü markaları için ürün tasarım ve üretim platformu. Tasarımdan fabrikaya 40 saatlik devir teslimi, on dakikaya sıkıştırıldı. Marka kimliği ve zevki merkezde tutarken üretkenlikte 260 katlık artış."
+        "body": "Dünyanın zevk öncüsü markaları için ürün tasarım ve üretim platformu. Tasarımdan fabrikaya 40 saatlik devir teslimi, on dakikaya sıkıştırıldı. Marka kimliği ve zevki merkezde tutarken üretkenlikte 260 katlık artış. Adını, kumaşı düz iplik yönüne 45 derece açıyla kesen terzilik tekniğinden alır; ortodoksiye karşı, döküm ve esneklik için."
       },
       {
         "title": "RedBoxMe × Cartier",

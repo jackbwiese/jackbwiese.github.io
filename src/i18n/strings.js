@@ -126,7 +126,7 @@ export const en = {
         title: 'ONTHEBIAS',
         years: '2024 -',
         role: 'Founder + CEO',
-        body: "The product design and creation platform for the world's taste-led brands. 40-hour design-to-factory handoff, compressed to ten minutes. 260x increase in productivity while keeping brand identity and taste central.",
+        body: "The product design and creation platform for the world's taste-led brands. 40-hour design-to-factory handoff, compressed to ten minutes. 260x increase in productivity while keeping brand identity and taste central. Named for the tailoring technique of cutting fabric at 45 degrees to the grain, against orthodoxy, for drape and give.",
       },
       {
         title: 'RedBoxMe × Cartier',

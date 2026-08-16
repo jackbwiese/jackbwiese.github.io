@@ -8,7 +8,7 @@ export const id = {
         "title": "ONTHEBIAS",
         "years": "2024 -",
         "role": "Pendiri + CEO",
-        "body": "Platform desain dan kreasi produk untuk merek-merek dunia yang berorientasi pada selera. Serah-terima desain-ke-pabrik 40 jam, dipadatkan menjadi sepuluh menit. Peningkatan produktivitas 260x sembari menjaga identitas merek dan selera tetap sentral."
+        "body": "Platform desain dan kreasi produk untuk merek-merek dunia yang berorientasi pada selera. Serah-terima desain-ke-pabrik 40 jam, dipadatkan menjadi sepuluh menit. Peningkatan produktivitas 260x sembari menjaga identitas merek dan selera tetap sentral. Dinamai dari teknik jahit memotong kain pada sudut 45 derajat terhadap serat, melawan ortodoksi, demi jatuhnya kain dan kelenturannya."
       },
       {
         "title": "RedBoxMe × Cartier",

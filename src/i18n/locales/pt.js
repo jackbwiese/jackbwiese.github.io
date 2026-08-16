@@ -8,7 +8,7 @@ export const pt = {
         "title": "ONTHEBIAS",
         "years": "2024 -",
         "role": "Fundador + CEO",
-        "body": "A plataforma de design e criação de produto para as marcas mais orientadas ao gosto do mundo. Uma entrega design-à-fábrica de 40 horas, comprimida em dez minutos. Aumento de 260x na produtividade, mantendo a identidade da marca e o gosto no centro."
+        "body": "A plataforma de design e criação de produto para as marcas mais orientadas ao gosto do mundo. Uma entrega design-à-fábrica de 40 horas, comprimida em dez minutos. Aumento de 260x na produtividade, mantendo a identidade da marca e o gosto no centro. Nomeado pela técnica de alfaiataria de cortar o tecido a 45 graus em relação ao fio, contra a ortodoxia, para caimento e elasticidade."
       },
       {
         "title": "RedBoxMe × Cartier",

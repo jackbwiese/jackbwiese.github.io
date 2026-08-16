@@ -8,7 +8,7 @@ export const vi = {
         "title": "ONTHEBIAS",
         "years": "2024 -",
         "role": "Nhà Sáng Lập + CEO",
-        "body": "Nền tảng thiết kế và sáng tạo sản phẩm dành cho các thương hiệu dẫn dắt bằng gu thẩm mỹ trên thế giới. Quy trình bàn giao thiết kế đến nhà máy 40 giờ, được nén lại còn mười phút. Tăng 260x năng suất trong khi giữ bản sắc thương hiệu và gu thẩm mỹ làm trọng tâm."
+        "body": "Nền tảng thiết kế và sáng tạo sản phẩm dành cho các thương hiệu dẫn dắt bằng gu thẩm mỹ trên thế giới. Quy trình bàn giao thiết kế đến nhà máy 40 giờ, được nén lại còn mười phút. Tăng 260x năng suất trong khi giữ bản sắc thương hiệu và gu thẩm mỹ làm trọng tâm. Đặt tên theo kỹ thuật may cắt vải chéo 45 độ so với thớ sợi, ngược lại lối chính thống, để có độ rủ và độ co giãn."
       },
       {
         "title": "RedBoxMe × Cartier",

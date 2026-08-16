@@ -8,7 +8,7 @@ export const nl = {
         "title": "ONTHEBIAS",
         "years": "2024 -",
         "role": "Oprichter + CEO",
-        "body": "Het platform voor productontwerp en -creatie voor 's werelds smaakbepalende merken. Een ontwerp-tot-fabriek-overdracht van 40 uur, gecomprimeerd tot tien minuten. 260x productiviteitsstijging, terwijl merkidentiteit en smaak centraal blijven staan."
+        "body": "Het platform voor productontwerp en -creatie voor 's werelds smaakbepalende merken. Een ontwerp-tot-fabriek-overdracht van 40 uur, gecomprimeerd tot tien minuten. 260x productiviteitsstijging, terwijl merkidentiteit en smaak centraal blijven staan. Vernoemd naar de kleermakerstechniek van stof snijden op 45 graden ten opzichte van de draad, tegen de orthodoxie in, voor val en soepelheid."
       },
       {
         "title": "RedBoxMe × Cartier",
