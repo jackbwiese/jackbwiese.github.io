@@ -8,7 +8,7 @@ const paragraphs = tArr(L, 'vita.paragraphs');
 
   <div class="bias-grid vita__grid">
     <div class="vita__portraits">
-      <figure class="vita__figure">
+      <figure class="vita__figure vita__figure--main">
         <img
           src="/images/portrait-romulus-carre.jpg"
           alt="Jack (B.) Wiese"
@@ -18,29 +18,24 @@ const paragraphs = tArr(L, 'vita.paragraphs');
         />
         <figcaption class="mono">{t(L, 'vita.portraitCaption')}</figcaption>
       </figure>
-      <figure class="vita__figure vita__figure--tall">
-        <img
-          src="/images/portrait-black-tee.jpg"
-          alt="Jack (B.) Wiese"
-          width="1584"
-          height="2560"
-          loading="lazy"
-        />
-      </figure>
-      <figure class="vita__figure">
-        <img
-          src="/images/portrait-teddy.jpg"
-          alt="Jack (B.) Wiese"
-          loading="lazy"
-        />
-      </figure>
-      <figure class="vita__figure vita__figure--tall">
-        <img
-          src="/images/portrait-og-teddy.jpg"
-          alt="Jack (B.) Wiese"
-          loading="lazy"
-        />
-      </figure>
+      <div class="vita__thumbs">
+        <figure class="vita__figure vita__figure--thumb">
+          <img
+            src="/images/portrait-black-tee.jpg"
+            alt="Jack (B.) Wiese"
+            width="1584"
+            height="2560"
+            loading="lazy"
+          />
+        </figure>
+        <figure class="vita__figure vita__figure--thumb">
+          <img
+            src="/images/portrait-og-teddy.jpg"
+            alt="Jack (B.) Wiese"
+            loading="lazy"
+          />
+        </figure>
+      </div>
     </div>
 
     <div class="vita__text">
@@ -61,7 +56,7 @@ const paragraphs = tArr(L, 'vita.paragraphs');
   .vita__portraits {
     display: flex;
     flex-direction: column;
-    gap: clamp(0.75rem, 1.5vw, 1.25rem);
+    gap: clamp(1rem, 2vw, 1.75rem);
   }
   .vita__figure {
     margin: 0;
@@ -74,9 +69,15 @@ const paragraphs = tArr(L, 'vita.paragraphs');
     filter: contrast(1.08) saturate(0.88) brightness(0.96);
     display: block;
   }
-  .vita__figure--tall img {
-    aspect-ratio: auto;
-    height: auto;
+  .vita__thumbs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: clamp(0.5rem, 1vw, 0.9rem);
+    max-width: 78%;
+    margin-left: auto;
+  }
+  .vita__figure--thumb img {
+    aspect-ratio: 3 / 4;
   }
   .vita__figure figcaption {
     margin-top: 0.65rem;
