@@ -149,10 +149,10 @@ export const nl = {
     "heading": "Wat ik lees, wat ik liefheb, hoe ik denk.",
     "paintingCaptionLead": "Don Quijote:",
     "paintingCaption": "De patroonheilige van het groot dromen en het ondernemen van moedige actie naar die dromen toe.",
-    "paintingCaptionLead2": "Dar al través:",
+    "paintingCaptionLead2": "Dar al través (schepen tot zinken brengen):",
     "paintingCaption2": "Wanneer toewijding onomkeerbaar wordt.",
     "paintingCaptionLead3": "Theo van Doesburg:",
-    "paintingCaption3": "Waar het gekantelde vierkant vandaan komt. Hij hield de diagonaal vast toen Mondriaan erom vertrok.",
+    "paintingCaption3": "Waar de inspiratie voor het vierkant op de schuinte vandaan komt. De unieke directionaliteit tegen de orthodoxie.",
     "literatureHeader": "Literatuur",
     "literatureLead": "Enkele favorieten:",
     "literature": [

@@ -149,10 +149,10 @@ export const de = {
     "heading": "Was ich lese, was ich liebe, wie ich denke.",
     "paintingCaptionLead": "Don Quijote:",
     "paintingCaption": "Der Schutzpatron des großen Träumens und des kühnen Handelns auf diese Träume hin.",
-    "paintingCaptionLead2": "Dar al través:",
+    "paintingCaptionLead2": "Dar al través (Schiffe versenken):",
     "paintingCaption2": "Wenn das Engagement unumkehrbar wird.",
     "paintingCaptionLead3": "Theo van Doesburg:",
-    "paintingCaption3": "Woher das gekippte Quadrat kommt. Er hielt an der Diagonale fest, als Mondrian deswegen ausschied.",
+    "paintingCaption3": "Woher die Inspiration für das Quadrat auf der Diagonale kommt. Die einzigartige Direktionalität gegen die Orthodoxie.",
     "literatureHeader": "Literatur",
     "literatureLead": "Einige Favoriten:",
     "literature": [

@@ -173,10 +173,10 @@ export const en = {
     heading: 'What I read, what I love, how I think.',
     paintingCaptionLead: 'Don Quijote:',
     paintingCaption: 'The patron saint of dreaming large and taking bold actions towards those dreams.',
-    paintingCaptionLead2: 'Dar al través:',
+    paintingCaptionLead2: 'Dar al través (scuttle the ships):',
     paintingCaption2: 'When commitment becomes irreversible.',
     paintingCaptionLead3: 'Theo van Doesburg:',
-    paintingCaption3: 'Where the tilted square comes from. He held the diagonal when Mondrian left over it.',
+    paintingCaption3: 'Where the inspiration for the square on the bias comes from. The unique directionality against orthodoxy.',
     literatureHeader: 'Literature',
     literatureLead: 'Some favorites:',
     literature: [

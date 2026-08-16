@@ -149,10 +149,10 @@ export const hi = {
     "heading": "मैं क्या पढ़ता हूँ, क्या प्रेम करता हूँ, कैसे सोचता हूँ।",
     "paintingCaptionLead": "Don Quijote:",
     "paintingCaption": "विशाल स्वप्न देखने और उन स्वप्नों की ओर साहसिक पग बढ़ाने के संरक्षक संत।",
-    "paintingCaptionLead2": "Dar al través:",
+    "paintingCaptionLead2": "Dar al través (जहाज़ों को डुबोना):",
     "paintingCaption2": "जब प्रतिबद्धता अपरिवर्तनीय हो जाती है।",
     "paintingCaptionLead3": "Theo van Doesburg:",
-    "paintingCaption3": "झुका हुआ वर्ग यहीं से आया है। जब मोंड्रियन इसी कारण De Stijl छोड़ गए, तब भी उन्होंने विकर्ण को थामे रखा।",
+    "paintingCaption3": "तिरछे रखे वर्ग की प्रेरणा यहीं से आती है। रूढ़िवाद के विरुद्ध अनूठी दिशात्मकता।",
     "literatureHeader": "साहित्य",
     "literatureLead": "कुछ प्रिय कृतियाँ:",
     "literature": [

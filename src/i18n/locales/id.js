@@ -149,10 +149,10 @@ export const id = {
     "heading": "Apa yang saya baca, apa yang saya cintai, bagaimana saya berpikir.",
     "paintingCaptionLead": "Don Quijote:",
     "paintingCaption": "Santo pelindung dari mereka yang bermimpi besar dan mengambil langkah berani menuju mimpi-mimpi itu.",
-    "paintingCaptionLead2": "Dar al través:",
+    "paintingCaptionLead2": "Dar al través (menenggelamkan kapal):",
     "paintingCaption2": "Ketika komitmen menjadi tidak dapat diubah.",
     "paintingCaptionLead3": "Theo van Doesburg:",
-    "paintingCaption3": "Dari sinilah kotak miring berasal. Ia mempertahankan garis diagonal ketika Mondrian pergi karenanya.",
+    "paintingCaption3": "Dari sinilah inspirasi untuk kotak miring berasal. Direksionalitas unik melawan ortodoksi.",
     "literatureHeader": "Literatur",
     "literatureLead": "Beberapa favorit:",
     "literature": [
