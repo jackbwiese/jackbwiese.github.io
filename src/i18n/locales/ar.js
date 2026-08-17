@@ -26,7 +26,7 @@ export const ar = {
         "title": "HRMTG",
         "years": "2021 - 2024",
         "role": "المؤسس",
-        "body": "مشروع شغف. Historical Reinterpretations Made Through Garments. علامة ملابس شوارع شُحنت إلى أكثر من 12 دولة. شريك في الحملات مع Free Arts NYC وصندوق إغاثة أطفال فلسطين (PCRF). تم التبرع بجميع معدات التصنيع لبرنامج فني محلي ليستخدمه الطلاب."
+        "body": "مشروع شغف. Historical Reinterpretations Made Through Garments. علامة ملابس شوارع شُحنت إلى أكثر من 12 دولة. شريك في الحملات مع Free Arts NYC وصندوق إغاثة أطفال فلسطين (PCRF). تم التبرع بمعدات التصنيع عند التخرج لبرنامج الفنون في الجامعة الأم للمؤسس."
       },
       {
         "title": "Back by Popular Demand",

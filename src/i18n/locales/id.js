@@ -26,7 +26,7 @@ export const id = {
         "title": "HRMTG",
         "years": "2021 - 2024",
         "role": "Pendiri",
-        "body": "Sebuah proyek passion. Historical Reinterpretations Made Through Garments. Label streetwear yang dikirim ke 12+ negara. Mitra kampanye dengan Free Arts NYC dan Palestine Children's Relief Fund (PCRF). Semua peralatan manufaktur disumbangkan kepada program seni lokal untuk digunakan para siswa."
+        "body": "Sebuah proyek passion. Historical Reinterpretations Made Through Garments. Label streetwear yang dikirim ke 12+ negara. Mitra kampanye dengan Free Arts NYC dan Palestine Children's Relief Fund (PCRF). Peralatan manufaktur disumbangkan saat kelulusan kepada program seni almamater pendiri."
       },
       {
         "title": "Back by Popular Demand",

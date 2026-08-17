@@ -26,7 +26,7 @@ export const vi = {
         "title": "HRMTG",
         "years": "2021 - 2024",
         "role": "Nhà Sáng Lập",
-        "body": "Một dự án đam mê. Historical Reinterpretations Made Through Garments. Nhãn hiệu streetwear đã được vận chuyển tới hơn 12 quốc gia. Đối tác chiến dịch với Free Arts NYC và Palestine Children's Relief Fund (PCRF). Toàn bộ thiết bị sản xuất đã được tặng cho một chương trình nghệ thuật địa phương để học sinh sử dụng."
+        "body": "Một dự án đam mê. Historical Reinterpretations Made Through Garments. Nhãn hiệu streetwear đã được vận chuyển tới hơn 12 quốc gia. Đối tác chiến dịch với Free Arts NYC và Palestine Children's Relief Fund (PCRF). Thiết bị sản xuất được tặng vào ngày tốt nghiệp cho chương trình nghệ thuật của trường cũ của người sáng lập."
       },
       {
         "title": "Back by Popular Demand",

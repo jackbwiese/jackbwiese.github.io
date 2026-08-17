@@ -143,7 +143,7 @@ export const en = {
         title: 'HRMTG',
         years: '2021 - 2024',
         role: 'Founder',
-        body: "A passion project. Historical Reinterpretations Made Through Garments. A streetwear label shipped to 12+ countries. Campaign partner with Free Arts NYC and the Palestine Children's Relief Fund (PCRF). All manufacturing equipment was donated to a local art program for students to use.",
+        body: "A passion project. Historical Reinterpretations Made Through Garments. A streetwear label shipped to 12+ countries. Campaign partner with Free Arts NYC and the Palestine Children's Relief Fund (PCRF). Manufacturing equipment donated upon graduation to the founder's alma mater art program.",
       },
       {
         title: 'Back by Popular Demand',

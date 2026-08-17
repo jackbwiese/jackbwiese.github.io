@@ -26,7 +26,7 @@ export const hi = {
         "title": "HRMTG",
         "years": "2021 - 2024",
         "role": "संस्थापक",
-        "body": "एक जुनूनी परियोजना। Historical Reinterpretations Made Through Garments. एक स्ट्रीटवियर लेबल जो 12+ देशों में भेजा गया। Free Arts NYC और Palestine Children's Relief Fund (PCRF) दोनों के साथ अभियान साझेदार। सारा विनिर्माण उपकरण एक स्थानीय कला कार्यक्रम को छात्रों के उपयोग के लिए दान कर दिया गया।"
+        "body": "एक जुनूनी परियोजना। Historical Reinterpretations Made Through Garments. एक स्ट्रीटवियर लेबल जो 12+ देशों में भेजा गया। Free Arts NYC और Palestine Children's Relief Fund (PCRF) दोनों के साथ अभियान साझेदार। स्नातक होने पर विनिर्माण उपकरण संस्थापक के अल्मा मेटर के कला कार्यक्रम को दान कर दिए गए।"
       },
       {
         "title": "Back by Popular Demand",

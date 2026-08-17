@@ -26,7 +26,7 @@ export const ru = {
         "title": "HRMTG",
         "years": "2021 - 2024",
         "role": "Основатель",
-        "body": "Личный проект. Historical Reinterpretations Made Through Garments. Стритвир-марка, отгруженная более чем в 12 стран. Партнёр по кампаниям с Free Arts NYC и Palestine Children's Relief Fund (PCRF). Всё производственное оборудование было передано местной художественной программе для использования учащимися."
+        "body": "Личный проект. Historical Reinterpretations Made Through Garments. Стритвир-марка, отгруженная более чем в 12 стран. Партнёр по кампаниям с Free Arts NYC и Palestine Children's Relief Fund (PCRF). При выпуске производственное оборудование было передано художественной программе альма-матер основателя."
       },
       {
         "title": "Back by Popular Demand",

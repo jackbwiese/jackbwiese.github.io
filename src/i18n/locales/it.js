@@ -26,7 +26,7 @@ export const it = {
         "title": "HRMTG",
         "years": "2021 - 2024",
         "role": "Fondatore",
-        "body": "Un progetto passionale. Historical Reinterpretations Made Through Garments. Marchio streetwear spedito in oltre 12 paesi. Partner di campagna con Free Arts NYC e il Palestine Children's Relief Fund (PCRF). Tutte le attrezzature di produzione sono state donate a un programma d'arte locale per l'uso degli studenti."
+        "body": "Un progetto passionale. Historical Reinterpretations Made Through Garments. Marchio streetwear spedito in oltre 12 paesi. Partner di campagna con Free Arts NYC e il Palestine Children's Relief Fund (PCRF). Attrezzature di produzione donate alla laurea al programma d'arte dell'alma mater del fondatore."
       },
       {
         "title": "Back by Popular Demand",
