@@ -26,7 +26,7 @@ export const fr = {
         "title": "HRMTG",
         "years": "2021 - 2024",
         "role": "Fondateur",
-        "body": "Un projet de cœur. Historical Reinterpretations Made Through Garments. Une marque de streetwear expédiée dans plus de 12 pays. Partenaire de campagne avec Free Arts NYC."
+        "body": "Un projet passion. Historical Reinterpretations Made Through Garments. Marque de streetwear expédiée dans plus de 12 pays. Partenaire de campagne avec Free Arts NYC et le Palestine Children's Relief Fund (PCRF). Tout l'équipement de fabrication a été donné à un programme artistique local pour l'usage des élèves."
       },
       {
         "title": "Back by Popular Demand",

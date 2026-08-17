@@ -26,7 +26,7 @@ export const zhTW = {
         "title": "HRMTG",
         "years": "2021 - 2024",
         "role": "創辦人",
-        "body": "一項熱情計畫。Historical Reinterpretations Made Through Garments。出貨至 12+ 國家的街頭服飾品牌。與 Free Arts NYC 合作策劃活動。"
+        "body": "一個熱情項目。Historical Reinterpretations Made Through Garments。一個運往 12+ 國家的街頭服飾品牌。與 Free Arts NYC 及 Palestine Children's Relief Fund (PCRF) 的活動合作夥伴。所有製造設備均捐贈給當地藝術項目,供學生使用。"
       },
       {
         "title": "Back by Popular Demand",

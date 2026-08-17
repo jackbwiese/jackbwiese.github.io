@@ -26,7 +26,7 @@ export const ru = {
         "title": "HRMTG",
         "years": "2021 - 2024",
         "role": "Основатель",
-        "body": "Проект страсти. Historical Reinterpretations Made Through Garments. Стритвир-марка, доставленная в более чем 12 стран. Партнёр кампании с Free Arts NYC."
+        "body": "Личный проект. Historical Reinterpretations Made Through Garments. Стритвир-марка, отгруженная более чем в 12 стран. Партнёр по кампаниям с Free Arts NYC и Palestine Children's Relief Fund (PCRF). Всё производственное оборудование было передано местной художественной программе для использования учащимися."
       },
       {
         "title": "Back by Popular Demand",

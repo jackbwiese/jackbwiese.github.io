@@ -26,7 +26,7 @@ export const hi = {
         "title": "HRMTG",
         "years": "2021 - 2024",
         "role": "संस्थापक",
-        "body": "एक उत्कट परियोजना। Historical Reinterpretations Made Through Garments. एक स्ट्रीटवियर लेबल जो 12+ देशों तक पहुँचा। Free Arts NYC के साथ अभियान साझेदार।"
+        "body": "एक जुनूनी परियोजना। Historical Reinterpretations Made Through Garments. एक स्ट्रीटवियर लेबल जो 12+ देशों में भेजा गया। Free Arts NYC और Palestine Children's Relief Fund (PCRF) दोनों के साथ अभियान साझेदार। सारा विनिर्माण उपकरण एक स्थानीय कला कार्यक्रम को छात्रों के उपयोग के लिए दान कर दिया गया।"
       },
       {
         "title": "Back by Popular Demand",

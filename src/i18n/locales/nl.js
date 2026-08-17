@@ -26,7 +26,7 @@ export const nl = {
         "title": "HRMTG",
         "years": "2021 - 2024",
         "role": "Oprichter",
-        "body": "Een passieproject. Historical Reinterpretations Made Through Garments. Een streetwear-label verzonden naar 12+ landen. Campagnepartner van Free Arts NYC."
+        "body": "Een passieproject. Historical Reinterpretations Made Through Garments. Een streetwear-label verzonden naar meer dan 12 landen. Campagnepartner met Free Arts NYC en het Palestine Children's Relief Fund (PCRF). Alle productie-apparatuur werd geschonken aan een lokaal kunstprogramma voor gebruik door leerlingen."
       },
       {
         "title": "Back by Popular Demand",

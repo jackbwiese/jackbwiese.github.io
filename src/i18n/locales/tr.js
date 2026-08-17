@@ -26,7 +26,7 @@ export const tr = {
         "title": "HRMTG",
         "years": "2021 - 2024",
         "role": "Kurucu",
-        "body": "Bir tutku projesi. Historical Reinterpretations Made Through Garments. 12+ ülkeye gönderim yapan bir streetwear markası. Free Arts NYC ile kampanya ortağı."
+        "body": "Bir tutku projesi. Historical Reinterpretations Made Through Garments. 12'den fazla ülkeye gönderilen bir streetwear markası. Free Arts NYC ve Palestine Children's Relief Fund (PCRF) ile kampanya ortağı. Tüm üretim ekipmanları, öğrencilerin kullanması için yerel bir sanat programına bağışlandı."
       },
       {
         "title": "Back by Popular Demand",

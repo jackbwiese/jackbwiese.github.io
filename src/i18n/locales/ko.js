@@ -26,7 +26,7 @@ export const ko = {
         "title": "HRMTG",
         "years": "2021 - 2024",
         "role": "창립자",
-        "body": "열정 프로젝트. Historical Reinterpretations Made Through Garments. 12개 이상의 국가로 발송된 스트리트웨어 레이블. Free Arts NYC와 캠페인 파트너십."
+        "body": "열정 프로젝트. Historical Reinterpretations Made Through Garments. 12개국 이상에 배송된 스트리트웨어 레이블. Free Arts NYC 및 팔레스타인 어린이 구호기금(PCRF)과 캠페인 파트너. 모든 제조 장비는 지역 미술 프로그램에 학생들이 사용할 수 있도록 기증되었다."
       },
       {
         "title": "Back by Popular Demand",

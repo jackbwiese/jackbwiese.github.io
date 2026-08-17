@@ -26,7 +26,7 @@ export const ja = {
         "title": "HRMTG",
         "years": "2021 - 2024",
         "role": "創業者",
-        "body": "情熱から生まれたプロジェクト。Historical Reinterpretations Made Through Garments。12カ国以上に出荷したストリートウェアレーベル。Free Arts NYCとのキャンペーンパートナー。"
+        "body": "情熱のプロジェクト。Historical Reinterpretations Made Through Garments。12か国以上に出荷したストリートウェア・レーベル。Free Arts NYC および Palestine Children's Relief Fund (PCRF) とのキャンペーン・パートナー。すべての製造機材は、学生が使えるよう地元のアート・プログラムに寄贈された。"
       },
       {
         "title": "Back by Popular Demand",
